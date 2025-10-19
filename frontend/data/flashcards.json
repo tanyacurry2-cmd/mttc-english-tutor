@@ -1,0 +1,52 @@
+[
+  {
+    "id": "F001",
+    "subarea": "Literature & Understanding",
+    "objective": "Figurative Language",
+    "question": "What device is used in 'Hope is the thing with feathers'?",
+    "answer": "Metaphor",
+    "explanation": "Compares hope to a bird to suggest persistence and lift.",
+    "difficulty": 2,
+    "tags": ["figurative", "metaphor"]
+  },
+  {
+    "id": "F002",
+    "subarea": "Genre & Craft",
+    "objective": "Narrative Structure",
+    "question": "What is 'in medias res'?",
+    "answer": "Starting a story in the middle of action",
+    "explanation": "A narrative technique that begins in the midst of events, then uses flashbacks to provide context.",
+    "difficulty": 3,
+    "tags": ["narrative", "structure"]
+  },
+  {
+    "id": "F003",
+    "subarea": "Meaning & Communication",
+    "objective": "Context Clues",
+    "question": "What are the four types of context clues?",
+    "answer": "Definition, Synonym, Antonym, Inference",
+    "explanation": "These are the primary strategies readers use to determine word meaning from surrounding text.",
+    "difficulty": 2,
+    "tags": ["vocabulary", "context"]
+  },
+  {
+    "id": "F004",
+    "subarea": "Skills & Processes",
+    "objective": "Research Evaluation",
+    "question": "What is the CRAAP test?",
+    "answer": "Currency, Relevance, Authority, Accuracy, Purpose",
+    "explanation": "A framework for evaluating source credibility in research.",
+    "difficulty": 3,
+    "tags": ["research", "evaluation"]
+  },
+  {
+    "id": "F005",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Devices",
+    "question": "Define 'foreshadowing'",
+    "answer": "Hints or clues about future events in a story",
+    "explanation": "Authors use foreshadowing to build anticipation and prepare readers for later developments.",
+    "difficulty": 2,
+    "tags": ["literary-devices", "structure"]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "Q101",
+    "subarea": "Genre & Craft",
+    "objective": "Clarity and Concision",
+    "stem": "Which revision improves sentence clarity?",
+    "options": [
+      "Running fast, the finish line was crossed by Maria.",
+      "Maria crossed the finish line quickly.",
+      "Maria, crossing the finish line fastly.",
+      "The finish line quickly was crossed Maria."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Dangling modifier.",
+      "Active voice and concise phrasing.",
+      "Incorrect adverb form.",
+      "Word order is ungrammatical."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q102",
+    "subarea": "Skills & Processes",
+    "objective": "Research Evaluation",
+    "stem": "Which source is most reliable for academic research?",
+    "options": [
+      "Personal blog",
+      "Peer-reviewed journal article",
+      "Wikipedia page",
+      "Advertisement brochure"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Informal opinion.",
+      "Peer review confers credibility.",
+      "Editable and variable quality.",
+      "Promotional bias."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q103",
+    "subarea": "Literature & Understanding",
+    "objective": "Theme Analysis",
+    "stem": "In 'The Great Gatsby', which theme is most prominent?",
+    "options": [
+      "The corrupting influence of wealth",
+      "The importance of education",
+      "The beauty of nature",
+      "The power of friendship"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Central to the novel's critique of the American Dream.",
+      "Not a major focus of the novel.",
+      "Minimal presence in the story.",
+      "Secondary to the main themes."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q104",
+    "subarea": "Meaning & Communication",
+    "objective": "Rhetorical Devices",
+    "stem": "Which device is used in 'Ask not what your country can do for you'?",
+    "options": [
+      "Metaphor",
+      "Chiasmus",
+      "Hyperbole",
+      "Alliteration"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "No direct comparison is made.",
+      "Reversal of grammatical structures for rhetorical effect.",
+      "No exaggeration present.",
+      "Repetition of consonant sounds is minimal."
+    ],
+    "difficulty": 4,
+    "assessment": true
+  },
+  {
+    "id": "Q105",
+    "subarea": "Genre & Craft",
+    "objective": "Point of View",
+    "stem": "Which point of view allows the narrator to know all characters' thoughts?",
+    "options": [
+      "First person",
+      "Second person",
+      "Third person limited",
+      "Third person omniscient"
+    ],
+    "correctIndex": 3,
+    "rationales": [
+      "Limited to narrator's perspective.",
+      "Addresses the reader directly.",
+      "Restricted to one character's thoughts.",
+      "All-knowing narrator can access any character's mind."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q106",
+    "subarea": "Skills & Processes",
+    "objective": "Citation Formats",
+    "stem": "In MLA format, where does the period go in relation to the citation?",
+    "options": [
+      "Before the parenthetical citation",
+      "Inside the parenthetical citation",
+      "After the parenthetical citation",
+      "It doesn't matter"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Incorrect MLA format.",
+      "Incorrect MLA format.",
+      "The period always comes after the citation in MLA.",
+      "MLA has specific rules for punctuation."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q107",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "stem": "What is the rhyme scheme of a Shakespearean sonnet?",
+    "options": [
+      "ABAB CDCD EFEF GG",
+      "ABBA ABBA CDC DCD",
+      "AABB CCDD EEFF GG",
+      "ABCD ABCD EFGH IJ"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct pattern for Shakespearean/English sonnets.",
+      "This is a Petrarchan sonnet pattern.",
+      "Not a traditional sonnet form.",
+      "Not a recognized sonnet pattern."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q108",
+    "subarea": "Meaning & Communication",
+    "objective": "Grammar Usage",
+    "stem": "Which sentence correctly uses a semicolon?",
+    "options": [
+      "I love reading; especially novels.",
+      "The test is tomorrow; I need to study.",
+      "She is smart; because she reads a lot.",
+      "He ran quickly; to catch the bus."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Semicolon shouldn't separate a fragment.",
+      "Correctly joins two independent clauses.",
+      "'Because' creates a dependent clause.",
+      "'To catch' creates an infinitive phrase, not an independent clause."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q109",
+    "subarea": "Genre & Craft",
+    "objective": "Tone and Mood",
+    "stem": "What is the difference between tone and mood?",
+    "options": [
+      "Tone is the reader's feeling; mood is the author's attitude",
+      "They are the same thing",
+      "Tone is the author's attitude; mood is the reader's feeling",
+      "Tone is only in poetry; mood is only in prose"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Reversed definitions.",
+      "They are distinct literary concepts.",
+      "Tone reflects the author's perspective; mood is the emotional atmosphere created for the reader.",
+      "Both apply to all literary forms."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q110",
+    "subarea": "Skills & Processes",
+    "objective": "Writing Process",
+    "stem": "Which revision strategy is most effective for improving clarity?",
+    "options": [
+      "Reading your work aloud",
+      "Checking spelling only",
+      "Counting words",
+      "Changing font size"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Hearing the text helps identify awkward phrasing and unclear passages.",
+      "Spelling is important but doesn't address clarity.",
+      "Word count doesn't improve clarity.",
+      "Formatting doesn't affect content clarity."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  }
+]
