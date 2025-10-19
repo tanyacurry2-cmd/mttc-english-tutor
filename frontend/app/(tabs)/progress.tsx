@@ -164,13 +164,10 @@ export default function ProgressScreen() {
             <View style={styles.tipsContent}>
               <Text style={styles.tipsTitle}>Study Tips</Text>
               <Text style={styles.tipsText}>
-                • Review flashcards daily for best retention{'
-'}
-                • Focus on your weakest subareas first{'
-'}
-                • Take practice exams to simulate test conditions{'
-'}
-                • Maintain your study streak for consistent progress
+                {'\u2022'} Review flashcards daily for best retention{'\n'}
+                {'\u2022'} Focus on your weakest subareas first{'\n'}
+                {'\u2022'} Take practice exams to simulate test conditions{'\n'}
+                {'\u2022'} Maintain your study streak for consistent progress
               </Text>
             </View>
           </View>
