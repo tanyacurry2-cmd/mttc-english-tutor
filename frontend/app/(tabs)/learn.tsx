@@ -90,7 +90,7 @@ export default function LearnScreen() {
     );
   }
 
-  const displayLimit = hasAccess ? reviewQueue.length : Math.min(5, reviewQueue.length);
+  const displayLimit = reviewQueue.length; // Show all cards for demo/testing
 
   return (
     <SafeAreaView style={styles.container}>
