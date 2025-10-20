@@ -18,6 +18,7 @@ import mcqData from '../../data/mcq.json';
 import { MCQ } from '../../types/content';
 
 export default function DrillScreen() {
+  const router = useRouter();
   const { mcqHistory, updateMCQHistory, checkTrialStatus } = useAppStore();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
@@ -26,6 +27,12 @@ export default function DrillScreen() {
   const [incorrectCount, setIncorrectCount] = useState(0);
   const [showQuickFixQuiz, setShowQuickFixQuiz] = useState(false);
   const hasAccess = checkTrialStatus();
+
+  // Get 5 random questions for Quick Fix Quiz
+  const getQuizQuestions = () => {
+    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, 5);
+  };
 
   const displayLimit = hasAccess ? questions.length : Math.min(5, questions.length);
   const currentQuestion = questions[currentQuestionIndex];
