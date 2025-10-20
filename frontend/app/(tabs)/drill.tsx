@@ -21,6 +21,8 @@ export default function DrillScreen() {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showRationale, setShowRationale] = useState(false);
   const [questions] = useState<MCQ[]>(mcqData as MCQ[]);
+  const [incorrectCount, setIncorrectCount] = useState(0);
+  const [showQuickFixQuiz, setShowQuickFixQuiz] = useState(false);
   const hasAccess = checkTrialStatus();
 
   const displayLimit = hasAccess ? questions.length : Math.min(5, questions.length);
