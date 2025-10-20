@@ -84,8 +84,8 @@
     "subarea": "Literature & Understanding",
     "objective": "Poetry Analysis",
     "question": "What are common themes in Shakespearean sonnets?",
-    "answer": "Love, time, beauty, death, and the occasional existential meltdown",
-    "explanation": "Shakespeare's sonnets explore profound universal themes including romantic and platonic love, the passage of time, the nature of beauty, mortality, and deep philosophical questions about existence and meaning.",
+    "answer": "Love, time, beauty, and mortality",
+    "explanation": "Shakespeare's sonnets explore universal themes: romantic & platonic love, the passage of time, the nature of beauty, mortality, and deep philosophical questions about existence and meaning.",
     "difficulty": 2,
     "tags": ["poetry", "shakespeare", "sonnet", "themes"]
   }
