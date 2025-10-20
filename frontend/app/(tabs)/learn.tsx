@@ -18,11 +18,12 @@ import { calculateNextReview, ReviewQuality, isDueForReview, sortCardsByPriority
 import { Button } from '../../components/Button';
 
 export default function LearnScreen() {
-  const { cardReviews, updateCardReview, checkTrialStatus } = useAppStore();
+  const { cardReviews, updateCardReview, checkTrialStatus, lastQuestionID, lastMode, setLastStudied } = useAppStore();
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [cards] = useState<Card[]>(flashcardsData as Card[]);
   const [reviewQueue, setReviewQueue] = useState<string[]>([]);
+  const [showResumePrompt, setShowResumePrompt] = useState(false);
   const flipAnim = useState(new Animated.Value(0))[0];
   const hasAccess = checkTrialStatus();
 
