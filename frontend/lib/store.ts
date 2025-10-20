@@ -27,6 +27,11 @@ interface AppState {
   lastStudyDate: string | null;
   readinessBySubarea: Record<Subarea, number>;
   
+  // Resume progress tracking
+  lastQuestionID: string | null;
+  lastMode: 'learn' | 'drill' | null;
+  lastSubarea: Subarea | null;
+  
   // Actions
   setUser: (user: Partial<AppState['user']>) => void;
   initializeTrial: (uid: string, email: string) => void;
@@ -35,6 +40,8 @@ interface AppState {
   updateMCQHistory: (mcqId: string, correct: boolean) => void;
   updateReadiness: (subarea: Subarea, score: number) => void;
   updateStreak: () => void;
+  setLastStudied: (questionId: string, mode: 'learn' | 'drill', subarea: Subarea) => void;
+  clearLastStudied: () => void;
   checkTrialStatus: () => boolean;
   loadFromStorage: () => Promise<void>;
   saveToStorage: () => Promise<void>;
