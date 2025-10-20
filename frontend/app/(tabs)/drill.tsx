@@ -7,10 +7,12 @@ import {
   ScrollView,
   TouchableOpacity,
 } from 'react-native';
+import { useRouter } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useAppStore } from '../../lib/store';
 import { TrialBanner } from '../../components/TrialBanner';
 import { Button } from '../../components/Button';
+import { QuickFixQuiz } from '../../components/QuickFixQuiz';
 import { theme } from '../../lib/theme';
 import mcqData from '../../data/mcq.json';
 import { MCQ } from '../../types/content';
