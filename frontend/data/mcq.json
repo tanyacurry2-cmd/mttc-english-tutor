@@ -922,5 +922,509 @@
     ],
     "difficulty": 2,
     "assessment": true
+  },
+  {
+    "id": "Q145",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Which best defines theme?",
+    "options": [
+      "Setting of the story",
+      "Sequence of events",
+      "Central message or universal idea",
+      "Character's motivation"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Setting provides the time and place, not the theme.",
+      "Sequence of events describes plot, not theme.",
+      "Correct! Theme is the underlying message or universal truth explored in the work.",
+      "Motivation drives character actions but isn't the theme."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q146",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Characterization is developed through…",
+    "options": [
+      "Dialogue, actions, and description",
+      "Setting only",
+      "Sentence structure",
+      "Theme repetition"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Authors reveal character through what characters say, do, think, and how they're described.",
+      "Setting provides context but doesn't develop character.",
+      "Sentence structure affects style, not characterization.",
+      "Theme repetition reinforces meaning, not character development."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q147",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Which is a recurring symbol or image that reinforces meaning?",
+    "options": [
+      "Motif",
+      "Plot",
+      "Tone",
+      "Foreshadowing"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! A motif is a repeated element that develops and reinforces the theme.",
+      "Plot is the sequence of events, not a recurring symbol.",
+      "Tone is the author's attitude, not a recurring element.",
+      "Foreshadowing hints at future events but isn't necessarily recurring."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q148",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Tone reveals the author's…",
+    "options": [
+      "Mood",
+      "Attitude",
+      "Characterization",
+      "Diction"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Mood is the emotional atmosphere for readers, not the author's attitude.",
+      "Correct! Tone expresses the author's attitude toward the subject and audience.",
+      "Characterization develops characters, not tone.",
+      "Diction (word choice) creates tone but isn't what tone reveals."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q149",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Mood affects the…",
+    "options": [
+      "Reader's emotions",
+      "Author's perspective",
+      "Character's motivation",
+      "Sentence rhythm"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Mood creates the emotional atmosphere that influences how readers feel.",
+      "Author's perspective relates to tone, not mood.",
+      "Character motivation drives plot, not mood.",
+      "Rhythm is a stylistic element, distinct from mood."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q150",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Imagery appeals to…",
+    "options": [
+      "Grammar rules",
+      "The five senses",
+      "Symbolism",
+      "Syntax"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Grammar provides structure, not sensory experience.",
+      "Correct! Imagery uses descriptive language that engages sight, sound, touch, taste, and smell.",
+      "Symbolism uses objects for meaning; imagery creates sensory experience.",
+      "Syntax is sentence structure, not sensory description."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q151",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "An allegory contains…",
+    "options": [
+      "Only figurative language",
+      "Both literal and symbolic meanings",
+      "One simple theme",
+      "Historical facts only"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Allegory uses multiple literary devices, not just figurative language.",
+      "Correct! Allegory works on two levels: the surface story and its deeper symbolic meaning.",
+      "Allegories often explore complex, multi-layered themes.",
+      "While some allegories reference history, they're primarily symbolic narratives."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q152",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Foreshadowing helps to…",
+    "options": [
+      "Create suspense and anticipation",
+      "Summarize past events",
+      "Reveal the moral",
+      "Confuse readers intentionally"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Foreshadowing plants clues that build anticipation for future events.",
+      "Summarizing past events is exposition or flashback, not foreshadowing.",
+      "Revealing morals is the function of theme or resolution.",
+      "Good foreshadowing enhances understanding, not confusion."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q153",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Conflict in literature functions to…",
+    "options": [
+      "Stall character development",
+      "Create action and reveal growth",
+      "Describe setting",
+      "Provide exposition"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Conflict drives development, not stalls it.",
+      "Correct! Conflict generates plot tension and forces characters to change and grow.",
+      "Setting description is separate from conflict's function.",
+      "Exposition provides background; conflict creates tension."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q154",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Diction influences…",
+    "options": [
+      "The story's rhyme",
+      "Tone and meaning",
+      "Theme repetition",
+      "Sentence count"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Rhyme relates to sound patterns in poetry, not diction's primary function.",
+      "Correct! Word choice (diction) shapes both the tone and the precise meaning of the text.",
+      "Motif creates repetition, not diction itself.",
+      "Sentence count is unrelated to word choice."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q155",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Which is an example of verbal irony?",
+    "options": [
+      "The opposite of what's said is meant",
+      "A surprise ending",
+      "Repetition of vowel sounds",
+      "A symbol representing an idea"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Verbal irony occurs when someone says the opposite of what they actually mean (like sarcasm).",
+      "A surprise ending may involve situational irony, not verbal.",
+      "Repetition of vowel sounds is assonance, a sound device.",
+      "This describes symbolism, not irony."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q156",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Symbolism helps readers…",
+    "options": [
+      "Understand literal events only",
+      "Find deeper meaning in concrete details",
+      "Track dialogue",
+      "Identify tone shifts"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Symbolism adds layers beyond literal meaning.",
+      "Correct! Symbols use concrete objects to represent abstract ideas and deeper themes.",
+      "Dialogue tracking is a separate reading skill.",
+      "Tone shifts are identified through diction and style changes."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q157",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "Plot is best defined as…",
+    "options": [
+      "The message of the story",
+      "The sequence of related events",
+      "The setting's location",
+      "The author's word choice"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "The message is theme, not plot.",
+      "Correct! Plot is the connected series of events that make up the narrative.",
+      "Location is an element of setting.",
+      "Word choice is diction."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q158",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "stem": "The climax of a story is…",
+    "options": [
+      "The turning point or moment of greatest tension",
+      "The introduction",
+      "The falling action",
+      "The resolution"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The climax is the story's peak moment where the main conflict reaches its highest intensity.",
+      "The introduction is the exposition, beginning the story.",
+      "Falling action follows the climax, leading to resolution.",
+      "Resolution concludes the story after the climax."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q159",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "Which is an example of formative assessment?",
+    "options": [
+      "Final exam",
+      "Weekly quiz",
+      "Report card grade",
+      "Standardized test"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Final exams are summative, measuring achievement at the end.",
+      "Correct! Weekly quizzes provide ongoing feedback to guide instruction during the learning process.",
+      "Report cards are summative evaluations.",
+      "Standardized tests are summative measures of overall achievement."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q160",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "Scaffolding helps students by…",
+    "options": [
+      "Increasing independent learning through gradual support removal",
+      "Assigning more homework",
+      "Memorizing vocabulary lists",
+      "Focusing on spelling drills only"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Scaffolding provides temporary support that's gradually withdrawn as students gain competence.",
+      "More homework doesn't necessarily provide structured support.",
+      "Memorization is one strategy, not scaffolding.",
+      "Spelling drills are specific practice, not the scaffolding concept."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q161",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "A rubric ensures…",
+    "options": [
+      "Subjective grading",
+      "Consistent and transparent evaluation",
+      "Faster essay grading only",
+      "Less teacher involvement"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Rubrics reduce subjectivity by providing clear criteria.",
+      "Correct! Rubrics define expectations and standards, ensuring fair and consistent assessment.",
+      "While rubrics may speed grading, their main purpose is consistency and clarity.",
+      "Rubrics require thoughtful teacher design and application."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q162",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "Fluency in reading includes…",
+    "options": [
+      "Memorizing text",
+      "Reading with accuracy, speed, and expression",
+      "Quiet reading only",
+      "Summarizing content"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Fluency involves decoding, not memorization.",
+      "Correct! Fluent readers demonstrate accuracy, appropriate rate, and prosody (expression).",
+      "Fluency applies to both oral and silent reading.",
+      "Summarizing demonstrates comprehension, not fluency."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q163",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "Which stage comes first in the writing process?",
+    "options": [
+      "Revising",
+      "Editing",
+      "Prewriting",
+      "Publishing"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Revising comes after drafting.",
+      "Editing comes near the end of the process.",
+      "Correct! Prewriting includes brainstorming, planning, and organizing ideas before drafting.",
+      "Publishing is the final stage."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q164",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "Metacognition involves…",
+    "options": [
+      "Word memorization",
+      "Monitoring one's own understanding and strategy use",
+      "Copying notes",
+      "Listening silently"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Memorization is a learning strategy, not metacognition.",
+      "Correct! Metacognition is awareness and regulation of one's own thinking processes.",
+      "Copying is a mechanical task without reflective thinking.",
+      "Passive listening doesn't involve metacognitive awareness."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q165",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "The goal of peer review is to…",
+    "options": [
+      "Grade peers",
+      "Provide constructive feedback to improve writing",
+      "Eliminate grammar errors only",
+      "Replace teacher feedback"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Peers provide feedback, not grades.",
+      "Correct! Peer review helps writers improve through constructive, specific feedback from classmates.",
+      "While grammar matters, peer review addresses all aspects of writing.",
+      "Peer review complements, not replaces, teacher feedback."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q166",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "Differentiated instruction means…",
+    "options": [
+      "Teaching everyone the same way",
+      "Tailoring lessons to individual learning needs",
+      "Assigning extra credit",
+      "Reducing standards"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Differentiation involves varying instruction, not uniformity.",
+      "Correct! Differentiated instruction adjusts teaching to meet diverse student needs, interests, and readiness levels.",
+      "Extra credit is one strategy but doesn't define differentiation.",
+      "Differentiation maintains high standards while varying approaches."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q167",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "Summative assessments are used to…",
+    "options": [
+      "Adjust ongoing teaching",
+      "Provide mid-unit feedback",
+      "Evaluate overall achievement at the end of instruction",
+      "Record attendance"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Adjusting ongoing teaching is the purpose of formative assessment.",
+      "Mid-unit feedback is formative, not summative.",
+      "Correct! Summative assessments measure learning outcomes after instruction concludes.",
+      "Attendance tracking is administrative, not assessment."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q168",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "stem": "Reading conferences help teachers…",
+    "options": [
+      "Punish late readers",
+      "Discuss comprehension and growth individually",
+      "Avoid grading",
+      "Assign more work"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Conferences support learning, not punishment.",
+      "Correct! Reading conferences provide individualized assessment and goal-setting opportunities.",
+      "Conferences are a form of authentic assessment, not avoidance.",
+      "While teachers may assign work, the purpose is individualized support."
+    ],
+    "difficulty": 2,
+    "assessment": true
   }
 ]
