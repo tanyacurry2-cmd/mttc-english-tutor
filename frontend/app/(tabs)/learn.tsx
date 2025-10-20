@@ -153,7 +153,9 @@ export default function LearnScreen() {
             <Text style={styles.answerLabel}>Answer:</Text>
             <Text style={styles.answerText}>{currentCard.answer}</Text>
             <View style={styles.explanationBox}>
-              <Text style={styles.explanationText}>{currentCard.explanation}</Text>
+              <ScrollView>
+                <Text style={styles.explanationText}>{currentCard.explanation}</Text>
+              </ScrollView>
             </View>
           </Animated.View>
         </TouchableOpacity>
