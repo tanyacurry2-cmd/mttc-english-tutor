@@ -166,6 +166,24 @@ export const useAppStore = create<AppState>((set, get) => ({
     }
   },
 
+  setLastStudied: (questionId, mode, subarea) => {
+    set({
+      lastQuestionID: questionId,
+      lastMode: mode,
+      lastSubarea: subarea,
+    });
+    get().saveToStorage();
+  },
+
+  clearLastStudied: () => {
+    set({
+      lastQuestionID: null,
+      lastMode: null,
+      lastSubarea: null,
+    });
+    get().saveToStorage();
+  },
+
   checkTrialStatus: () => {
     const { user } = get();
     if (user.isPaid) return true;
