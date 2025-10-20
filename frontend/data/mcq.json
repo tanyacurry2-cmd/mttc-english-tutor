@@ -502,5 +502,425 @@
     ],
     "difficulty": 2,
     "assessment": true
+  },
+  {
+    "id": "Q125",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "stem": "Which best defines language register?",
+    "options": [
+      "Vocabulary level only",
+      "Sentence structure",
+      "Level of formality for audience and purpose",
+      "Tone of voice"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Register involves more than just vocabulary—it includes style and formality across all language elements.",
+      "Sentence structure is one component but doesn't fully define register.",
+      "Correct! Language register is the degree of formality adjusted for specific contexts, audiences, and purposes.",
+      "Tone is related but distinct from register; register encompasses broader stylistic choices."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q126",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "stem": "What does code-switching demonstrate?",
+    "options": [
+      "Poor grammar use",
+      "Flexibility in language based on audience",
+      "Avoidance of cultural norms",
+      "Memorization of word roots"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Code-switching is a sophisticated linguistic skill, not poor grammar.",
+      "Correct! Code-switching shows linguistic flexibility and cultural awareness by adapting language to different situations and audiences.",
+      "Code-switching actually demonstrates awareness and respect for cultural norms.",
+      "Word roots relate to morphology, not code-switching."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q127",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "stem": "What branch of linguistics studies meaning in context?",
+    "options": [
+      "Phonology",
+      "Morphology",
+      "Pragmatics",
+      "Semantics"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Phonology studies sound systems in language.",
+      "Morphology examines word structure and formation.",
+      "Correct! Pragmatics analyzes how context, speaker intent, and social factors influence meaning.",
+      "Semantics studies meaning but doesn't emphasize context as pragmatics does."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q128",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "stem": "Which sentence shows positive connotation?",
+    "options": [
+      "He's cheap.",
+      "He's thrifty.",
+      "He's stingy.",
+      "He's miserly."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "'Cheap' has negative connotations of low quality or excessive frugality.",
+      "Correct! 'Thrifty' has positive connotations of wise money management.",
+      "'Stingy' has negative connotations of unwillingness to spend or share.",
+      "'Miserly' has strongly negative connotations of excessive hoarding."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q129",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "stem": "Denotation refers to a word's…",
+    "options": [
+      "Historical origin",
+      "Literal meaning",
+      "Figurative association",
+      "Emotional tone"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Etymology studies historical origins, not denotation.",
+      "Correct! Denotation is the dictionary definition or literal meaning of a word.",
+      "Figurative associations relate to connotation, not denotation.",
+      "Emotional tone is part of connotation, not denotation."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q130",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "stem": "Which is NOT a key component of communication?",
+    "options": [
+      "Sender",
+      "Message",
+      "Grammar",
+      "Feedback"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "The sender initiates communication.",
+      "The message is the content being communicated.",
+      "Correct! While grammar aids clarity, it's not one of the six essential components of the communication process.",
+      "Feedback allows the sender to gauge message reception."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q131",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "stem": "Which quality ensures effective communication?",
+    "options": [
+      "Ambiguity",
+      "Clarity",
+      "Volume",
+      "Length"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Ambiguity obscures meaning and hinders communication.",
+      "Correct! Clarity ensures the message is understood as intended.",
+      "Volume is a delivery factor but doesn't guarantee effective communication.",
+      "Length doesn't ensure effectiveness; conciseness is often preferable."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q132",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "stem": "Tone is defined as…",
+    "options": [
+      "The emotional quality or attitude in language",
+      "The complexity of sentence structure",
+      "The literal meaning of a word",
+      "The rhythm of speech"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Tone reflects the speaker's or writer's attitude toward the subject and audience.",
+      "Sentence complexity relates to syntax, not tone.",
+      "Literal meaning is denotation, not tone.",
+      "Rhythm relates to prosody, not tone (though they can work together)."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q133",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "stem": "Active listening means…",
+    "options": [
+      "Hearing and ignoring irrelevant details",
+      "Responding thoughtfully and showing understanding",
+      "Taking notes only",
+      "Finishing sentences for the speaker"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Active listening requires engagement with all content, not selective ignoring.",
+      "Correct! Active listening involves full attention, comprehension, and meaningful response.",
+      "Note-taking is one strategy but doesn't encompass active listening.",
+      "Interrupting shows poor listening, not active engagement."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q134",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "stem": "Nonverbal cues can…",
+    "options": [
+      "Only distract from meaning",
+      "Reinforce or contradict verbal messages",
+      "Replace written communication",
+      "Eliminate misunderstanding entirely"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Nonverbal cues enhance and clarify, not just distract.",
+      "Correct! Nonverbal communication can support, emphasize, or contradict spoken words.",
+      "Written communication serves different purposes; nonverbal cues complement but don't replace it.",
+      "While helpful, nonverbal cues alone can't eliminate all misunderstanding."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q135",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "stem": "Which is an example of situational irony?",
+    "options": [
+      "The reader knows the killer's identity before the detective does.",
+      "A fire station burns down.",
+      "A repeated vowel sound in poetry.",
+      "The moral lesson of a story."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "This is dramatic irony, where the audience knows more than the characters.",
+      "Correct! Situational irony occurs when the outcome contradicts expectations—a fire station should prevent fires, not burn.",
+      "This describes assonance, a sound device, not irony.",
+      "This describes theme or moral, not irony."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q136",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "stem": "Symbolism adds meaning by…",
+    "options": [
+      "Simplifying description",
+      "Representing abstract ideas through concrete objects",
+      "Listing adjectives",
+      "Creating suspense"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Symbolism adds complexity, not simplification.",
+      "Correct! Symbols use tangible objects to represent abstract concepts, adding layers of meaning.",
+      "Listing adjectives is descriptive technique, not symbolism.",
+      "While symbols can contribute to atmosphere, their primary function is representing deeper meaning."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q137",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "stem": "A third-person limited narrator…",
+    "options": [
+      "Knows all characters' thoughts",
+      "Only knows one character's perspective",
+      "Uses 'you' to address the reader",
+      "Is part of the story's action"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Knowing all characters' thoughts describes third-person omniscient.",
+      "Correct! Third-person limited provides insight into one character's mind while maintaining narrative distance.",
+      "Using 'you' describes second-person point of view.",
+      "Being part of the action describes first-person narration."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q138",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "stem": "Conflict in a story is…",
+    "options": [
+      "The climax",
+      "The struggle between opposing forces",
+      "The exposition",
+      "The resolution"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "The climax is the turning point, not the conflict itself.",
+      "Correct! Conflict is the central struggle driving the plot, whether internal or external.",
+      "Exposition provides background information.",
+      "Resolution shows how the conflict is settled."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q139",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "stem": "Theme is best described as…",
+    "options": [
+      "The moral lesson or universal truth of the story",
+      "The plot's main event",
+      "The story's timeline",
+      "The setting's location"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Theme is the underlying message or insight about life that the work explores.",
+      "The main event is part of plot, not theme.",
+      "Timeline relates to plot structure.",
+      "Location is an element of setting, not theme."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q140",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "stem": "Diction refers to…",
+    "options": [
+      "Sentence structure",
+      "Word choice",
+      "Figurative meaning",
+      "Dialogue pacing"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Sentence structure is syntax, not diction.",
+      "Correct! Diction is the writer's selection and use of specific words to create meaning and tone.",
+      "Figurative meaning involves literary devices like metaphor.",
+      "Dialogue pacing relates to narrative structure."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q141",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "stem": "Which sentence best shows imagery?",
+    "options": [
+      "He walked slowly.",
+      "The sunlight spilled like honey across the table.",
+      "She moved quickly.",
+      "It was late."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "This is simple description without sensory detail.",
+      "Correct! This creates vivid sensory experience through visual and metaphorical language.",
+      "This states action without engaging the senses.",
+      "This provides information without sensory detail."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q142",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "stem": "An author's voice reflects…",
+    "options": [
+      "The plot's complexity",
+      "The writer's individual style and tone",
+      "The story's setting",
+      "The genre of the work"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Plot complexity is a structural choice, not voice.",
+      "Correct! Voice is the distinctive personality and perspective that comes through the author's stylistic choices.",
+      "Setting is a story element, not voice.",
+      "Genre is a category; voice is individual to the writer."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q143",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "stem": "Syntax primarily affects…",
+    "options": [
+      "Sentence rhythm and emphasis",
+      "Theme development",
+      "Characterization",
+      "Symbolism"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Syntax—the arrangement of words and phrases—shapes how sentences flow and what gets emphasized.",
+      "Theme emerges from content and meaning, not sentence structure.",
+      "Characterization involves personality development, not syntax.",
+      "Symbolism uses objects for meaning, unrelated to syntax."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q144",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "stem": "Tone in writing reveals…",
+    "options": [
+      "The author's attitude",
+      "The story's location",
+      "The text's theme",
+      "The rhythm of language"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Tone conveys the author's attitude toward the subject and audience through stylistic choices.",
+      "Location is setting, not tone.",
+      "Theme is the underlying message; tone is how it's expressed.",
+      "Rhythm relates to syntax and sound patterns."
+    ],
+    "difficulty": 2,
+    "assessment": true
   }
 ]
