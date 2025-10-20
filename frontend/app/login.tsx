@@ -31,9 +31,20 @@ export default function LoginScreen() {
 
     setLoading(true);
     try {
-      const userCredential = await signInWithEmailAndPassword(auth, email, password);
-      setUser({ uid: userCredential.user.uid, email });
-      router.replace('/(tabs)/home');
+      // Check if using placeholder Firebase config (for demo)
+      const isPlaceholder = process.env.EXPO_PUBLIC_FIREBASE_API_KEY === 'PLACEHOLDER';
+      
+      if (isPlaceholder) {
+        // Demo mode - bypass Firebase
+        const demoUid = 'demo-' + Date.now();
+        setUser({ uid: demoUid, email });
+        router.replace('/(tabs)/home');
+      } else {
+        // Real Firebase authentication
+        const userCredential = await signInWithEmailAndPassword(auth, email, password);
+        setUser({ uid: userCredential.user.uid, email });
+        router.replace('/(tabs)/home');
+      }
     } catch (error: any) {
       Alert.alert('Login Error', error.message);
     } finally {
