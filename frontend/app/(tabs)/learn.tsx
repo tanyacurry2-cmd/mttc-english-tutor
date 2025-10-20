@@ -109,12 +109,6 @@ export default function LearnScreen() {
           {currentCardIndex + 1} / {displayLimit}
         </Text>
 
-        {!hasAccess && currentCardIndex >= 5 && (
-          <View style={styles.limitMessage}>
-            <Text style={styles.limitText}>Unlock more cards with premium</Text>
-          </View>
-        )}
-
         <TouchableOpacity
           style={styles.cardContainer}
           onPress={flipCard}
