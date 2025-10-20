@@ -67,6 +67,11 @@ export const useAppStore = create<AppState>((set, get) => ({
     'Genre & Craft': 0,
     'Skills & Processes': 0,
   },
+  
+  // Resume progress
+  lastQuestionID: null,
+  lastMode: null,
+  lastSubarea: null,
 
   setUser: (userData) => {
     set((state) => ({
