@@ -291,15 +291,15 @@ const styles = StyleSheet.create({
     marginBottom: theme.spacing.lg,
   },
   explanationBox: {
-    flex: 1,
+    maxHeight: 150,
     backgroundColor: theme.colors.background,
     borderRadius: theme.borderRadius.md,
     padding: theme.spacing.md,
   },
   explanationText: {
-    fontSize: theme.fontSize.md,
+    fontSize: theme.fontSize.sm,
     color: theme.colors.text,
-    lineHeight: 24,
+    lineHeight: 20,
   },
   buttonContainer: {
     flexDirection: 'row',
