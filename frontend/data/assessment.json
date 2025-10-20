@@ -1,0 +1,382 @@
+[
+  {
+    "id": "A001",
+    "subarea": "Meaning & Communication",
+    "stem": "Which sentence best demonstrates formal language register?",
+    "options": [
+      "Hey, what's up?",
+      "Greetings, how are you today?",
+      "Yo, you good?",
+      "Sup, man."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Informal greeting, inappropriate for formal contexts.",
+      "Correct! Formal register with complete sentences and professional tone.",
+      "Very informal slang, inappropriate for formal communication.",
+      "Casual slang, not formal register."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A002",
+    "subarea": "Meaning & Communication",
+    "stem": "The phrase 'The pen is mightier than the sword' is an example of…",
+    "options": [
+      "Paradox",
+      "Alliteration",
+      "Metonymy",
+      "Hyperbole"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Not a paradox—no contradiction present.",
+      "No repetition of consonant sounds.",
+      "Correct! Metonymy uses 'pen' to represent writing/words and 'sword' to represent military force.",
+      "Not an exaggeration, but substitution of related concepts."
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "A003",
+    "subarea": "Meaning & Communication",
+    "stem": "Pragmatics focuses on…",
+    "options": [
+      "Word origins",
+      "Sound patterns",
+      "Context and intended meaning",
+      "Grammar rules"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Etymology studies word origins.",
+      "Phonology studies sound patterns.",
+      "Correct! Pragmatics examines how context influences meaning and interpretation.",
+      "Syntax and grammar are separate linguistic domains."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A004",
+    "subarea": "Meaning & Communication",
+    "stem": "The connotation of 'childlike' compared with 'youthful' is…",
+    "options": [
+      "More positive",
+      "More negative",
+      "Identical",
+      "Ambiguous"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "'Childlike' can suggest immaturity, while 'youthful' is more positive.",
+      "Correct! 'Childlike' often carries negative connotations of immaturity compared to the positive 'youthful.'",
+      "The words have different emotional associations.",
+      "The distinction is clear in most contexts."
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "A005",
+    "subarea": "Meaning & Communication",
+    "stem": "Which rhetorical appeal relies on credibility?",
+    "options": [
+      "Logos",
+      "Pathos",
+      "Ethos",
+      "Kairos"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Logos appeals to logic and reason.",
+      "Pathos appeals to emotions.",
+      "Correct! Ethos establishes speaker credibility and trustworthiness.",
+      "Kairos refers to opportune timing in rhetoric."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A006",
+    "subarea": "Literature & Understanding",
+    "stem": "In poetry, a caesura refers to…",
+    "options": [
+      "A pause within a line",
+      "End rhyme",
+      "A stanza break",
+      "A change in theme"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! A caesura is a deliberate pause or break within a poetic line.",
+      "End rhyme occurs at line endings, not within lines.",
+      "Stanza breaks separate groups of lines.",
+      "Thematic shifts are conceptual, not structural pauses."
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "A007",
+    "subarea": "Literature & Understanding",
+    "stem": "The main function of an unreliable narrator is to…",
+    "options": [
+      "Simplify plot structure",
+      "Create irony and reader skepticism",
+      "Clarify moral lessons",
+      "Provide historical accuracy"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Unreliable narrators often complicate, not simplify, plot.",
+      "Correct! Unreliable narrators create dramatic irony as readers question the truth of the narrative.",
+      "Unreliable narrators obscure rather than clarify morals.",
+      "Historical accuracy is compromised by unreliable narration."
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "A008",
+    "subarea": "Literature & Understanding",
+    "stem": "In a Shakespearean sonnet, the volta usually occurs…",
+    "options": [
+      "After line 4",
+      "After line 8 or 9",
+      "In the closing couplet only",
+      "At the midpoint of line 7"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Line 4 is too early; that's after the first quatrain.",
+      "Correct! The volta (turn) typically occurs at line 9 or in the final couplet.",
+      "While the couplet can contain a turn, line 9 is more common.",
+      "Line 7 is not a traditional volta position."
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "A009",
+    "subarea": "Literature & Understanding",
+    "stem": "A recurring image of water symbolizing rebirth is an example of…",
+    "options": [
+      "Allusion",
+      "Motif",
+      "Conflict",
+      "Foreshadowing"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Allusion references other works or events.",
+      "Correct! A motif is a recurring symbol or image that reinforces theme.",
+      "Conflict is the struggle between opposing forces.",
+      "Foreshadowing hints at future events."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A010",
+    "subarea": "Literature & Understanding",
+    "stem": "Which statement best defines theme?",
+    "options": [
+      "The sequence of events in a story",
+      "The setting and atmosphere",
+      "The central idea or insight about life",
+      "The author's writing style"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Sequence of events describes plot.",
+      "Setting provides context, not theme.",
+      "Correct! Theme is the underlying message or universal truth.",
+      "Writing style relates to voice and technique."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A011",
+    "subarea": "Genre & Craft",
+    "stem": "Diction refers to an author's…",
+    "options": [
+      "Word choice",
+      "Sentence length",
+      "Tone",
+      "Figurative imagery"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Diction is the selection and use of specific words.",
+      "Sentence length relates to syntax.",
+      "Tone is created through diction but isn't diction itself.",
+      "Imagery is descriptive language, not word choice per se."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A012",
+    "subarea": "Genre & Craft",
+    "stem": "A narrative that begins in medias res starts…",
+    "options": [
+      "At the very beginning of events",
+      "In the middle of the action",
+      "With background exposition only",
+      "After the resolution"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "In medias res means 'in the middle of things.'",
+      "Correct! In medias res begins amid action, then fills in backstory.",
+      "Background exposition is avoided in in medias res openings.",
+      "Starting after resolution would be unusual."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A013",
+    "subarea": "Genre & Craft",
+    "stem": "The use of short, choppy sentences most directly affects…",
+    "options": [
+      "Rhythm and pacing",
+      "Imagery and tone",
+      "Theme development",
+      "Symbolic meaning"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Short sentences create quick rhythm and fast pacing.",
+      "While they can affect tone, rhythm is the primary effect.",
+      "Theme is developed through content, not sentence length.",
+      "Symbolism uses objects and images, not syntax."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A014",
+    "subarea": "Genre & Craft",
+    "stem": "When a writer varies sentence structure for emphasis, they are manipulating…",
+    "options": [
+      "Syntax",
+      "Diction",
+      "Theme",
+      "Motif"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Syntax is the arrangement of words and sentence structure.",
+      "Diction is word choice, not sentence structure.",
+      "Theme is conceptual content.",
+      "Motif is a recurring element."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A015",
+    "subarea": "Genre & Craft",
+    "stem": "Which genre feature most clearly distinguishes drama from prose fiction?",
+    "options": [
+      "Dialogue and stage directions",
+      "Internal monologue",
+      "Narrative exposition",
+      "Figurative language"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Drama relies on dialogue and stage directions rather than narrative prose.",
+      "Internal monologue is typical of prose fiction, not drama.",
+      "Drama minimizes narrative exposition.",
+      "Both genres use figurative language."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A016",
+    "subarea": "Skills & Processes",
+    "stem": "Formative assessment is used primarily to…",
+    "options": [
+      "Rank students for grading",
+      "Adjust instruction during learning",
+      "Certify end-of-unit mastery",
+      "Measure statewide performance"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Ranking is not the primary purpose of formative assessment.",
+      "Correct! Formative assessment guides ongoing instructional decisions.",
+      "End-of-unit mastery is measured by summative assessment.",
+      "Statewide measures are standardized summative assessments."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A017",
+    "subarea": "Skills & Processes",
+    "stem": "In reading instruction, fluency involves…",
+    "options": [
+      "Memorization",
+      "Speed only",
+      "Accuracy, rate, and expression",
+      "Vocabulary knowledge"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Fluency is automatic decoding, not memorization.",
+      "Speed is one component but not sufficient alone.",
+      "Correct! Fluency includes accuracy, appropriate rate, and prosody (expression).",
+      "Vocabulary supports comprehension but isn't fluency."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A018",
+    "subarea": "Skills & Processes",
+    "stem": "The writing process stage focused on reorganizing ideas is…",
+    "options": [
+      "Drafting",
+      "Revising",
+      "Editing",
+      "Publishing"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Drafting generates initial content.",
+      "Correct! Revising involves reorganizing, adding, and refining ideas.",
+      "Editing focuses on grammar and mechanics.",
+      "Publishing is the final sharing stage."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A019",
+    "subarea": "Skills & Processes",
+    "stem": "Differentiated instruction means…",
+    "options": [
+      "Using one uniform method for equity",
+      "Varying methods to meet learner needs",
+      "Grouping by identical ability",
+      "Simplifying all content"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Uniform methods don't address diverse needs.",
+      "Correct! Differentiation tailors instruction to individual readiness, interests, and learning profiles.",
+      "Flexible grouping, not rigid ability grouping, is preferred.",
+      "Content rigor is maintained, not simplified."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "A020",
+    "subarea": "Skills & Processes",
+    "stem": "Metacognitive readers do which of the following?",
+    "options": [
+      "Read mechanically without reflection",
+      "Monitor and adjust comprehension strategies",
+      "Focus only on speed",
+      "Avoid annotation"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Metacognition requires active reflection, not mechanical reading.",
+      "Correct! Metacognitive readers think about their thinking and adjust strategies as needed.",
+      "Speed without monitoring comprehension isn't metacognitive.",
+      "Annotation is a metacognitive strategy."
+    ],
+    "difficulty": 3
+  }
+]
