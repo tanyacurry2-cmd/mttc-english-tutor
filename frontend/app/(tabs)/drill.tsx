@@ -34,7 +34,7 @@ export default function DrillScreen() {
     return shuffled.slice(0, 5);
   };
 
-  const displayLimit = hasAccess ? questions.length : Math.min(5, questions.length);
+  const displayLimit = questions.length; // Show all questions for demo/testing
   const currentQuestion = questions[currentQuestionIndex];
 
   const handleSelectAnswer = (index: number) => {
