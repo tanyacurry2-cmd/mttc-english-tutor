@@ -88,5 +88,105 @@
     "explanation": "Shakespeare's sonnets explore universal themes: romantic & platonic love, the passage of time, the nature of beauty, mortality, and deep philosophical questions about existence and meaning.",
     "difficulty": 2,
     "tags": ["poetry", "shakespeare", "sonnet", "themes"]
+  },
+  {
+    "id": "F010",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "What are the stages of literacy development?",
+    "answer": "Emergent, early, transitional, fluent, proficient",
+    "explanation": "These five stages represent the progression from pre-reading (emergent) through mastery (proficient), with each stage building upon the previous one.",
+    "difficulty": 2,
+    "tags": ["literacy", "development", "stages"]
+  },
+  {
+    "id": "F011",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "What is phonemic awareness?",
+    "answer": "Hearing and manipulating individual sounds in words",
+    "explanation": "The ability to hear, identify, and manipulate individual sounds (phonemes) in spoken words. This is a critical foundational skill for reading.",
+    "difficulty": 2,
+    "tags": ["literacy", "phonemic-awareness", "phonology"]
+  },
+  {
+    "id": "F012",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "How does phonics support fluency?",
+    "answer": "Connects sounds to letters for faster decoding",
+    "explanation": "Phonics instruction connects sounds to letters, improving decoding skills and automaticity, which leads to fluent reading.",
+    "difficulty": 2,
+    "tags": ["literacy", "phonics", "fluency"]
+  },
+  {
+    "id": "F013",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "What's the difference between decoding and comprehension?",
+    "answer": "Decoding = print to sound; comprehension = making meaning",
+    "explanation": "Decoding translates printed text to sound, while comprehension involves creating meaning from that text through understanding and interpretation.",
+    "difficulty": 2,
+    "tags": ["literacy", "decoding", "comprehension"]
+  },
+  {
+    "id": "F014",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "Why is morphology important?",
+    "answer": "Helps infer word meaning through roots/prefixes/suffixes",
+    "explanation": "Understanding roots, prefixes, and suffixes supports vocabulary growth and allows readers to infer the meaning of unfamiliar words.",
+    "difficulty": 3,
+    "tags": ["literacy", "morphology", "vocabulary"]
+  },
+  {
+    "id": "F015",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "How does syntax contribute to meaning?",
+    "answer": "Structure determines emphasis and clarity",
+    "explanation": "Sentence structure affects emphasis, tone, and clarity of information, influencing how readers interpret the text.",
+    "difficulty": 3,
+    "tags": ["literacy", "syntax", "grammar"]
+  },
+  {
+    "id": "F016",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "What strategies help struggling readers?",
+    "answer": "Explicit phonics, guided reading, fluency modeling, vocabulary support",
+    "explanation": "Use explicit phonics instruction, guided reading sessions, modeled fluent reading, and vocabulary scaffolds to support struggling readers.",
+    "difficulty": 2,
+    "tags": ["literacy", "intervention", "teaching-strategies"]
+  },
+  {
+    "id": "F017",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "What is metacognition?",
+    "answer": "Awareness and regulation of one's own thinking",
+    "explanation": "Thinking about one's own thinking—monitoring and adjusting comprehension strategies while reading.",
+    "difficulty": 3,
+    "tags": ["literacy", "metacognition", "comprehension"]
+  },
+  {
+    "id": "F018",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "Why is background knowledge essential?",
+    "answer": "Enables connection and deeper understanding",
+    "explanation": "Prior knowledge connects new information to existing understanding, providing context and aiding comprehension.",
+    "difficulty": 2,
+    "tags": ["literacy", "schema", "comprehension"]
+  },
+  {
+    "id": "F019",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "question": "What's the role of assessment?",
+    "answer": "Diagnose needs, guide instruction, measure growth",
+    "explanation": "Assessment identifies student strengths and needs, guiding targeted interventions and measuring progress over time.",
+    "difficulty": 2,
+    "tags": ["literacy", "assessment", "evaluation"]
   }
 ]
