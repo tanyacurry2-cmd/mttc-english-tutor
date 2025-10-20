@@ -112,12 +112,6 @@ export default function DrillScreen() {
             Question {currentQuestionIndex + 1} / {displayLimit}
           </Text>
 
-          {!hasAccess && currentQuestionIndex >= 5 && (
-            <View style={styles.limitMessage}>
-              <Text style={styles.limitText}>Unlock more questions with premium</Text>
-            </View>
-          )}
-
           <View style={styles.questionCard}>
             <View style={styles.cardHeader}>
               <View>
