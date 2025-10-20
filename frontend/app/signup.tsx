@@ -42,9 +42,20 @@ export default function SignupScreen() {
 
     setLoading(true);
     try {
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      initializeTrial(userCredential.user.uid, email);
-      router.replace('/(tabs)/home');
+      // Check if using placeholder Firebase config (for demo)
+      const isPlaceholder = process.env.EXPO_PUBLIC_FIREBASE_API_KEY === 'PLACEHOLDER';
+      
+      if (isPlaceholder) {
+        // Demo mode - bypass Firebase
+        const demoUid = 'demo-' + Date.now();
+        initializeTrial(demoUid, email);
+        router.replace('/(tabs)/home');
+      } else {
+        // Real Firebase authentication
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        initializeTrial(userCredential.user.uid, email);
+        router.replace('/(tabs)/home');
+      }
     } catch (error: any) {
       Alert.alert('Signup Error', error.message);
     } finally {
