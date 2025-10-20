@@ -388,5 +388,245 @@
     "explanation": "Tone is created through diction, syntax, and stylistic choices that reveal how the author feels about the topic and shapes how readers respond.",
     "difficulty": 2,
     "tags": ["writing", "tone", "attitude"]
+  },
+  {
+    "id": "F040",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is theme in literature?",
+    "answer": "The central idea or universal truth in a literary work",
+    "explanation": "Theme is the underlying message or insight about life that the author explores through all elements of the story.",
+    "difficulty": 2,
+    "tags": ["literature", "theme", "meaning"]
+  },
+  {
+    "id": "F041",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What's the difference between plot and theme?",
+    "answer": "Plot is what happens; theme is what it means",
+    "explanation": "Plot provides the sequence of events, while theme reveals the deeper significance or message behind those events.",
+    "difficulty": 2,
+    "tags": ["literature", "plot", "theme"]
+  },
+  {
+    "id": "F042",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is characterization?",
+    "answer": "How an author develops a character through actions, dialogue, and description",
+    "explanation": "Characterization can be direct (telling) or indirect (showing through behavior, speech, thoughts, and interactions).",
+    "difficulty": 2,
+    "tags": ["literature", "characterization", "character"]
+  },
+  {
+    "id": "F043",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is point of view in literature?",
+    "answer": "The perspective from which a story is told (first, second, or third person)",
+    "explanation": "Point of view determines what information readers access and how they experience the story's events.",
+    "difficulty": 2,
+    "tags": ["literature", "point-of-view", "narration"]
+  },
+  {
+    "id": "F044",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is a motif?",
+    "answer": "A recurring symbol, image, or idea that reinforces theme",
+    "explanation": "Motifs appear repeatedly throughout a work, creating patterns of meaning that support and develop the central theme.",
+    "difficulty": 3,
+    "tags": ["literature", "motif", "symbolism"]
+  },
+  {
+    "id": "F045",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is tone in literature?",
+    "answer": "The author's attitude toward the subject or audience",
+    "explanation": "Tone is conveyed through word choice, sentence structure, and stylistic decisions that reveal the author's perspective.",
+    "difficulty": 2,
+    "tags": ["literature", "tone", "attitude"]
+  },
+  {
+    "id": "F046",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is mood in literature?",
+    "answer": "The emotional atmosphere experienced by the reader",
+    "explanation": "Mood is the feeling created in the reader through setting, imagery, and language choices.",
+    "difficulty": 2,
+    "tags": ["literature", "mood", "atmosphere"]
+  },
+  {
+    "id": "F047",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is imagery?",
+    "answer": "Descriptive language appealing to the five senses",
+    "explanation": "Imagery creates vivid mental pictures and sensory experiences through language that engages sight, sound, touch, taste, and smell.",
+    "difficulty": 2,
+    "tags": ["literature", "imagery", "sensory"]
+  },
+  {
+    "id": "F048",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is an allegory?",
+    "answer": "A story with both literal and symbolic meaning",
+    "explanation": "In allegory, characters, events, and settings represent abstract ideas or moral qualities, creating dual levels of meaning.",
+    "difficulty": 3,
+    "tags": ["literature", "allegory", "symbolism"]
+  },
+  {
+    "id": "F049",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is foreshadowing?",
+    "answer": "Clues or hints about what will happen later in the story",
+    "explanation": "Foreshadowing creates anticipation and suspense while preparing readers for future plot developments.",
+    "difficulty": 2,
+    "tags": ["literature", "foreshadowing", "technique"]
+  },
+  {
+    "id": "F050",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is conflict in literature?",
+    "answer": "The struggle between opposing forces that drives the plot and reveals character growth",
+    "explanation": "Conflict can be internal (within a character) or external (between characters, or character vs. nature/society), and provides the story's central tension.",
+    "difficulty": 2,
+    "tags": ["literature", "conflict", "plot"]
+  },
+  {
+    "id": "F051",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is diction in literature?",
+    "answer": "Word choice used to create tone and meaning",
+    "explanation": "Diction includes the level of formality, connotation, and precision of words selected to achieve specific effects.",
+    "difficulty": 2,
+    "tags": ["literature", "diction", "word-choice"]
+  },
+  {
+    "id": "F052",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is irony in literature?",
+    "answer": "A contrast between appearance and reality, or expectation and outcome",
+    "explanation": "Irony includes verbal (saying the opposite of what's meant), situational (unexpected outcomes), and dramatic (audience knows more than characters).",
+    "difficulty": 3,
+    "tags": ["literature", "irony", "technique"]
+  },
+  {
+    "id": "F053",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Analysis",
+    "question": "What is symbolism in literature?",
+    "answer": "Using objects or events to represent abstract ideas",
+    "explanation": "Symbols carry meaning beyond their literal significance, adding depth and layers of interpretation to the text.",
+    "difficulty": 2,
+    "tags": ["literature", "symbolism", "meaning"]
+  },
+  {
+    "id": "F054",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What is phonological awareness?",
+    "answer": "Recognizing and manipulating sounds in spoken language, including rhyme and syllables",
+    "explanation": "Phonological awareness is a foundational literacy skill that includes identifying and working with sounds at the word, syllable, and phoneme levels.",
+    "difficulty": 2,
+    "tags": ["literacy", "phonological-awareness", "reading"]
+  },
+  {
+    "id": "F055",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What's the difference between formative and summative assessment?",
+    "answer": "Formative happens during learning to guide instruction; summative measures learning at the end",
+    "explanation": "Formative assessments inform ongoing teaching decisions, while summative assessments evaluate overall achievement after instruction concludes.",
+    "difficulty": 2,
+    "tags": ["assessment", "formative", "summative"]
+  },
+  {
+    "id": "F056",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What are rubrics used for?",
+    "answer": "Define expectations and scoring criteria for consistent grading",
+    "explanation": "Rubrics provide clear standards and descriptions of performance levels, ensuring fair and transparent evaluation.",
+    "difficulty": 2,
+    "tags": ["assessment", "rubrics", "evaluation"]
+  },
+  {
+    "id": "F057",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What is scaffolding in education?",
+    "answer": "Providing temporary support to help students master new skills independently",
+    "explanation": "Scaffolding gradually releases responsibility to students as they develop competence, like training wheels on a bicycle.",
+    "difficulty": 2,
+    "tags": ["instruction", "scaffolding", "support"]
+  },
+  {
+    "id": "F058",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What are reading conferences?",
+    "answer": "Discussing a student's progress, reading habits, and comprehension strategies",
+    "explanation": "Reading conferences provide individualized opportunities to assess understanding, set goals, and provide targeted support.",
+    "difficulty": 2,
+    "tags": ["literacy", "conferences", "assessment"]
+  },
+  {
+    "id": "F059",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What is fluency in reading?",
+    "answer": "Reading with accuracy, rate, and expression",
+    "explanation": "Fluency bridges decoding and comprehension, allowing readers to focus on meaning rather than word-by-word processing.",
+    "difficulty": 2,
+    "tags": ["literacy", "fluency", "reading"]
+  },
+  {
+    "id": "F060",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What is metacognition in learning?",
+    "answer": "Thinking about one's own thinking—planning, monitoring, and evaluating understanding",
+    "explanation": "Metacognition enables students to become self-aware, strategic learners who can adjust their approaches when needed.",
+    "difficulty": 3,
+    "tags": ["learning", "metacognition", "thinking"]
+  },
+  {
+    "id": "F061",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What is peer review?",
+    "answer": "Students giving constructive feedback on each other's writing",
+    "explanation": "Peer review develops critical reading skills and helps writers see their work from a reader's perspective.",
+    "difficulty": 2,
+    "tags": ["writing", "peer-review", "feedback"]
+  },
+  {
+    "id": "F062",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What are the stages of the writing process?",
+    "answer": "Prewriting, drafting, revising, editing, and publishing",
+    "explanation": "The writing process is recursive, with writers moving between stages as they develop and refine their work.",
+    "difficulty": 2,
+    "tags": ["writing", "process", "stages"]
+  },
+  {
+    "id": "F063",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching and Assessment",
+    "question": "What is differentiated instruction?",
+    "answer": "Adjusting teaching methods to meet diverse student needs",
+    "explanation": "Differentiation involves varying content, process, product, or learning environment based on student readiness, interests, and learning profiles.",
+    "difficulty": 2,
+    "tags": ["instruction", "differentiation", "teaching"]
   }
 ]
