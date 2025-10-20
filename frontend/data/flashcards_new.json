@@ -1,0 +1,142 @@
+[
+  {
+    "id": "F001",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What are the four types of context clues?",
+    "answer": "Definition, restatement, contrast, and inference",
+    "explanation": "These are the primary strategies readers use to determine word meaning from surrounding text.",
+    "difficulty": 2,
+    "tags": ["vocabulary", "context"]
+  },
+  {
+    "id": "F002",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What does 'language register' mean?",
+    "answer": "Level of formality chosen for audience and purpose",
+    "explanation": "Language register refers to how speakers and writers adjust their language formality based on the social situation, audience, and communicative purpose.",
+    "difficulty": 2,
+    "tags": ["communication", "register", "context"]
+  },
+  {
+    "id": "F003",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What is code-switching?",
+    "answer": "Adapting language or dialect to context and audience",
+    "explanation": "Code-switching demonstrates linguistic flexibility, allowing speakers to adapt their language to different social contexts and audiences.",
+    "difficulty": 2,
+    "tags": ["communication", "code-switching", "sociolinguistics"]
+  },
+  {
+    "id": "F004",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What are pragmatics?",
+    "answer": "Study of how context affects meaning in communication",
+    "explanation": "Pragmatics examines how situational context, speaker intent, and social relationships affect the interpretation of language.",
+    "difficulty": 3,
+    "tags": ["communication", "pragmatics", "linguistics"]
+  },
+  {
+    "id": "F005",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What is connotation?",
+    "answer": "Emotional or cultural association of a word",
+    "explanation": "Connotation adds layers of meaning to words, reflecting cultural values, emotions, and social attitudes beyond dictionary definitions.",
+    "difficulty": 2,
+    "tags": ["communication", "connotation", "semantics"]
+  },
+  {
+    "id": "F006",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What's the difference between denotation and connotation?",
+    "answer": "Literal meaning versus implied meaning",
+    "explanation": "Denotation provides the dictionary definition, while connotation includes the feelings, associations, and cultural meanings attached to words.",
+    "difficulty": 2,
+    "tags": ["communication", "denotation", "connotation"]
+  },
+  {
+    "id": "F007",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What are rhetorical devices?",
+    "answer": "Techniques like parallelism, antithesis, and chiasmus",
+    "explanation": "Rhetorical devices are language techniques that enhance persuasion and impact through strategic word arrangement and repetition.",
+    "difficulty": 3,
+    "tags": ["rhetoric", "devices", "persuasion"]
+  },
+  {
+    "id": "F008",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "How do you use a semicolon correctly?",
+    "answer": "Join independent clauses without a conjunction",
+    "explanation": "Semicolons connect two related independent clauses, showing a closer relationship than a period but without needing a coordinating conjunction.",
+    "difficulty": 2,
+    "tags": ["grammar", "punctuation", "semicolon"]
+  },
+  {
+    "id": "F009",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What are the main components of communication?",
+    "answer": "Sender, message, medium, receiver, feedback, context",
+    "explanation": "Effective communication requires all six components working together: someone sending a message through a medium to a receiver, with feedback occurring within a specific context.",
+    "difficulty": 2,
+    "tags": ["communication", "components", "process"]
+  },
+  {
+    "id": "F010",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What are the qualities of effective communication?",
+    "answer": "Clarity, conciseness, coherence, audience awareness",
+    "explanation": "Effective communication requires clear expression, brevity without sacrificing meaning, logical organization, and adaptation to the audience's needs and knowledge.",
+    "difficulty": 2,
+    "tags": ["communication", "effectiveness", "principles"]
+  },
+  {
+    "id": "F011",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What is tone in communication?",
+    "answer": "Speaker's attitude toward topic or audience",
+    "explanation": "Tone conveys the speaker's feelings, perspective, and relationship to both the topic and the audience through word choice, syntax, and delivery.",
+    "difficulty": 2,
+    "tags": ["communication", "tone", "attitude"]
+  },
+  {
+    "id": "F012",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What does active listening involve?",
+    "answer": "Focusing and responding to understand intent",
+    "explanation": "Active listening requires full attention, understanding the speaker's message, providing feedback, and responding in ways that demonstrate comprehension.",
+    "difficulty": 2,
+    "tags": ["communication", "listening", "engagement"]
+  },
+  {
+    "id": "F013",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What is nonverbal communication?",
+    "answer": "Gestures, facial expression, posture, eye contact",
+    "explanation": "Nonverbal cues like body language, facial expressions, and tone of voice can support, emphasize, or even contradict verbal communication, providing additional context.",
+    "difficulty": 2,
+    "tags": ["communication", "nonverbal", "body-language"]
+  },
+  {
+    "id": "F014",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What are the three rhetorical appeals?",
+    "answer": "Ethos (credibility), Pathos (emotion), Logos (reason)",
+    "explanation": "Aristotle's three modes of persuasion: Ethos establishes credibility, Pathos appeals to emotions, and Logos uses logical reasoning and evidence.",
+    "difficulty": 3,
+    "tags": ["rhetoric", "appeals", "persuasion"]
+  }
+]
