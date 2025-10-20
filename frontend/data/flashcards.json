@@ -48,5 +48,45 @@
     "explanation": "Authors use foreshadowing to build anticipation and prepare readers for later developments.",
     "difficulty": 2,
     "tags": ["literary-devices", "structure"]
+  },
+  {
+    "id": "F006",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "question": "How many lines are in a Shakespearean sonnet?",
+    "answer": "14 total, written in iambic pentameter",
+    "explanation": "Shakespearean sonnets follow a strict structure of 14 lines, each written in iambic pentameter (10 syllables with an unstressed-stressed pattern).",
+    "difficulty": 2,
+    "tags": ["poetry", "shakespeare", "sonnet"]
+  },
+  {
+    "id": "F007",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "question": "What are the sections of a Shakespearean sonnet?",
+    "answer": "Three quatrains and one couplet",
+    "explanation": "The 14 lines are divided into three quatrains (4-line stanzas) followed by a final rhyming couplet (2 lines), creating the structure: 4-4-4-2.",
+    "difficulty": 2,
+    "tags": ["poetry", "shakespeare", "sonnet", "structure"]
+  },
+  {
+    "id": "F008",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "question": "What is the 'volta' in a Shakespearean sonnet?",
+    "answer": "The shift or 'turn' in thought, often at line 9 or 13",
+    "explanation": "The volta represents a pivotal moment where the poem's argument or emotional tone shifts. In Shakespearean sonnets, it typically occurs at the beginning of the third quatrain (line 9) or in the final couplet (line 13).",
+    "difficulty": 3,
+    "tags": ["poetry", "shakespeare", "sonnet", "volta"]
+  },
+  {
+    "id": "F009",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "question": "What are common themes in Shakespearean sonnets?",
+    "answer": "Love, time, beauty, death, and the occasional existential meltdown",
+    "explanation": "Shakespeare's sonnets explore profound universal themes including romantic and platonic love, the passage of time, the nature of beauty, mortality, and deep philosophical questions about existence and meaning.",
+    "difficulty": 2,
+    "tags": ["poetry", "shakespeare", "sonnet", "themes"]
   }
 ]
