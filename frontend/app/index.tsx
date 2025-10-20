@@ -1,14 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useRouter } from 'expo-router';
-import { LoadingScreen } from '../components/LoadingScreen';
+import React from 'react';
+import { Redirect } from 'expo-router';
 
 export default function Index() {
-  const router = useRouter();
-
-  useEffect(() => {
-    // Route to welcome screen on app launch
-    router.replace('/welcome');
-  }, []);
-
-  return <LoadingScreen />;
+  return <Redirect href="/welcome" />;
 }
