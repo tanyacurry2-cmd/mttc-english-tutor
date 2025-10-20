@@ -188,5 +188,205 @@
     "explanation": "Assessment identifies student strengths and needs, guiding targeted interventions and measuring progress over time.",
     "difficulty": 2,
     "tags": ["literacy", "assessment", "evaluation"]
+  },
+  {
+    "id": "F020",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What does 'language register' mean?",
+    "answer": "The level of formality or style used depending on context, audience, and purpose",
+    "explanation": "Language register refers to how speakers and writers adjust their language formality based on the social situation, audience, and communicative purpose.",
+    "difficulty": 2,
+    "tags": ["communication", "register", "context"]
+  },
+  {
+    "id": "F021",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What is 'code-switching'?",
+    "answer": "Shifting between language varieties or dialects based on audience or situation",
+    "explanation": "Code-switching demonstrates linguistic flexibility, allowing speakers to adapt their language to different social contexts and audiences.",
+    "difficulty": 2,
+    "tags": ["communication", "code-switching", "sociolinguistics"]
+  },
+  {
+    "id": "F022",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What are pragmatics?",
+    "answer": "The study of how context influences meaning in communication",
+    "explanation": "Pragmatics examines how situational context, speaker intent, and social relationships affect the interpretation of language.",
+    "difficulty": 3,
+    "tags": ["communication", "pragmatics", "linguistics"]
+  },
+  {
+    "id": "F023",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What is connotation?",
+    "answer": "The emotional or cultural associations attached to a word beyond its literal meaning",
+    "explanation": "Connotation adds layers of meaning to words, reflecting cultural values, emotions, and social attitudes beyond dictionary definitions.",
+    "difficulty": 2,
+    "tags": ["communication", "connotation", "semantics"]
+  },
+  {
+    "id": "F024",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Functions in Context",
+    "question": "What's the difference between denotation and connotation?",
+    "answer": "Denotation is literal meaning; connotation adds emotional or cultural nuance",
+    "explanation": "Denotation provides the dictionary definition, while connotation includes the feelings, associations, and cultural meanings attached to words.",
+    "difficulty": 2,
+    "tags": ["communication", "denotation", "connotation"]
+  },
+  {
+    "id": "F025",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What are the main components of communication?",
+    "answer": "Sender, message, medium, receiver, feedback, and context",
+    "explanation": "Effective communication requires all six components working together: someone sending a message through a medium to a receiver, with feedback occurring within a specific context.",
+    "difficulty": 2,
+    "tags": ["communication", "components", "process"]
+  },
+  {
+    "id": "F026",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What makes communication effective?",
+    "answer": "Clarity, conciseness, coherence, and audience awareness",
+    "explanation": "Effective communication requires clear expression, brevity without sacrificing meaning, logical organization, and adaptation to the audience's needs and knowledge.",
+    "difficulty": 2,
+    "tags": ["communication", "effectiveness", "principles"]
+  },
+  {
+    "id": "F027",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What is tone in communication?",
+    "answer": "The speaker's attitude toward the subject or audience",
+    "explanation": "Tone conveys the speaker's feelings, perspective, and relationship to both the topic and the audience through word choice, syntax, and delivery.",
+    "difficulty": 2,
+    "tags": ["communication", "tone", "attitude"]
+  },
+  {
+    "id": "F028",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "What does active listening involve?",
+    "answer": "Engaging with, reflecting, and responding thoughtfully to a speaker",
+    "explanation": "Active listening requires full attention, understanding the speaker's message, providing feedback, and responding in ways that demonstrate comprehension.",
+    "difficulty": 2,
+    "tags": ["communication", "listening", "engagement"]
+  },
+  {
+    "id": "F029",
+    "subarea": "Meaning & Communication",
+    "objective": "Effective Communication",
+    "question": "Why is nonverbal communication important?",
+    "answer": "It reinforces or contradicts spoken messages, adding depth to meaning",
+    "explanation": "Nonverbal cues like body language, facial expressions, and tone of voice can support, emphasize, or even contradict verbal communication, providing additional context.",
+    "difficulty": 2,
+    "tags": ["communication", "nonverbal", "body-language"]
+  },
+  {
+    "id": "F030",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "question": "What are common elements of fiction?",
+    "answer": "Plot, character, setting, theme, and conflict",
+    "explanation": "These five essential elements work together to create a complete fictional narrative, each contributing to the story's meaning and impact.",
+    "difficulty": 2,
+    "tags": ["literature", "fiction", "elements"]
+  },
+  {
+    "id": "F031",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "question": "What is symbolism?",
+    "answer": "The use of objects or actions to represent deeper meanings",
+    "explanation": "Symbolism allows authors to convey complex ideas and themes through concrete images, adding layers of meaning to their work.",
+    "difficulty": 2,
+    "tags": ["literature", "symbolism", "devices"]
+  },
+  {
+    "id": "F032",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "question": "What is irony?",
+    "answer": "A contrast between appearance and reality, expectation and outcome",
+    "explanation": "Irony creates meaning through contradiction, whether between what's said and meant (verbal), expected and actual (situational), or known by the audience versus characters (dramatic).",
+    "difficulty": 3,
+    "tags": ["literature", "irony", "devices"]
+  },
+  {
+    "id": "F033",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "question": "What is point of view?",
+    "answer": "The perspective from which a story is told (first, second, third person)",
+    "explanation": "Point of view determines whose eyes the reader sees through, affecting what information is revealed and how the story is interpreted.",
+    "difficulty": 2,
+    "tags": ["literature", "point-of-view", "perspective"]
+  },
+  {
+    "id": "F034",
+    "subarea": "Literature & Understanding",
+    "objective": "Literary Elements and Devices",
+    "question": "What is theme?",
+    "answer": "The central idea or message underlying a literary work",
+    "explanation": "Theme represents the universal truth or insight about life that the author explores through characters, plot, and other literary elements.",
+    "difficulty": 2,
+    "tags": ["literature", "theme", "meaning"]
+  },
+  {
+    "id": "F035",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "question": "What is diction?",
+    "answer": "The author's choice of words to create tone and meaning",
+    "explanation": "Diction encompasses vocabulary selection, including formal versus informal language, concrete versus abstract words, and the level of complexity chosen to suit purpose and audience.",
+    "difficulty": 2,
+    "tags": ["writing", "diction", "word-choice"]
+  },
+  {
+    "id": "F036",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "question": "What is syntax in writing?",
+    "answer": "The arrangement of words and phrases to create effective sentences",
+    "explanation": "Syntax involves sentence structure choices that affect rhythm, emphasis, and clarity, from simple to complex constructions.",
+    "difficulty": 3,
+    "tags": ["writing", "syntax", "structure"]
+  },
+  {
+    "id": "F037",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "question": "What is voice in writing?",
+    "answer": "The unique personality and style that comes through the text",
+    "explanation": "Voice reflects the writer's individual perspective, attitude, and stylistic choices, making their work distinctive and recognizable.",
+    "difficulty": 2,
+    "tags": ["writing", "voice", "style"]
+  },
+  {
+    "id": "F038",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "question": "What's the purpose of imagery?",
+    "answer": "To appeal to the reader's senses and create vivid experiences",
+    "explanation": "Imagery uses descriptive language that engages sight, sound, touch, taste, and smell to make writing more concrete and memorable.",
+    "difficulty": 2,
+    "tags": ["writing", "imagery", "sensory"]
+  },
+  {
+    "id": "F039",
+    "subarea": "Genre & Craft",
+    "objective": "Writing Techniques",
+    "question": "What is tone in writing?",
+    "answer": "The author's attitude toward the subject or audience",
+    "explanation": "Tone is created through diction, syntax, and stylistic choices that reveal how the author feels about the topic and shapes how readers respond.",
+    "difficulty": 2,
+    "tags": ["writing", "tone", "attitude"]
   }
 ]
