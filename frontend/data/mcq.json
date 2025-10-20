@@ -208,5 +208,89 @@
     ],
     "difficulty": 2,
     "assessment": true
+  },
+  {
+    "id": "Q111",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "stem": "How many lines are in a Shakespearean sonnet?",
+    "options": [
+      "12 lines",
+      "14 lines",
+      "16 lines",
+      "18 lines"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Incorrect. 12 lines would be too short for the traditional sonnet structure.",
+      "Correct! Shakespearean sonnets always have 14 lines written in iambic pentameter.",
+      "Incorrect. 16 lines exceeds the traditional sonnet length.",
+      "Incorrect. 18 lines is too long for a sonnet."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q112",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "stem": "What's the rhyme scheme of a Shakespearean sonnet?",
+    "options": [
+      "ABBA ABBA CDC DCD",
+      "ABAB CDCD EFEF GG",
+      "AABB CCDD EEFF GG",
+      "ABCD ABCD EFGH IJ"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "This is the rhyme scheme of a Petrarchan (Italian) sonnet, not Shakespearean.",
+      "Correct! The three quatrains follow alternating rhyme (ABAB, CDCD, EFEF), ending with a rhyming couplet (GG).",
+      "This pattern uses only couplets, which doesn't match the Shakespearean structure.",
+      "This pattern has no rhyme scheme at all and isn't a traditional sonnet form."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q113",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "stem": "Where does the volta (turn in thought) typically occur in a Shakespearean sonnet?",
+    "options": [
+      "At line 5",
+      "At line 9 or in the final couplet (line 13)",
+      "At the very beginning (line 1)",
+      "At line 8"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Too early. Line 5 is in the middle of the second quatrain, not a typical turning point.",
+      "Correct! The volta usually appears at the start of the third quatrain (line 9) or in the final couplet (line 13), shifting the poem's direction or offering resolution.",
+      "The poem typically establishes its theme first before turning, so line 1 is too early.",
+      "Line 8 is more common in Petrarchan sonnets, not Shakespearean structure."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q114",
+    "subarea": "Literature & Understanding",
+    "objective": "Poetry Analysis",
+    "stem": "Which of the following is a recurring theme in Shakespeare's sonnets?",
+    "options": [
+      "Space exploration and technology",
+      "Love, time, beauty, and mortality",
+      "Political revolution",
+      "Agricultural practices"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Anachronistic. Shakespeare lived in the late 16th/early 17th century, long before space exploration.",
+      "Correct! Shakespeare's sonnets deeply explore universal themes of love, the passage of time, the nature of beauty, death, and existential questions.",
+      "While Shakespeare wrote political plays, his sonnets focus more on personal and philosophical themes.",
+      "Not a central theme in Shakespeare's sonnets, which focus on human emotion and experience."
+    ],
+    "difficulty": 2,
+    "assessment": true
   }
 ]
