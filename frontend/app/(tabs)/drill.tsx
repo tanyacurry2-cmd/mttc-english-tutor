@@ -38,6 +38,17 @@ export default function DrillScreen() {
     const isCorrect = selectedAnswer === currentQuestion.correctIndex;
     updateMCQHistory(currentQuestion.id, isCorrect);
     setShowRationale(true);
+    
+    // Track incorrect answers for Quick Fix Quiz trigger
+    if (!isCorrect) {
+      const newIncorrectCount = incorrectCount + 1;
+      setIncorrectCount(newIncorrectCount);
+      
+      // Trigger Quick Fix Quiz after 5 incorrect answers
+      if (newIncorrectCount >= 5) {
+        setShowQuickFixQuiz(true);
+      }
+    }
   };
 
   const handleNext = () => {
@@ -51,6 +62,11 @@ export default function DrillScreen() {
       setSelectedAnswer(null);
       setShowRationale(false);
     }
+  };
+
+  const handleCloseQuiz = () => {
+    setShowQuickFixQuiz(false);
+    setIncorrectCount(0);
   };
 
   if (!currentQuestion) {
