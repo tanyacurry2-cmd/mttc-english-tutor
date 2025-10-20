@@ -292,5 +292,215 @@
     ],
     "difficulty": 2,
     "assessment": true
+  },
+  {
+    "id": "Q115",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "What's the primary focus of phonemic awareness?",
+    "options": [
+      "Recognizing sentence rhythm",
+      "Recognizing individual sounds in words",
+      "Identifying prefixes and suffixes",
+      "Memorizing sight words"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Sentence rhythm relates to prosody, not phonemic awareness.",
+      "Correct! Phonemic awareness focuses on hearing, identifying, and manipulating individual sounds (phonemes) in spoken words.",
+      "Prefixes and suffixes are part of morphology, not phonemic awareness.",
+      "Sight word memorization is a separate literacy skill."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q116",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "Which skill bridges decoding and comprehension?",
+    "options": [
+      "Vocabulary development",
+      "Phoneme blending",
+      "Sight word recognition",
+      "Oral fluency"
+    ],
+    "correctIndex": 3,
+    "rationales": [
+      "While important, vocabulary is more directly related to comprehension than bridging the two.",
+      "Phoneme blending is a decoding skill, not a bridge between decoding and comprehension.",
+      "Sight words support decoding but don't bridge to comprehension.",
+      "Correct! Oral fluency combines accurate decoding with expression and understanding, linking both skills."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q117",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "What stage comes before transitional literacy?",
+    "options": [
+      "Emergent",
+      "Fluent",
+      "Early",
+      "Proficient"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Emergent is the first stage, coming before early, not transitional.",
+      "Fluent comes after transitional.",
+      "Correct! The progression is: Emergent → Early → Transitional → Fluent → Proficient.",
+      "Proficient is the final stage, after fluent."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q118",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "Why is morphology instruction beneficial?",
+    "options": [
+      "It improves handwriting",
+      "It helps infer meaning from unfamiliar words",
+      "It improves sentence rhythm",
+      "It builds phonemic awareness"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Morphology doesn't relate to handwriting (a motor skill).",
+      "Correct! Understanding roots, prefixes, and suffixes allows students to decode and infer meaning from new words.",
+      "Sentence rhythm relates to prosody, not morphology.",
+      "Phonemic awareness deals with sounds, not word parts."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q119",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "What's a key strategy for struggling readers?",
+    "options": [
+      "Reducing text exposure",
+      "Assigning silent reading only",
+      "Modeling fluent reading",
+      "Avoiding feedback"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Reducing exposure limits practice opportunities and slows progress.",
+      "Silent reading alone doesn't provide the modeling and support struggling readers need.",
+      "Correct! Modeling fluent reading demonstrates proper pacing, expression, and decoding strategies.",
+      "Feedback is essential for growth and correction of errors."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q120",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "What's metacognition in literacy?",
+    "options": [
+      "Memorizing definitions",
+      "Monitoring and adjusting one's understanding",
+      "Identifying literary genres",
+      "Copying model sentences"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Memorization is a surface-level skill, not metacognition.",
+      "Correct! Metacognition is thinking about one's own thinking—actively monitoring comprehension and adjusting strategies.",
+      "Genre identification is a separate literacy skill.",
+      "Copying is a mechanical task, not reflective thinking."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q121",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "Why is background knowledge critical for comprehension?",
+    "options": [
+      "It reduces decoding time",
+      "It links new information to existing schema",
+      "It improves phonics speed",
+      "It supports handwriting fluency"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Background knowledge relates to meaning-making, not decoding speed.",
+      "Correct! Prior knowledge connects new information to existing understanding (schema), providing context for comprehension.",
+      "Phonics speed is unrelated to background knowledge.",
+      "Handwriting is a separate motor skill."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q122",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "How does syntax shape meaning?",
+    "options": [
+      "Determines pronunciation",
+      "Influences rhythm",
+      "Organizes ideas and emphasis",
+      "Adds imagery"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Pronunciation is determined by phonology, not syntax.",
+      "While syntax can affect rhythm, its primary function is meaning organization.",
+      "Correct! Sentence structure organizes ideas, determines emphasis, and affects how information is interpreted.",
+      "Imagery comes from word choice (diction), not sentence structure."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q123",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "What's the main purpose of literacy assessment?",
+    "options": [
+      "Ranking students",
+      "Identifying learning needs and progress",
+      "Recording attendance",
+      "Rewarding effort"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Ranking can demotivate and doesn't guide instruction effectively.",
+      "Correct! Assessment diagnoses strengths and needs, guiding targeted instruction and measuring growth.",
+      "Attendance tracking is administrative, not instructional assessment.",
+      "While recognition matters, assessment's primary purpose is diagnostic and instructional."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q124",
+    "subarea": "Skills & Processes",
+    "objective": "Developmental Literacy",
+    "stem": "Which element defines fluent reading?",
+    "options": [
+      "Slow, careful decoding",
+      "Smooth, accurate, expressive reading",
+      "Memorization of every word",
+      "Reading silently only"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Slow, careful reading indicates developing fluency, not fluent reading.",
+      "Correct! Fluent reading is smooth, accurate, and expressive with appropriate pacing and prosody.",
+      "Fluency involves automatic decoding, not memorization of all words.",
+      "Fluency applies to both oral and silent reading."
+    ],
+    "difficulty": 2,
+    "assessment": true
   }
 ]
