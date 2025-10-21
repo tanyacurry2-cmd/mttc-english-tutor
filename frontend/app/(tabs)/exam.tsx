@@ -54,7 +54,7 @@ const subareaNameToId: { [key: string]: string } = {
   'Meaning & Communication': 'SA-1',
   'Literature & Understanding': 'SA-2',
   'Genre & Craft': 'SA-3',
-  'Developmental Literacy': 'SA-4',
+  'Skills & Processes': 'SA-4',
 };
 
 export default function ExamScreen() {
