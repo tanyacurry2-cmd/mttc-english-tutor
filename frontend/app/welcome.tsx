@@ -161,6 +161,11 @@ export default function WelcomeScreen() {
         ))}
 
         <View style={styles.footer}>
+          <TouchableOpacity style={styles.examButton} onPress={() => router.push('/(tabs)/exam')}>
+            <MaterialCommunityIcons name="chart-box" size={20} color="#FFFFFF" />
+            <Text style={styles.examButtonText}>View Performance by Subarea</Text>
+          </TouchableOpacity>
+          
           <TouchableOpacity style={styles.getStartedButton} onPress={handleGetStarted}>
             <Text style={styles.getStartedText}>Get Started with Full Access</Text>
             <MaterialCommunityIcons name="arrow-right" size={20} color="#FFFFFF" />
