@@ -43,8 +43,8 @@ const subareas: Subarea[] = [
   },
   {
     id: 'SA-4',
-    name: 'Developmental Literacy',
-    icon: 'book-alphabet',
+    name: 'Skills & Processes',
+    icon: 'cog',
     color: '#FF8C0080',
   },
 ];
