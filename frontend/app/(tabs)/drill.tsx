@@ -25,10 +25,19 @@ export default function DrillScreen() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showRationale, setShowRationale] = useState(false);
-  const [questions] = useState<MCQ[]>(mcqData as MCQ[]);
+  const [questions, setQuestions] = useState<MCQ[]>(mcqData as MCQ[]);
   const [incorrectCount, setIncorrectCount] = useState(0);
   const [showQuickFixQuiz, setShowQuickFixQuiz] = useState(false);
   const hasAccess = checkTrialStatus();
+  
+  // Animation refs
+  const shakeAnim = useRef(new Animated.Value(0)).current;
+  const bounceAnim = useRef(new Animated.Value(1)).current;
+
+  // Initialize audio on mount
+  useEffect(() => {
+    initializeAudio();
+  }, []);
 
   // Get 5 random questions for Quick Fix Quiz
   const getQuizQuestions = () => {
