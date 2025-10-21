@@ -156,6 +156,15 @@ export default function LearnScreen() {
     <SafeAreaView style={styles.container}>
       <TrialBanner />
       <View style={styles.content}>
+        {params.subareaName && (
+          <View style={styles.subareaHeader}>
+            <TouchableOpacity onPress={() => router.back()} style={styles.backButtonHeader}>
+              <MaterialCommunityIcons name="arrow-left" size={24} color={theme.colors.accent} />
+            </TouchableOpacity>
+            <Text style={styles.subareaTitle}>{params.subareaName}</Text>
+          </View>
+        )}
+        
         <View style={styles.header}>
           <View style={styles.progressBar}>
             <View
