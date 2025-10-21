@@ -47,6 +47,15 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="assessment"
+        options={{
+          title: 'Assessment',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="file-document-edit" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="progress"
         options={{
           title: 'Progress',
