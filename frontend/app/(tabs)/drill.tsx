@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   Animated,
 } from 'react-native';
-import { useRouter } from 'expo-router';
+import { useRouter, useLocalSearchParams } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useAppStore } from '../../lib/store';
 import { TrialBanner } from '../../components/TrialBanner';
@@ -19,13 +19,22 @@ import mcqData from '../../data/mcq.json';
 import { MCQ } from '../../types/content';
 import { playSuccessSound, playErrorSound, initializeAudio } from '../../lib/soundUtils';
 
+// Map subarea names to IDs
+const subareaNameToId: { [key: string]: string } = {
+  'Meaning & Communication': 'SA-1',
+  'Literature & Understanding': 'SA-2',
+  'Genre & Craft': 'SA-3',
+  'Developmental Literacy': 'SA-4',
+};
+
 export default function DrillScreen() {
   const router = useRouter();
+  const params = useLocalSearchParams();
   const { mcqHistory, updateMCQHistory, checkTrialStatus } = useAppStore();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showRationale, setShowRationale] = useState(false);
-  const [questions, setQuestions] = useState<MCQ[]>(mcqData as MCQ[]);
+  const [questions, setQuestions] = useState<MCQ[]>([]);
   const [incorrectCount, setIncorrectCount] = useState(0);
   const [showQuickFixQuiz, setShowQuickFixQuiz] = useState(false);
   const hasAccess = checkTrialStatus();
@@ -38,6 +47,24 @@ export default function DrillScreen() {
   useEffect(() => {
     initializeAudio();
   }, []);
+
+  // Filter and initialize questions based on subarea params
+  useEffect(() => {
+    let filteredQuestions = mcqData as MCQ[];
+    
+    // Filter by subarea if param is provided
+    if (params.subareaId) {
+      filteredQuestions = filteredQuestions.filter((q: any) => {
+        const qSubareaId = subareaNameToId[q.subarea] || '';
+        return qSubareaId === params.subareaId;
+      });
+    }
+    
+    setQuestions(filteredQuestions);
+    setCurrentQuestionIndex(0);
+    setSelectedAnswer(null);
+    setShowRationale(false);
+  }, [params.subareaId]);
 
   // Shuffle questions
   const handleShuffle = () => {
