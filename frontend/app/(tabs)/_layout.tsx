@@ -47,6 +47,15 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="exam"
+        options={{
+          title: 'Exam',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="school" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="assessment"
         options={{
           title: 'Assessment',
