@@ -106,13 +106,19 @@ export default function LearnScreen() {
     <SafeAreaView style={styles.container}>
       <TrialBanner />
       <View style={styles.content}>
-        <View style={styles.progressBar}>
-          <View
-            style={[
-              styles.progressFill,
-              { width: `${((currentCardIndex + 1) / displayLimit) * 100}%` },
-            ]}
-          />
+        <View style={styles.header}>
+          <View style={styles.progressBar}>
+            <View
+              style={[
+                styles.progressFill,
+                { width: `${((currentCardIndex + 1) / displayLimit) * 100}%` },
+              ]}
+            />
+          </View>
+          <TouchableOpacity onPress={handleShuffle} style={styles.shuffleButton}>
+            <MaterialCommunityIcons name="shuffle-variant" size={24} color={theme.colors.accent} />
+            <Text style={styles.shuffleText}>Shuffle</Text>
+          </TouchableOpacity>
         </View>
 
         <Text style={styles.counter}>
