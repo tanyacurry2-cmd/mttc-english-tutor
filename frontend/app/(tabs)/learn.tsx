@@ -74,7 +74,8 @@ export default function LearnScreen() {
 
     const queue = sortCardsByPriority(cardsWithSRS);
     setReviewQueue(queue);
-  }, [cardReviews]);
+    setCurrentCardIndex(0); // Reset index when queue changes
+  }, [cards, cardReviews]);
 
   const currentCard = cards.find(c => c.id === reviewQueue[currentCardIndex]);
 
