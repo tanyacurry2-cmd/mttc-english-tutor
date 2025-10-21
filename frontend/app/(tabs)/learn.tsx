@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useAppStore } from '../../lib/store';
+import { useRouter, useLocalSearchParams } from 'expo-router';
 import { TrialBanner } from '../../components/TrialBanner';
 import { theme } from '../../lib/theme';
 import flashcardsData from '../../data/flashcards.json';
@@ -17,15 +18,43 @@ import { Card } from '../../types/content';
 import { calculateNextReview, ReviewQuality, isDueForReview, sortCardsByPriority, DEFAULT_SRS_CARD } from '../../lib/srs';
 import { Button } from '../../components/Button';
 
+// Map subarea names to IDs
+const subareaNameToId: { [key: string]: string } = {
+  'Meaning & Communication': 'SA-1',
+  'Literature & Understanding': 'SA-2',
+  'Genre & Craft': 'SA-3',
+  'Developmental Literacy': 'SA-4',
+};
+
 export default function LearnScreen() {
+  const router = useRouter();
+  const params = useLocalSearchParams();
   const { cardReviews, updateCardReview, checkTrialStatus, lastQuestionID, lastMode, setLastStudied } = useAppStore();
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [cards, setCards] = useState<Card[]>(flashcardsData as Card[]);
+  const [cards, setCards] = useState<Card[]>([]);
   const [reviewQueue, setReviewQueue] = useState<string[]>([]);
   const [showResumePrompt, setShowResumePrompt] = useState(false);
   const flipAnim = useState(new Animated.Value(0))[0];
   const hasAccess = checkTrialStatus();
+
+  // Filter cards based on subarea params
+  useEffect(() => {
+    let filteredCards = flashcardsData as Card[];
+    
+    // Filter by subarea if param is provided
+    if (params.subareaId) {
+      filteredCards = filteredCards.filter((card: any) => {
+        const cardSubareaId = subareaNameToId[card.subarea] || '';
+        return cardSubareaId === params.subareaId;
+      });
+    }
+    
+    setCards(filteredCards);
+    setCurrentCardIndex(0);
+    setIsFlipped(false);
+    flipAnim.setValue(0);
+  }, [params.subareaId]);
 
   // Shuffle cards
   const handleShuffle = () => {
