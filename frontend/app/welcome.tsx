@@ -280,6 +280,23 @@ const styles = StyleSheet.create({
     marginBottom: theme.spacing.xl,
     alignItems: 'center',
   },
+  examButton: {
+    backgroundColor: '#7B68EE',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 14,
+    paddingHorizontal: 24,
+    borderRadius: theme.borderRadius.lg,
+    marginBottom: theme.spacing.lg,
+    width: '90%',
+  },
+  examButtonText: {
+    fontSize: theme.fontSize.md,
+    fontWeight: theme.fontWeight.semibold,
+    color: '#FFFFFF',
+    marginLeft: theme.spacing.sm,
+  },
   getStartedButton: {
     backgroundColor: theme.colors.accent,
     flexDirection: 'row',
