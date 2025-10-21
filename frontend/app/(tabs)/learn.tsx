@@ -427,4 +427,7 @@ const styles = StyleSheet.create({
     marginTop: theme.spacing.sm,
     textAlign: 'center',
   },
+  backButton: {
+    marginTop: theme.spacing.lg,
+  },
 });
