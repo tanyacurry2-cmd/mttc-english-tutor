@@ -285,8 +285,8 @@ const styles = StyleSheet.create({
     marginLeft: theme.spacing.xs,
   },
   buttonContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: 'column',
+    gap: theme.spacing.sm,
   },
   actionButton: {
     flex: 1,
