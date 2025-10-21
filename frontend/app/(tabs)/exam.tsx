@@ -289,7 +289,6 @@ const styles = StyleSheet.create({
     gap: theme.spacing.sm,
   },
   actionButton: {
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
@@ -297,7 +296,6 @@ const styles = StyleSheet.create({
     paddingVertical: theme.spacing.sm,
     paddingHorizontal: theme.spacing.xs,
     borderRadius: theme.borderRadius.md,
-    marginHorizontal: theme.spacing.xs,
   },
   drillButton: {
     backgroundColor: theme.colors.success,
