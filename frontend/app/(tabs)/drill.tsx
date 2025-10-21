@@ -205,6 +205,15 @@ export default function DrillScreen() {
       <TrialBanner />
       <ScrollView style={styles.scrollView}>
         <View style={styles.content}>
+          {params.subareaName && (
+            <View style={styles.subareaHeader}>
+              <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
+                <MaterialCommunityIcons name="arrow-left" size={24} color={theme.colors.accent} />
+              </TouchableOpacity>
+              <Text style={styles.subareaTitle}>{params.subareaName}</Text>
+            </View>
+          )}
+          
           <View style={styles.header}>
             <View style={styles.progressBar}>
               <View
