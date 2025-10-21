@@ -78,6 +78,27 @@ export default function LearnScreen() {
 
   const currentCard = cards.find(c => c.id === reviewQueue[currentCardIndex]);
 
+  if (cards.length === 0) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <TrialBanner />
+        <View style={styles.emptyState}>
+          <MaterialCommunityIcons name="cards" size={64} color={theme.colors.textSecondary} />
+          <Text style={styles.emptyTitle}>No flashcards found</Text>
+          <Text style={styles.emptyText}>
+            {params.subareaName 
+              ? `No flashcards available for ${params.subareaName}`
+              : 'No flashcards available'}
+          </Text>
+          <Button
+            title="Go Back"
+            onPress={() => router.back()}
+            style={styles.backButton}
+          />
+        </View>
+      </SafeAreaView>
+    );
+  }
   const flipCard = () => {
     Animated.timing(flipAnim, {
       toValue: isFlipped ? 0 : 180,
