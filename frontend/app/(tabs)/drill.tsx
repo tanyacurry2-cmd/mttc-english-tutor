@@ -112,6 +112,28 @@ export default function DrillScreen() {
   const displayLimit = questions.length; // Show all questions for demo/testing
   const currentQuestion = questions[currentQuestionIndex];
 
+  if (questions.length === 0) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <TrialBanner />
+        <View style={styles.emptyState}>
+          <MaterialCommunityIcons name="clipboard-alert" size={64} color={theme.colors.textSecondary} />
+          <Text style={styles.emptyTitle}>No questions found</Text>
+          <Text style={styles.emptyText}>
+            {params.subareaName 
+              ? `No drill questions available for ${params.subareaName}`
+              : 'No drill questions available'}
+          </Text>
+          <Button
+            title="Go Back"
+            onPress={() => router.back()}
+            style={styles.backButton}
+          />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
   const handleSelectAnswer = (index: number) => {
     if (showRationale) return;
     setSelectedAnswer(index);
