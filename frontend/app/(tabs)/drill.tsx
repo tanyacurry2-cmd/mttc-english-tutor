@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -6,6 +6,7 @@ import {
   SafeAreaView,
   ScrollView,
   TouchableOpacity,
+  Animated,
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -16,6 +17,7 @@ import { QuickFixQuiz } from '../../components/QuickFixQuiz';
 import { theme } from '../../lib/theme';
 import mcqData from '../../data/mcq.json';
 import { MCQ } from '../../types/content';
+import { playSuccessSound, playErrorSound, initializeAudio } from '../../lib/soundUtils';
 
 export default function DrillScreen() {
   const router = useRouter();
