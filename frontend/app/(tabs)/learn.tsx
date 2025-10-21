@@ -21,11 +21,20 @@ export default function LearnScreen() {
   const { cardReviews, updateCardReview, checkTrialStatus, lastQuestionID, lastMode, setLastStudied } = useAppStore();
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [cards] = useState<Card[]>(flashcardsData as Card[]);
+  const [cards, setCards] = useState<Card[]>(flashcardsData as Card[]);
   const [reviewQueue, setReviewQueue] = useState<string[]>([]);
   const [showResumePrompt, setShowResumePrompt] = useState(false);
   const flipAnim = useState(new Animated.Value(0))[0];
   const hasAccess = checkTrialStatus();
+
+  // Shuffle cards
+  const handleShuffle = () => {
+    const shuffled = [...cards].sort(() => Math.random() - 0.5);
+    setCards(shuffled);
+    setCurrentCardIndex(0);
+    setIsFlipped(false);
+    flipAnim.setValue(0);
+  };
 
   useEffect(() => {
     // Build review queue based on SRS
