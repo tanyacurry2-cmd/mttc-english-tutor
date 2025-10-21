@@ -262,6 +262,7 @@ export default function DrillScreen() {
               </View>
             )}
           </View>
+          </Animated.View>
 
           {!showRationale ? (
             <Button
