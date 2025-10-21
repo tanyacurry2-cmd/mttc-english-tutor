@@ -203,6 +203,26 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: theme.spacing.lg,
   },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: theme.spacing.md,
+  },
+  shuffleButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: theme.spacing.sm,
+    backgroundColor: theme.colors.surface,
+    borderRadius: theme.borderRadius.md,
+    marginLeft: theme.spacing.md,
+  },
+  shuffleText: {
+    marginLeft: theme.spacing.xs,
+    fontSize: theme.fontSize.sm,
+    color: theme.colors.accent,
+    fontWeight: theme.fontWeight.semibold,
+  },
   progressBar: {
     height: 4,
     backgroundColor: theme.colors.border,
