@@ -156,20 +156,34 @@ export default function DrillScreen() {
       <TrialBanner />
       <ScrollView style={styles.scrollView}>
         <View style={styles.content}>
-          <View style={styles.progressBar}>
-            <View
-              style={[
-                styles.progressFill,
-                { width: `${((currentQuestionIndex + 1) / displayLimit) * 100}%` },
-              ]}
-            />
+          <View style={styles.header}>
+            <View style={styles.progressBar}>
+              <View
+                style={[
+                  styles.progressFill,
+                  { width: `${((currentQuestionIndex + 1) / displayLimit) * 100}%` },
+                ]}
+              />
+            </View>
+            <TouchableOpacity onPress={handleShuffle} style={styles.shuffleButton}>
+              <MaterialCommunityIcons name="shuffle-variant" size={24} color={theme.colors.accent} />
+              <Text style={styles.shuffleText}>Shuffle</Text>
+            </TouchableOpacity>
           </View>
 
           <Text style={styles.counter}>
             Question {currentQuestionIndex + 1} / {displayLimit}
           </Text>
 
-          <View style={styles.questionCard}>
+          <Animated.View
+            style={{
+              transform: [
+                { scale: bounceAnim },
+                { translateX: shakeAnim },
+              ],
+            }}
+          >
+            <View style={styles.questionCard}>
             <View style={styles.cardHeader}>
               <View>
                 <Text style={styles.subarea}>{currentQuestion.subarea}</Text>
