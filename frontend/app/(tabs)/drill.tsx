@@ -581,4 +581,14 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     marginTop: theme.spacing.lg,
   },
+  emptyText: {
+    fontSize: theme.fontSize.md,
+    color: theme.colors.textSecondary,
+    textAlign: 'center',
+    marginTop: theme.spacing.md,
+    lineHeight: 22,
+  },
+  backButton: {
+    marginTop: theme.spacing.xl,
+  },
 });
