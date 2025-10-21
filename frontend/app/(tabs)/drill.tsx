@@ -39,10 +39,47 @@ export default function DrillScreen() {
     initializeAudio();
   }, []);
 
+  // Shuffle questions
+  const handleShuffle = () => {
+    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+    setQuestions(shuffled);
+    setCurrentQuestionIndex(0);
+    setSelectedAnswer(null);
+    setShowRationale(false);
+  };
+
   // Get 5 random questions for Quick Fix Quiz
   const getQuizQuestions = () => {
     const shuffled = [...questions].sort(() => Math.random() - 0.5);
     return shuffled.slice(0, 5);
+  };
+
+  // Bounce animation
+  const playBounceAnimation = () => {
+    bounceAnim.setValue(1);
+    Animated.sequence([
+      Animated.timing(bounceAnim, {
+        toValue: 1.1,
+        duration: 150,
+        useNativeDriver: true,
+      }),
+      Animated.timing(bounceAnim, {
+        toValue: 1,
+        duration: 150,
+        useNativeDriver: true,
+      }),
+    ]).start();
+  };
+
+  // Shake animation
+  const playShakeAnimation = () => {
+    shakeAnim.setValue(0);
+    Animated.sequence([
+      Animated.timing(shakeAnim, { toValue: 10, duration: 50, useNativeDriver: true }),
+      Animated.timing(shakeAnim, { toValue: -10, duration: 50, useNativeDriver: true }),
+      Animated.timing(shakeAnim, { toValue: 10, duration: 50, useNativeDriver: true }),
+      Animated.timing(shakeAnim, { toValue: 0, duration: 50, useNativeDriver: true }),
+    ]).start();
   };
 
   const displayLimit = questions.length; // Show all questions for demo/testing
@@ -58,6 +95,15 @@ export default function DrillScreen() {
     const isCorrect = selectedAnswer === currentQuestion.correctIndex;
     updateMCQHistory(currentQuestion.id, isCorrect);
     setShowRationale(true);
+    
+    // Play sound and animation
+    if (isCorrect) {
+      playSuccessSound();
+      playBounceAnimation();
+    } else {
+      playErrorSound();
+      playShakeAnimation();
+    }
     
     // Track incorrect answers for Quick Fix Quiz trigger
     if (!isCorrect) {
