@@ -402,10 +402,12 @@ const styles = StyleSheet.create({
     marginBottom: theme.spacing.lg,
   },
   explanationBox: {
-    maxHeight: 150,
+    flex: 1,
+    maxHeight: 120,
     backgroundColor: theme.colors.background,
     borderRadius: theme.borderRadius.md,
     padding: theme.spacing.md,
+    marginBottom: theme.spacing.sm,
   },
   explanationText: {
     fontSize: theme.fontSize.sm,
