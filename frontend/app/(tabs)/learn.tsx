@@ -403,12 +403,12 @@ const styles = StyleSheet.create({
     marginBottom: theme.spacing.lg,
   },
   explanationBox: {
-    flex: 1,
-    maxHeight: 120,
+    maxHeight: 100,
     backgroundColor: theme.colors.background,
     borderRadius: theme.borderRadius.md,
     padding: theme.spacing.md,
-    marginBottom: theme.spacing.sm,
+    marginBottom: theme.spacing.lg,
+    marginTop: theme.spacing.sm,
   },
   explanationText: {
     fontSize: theme.fontSize.sm,
