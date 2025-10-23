@@ -351,10 +351,18 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  counterContainer: {
+    flexDirection: 'column',
+  },
   counter: {
     fontSize: theme.fontSize.xl,
     fontWeight: theme.fontWeight.bold,
     color: theme.colors.text,
+  },
+  viewedText: {
+    fontSize: theme.fontSize.xs,
+    color: theme.colors.textSecondary,
+    marginTop: 2,
   },
   limitMessage: {
     backgroundColor: theme.colors.accent,
