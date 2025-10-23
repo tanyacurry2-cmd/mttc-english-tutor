@@ -34,8 +34,6 @@ export default function DrillScreen() {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showRationale, setShowRationale] = useState(false);
   const [questions, setQuestions] = useState<MCQ[]>([]);
-  const [incorrectCount, setIncorrectCount] = useState(0);
-  const [showQuickFixQuiz, setShowQuickFixQuiz] = useState(false);
   const hasAccess = checkTrialStatus();
   
   // Animation refs
