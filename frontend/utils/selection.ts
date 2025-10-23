@@ -17,6 +17,8 @@ export type Question = {
   question: string;
   options: string[];
   answer: string;
+  rationales?: string[];
+  correctIndex?: number;
 };
 
 export const balancedPickBySubarea = (items: Question[], counts: Record<string, number>) => {
