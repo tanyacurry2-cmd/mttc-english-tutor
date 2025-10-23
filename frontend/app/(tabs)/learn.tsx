@@ -197,29 +197,10 @@ export default function LearnScreen() {
         )}
         
         <View style={styles.header}>
-          <View style={styles.progressBar}>
-            <View
-              style={[
-                styles.progressFill,
-                { width: `${((currentCardIndex + 1) / displayLimit) * 100}%` },
-              ]}
-            />
-          </View>
-          
-          <View style={styles.controlsRow}>
-            <View style={styles.counterContainer}>
-              <Text style={styles.counter}>
-                {currentCardIndex + 1} / {displayLimit}
-              </Text>
-              <Text style={styles.viewedText}>
-                Viewed: {Math.min(viewedCards.size, displayLimit)}
-              </Text>
-            </View>
-            <TouchableOpacity onPress={handleShuffle} style={styles.shuffleButton}>
-              <MaterialCommunityIcons name="shuffle-variant" size={24} color={theme.colors.accent} />
-              <Text style={styles.shuffleText}>Shuffle</Text>
-            </TouchableOpacity>
-          </View>
+          <TouchableOpacity onPress={handleShuffle} style={styles.shuffleButton}>
+            <MaterialCommunityIcons name="shuffle-variant" size={24} color={theme.colors.accent} />
+            <Text style={styles.shuffleText}>Shuffle</Text>
+          </TouchableOpacity>
         </View>
 
         <TouchableOpacity
