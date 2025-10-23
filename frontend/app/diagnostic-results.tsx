@@ -6,12 +6,14 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 export default function DiagnosticResults() {
   const params = useLocalSearchParams();
-  const score01 = parseFloat(params.score01 as string);
-  const total = parseInt(params.total as string);
-  const wrongIds = JSON.parse(params.wrongIds as string) as string[];
-  const readiness = parseInt(params.readiness as string);
-  const wrongQuestions = JSON.parse(params.wrongQuestions as string) as Question[];
-  const userAnswers = JSON.parse(params.userAnswers as string) as Record<string, string>;
+  
+  // Parse params with fallback values
+  const score01 = params.score01 ? parseFloat(params.score01 as string) : 0;
+  const total = params.total ? parseInt(params.total as string) : 0;
+  const wrongIds = params.wrongIds ? JSON.parse(params.wrongIds as string) as string[] : [];
+  const readiness = params.readiness ? parseInt(params.readiness as string) : 0;
+  const wrongQuestions = params.wrongQuestions ? JSON.parse(params.wrongQuestions as string) as Question[] : [];
+  const userAnswers = params.userAnswers ? JSON.parse(params.userAnswers as string) as Record<string, string> : {};
   const scorePct = Math.round(score01 * 100);
 
   const getScoreColor = () => {
