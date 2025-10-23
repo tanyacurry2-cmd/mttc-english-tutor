@@ -144,17 +144,6 @@ export default function DrillScreen() {
       playErrorSound();
       playShakeAnimation();
     }
-    
-    // Track incorrect answers for Quick Fix Quiz trigger
-    if (!isCorrect) {
-      const newIncorrectCount = incorrectCount + 1;
-      setIncorrectCount(newIncorrectCount);
-      
-      // Trigger Quick Fix Quiz after 5 incorrect answers
-      if (newIncorrectCount >= 5) {
-        setShowQuickFixQuiz(true);
-      }
-    }
   };
 
   const handleNext = () => {
