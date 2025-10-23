@@ -181,7 +181,7 @@ export default function LearnScreen() {
     );
   }
 
-  const displayLimit = reviewQueue.length; // Show all cards for demo/testing
+  const displayLimit = cards.length; // Total cards available
 
   return (
     <SafeAreaView style={styles.container}>
