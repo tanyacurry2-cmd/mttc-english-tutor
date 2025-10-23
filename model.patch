@@ -1,119 +1,127 @@
-diff --git a/frontend/app/(tabs)/exam.tsx b/frontend/app/(tabs)/exam.tsx
-index 11b19d7..39fac42 100644
---- a/frontend/app/(tabs)/exam.tsx
-+++ b/frontend/app/(tabs)/exam.tsx
-@@ -293,8 +293,8 @@ const styles = StyleSheet.create({
-     alignItems: 'center',
-     justifyContent: 'center',
-     backgroundColor: theme.colors.accent,
--    paddingVertical: theme.spacing.sm,
--    paddingHorizontal: theme.spacing.xs,
-+    paddingVertical: theme.spacing.md,
-+    paddingHorizontal: theme.spacing.md,
-     borderRadius: theme.borderRadius.md,
+diff --git a/frontend/app/(tabs)/learn.tsx b/frontend/app/(tabs)/learn.tsx
+index 9e8d43e..d196c28 100644
+--- a/frontend/app/(tabs)/learn.tsx
++++ b/frontend/app/(tabs)/learn.tsx
+@@ -284,10 +284,7 @@ const styles = StyleSheet.create({
+     flex: 1,
    },
-   drillButton: {
+   header: {
+-    flexDirection: 'row',
+-    justifyContent: 'space-between',
+-    alignItems: 'center',
+-    marginBottom: theme.spacing.md,
++    marginBottom: theme.spacing.lg,
+   },
+   shuffleButton: {
+     flexDirection: 'row',
+@@ -304,22 +301,25 @@ const styles = StyleSheet.create({
+     fontWeight: theme.fontWeight.semibold,
+   },
+   progressBar: {
+-    height: 4,
++    height: 6,
+     backgroundColor: theme.colors.border,
+-    borderRadius: 2,
++    borderRadius: 3,
+     overflow: 'hidden',
++    marginBottom: theme.spacing.md,
+   },
+   progressFill: {
+     height: '100%',
+     backgroundColor: theme.colors.accent,
+   },
++  controlsRow: {
++    flexDirection: 'row',
++    justifyContent: 'space-between',
++    alignItems: 'center',
++  },
+   counter: {
+-    fontSize: theme.fontSize.lg,
+-    fontWeight: theme.fontWeight.semibold,
++    fontSize: theme.fontSize.xl,
++    fontWeight: theme.fontWeight.bold,
+     color: theme.colors.text,
+-    textAlign: 'center',
+-    marginTop: theme.spacing.sm,
+-    marginBottom: theme.spacing.md,
+   },
+   limitMessage: {
+     backgroundColor: theme.colors.accent,
 diff --git a/model.patch b/model.patch
-index 3f9f27b..e69de29 100644
+index bb6e143..e69de29 100644
 --- a/model.patch
 +++ b/model.patch
-@@ -1,126 +0,0 @@
+@@ -1,146 +0,0 @@
 -diff --git a/frontend/app/(tabs)/exam.tsx b/frontend/app/(tabs)/exam.tsx
--index d6ed913..11b19d7 100644
+-index 11b19d7..39fac42 100644
 ---- a/frontend/app/(tabs)/exam.tsx
 -+++ b/frontend/app/(tabs)/exam.tsx
--@@ -285,11 +285,10 @@ const styles = StyleSheet.create({
--     marginLeft: theme.spacing.xs,
--   },
--   buttonContainer: {
---    flexDirection: 'row',
---    justifyContent: 'space-between',
--+    flexDirection: 'column',
--+    gap: theme.spacing.sm,
--   },
--   actionButton: {
---    flex: 1,
--     flexDirection: 'row',
+-@@ -293,8 +293,8 @@ const styles = StyleSheet.create({
 -     alignItems: 'center',
 -     justifyContent: 'center',
--@@ -297,7 +296,6 @@ const styles = StyleSheet.create({
--     paddingVertical: theme.spacing.sm,
--     paddingHorizontal: theme.spacing.xs,
+-     backgroundColor: theme.colors.accent,
+--    paddingVertical: theme.spacing.sm,
+--    paddingHorizontal: theme.spacing.xs,
+-+    paddingVertical: theme.spacing.md,
+-+    paddingHorizontal: theme.spacing.md,
 -     borderRadius: theme.borderRadius.md,
---    marginHorizontal: theme.spacing.xs,
 -   },
 -   drillButton: {
--     backgroundColor: theme.colors.success,
 -diff --git a/model.patch b/model.patch
--index 9a9299a..e69de29 100644
+-index 3f9f27b..e69de29 100644
 ---- a/model.patch
 -+++ b/model.patch
--@@ -1,95 +0,0 @@
---diff --git a/frontend/app/(tabs)/learn.tsx b/frontend/app/(tabs)/learn.tsx
---index 85b72da..3f7f4ab 100644
------ a/frontend/app/(tabs)/learn.tsx
---+++ b/frontend/app/(tabs)/learn.tsx
---@@ -78,6 +78,27 @@ export default function LearnScreen() {
--- 
---   const currentCard = cards.find(c => c.id === reviewQueue[currentCardIndex]);
--- 
---+  if (cards.length === 0) {
---+    return (
---+      <SafeAreaView style={styles.container}>
---+        <TrialBanner />
---+        <View style={styles.emptyState}>
---+          <MaterialCommunityIcons name="cards" size={64} color={theme.colors.textSecondary} />
---+          <Text style={styles.emptyTitle}>No flashcards found</Text>
---+          <Text style={styles.emptyText}>
---+            {params.subareaName 
---+              ? `No flashcards available for ${params.subareaName}`
---+              : 'No flashcards available'}
---+          </Text>
---+          <Button
---+            title="Go Back"
---+            onPress={() => router.back()}
---+            style={styles.backButton}
---+          />
---+        </View>
---+      </SafeAreaView>
---+    );
---+  }
---   const flipCard = () => {
---     Animated.timing(flipAnim, {
---       toValue: isFlipped ? 0 : 180,
---@@ -406,4 +427,7 @@ const styles = StyleSheet.create({
---     marginTop: theme.spacing.sm,
---     textAlign: 'center',
+-@@ -1,126 +0,0 @@
+--diff --git a/frontend/app/(tabs)/exam.tsx b/frontend/app/(tabs)/exam.tsx
+--index d6ed913..11b19d7 100644
+----- a/frontend/app/(tabs)/exam.tsx
+--+++ b/frontend/app/(tabs)/exam.tsx
+--@@ -285,11 +285,10 @@ const styles = StyleSheet.create({
+--     marginLeft: theme.spacing.xs,
 --   },
---+  backButton: {
---+    marginTop: theme.spacing.lg,
---+  },
--- });
---\ No newline at end of file
+--   buttonContainer: {
+---    flexDirection: 'row',
+---    justifyContent: 'space-between',
+--+    flexDirection: 'column',
+--+    gap: theme.spacing.sm,
+--   },
+--   actionButton: {
+---    flex: 1,
+--     flexDirection: 'row',
+--     alignItems: 'center',
+--     justifyContent: 'center',
+--@@ -297,7 +296,6 @@ const styles = StyleSheet.create({
+--     paddingVertical: theme.spacing.sm,
+--     paddingHorizontal: theme.spacing.xs,
+--     borderRadius: theme.borderRadius.md,
+---    marginHorizontal: theme.spacing.xs,
+--   },
+--   drillButton: {
+--     backgroundColor: theme.colors.success,
 --diff --git a/model.patch b/model.patch
---index 53281cb..e69de29 100644
+--index 9a9299a..e69de29 100644
 ----- a/model.patch
 --+++ b/model.patch
---@@ -1,49 +0,0 @@
----diff --git a/frontend/app/(tabs)/drill.tsx b/frontend/app/(tabs)/drill.tsx
----index 3c387a0..0375b57 100644
------- a/frontend/app/(tabs)/drill.tsx
----+++ b/frontend/app/(tabs)/drill.tsx
----@@ -112,6 +112,28 @@ export default function DrillScreen() {
----   const displayLimit = questions.length; // Show all questions for demo/testing
----   const currentQuestion = questions[currentQuestionIndex];
+--@@ -1,95 +0,0 @@
+---diff --git a/frontend/app/(tabs)/learn.tsx b/frontend/app/(tabs)/learn.tsx
+---index 85b72da..3f7f4ab 100644
+------ a/frontend/app/(tabs)/learn.tsx
+---+++ b/frontend/app/(tabs)/learn.tsx
+---@@ -78,6 +78,27 @@ export default function LearnScreen() {
 --- 
----+  if (questions.length === 0) {
+---   const currentCard = cards.find(c => c.id === reviewQueue[currentCardIndex]);
+--- 
+---+  if (cards.length === 0) {
 ---+    return (
 ---+      <SafeAreaView style={styles.container}>
 ---+        <TrialBanner />
 ---+        <View style={styles.emptyState}>
----+          <MaterialCommunityIcons name="clipboard-alert" size={64} color={theme.colors.textSecondary} />
----+          <Text style={styles.emptyTitle}>No questions found</Text>
+---+          <MaterialCommunityIcons name="cards" size={64} color={theme.colors.textSecondary} />
+---+          <Text style={styles.emptyTitle}>No flashcards found</Text>
 ---+          <Text style={styles.emptyText}>
 ---+            {params.subareaName 
----+              ? `No drill questions available for ${params.subareaName}`
----+              : 'No drill questions available'}
+---+              ? `No flashcards available for ${params.subareaName}`
+---+              : 'No flashcards available'}
 ---+          </Text>
 ---+          <Button
 ---+            title="Go Back"
@@ -124,23 +132,69 @@ index 3f9f27b..e69de29 100644
 ---+      </SafeAreaView>
 ---+    );
 ---+  }
----+
----   const handleSelectAnswer = (index: number) => {
----     if (showRationale) return;
----     setSelectedAnswer(index);
----@@ -559,4 +581,14 @@ const styles = StyleSheet.create({
----     color: theme.colors.text,
----     marginTop: theme.spacing.lg,
+---   const flipCard = () => {
+---     Animated.timing(flipAnim, {
+---       toValue: isFlipped ? 0 : 180,
+---@@ -406,4 +427,7 @@ const styles = StyleSheet.create({
+---     marginTop: theme.spacing.sm,
+---     textAlign: 'center',
 ---   },
----+  emptyText: {
----+    fontSize: theme.fontSize.md,
----+    color: theme.colors.textSecondary,
----+    textAlign: 'center',
----+    marginTop: theme.spacing.md,
----+    lineHeight: 22,
----+  },
 ---+  backButton: {
----+    marginTop: theme.spacing.xl,
+---+    marginTop: theme.spacing.lg,
 ---+  },
 --- });
 ---\ No newline at end of file
+---diff --git a/model.patch b/model.patch
+---index 53281cb..e69de29 100644
+------ a/model.patch
+---+++ b/model.patch
+---@@ -1,49 +0,0 @@
+----diff --git a/frontend/app/(tabs)/drill.tsx b/frontend/app/(tabs)/drill.tsx
+----index 3c387a0..0375b57 100644
+------- a/frontend/app/(tabs)/drill.tsx
+----+++ b/frontend/app/(tabs)/drill.tsx
+----@@ -112,6 +112,28 @@ export default function DrillScreen() {
+----   const displayLimit = questions.length; // Show all questions for demo/testing
+----   const currentQuestion = questions[currentQuestionIndex];
+---- 
+----+  if (questions.length === 0) {
+----+    return (
+----+      <SafeAreaView style={styles.container}>
+----+        <TrialBanner />
+----+        <View style={styles.emptyState}>
+----+          <MaterialCommunityIcons name="clipboard-alert" size={64} color={theme.colors.textSecondary} />
+----+          <Text style={styles.emptyTitle}>No questions found</Text>
+----+          <Text style={styles.emptyText}>
+----+            {params.subareaName 
+----+              ? `No drill questions available for ${params.subareaName}`
+----+              : 'No drill questions available'}
+----+          </Text>
+----+          <Button
+----+            title="Go Back"
+----+            onPress={() => router.back()}
+----+            style={styles.backButton}
+----+          />
+----+        </View>
+----+      </SafeAreaView>
+----+    );
+----+  }
+----+
+----   const handleSelectAnswer = (index: number) => {
+----     if (showRationale) return;
+----     setSelectedAnswer(index);
+----@@ -559,4 +581,14 @@ const styles = StyleSheet.create({
+----     color: theme.colors.text,
+----     marginTop: theme.spacing.lg,
+----   },
+----+  emptyText: {
+----+    fontSize: theme.fontSize.md,
+----+    color: theme.colors.textSecondary,
+----+    textAlign: 'center',
+----+    marginTop: theme.spacing.md,
+----+    lineHeight: 22,
+----+  },
+----+  backButton: {
+----+    marginTop: theme.spacing.xl,
+----+  },
+---- });
+----\ No newline at end of file
