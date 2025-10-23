@@ -159,11 +159,6 @@ export default function DrillScreen() {
     }
   };
 
-  const handleCloseQuiz = () => {
-    setShowQuickFixQuiz(false);
-    setIncorrectCount(0);
-  };
-
   if (!currentQuestion) {
     return (
       <SafeAreaView style={styles.container}>
