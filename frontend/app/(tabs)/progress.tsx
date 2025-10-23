@@ -175,6 +175,27 @@ export default function ProgressScreen() {
             );
           })}
 
+          {diagnosticHistory.length > 0 && (
+            <>
+              <Text style={styles.sectionTitle}>Recent Diagnostics</Text>
+              {diagnosticHistory.map((session) => (
+                <View key={session.id} style={styles.diagnosticCard}>
+                  <View style={styles.diagnosticHeader}>
+                    <Text style={styles.diagnosticDate}>
+                      {new Date(session.date).toLocaleDateString()} {new Date(session.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                    </Text>
+                    <Text style={[styles.diagnosticScore, { color: getReadinessColor(Math.round(session.score01 * 100)) }]}>
+                      {Math.round(session.score01 * 100)}%
+                    </Text>
+                  </View>
+                  <Text style={styles.diagnosticDetails}>
+                    {Math.round(session.score01 * session.total)}/{session.total} correct
+                  </Text>
+                </View>
+              ))}
+            </>
+          )}
+
           <View style={styles.tipsCard}>
             <MaterialCommunityIcons
               name="lightbulb-on"
