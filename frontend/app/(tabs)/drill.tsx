@@ -72,12 +72,6 @@ export default function DrillScreen() {
     setShowRationale(false);
   };
 
-  // Get 5 random questions for Quick Fix Quiz
-  const getQuizQuestions = () => {
-    const shuffled = [...questions].sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, 5);
-  };
-
   // Bounce animation
   const playBounceAnimation = () => {
     bounceAnim.setValue(1);
