@@ -150,10 +150,10 @@ export default function LearnScreen() {
     setIsFlipped(false);
     flipAnim.setValue(0);
     
-    if (currentCardIndex < reviewQueue.length - 1) {
+    if (currentCardIndex < cards.length - 1) {
       setCurrentCardIndex(currentCardIndex + 1);
     } else {
-      // Reached end, rebuild queue
+      // Reached end, restart from beginning
       setCurrentCardIndex(0);
     }
   };
