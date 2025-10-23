@@ -430,17 +430,16 @@ const styles = StyleSheet.create({
     marginBottom: theme.spacing.md,
   },
   explanationBox: {
-    maxHeight: 110,
     backgroundColor: theme.colors.background,
     borderRadius: theme.borderRadius.md,
-    padding: theme.spacing.sm,
-    marginBottom: theme.spacing.xl,
+    padding: theme.spacing.md,
+    marginBottom: theme.spacing.md,
     marginTop: theme.spacing.xs,
   },
   explanationText: {
-    fontSize: theme.fontSize.xs,
+    fontSize: theme.fontSize.sm,
     color: theme.colors.text,
-    lineHeight: 16,
+    lineHeight: 20,
   },
   buttonContainer: {
     flexDirection: 'row',
