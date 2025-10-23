@@ -374,4 +374,50 @@ const styles = StyleSheet.create({
     color: theme.colors.textSecondary,
     lineHeight: 22,
   },
+  diagnosticReadiness: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: theme.spacing.md,
+    paddingTop: theme.spacing.md,
+    borderTopWidth: 1,
+    borderTopColor: theme.colors.border,
+  },
+  diagnosticLabel: {
+    fontSize: theme.fontSize.sm,
+    color: theme.colors.textSecondary,
+    marginRight: theme.spacing.sm,
+  },
+  diagnosticValue: {
+    fontSize: theme.fontSize.lg,
+    fontWeight: theme.fontWeight.bold,
+  },
+  diagnosticCard: {
+    backgroundColor: theme.colors.surface,
+    borderRadius: theme.borderRadius.lg,
+    padding: theme.spacing.md,
+    marginBottom: theme.spacing.md,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  diagnosticHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: theme.spacing.xs,
+  },
+  diagnosticDate: {
+    fontSize: theme.fontSize.sm,
+    color: theme.colors.textSecondary,
+  },
+  diagnosticScore: {
+    fontSize: theme.fontSize.lg,
+    fontWeight: theme.fontWeight.bold,
+  },
+  diagnosticDetails: {
+    fontSize: theme.fontSize.sm,
+    color: theme.colors.textSecondary,
+  },
 });
