@@ -107,7 +107,7 @@ export default function LearnScreen() {
     return () => clearTimeout(timer);
   }, [currentCardIndex, cards, reviewQueue, viewedCards]);
 
-  const currentCard = cards.find(c => c.id === reviewQueue[currentCardIndex]);
+  const currentCard = cards[currentCardIndex];
 
   if (cards.length === 0) {
     return (
