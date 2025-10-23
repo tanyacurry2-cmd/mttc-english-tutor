@@ -301,10 +301,11 @@ const styles = StyleSheet.create({
     fontWeight: theme.fontWeight.semibold,
   },
   progressBar: {
-    height: 4,
+    height: 6,
     backgroundColor: theme.colors.border,
-    borderRadius: 2,
+    borderRadius: 3,
     overflow: 'hidden',
+    marginBottom: theme.spacing.md,
   },
   progressFill: {
     height: '100%',
