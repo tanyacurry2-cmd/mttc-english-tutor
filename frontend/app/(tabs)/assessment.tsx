@@ -21,10 +21,15 @@ const generateSessionId = () => `session_${Date.now()}_${Math.random().toString(
 export default function DiagnosticScreen() {
   // Build a fresh pool on mount
   const pool: Question[] = useMemo(() => {
-    const mcqs = (questionsData as Question[]).filter(q => q.type === "mcq" && q.mode === "Drill");
-    const picked = balancedPickBySubarea(mcqs, PER_SUBAREA);
-    // Fallback if any subarea was short
-    return picked.slice(0, TOTAL);
+    try {
+      const mcqs = (questionsData as Question[]).filter(q => q.type === "mcq" && q.mode === "Drill");
+      const picked = balancedPickBySubarea(mcqs, PER_SUBAREA);
+      // Fallback if any subarea was short
+      return picked.slice(0, TOTAL);
+    } catch (error) {
+      console.error("Error creating question pool:", error);
+      return [];
+    }
   }, []);
 
   const [idx, setIdx] = useState(0);
