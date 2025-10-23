@@ -41,6 +41,14 @@ export default function LearnScreen() {
   const hasAccess = checkTrialStatus();
   const markingRef = useRef(false);
 
+  // Load viewed cards on mount
+  useEffect(() => {
+    (async () => {
+      const viewed = await loadViewedIds();
+      setViewedCards(viewed);
+    })();
+  }, []);
+
   // Filter cards based on subarea params
   useEffect(() => {
     let filteredCards = flashcardsData as Card[];
