@@ -36,6 +36,7 @@ export default function DiagnosticScreen() {
   const [selected, setSelected] = useState<string>("");
   const [correct, setCorrect] = useState(0);
   const [wrongIds, setWrongIds] = useState<string[]>([]);
+  const [userAnswers, setUserAnswers] = useState<Record<string, string>>({});
   const sessionId = useMemo(() => generateSessionId(), []);
 
   const q = pool[idx];
@@ -43,6 +44,10 @@ export default function DiagnosticScreen() {
   const submit = () => {
     if (!q) return;
     const isCorrect = selected === q.answer;
+    
+    // Track user answer
+    setUserAnswers(prev => ({ ...prev, [q.id]: selected }));
+    
     if (isCorrect) setCorrect(c => c + 1); else setWrongIds(w => [...w, q.id]);
     setSelected("");
     const next = idx + 1;
