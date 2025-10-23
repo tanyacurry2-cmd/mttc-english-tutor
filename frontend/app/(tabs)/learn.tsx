@@ -175,15 +175,17 @@ export default function LearnScreen() {
               ]}
             />
           </View>
-          <TouchableOpacity onPress={handleShuffle} style={styles.shuffleButton}>
-            <MaterialCommunityIcons name="shuffle-variant" size={24} color={theme.colors.accent} />
-            <Text style={styles.shuffleText}>Shuffle</Text>
-          </TouchableOpacity>
+          
+          <View style={styles.controlsRow}>
+            <Text style={styles.counter}>
+              {currentCardIndex + 1} / {displayLimit}
+            </Text>
+            <TouchableOpacity onPress={handleShuffle} style={styles.shuffleButton}>
+              <MaterialCommunityIcons name="shuffle-variant" size={24} color={theme.colors.accent} />
+              <Text style={styles.shuffleText}>Shuffle</Text>
+            </TouchableOpacity>
+          </View>
         </View>
-
-        <Text style={styles.counter}>
-          {currentCardIndex + 1} / {displayLimit}
-        </Text>
 
         <TouchableOpacity
           style={styles.cardContainer}
