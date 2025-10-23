@@ -330,13 +330,6 @@ export default function DrillScreen() {
           )}
         </View>
       </ScrollView>
-
-      <QuickFixQuiz
-        visible={showQuickFixQuiz}
-        questions={getQuizQuestions()}
-        onClose={handleCloseQuiz}
-        onLearnAgain={() => router.push('/(tabs)/learn')}
-      />
     </SafeAreaView>
   );
 }
