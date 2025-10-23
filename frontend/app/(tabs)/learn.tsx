@@ -317,12 +317,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   counter: {
-    fontSize: theme.fontSize.lg,
-    fontWeight: theme.fontWeight.semibold,
+    fontSize: theme.fontSize.xl,
+    fontWeight: theme.fontWeight.bold,
     color: theme.colors.text,
-    textAlign: 'center',
-    marginTop: theme.spacing.sm,
-    marginBottom: theme.spacing.md,
   },
   limitMessage: {
     backgroundColor: theme.colors.accent,
