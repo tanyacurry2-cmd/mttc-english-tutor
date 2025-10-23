@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   View,
   Text,
@@ -11,9 +11,21 @@ import { useAppStore } from '../../lib/store';
 import { TrialBanner } from '../../components/TrialBanner';
 import { theme } from '../../lib/theme';
 import { Subarea } from '../../types/content';
+import { loadSessions, loadReadinessEma, SessionSummary } from '../../storage/sessions';
 
 export default function ProgressScreen() {
   const { readinessBySubarea, mcqHistory, cardReviews, streakDays } = useAppStore();
+  const [diagnosticReadiness, setDiagnosticReadiness] = useState<number>(0);
+  const [diagnosticHistory, setDiagnosticHistory] = useState<SessionSummary[]>([]);
+
+  useEffect(() => {
+    (async () => {
+      const ema = await loadReadinessEma();
+      if (Number.isFinite(ema)) setDiagnosticReadiness(Math.round(ema * 100));
+      const sessions = await loadSessions();
+      setDiagnosticHistory(sessions);
+    })();
+  }, []);
 
   const calculateOverallReadiness = () => {
     const values = Object.values(readinessBySubarea);
