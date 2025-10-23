@@ -12,7 +12,14 @@
       "Maria, crossing the finish line fastly.",
       "The finish line quickly was crossed Maria."
     ],
-    "answer": "Maria crossed the finish line quickly."
+    "answer": "Maria crossed the finish line quickly.",
+    "rationales": [
+      "Dangling modifier.",
+      "Active voice and concise phrasing.",
+      "Incorrect adverb form.",
+      "Word order is ungrammatical."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q102",
@@ -27,7 +34,14 @@
       "Wikipedia page",
       "Advertisement brochure"
     ],
-    "answer": "Peer-reviewed journal article"
+    "answer": "Peer-reviewed journal article",
+    "rationales": [
+      "Informal opinion.",
+      "Peer review confers credibility.",
+      "Editable and variable quality.",
+      "Promotional bias."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q103",
@@ -42,7 +56,14 @@
       "The beauty of nature",
       "The power of friendship"
     ],
-    "answer": "The corrupting influence of wealth"
+    "answer": "The corrupting influence of wealth",
+    "rationales": [
+      "Central to the novel's critique of the American Dream.",
+      "Not a major focus of the novel.",
+      "Minimal presence in the story.",
+      "Secondary to the main themes."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q104",
@@ -57,7 +78,14 @@
       "Hyperbole",
       "Alliteration"
     ],
-    "answer": "Chiasmus"
+    "answer": "Chiasmus",
+    "rationales": [
+      "No direct comparison is made.",
+      "Reversal of grammatical structures for rhetorical effect.",
+      "No exaggeration present.",
+      "Repetition of consonant sounds is minimal."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q105",
@@ -72,7 +100,14 @@
       "Third person limited",
       "Third person omniscient"
     ],
-    "answer": "Third person omniscient"
+    "answer": "Third person omniscient",
+    "rationales": [
+      "Limited to narrator's perspective.",
+      "Addresses the reader directly.",
+      "Restricted to one character's thoughts.",
+      "All-knowing narrator can access any character's mind."
+    ],
+    "correctIndex": 3
   },
   {
     "id": "Q106",
@@ -87,7 +122,14 @@
       "After the parenthetical citation",
       "It doesn't matter"
     ],
-    "answer": "After the parenthetical citation"
+    "answer": "After the parenthetical citation",
+    "rationales": [
+      "Incorrect MLA format.",
+      "Incorrect MLA format.",
+      "The period always comes after the citation in MLA.",
+      "MLA has specific rules for punctuation."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q107",
@@ -102,7 +144,14 @@
       "AABB CCDD EEFF GG",
       "ABCD ABCD EFGH IJ"
     ],
-    "answer": "ABAB CDCD EFEF GG"
+    "answer": "ABAB CDCD EFEF GG",
+    "rationales": [
+      "Correct pattern for Shakespearean/English sonnets.",
+      "This is a Petrarchan sonnet pattern.",
+      "Not a traditional sonnet form.",
+      "Not a recognized sonnet pattern."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q108",
@@ -117,7 +166,14 @@
       "She is smart; because she reads a lot.",
       "He ran quickly; to catch the bus."
     ],
-    "answer": "The test is tomorrow; I need to study."
+    "answer": "The test is tomorrow; I need to study.",
+    "rationales": [
+      "Semicolon shouldn't separate a fragment.",
+      "Correctly joins two independent clauses.",
+      "'Because' creates a dependent clause.",
+      "'To catch' creates an infinitive phrase, not an independent clause."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q109",
@@ -132,7 +188,14 @@
       "Tone is the author's attitude; mood is the reader's feeling",
       "Tone is only in poetry; mood is only in prose"
     ],
-    "answer": "Tone is the author's attitude; mood is the reader's feeling"
+    "answer": "Tone is the author's attitude; mood is the reader's feeling",
+    "rationales": [
+      "Reversed definitions.",
+      "They are distinct literary concepts.",
+      "Tone reflects the author's perspective; mood is the emotional atmosphere created for the reader.",
+      "Both apply to all literary forms."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q110",
@@ -147,7 +210,14 @@
       "Counting words",
       "Changing font size"
     ],
-    "answer": "Reading your work aloud"
+    "answer": "Reading your work aloud",
+    "rationales": [
+      "Hearing the text helps identify awkward phrasing and unclear passages.",
+      "Spelling is important but doesn't address clarity.",
+      "Word count doesn't improve clarity.",
+      "Formatting doesn't affect content clarity."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q111",
@@ -162,7 +232,14 @@
       "16 lines",
       "18 lines"
     ],
-    "answer": "14 lines"
+    "answer": "14 lines",
+    "rationales": [
+      "Incorrect. 12 lines would be too short for the traditional sonnet structure.",
+      "Correct! Shakespearean sonnets always have 14 lines written in iambic pentameter.",
+      "Incorrect. 16 lines exceeds the traditional sonnet length.",
+      "Incorrect. 18 lines is too long for a sonnet."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q112",
@@ -177,7 +254,14 @@
       "AABB CCDD EEFF GG",
       "ABCD ABCD EFGH IJ"
     ],
-    "answer": "ABAB CDCD EFEF GG"
+    "answer": "ABAB CDCD EFEF GG",
+    "rationales": [
+      "This is the rhyme scheme of a Petrarchan (Italian) sonnet, not Shakespearean.",
+      "Correct! The three quatrains follow alternating rhyme (ABAB, CDCD, EFEF), ending with a rhyming couplet (GG).",
+      "This pattern uses only couplets, which doesn't match the Shakespearean structure.",
+      "This pattern has no rhyme scheme at all and isn't a traditional sonnet form."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q113",
@@ -192,7 +276,14 @@
       "At the very beginning (line 1)",
       "At line 8"
     ],
-    "answer": "At line 9 or in the final couplet (line 13)"
+    "answer": "At line 9 or in the final couplet (line 13)",
+    "rationales": [
+      "Too early. Line 5 is in the middle of the second quatrain, not a typical turning point.",
+      "Correct! The volta usually appears at the start of the third quatrain (line 9) or in the final couplet (line 13), shifting the poem's direction or offering resolution.",
+      "The poem typically establishes its theme first before turning, so line 1 is too early.",
+      "Line 8 is more common in Petrarchan sonnets, not Shakespearean structure."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q114",
@@ -207,7 +298,14 @@
       "Political revolution",
       "Agricultural practices"
     ],
-    "answer": "Love, time, beauty, and mortality"
+    "answer": "Love, time, beauty, and mortality",
+    "rationales": [
+      "Anachronistic. Shakespeare lived in the late 16th/early 17th century, long before space exploration.",
+      "Correct! Shakespeare's sonnets deeply explore universal themes of love, the passage of time, the nature of beauty, death, and existential questions.",
+      "While Shakespeare wrote political plays, his sonnets focus more on personal and philosophical themes.",
+      "Not a central theme in Shakespeare's sonnets, which focus on human emotion and experience."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q115",
@@ -222,7 +320,14 @@
       "Identifying prefixes and suffixes",
       "Memorizing sight words"
     ],
-    "answer": "Recognizing individual sounds in words"
+    "answer": "Recognizing individual sounds in words",
+    "rationales": [
+      "Sentence rhythm relates to prosody, not phonemic awareness.",
+      "Correct! Phonemic awareness focuses on hearing, identifying, and manipulating individual sounds (phonemes) in spoken words.",
+      "Prefixes and suffixes are part of morphology, not phonemic awareness.",
+      "Sight word memorization is a separate literacy skill."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q116",
@@ -237,7 +342,14 @@
       "Sight word recognition",
       "Oral fluency"
     ],
-    "answer": "Oral fluency"
+    "answer": "Oral fluency",
+    "rationales": [
+      "While important, vocabulary is more directly related to comprehension than bridging the two.",
+      "Phoneme blending is a decoding skill, not a bridge between decoding and comprehension.",
+      "Sight words support decoding but don't bridge to comprehension.",
+      "Correct! Oral fluency combines accurate decoding with expression and understanding, linking both skills."
+    ],
+    "correctIndex": 3
   },
   {
     "id": "Q117",
@@ -252,7 +364,14 @@
       "Early",
       "Proficient"
     ],
-    "answer": "Early"
+    "answer": "Early",
+    "rationales": [
+      "Emergent is the first stage, coming before early, not transitional.",
+      "Fluent comes after transitional.",
+      "Correct! The progression is: Emergent → Early → Transitional → Fluent → Proficient.",
+      "Proficient is the final stage, after fluent."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q118",
@@ -267,7 +386,14 @@
       "It improves sentence rhythm",
       "It builds phonemic awareness"
     ],
-    "answer": "It helps infer meaning from unfamiliar words"
+    "answer": "It helps infer meaning from unfamiliar words",
+    "rationales": [
+      "Morphology doesn't relate to handwriting (a motor skill).",
+      "Correct! Understanding roots, prefixes, and suffixes allows students to decode and infer meaning from new words.",
+      "Sentence rhythm relates to prosody, not morphology.",
+      "Phonemic awareness deals with sounds, not word parts."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q119",
@@ -282,7 +408,14 @@
       "Modeling fluent reading",
       "Avoiding feedback"
     ],
-    "answer": "Modeling fluent reading"
+    "answer": "Modeling fluent reading",
+    "rationales": [
+      "Reducing exposure limits practice opportunities and slows progress.",
+      "Silent reading alone doesn't provide the modeling and support struggling readers need.",
+      "Correct! Modeling fluent reading demonstrates proper pacing, expression, and decoding strategies.",
+      "Feedback is essential for growth and correction of errors."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q120",
@@ -297,7 +430,14 @@
       "Identifying literary genres",
       "Copying model sentences"
     ],
-    "answer": "Monitoring and adjusting one's understanding"
+    "answer": "Monitoring and adjusting one's understanding",
+    "rationales": [
+      "Memorization is a surface-level skill, not metacognition.",
+      "Correct! Metacognition is thinking about one's own thinking—actively monitoring comprehension and adjusting strategies.",
+      "Genre identification is a separate literacy skill.",
+      "Copying is a mechanical task, not reflective thinking."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q121",
@@ -312,7 +452,14 @@
       "It improves phonics speed",
       "It supports handwriting fluency"
     ],
-    "answer": "It links new information to existing schema"
+    "answer": "It links new information to existing schema",
+    "rationales": [
+      "Background knowledge relates to meaning-making, not decoding speed.",
+      "Correct! Prior knowledge connects new information to existing understanding (schema), providing context for comprehension.",
+      "Phonics speed is unrelated to background knowledge.",
+      "Handwriting is a separate motor skill."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q122",
@@ -327,7 +474,14 @@
       "Organizes ideas and emphasis",
       "Adds imagery"
     ],
-    "answer": "Organizes ideas and emphasis"
+    "answer": "Organizes ideas and emphasis",
+    "rationales": [
+      "Pronunciation is determined by phonology, not syntax.",
+      "While syntax can affect rhythm, its primary function is meaning organization.",
+      "Correct! Sentence structure organizes ideas, determines emphasis, and affects how information is interpreted.",
+      "Imagery comes from word choice (diction), not sentence structure."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q123",
@@ -342,7 +496,14 @@
       "Recording attendance",
       "Rewarding effort"
     ],
-    "answer": "Identifying learning needs and progress"
+    "answer": "Identifying learning needs and progress",
+    "rationales": [
+      "Ranking can demotivate and doesn't guide instruction effectively.",
+      "Correct! Assessment diagnoses strengths and needs, guiding targeted instruction and measuring growth.",
+      "Attendance tracking is administrative, not instructional assessment.",
+      "While recognition matters, assessment's primary purpose is diagnostic and instructional."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q124",
@@ -357,7 +518,14 @@
       "Memorization of every word",
       "Reading silently only"
     ],
-    "answer": "Smooth, accurate, expressive reading"
+    "answer": "Smooth, accurate, expressive reading",
+    "rationales": [
+      "Slow, careful reading indicates developing fluency, not fluent reading.",
+      "Correct! Fluent reading is smooth, accurate, and expressive with appropriate pacing and prosody.",
+      "Fluency involves automatic decoding, not memorization of all words.",
+      "Fluency applies to both oral and silent reading."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q125",
@@ -372,7 +540,14 @@
       "Level of formality for audience and purpose",
       "Tone of voice"
     ],
-    "answer": "Level of formality for audience and purpose"
+    "answer": "Level of formality for audience and purpose",
+    "rationales": [
+      "Register involves more than just vocabulary—it includes style and formality across all language elements.",
+      "Sentence structure is one component but doesn't fully define register.",
+      "Correct! Language register is the degree of formality adjusted for specific contexts, audiences, and purposes.",
+      "Tone is related but distinct from register; register encompasses broader stylistic choices."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q126",
@@ -387,7 +562,14 @@
       "Avoidance of cultural norms",
       "Memorization of word roots"
     ],
-    "answer": "Flexibility in language based on audience"
+    "answer": "Flexibility in language based on audience",
+    "rationales": [
+      "Code-switching is a sophisticated linguistic skill, not poor grammar.",
+      "Correct! Code-switching shows linguistic flexibility and cultural awareness by adapting language to different situations and audiences.",
+      "Code-switching actually demonstrates awareness and respect for cultural norms.",
+      "Word roots relate to morphology, not code-switching."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q127",
@@ -402,7 +584,14 @@
       "Pragmatics",
       "Semantics"
     ],
-    "answer": "Pragmatics"
+    "answer": "Pragmatics",
+    "rationales": [
+      "Phonology studies sound systems in language.",
+      "Morphology examines word structure and formation.",
+      "Correct! Pragmatics analyzes how context, speaker intent, and social factors influence meaning.",
+      "Semantics studies meaning but doesn't emphasize context as pragmatics does."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q128",
@@ -417,7 +606,14 @@
       "He's stingy.",
       "He's miserly."
     ],
-    "answer": "He's thrifty."
+    "answer": "He's thrifty.",
+    "rationales": [
+      "'Cheap' has negative connotations of low quality or excessive frugality.",
+      "Correct! 'Thrifty' has positive connotations of wise money management.",
+      "'Stingy' has negative connotations of unwillingness to spend or share.",
+      "'Miserly' has strongly negative connotations of excessive hoarding."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q129",
@@ -432,7 +628,14 @@
       "Figurative association",
       "Emotional tone"
     ],
-    "answer": "Literal meaning"
+    "answer": "Literal meaning",
+    "rationales": [
+      "Etymology studies historical origins, not denotation.",
+      "Correct! Denotation is the dictionary definition or literal meaning of a word.",
+      "Figurative associations relate to connotation, not denotation.",
+      "Emotional tone is part of connotation, not denotation."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q130",
@@ -447,7 +650,14 @@
       "Grammar",
       "Feedback"
     ],
-    "answer": "Grammar"
+    "answer": "Grammar",
+    "rationales": [
+      "The sender initiates communication.",
+      "The message is the content being communicated.",
+      "Correct! While grammar aids clarity, it's not one of the six essential components of the communication process.",
+      "Feedback allows the sender to gauge message reception."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q131",
@@ -462,7 +672,14 @@
       "Volume",
       "Length"
     ],
-    "answer": "Clarity"
+    "answer": "Clarity",
+    "rationales": [
+      "Ambiguity obscures meaning and hinders communication.",
+      "Correct! Clarity ensures the message is understood as intended.",
+      "Volume is a delivery factor but doesn't guarantee effective communication.",
+      "Length doesn't ensure effectiveness; conciseness is often preferable."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q132",
@@ -477,7 +694,14 @@
       "The literal meaning of a word",
       "The rhythm of speech"
     ],
-    "answer": "The emotional quality or attitude in language"
+    "answer": "The emotional quality or attitude in language",
+    "rationales": [
+      "Correct! Tone reflects the speaker's or writer's attitude toward the subject and audience.",
+      "Sentence complexity relates to syntax, not tone.",
+      "Literal meaning is denotation, not tone.",
+      "Rhythm relates to prosody, not tone (though they can work together)."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q133",
@@ -492,7 +716,14 @@
       "Taking notes only",
       "Finishing sentences for the speaker"
     ],
-    "answer": "Responding thoughtfully and showing understanding"
+    "answer": "Responding thoughtfully and showing understanding",
+    "rationales": [
+      "Active listening requires engagement with all content, not selective ignoring.",
+      "Correct! Active listening involves full attention, comprehension, and meaningful response.",
+      "Note-taking is one strategy but doesn't encompass active listening.",
+      "Interrupting shows poor listening, not active engagement."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q134",
@@ -507,7 +738,14 @@
       "Replace written communication",
       "Eliminate misunderstanding entirely"
     ],
-    "answer": "Reinforce or contradict verbal messages"
+    "answer": "Reinforce or contradict verbal messages",
+    "rationales": [
+      "Nonverbal cues enhance and clarify, not just distract.",
+      "Correct! Nonverbal communication can support, emphasize, or contradict spoken words.",
+      "Written communication serves different purposes; nonverbal cues complement but don't replace it.",
+      "While helpful, nonverbal cues alone can't eliminate all misunderstanding."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q135",
@@ -522,7 +760,14 @@
       "A repeated vowel sound in poetry.",
       "The moral lesson of a story."
     ],
-    "answer": "A fire station burns down."
+    "answer": "A fire station burns down.",
+    "rationales": [
+      "This is dramatic irony, where the audience knows more than the characters.",
+      "Correct! Situational irony occurs when the outcome contradicts expectations—a fire station should prevent fires, not burn.",
+      "This describes assonance, a sound device, not irony.",
+      "This describes theme or moral, not irony."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q136",
@@ -537,7 +782,14 @@
       "Listing adjectives",
       "Creating suspense"
     ],
-    "answer": "Representing abstract ideas through concrete objects"
+    "answer": "Representing abstract ideas through concrete objects",
+    "rationales": [
+      "Symbolism adds complexity, not simplification.",
+      "Correct! Symbols use tangible objects to represent abstract concepts, adding layers of meaning.",
+      "Listing adjectives is descriptive technique, not symbolism.",
+      "While symbols can contribute to atmosphere, their primary function is representing deeper meaning."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q137",
@@ -552,7 +804,14 @@
       "Uses 'you' to address the reader",
       "Is part of the story's action"
     ],
-    "answer": "Only knows one character's perspective"
+    "answer": "Only knows one character's perspective",
+    "rationales": [
+      "Knowing all characters' thoughts describes third-person omniscient.",
+      "Correct! Third-person limited provides insight into one character's mind while maintaining narrative distance.",
+      "Using 'you' describes second-person point of view.",
+      "Being part of the action describes first-person narration."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q138",
@@ -567,7 +826,14 @@
       "The exposition",
       "The resolution"
     ],
-    "answer": "The struggle between opposing forces"
+    "answer": "The struggle between opposing forces",
+    "rationales": [
+      "The climax is the turning point, not the conflict itself.",
+      "Correct! Conflict is the central struggle driving the plot, whether internal or external.",
+      "Exposition provides background information.",
+      "Resolution shows how the conflict is settled."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q139",
@@ -582,7 +848,14 @@
       "The story's timeline",
       "The setting's location"
     ],
-    "answer": "The moral lesson or universal truth of the story"
+    "answer": "The moral lesson or universal truth of the story",
+    "rationales": [
+      "Correct! Theme is the underlying message or insight about life that the work explores.",
+      "The main event is part of plot, not theme.",
+      "Timeline relates to plot structure.",
+      "Location is an element of setting, not theme."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q140",
@@ -597,7 +870,14 @@
       "Figurative meaning",
       "Dialogue pacing"
     ],
-    "answer": "Word choice"
+    "answer": "Word choice",
+    "rationales": [
+      "Sentence structure is syntax, not diction.",
+      "Correct! Diction is the writer's selection and use of specific words to create meaning and tone.",
+      "Figurative meaning involves literary devices like metaphor.",
+      "Dialogue pacing relates to narrative structure."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q141",
@@ -612,7 +892,14 @@
       "She moved quickly.",
       "It was late."
     ],
-    "answer": "The sunlight spilled like honey across the table."
+    "answer": "The sunlight spilled like honey across the table.",
+    "rationales": [
+      "This is simple description without sensory detail.",
+      "Correct! This creates vivid sensory experience through visual and metaphorical language.",
+      "This states action without engaging the senses.",
+      "This provides information without sensory detail."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q142",
@@ -627,7 +914,14 @@
       "The story's setting",
       "The genre of the work"
     ],
-    "answer": "The writer's individual style and tone"
+    "answer": "The writer's individual style and tone",
+    "rationales": [
+      "Plot complexity is a structural choice, not voice.",
+      "Correct! Voice is the distinctive personality and perspective that comes through the author's stylistic choices.",
+      "Setting is a story element, not voice.",
+      "Genre is a category; voice is individual to the writer."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q143",
@@ -642,7 +936,14 @@
       "Characterization",
       "Symbolism"
     ],
-    "answer": "Sentence rhythm and emphasis"
+    "answer": "Sentence rhythm and emphasis",
+    "rationales": [
+      "Correct! Syntax—the arrangement of words and phrases—shapes how sentences flow and what gets emphasized.",
+      "Theme emerges from content and meaning, not sentence structure.",
+      "Characterization involves personality development, not syntax.",
+      "Symbolism uses objects for meaning, unrelated to syntax."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q144",
@@ -657,7 +958,14 @@
       "The text's theme",
       "The rhythm of language"
     ],
-    "answer": "The author's attitude"
+    "answer": "The author's attitude",
+    "rationales": [
+      "Correct! Tone conveys the author's attitude toward the subject and audience through stylistic choices.",
+      "Location is setting, not tone.",
+      "Theme is the underlying message; tone is how it's expressed.",
+      "Rhythm relates to syntax and sound patterns."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q145",
@@ -672,7 +980,14 @@
       "Central message or universal idea",
       "Character's motivation"
     ],
-    "answer": "Central message or universal idea"
+    "answer": "Central message or universal idea",
+    "rationales": [
+      "Setting provides the time and place, not the theme.",
+      "Sequence of events describes plot, not theme.",
+      "Correct! Theme is the underlying message or universal truth explored in the work.",
+      "Motivation drives character actions but isn't the theme."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q146",
@@ -687,7 +1002,14 @@
       "Sentence structure",
       "Theme repetition"
     ],
-    "answer": "Dialogue, actions, and description"
+    "answer": "Dialogue, actions, and description",
+    "rationales": [
+      "Correct! Authors reveal character through what characters say, do, think, and how they're described.",
+      "Setting provides context but doesn't develop character.",
+      "Sentence structure affects style, not characterization.",
+      "Theme repetition reinforces meaning, not character development."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q147",
@@ -702,7 +1024,14 @@
       "Tone",
       "Foreshadowing"
     ],
-    "answer": "Motif"
+    "answer": "Motif",
+    "rationales": [
+      "Correct! A motif is a repeated element that develops and reinforces the theme.",
+      "Plot is the sequence of events, not a recurring symbol.",
+      "Tone is the author's attitude, not a recurring element.",
+      "Foreshadowing hints at future events but isn't necessarily recurring."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q148",
@@ -717,7 +1046,14 @@
       "Characterization",
       "Diction"
     ],
-    "answer": "Attitude"
+    "answer": "Attitude",
+    "rationales": [
+      "Mood is the emotional atmosphere for readers, not the author's attitude.",
+      "Correct! Tone expresses the author's attitude toward the subject and audience.",
+      "Characterization develops characters, not tone.",
+      "Diction (word choice) creates tone but isn't what tone reveals."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q149",
@@ -732,7 +1068,14 @@
       "Character's motivation",
       "Sentence rhythm"
     ],
-    "answer": "Reader's emotions"
+    "answer": "Reader's emotions",
+    "rationales": [
+      "Correct! Mood creates the emotional atmosphere that influences how readers feel.",
+      "Author's perspective relates to tone, not mood.",
+      "Character motivation drives plot, not mood.",
+      "Rhythm is a stylistic element, distinct from mood."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q150",
@@ -747,7 +1090,14 @@
       "Symbolism",
       "Syntax"
     ],
-    "answer": "The five senses"
+    "answer": "The five senses",
+    "rationales": [
+      "Grammar provides structure, not sensory experience.",
+      "Correct! Imagery uses descriptive language that engages sight, sound, touch, taste, and smell.",
+      "Symbolism uses objects for meaning; imagery creates sensory experience.",
+      "Syntax is sentence structure, not sensory description."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q151",
@@ -762,7 +1112,14 @@
       "One simple theme",
       "Historical facts only"
     ],
-    "answer": "Both literal and symbolic meanings"
+    "answer": "Both literal and symbolic meanings",
+    "rationales": [
+      "Allegory uses multiple literary devices, not just figurative language.",
+      "Correct! Allegory works on two levels: the surface story and its deeper symbolic meaning.",
+      "Allegories often explore complex, multi-layered themes.",
+      "While some allegories reference history, they're primarily symbolic narratives."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q152",
@@ -777,7 +1134,14 @@
       "Reveal the moral",
       "Confuse readers intentionally"
     ],
-    "answer": "Create suspense and anticipation"
+    "answer": "Create suspense and anticipation",
+    "rationales": [
+      "Correct! Foreshadowing plants clues that build anticipation for future events.",
+      "Summarizing past events is exposition or flashback, not foreshadowing.",
+      "Revealing morals is the function of theme or resolution.",
+      "Good foreshadowing enhances understanding, not confusion."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q153",
@@ -792,7 +1156,14 @@
       "Describe setting",
       "Provide exposition"
     ],
-    "answer": "Create action and reveal growth"
+    "answer": "Create action and reveal growth",
+    "rationales": [
+      "Conflict drives development, not stalls it.",
+      "Correct! Conflict generates plot tension and forces characters to change and grow.",
+      "Setting description is separate from conflict's function.",
+      "Exposition provides background; conflict creates tension."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q154",
@@ -807,7 +1178,14 @@
       "Theme repetition",
       "Sentence count"
     ],
-    "answer": "Tone and meaning"
+    "answer": "Tone and meaning",
+    "rationales": [
+      "Rhyme relates to sound patterns in poetry, not diction's primary function.",
+      "Correct! Word choice (diction) shapes both the tone and the precise meaning of the text.",
+      "Motif creates repetition, not diction itself.",
+      "Sentence count is unrelated to word choice."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q155",
@@ -822,7 +1200,14 @@
       "Repetition of vowel sounds",
       "A symbol representing an idea"
     ],
-    "answer": "The opposite of what's said is meant"
+    "answer": "The opposite of what's said is meant",
+    "rationales": [
+      "Correct! Verbal irony occurs when someone says the opposite of what they actually mean (like sarcasm).",
+      "A surprise ending may involve situational irony, not verbal.",
+      "Repetition of vowel sounds is assonance, a sound device.",
+      "This describes symbolism, not irony."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q156",
@@ -837,7 +1222,14 @@
       "Track dialogue",
       "Identify tone shifts"
     ],
-    "answer": "Find deeper meaning in concrete details"
+    "answer": "Find deeper meaning in concrete details",
+    "rationales": [
+      "Symbolism adds layers beyond literal meaning.",
+      "Correct! Symbols use concrete objects to represent abstract ideas and deeper themes.",
+      "Dialogue tracking is a separate reading skill.",
+      "Tone shifts are identified through diction and style changes."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q157",
@@ -852,7 +1244,14 @@
       "The setting's location",
       "The author's word choice"
     ],
-    "answer": "The sequence of related events"
+    "answer": "The sequence of related events",
+    "rationales": [
+      "The message is theme, not plot.",
+      "Correct! Plot is the connected series of events that make up the narrative.",
+      "Location is an element of setting.",
+      "Word choice is diction."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q158",
@@ -867,7 +1266,14 @@
       "The falling action",
       "The resolution"
     ],
-    "answer": "The turning point or moment of greatest tension"
+    "answer": "The turning point or moment of greatest tension",
+    "rationales": [
+      "Correct! The climax is the story's peak moment where the main conflict reaches its highest intensity.",
+      "The introduction is the exposition, beginning the story.",
+      "Falling action follows the climax, leading to resolution.",
+      "Resolution concludes the story after the climax."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q159",
@@ -882,7 +1288,14 @@
       "Report card grade",
       "Standardized test"
     ],
-    "answer": "Weekly quiz"
+    "answer": "Weekly quiz",
+    "rationales": [
+      "Final exams are summative, measuring achievement at the end.",
+      "Correct! Weekly quizzes provide ongoing feedback to guide instruction during the learning process.",
+      "Report cards are summative evaluations.",
+      "Standardized tests are summative measures of overall achievement."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q160",
@@ -897,7 +1310,14 @@
       "Memorizing vocabulary lists",
       "Focusing on spelling drills only"
     ],
-    "answer": "Increasing independent learning through gradual support removal"
+    "answer": "Increasing independent learning through gradual support removal",
+    "rationales": [
+      "Correct! Scaffolding provides temporary support that's gradually withdrawn as students gain competence.",
+      "More homework doesn't necessarily provide structured support.",
+      "Memorization is one strategy, not scaffolding.",
+      "Spelling drills are specific practice, not the scaffolding concept."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q161",
@@ -912,7 +1332,14 @@
       "Faster essay grading only",
       "Less teacher involvement"
     ],
-    "answer": "Consistent and transparent evaluation"
+    "answer": "Consistent and transparent evaluation",
+    "rationales": [
+      "Rubrics reduce subjectivity by providing clear criteria.",
+      "Correct! Rubrics define expectations and standards, ensuring fair and consistent assessment.",
+      "While rubrics may speed grading, their main purpose is consistency and clarity.",
+      "Rubrics require thoughtful teacher design and application."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q162",
@@ -927,7 +1354,14 @@
       "Quiet reading only",
       "Summarizing content"
     ],
-    "answer": "Reading with accuracy, speed, and expression"
+    "answer": "Reading with accuracy, speed, and expression",
+    "rationales": [
+      "Fluency involves decoding, not memorization.",
+      "Correct! Fluent readers demonstrate accuracy, appropriate rate, and prosody (expression).",
+      "Fluency applies to both oral and silent reading.",
+      "Summarizing demonstrates comprehension, not fluency."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q163",
@@ -942,7 +1376,14 @@
       "Prewriting",
       "Publishing"
     ],
-    "answer": "Prewriting"
+    "answer": "Prewriting",
+    "rationales": [
+      "Revising comes after drafting.",
+      "Editing comes near the end of the process.",
+      "Correct! Prewriting includes brainstorming, planning, and organizing ideas before drafting.",
+      "Publishing is the final stage."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q164",
@@ -957,7 +1398,14 @@
       "Copying notes",
       "Listening silently"
     ],
-    "answer": "Monitoring one's own understanding and strategy use"
+    "answer": "Monitoring one's own understanding and strategy use",
+    "rationales": [
+      "Memorization is a learning strategy, not metacognition.",
+      "Correct! Metacognition is awareness and regulation of one's own thinking processes.",
+      "Copying is a mechanical task without reflective thinking.",
+      "Passive listening doesn't involve metacognitive awareness."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q165",
@@ -972,7 +1420,14 @@
       "Eliminate grammar errors only",
       "Replace teacher feedback"
     ],
-    "answer": "Provide constructive feedback to improve writing"
+    "answer": "Provide constructive feedback to improve writing",
+    "rationales": [
+      "Peers provide feedback, not grades.",
+      "Correct! Peer review helps writers improve through constructive, specific feedback from classmates.",
+      "While grammar matters, peer review addresses all aspects of writing.",
+      "Peer review complements, not replaces, teacher feedback."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q166",
@@ -987,7 +1442,14 @@
       "Assigning extra credit",
       "Reducing standards"
     ],
-    "answer": "Tailoring lessons to individual learning needs"
+    "answer": "Tailoring lessons to individual learning needs",
+    "rationales": [
+      "Differentiation involves varying instruction, not uniformity.",
+      "Correct! Differentiated instruction adjusts teaching to meet diverse student needs, interests, and readiness levels.",
+      "Extra credit is one strategy but doesn't define differentiation.",
+      "Differentiation maintains high standards while varying approaches."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q167",
@@ -1002,7 +1464,14 @@
       "Evaluate overall achievement at the end of instruction",
       "Record attendance"
     ],
-    "answer": "Evaluate overall achievement at the end of instruction"
+    "answer": "Evaluate overall achievement at the end of instruction",
+    "rationales": [
+      "Adjusting ongoing teaching is the purpose of formative assessment.",
+      "Mid-unit feedback is formative, not summative.",
+      "Correct! Summative assessments measure learning outcomes after instruction concludes.",
+      "Attendance tracking is administrative, not assessment."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q168",
@@ -1017,7 +1486,14 @@
       "Avoid grading",
       "Assign more work"
     ],
-    "answer": "Discuss comprehension and growth individually"
+    "answer": "Discuss comprehension and growth individually",
+    "rationales": [
+      "Conferences support learning, not punishment.",
+      "Correct! Reading conferences provide individualized assessment and goal-setting opportunities.",
+      "Conferences are a form of authentic assessment, not avoidance.",
+      "While teachers may assign work, the purpose is individualized support."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q301",
@@ -1032,7 +1508,14 @@
       "Consonance",
       "Parallelism"
     ],
-    "answer": "Alliteration"
+    "answer": "Alliteration",
+    "rationales": [
+      "Assonance repeats vowel sounds, not initial consonants.",
+      "Correct! Alliteration is the repetition of initial consonant sounds in neighboring words.",
+      "Consonance repeats consonant sounds at the end or middle of words.",
+      "Parallelism refers to similar grammatical structures, not sound repetition."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q302",
@@ -1047,7 +1530,14 @@
       "Metaphor",
       "Juxtaposition"
     ],
-    "answer": "Assonance"
+    "answer": "Assonance",
+    "rationales": [
+      "Anaphora repeats words at the beginning of clauses, not vowel sounds.",
+      "Correct! Assonance is the repetition of vowel sounds ('ai' sound) within words.",
+      "This is not a metaphor; there's no comparison being made.",
+      "Juxtaposition places contrasting elements side by side, which isn't present here."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q303",
@@ -1062,7 +1552,14 @@
       "Alliteration",
       "Antithesis"
     ],
-    "answer": "Consonance"
+    "answer": "Consonance",
+    "rationales": [
+      "Chiasmus is inverted parallelism, not sound repetition.",
+      "Correct! Consonance repeats consonant sounds at the end or middle of words.",
+      "Alliteration repeats initial consonant sounds, not ending sounds.",
+      "Antithesis contrasts ideas, not sound patterns."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q304",
@@ -1077,7 +1574,14 @@
       "Anaphora",
       "Antithesis"
     ],
-    "answer": "Anaphora"
+    "answer": "Anaphora",
+    "rationales": [
+      "Epistrophe repeats words at the end of clauses, not the beginning.",
+      "Chiasmus reverses grammatical structures, not simply repeats.",
+      "Correct! Anaphora repeats words at the beginning of successive clauses.",
+      "Antithesis contrasts ideas rather than repeating words."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q305",
@@ -1092,7 +1596,14 @@
       "Chiasmus",
       "Parallelism"
     ],
-    "answer": "Epistrophe"
+    "answer": "Epistrophe",
+    "rationales": [
+      "Anaphora repeats at the beginning, not the end.",
+      "Correct! Epistrophe repeats words at the end of successive clauses.",
+      "Chiasmus reverses structures rather than repeating at the end.",
+      "Parallelism uses similar structures but doesn't specifically repeat at the end."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q306",
@@ -1107,7 +1618,14 @@
       "She likes to read and jogging.",
       "She likes reading then jog."
     ],
-    "answer": "She likes reading, writing, and jogging."
+    "answer": "She likes reading, writing, and jogging.",
+    "rationales": [
+      "Correct! All three items use the same grammatical form (gerunds).",
+      "Mixes gerund (reading) with infinitive (to jog) - not parallel.",
+      "Mixes infinitive (to read) with gerund (jogging) - not parallel.",
+      "Inconsistent verb forms - not parallel structure."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q307",
@@ -1122,7 +1640,14 @@
       "Juxtaposition",
       "Litotes"
     ],
-    "answer": "Antithesis"
+    "answer": "Antithesis",
+    "rationales": [
+      "Chiasmus involves structural reversal, not present here.",
+      "Correct! Antithesis places contrasting ideas (best/worst) in parallel structures.",
+      "While contrasting, this specifically uses parallel structure, making it antithesis.",
+      "Litotes affirms through negation, which isn't shown here."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q308",
@@ -1137,7 +1662,14 @@
       "Parallelism",
       "Synecdoche"
     ],
-    "answer": "Chiasmus"
+    "answer": "Chiasmus",
+    "rationales": [
+      "Correct! Chiasmus reverses the word order (Fool Kiss / Kiss Fool).",
+      "Antithesis contrasts ideas but doesn't reverse structures.",
+      "While parallel, the key feature is the reversal, making it chiasmus.",
+      "Synecdoche uses parts for wholes, not relevant here."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q309",
@@ -1152,7 +1684,14 @@
       "Analogy",
       "Euphemism"
     ],
-    "answer": "Metaphor"
+    "answer": "Metaphor",
+    "rationales": [
+      "Similes use 'like' or 'as' for comparison, not direct.",
+      "Correct! Metaphors make direct comparisons without 'like' or 'as'.",
+      "Analogies explain relationships, not direct comparisons.",
+      "Euphemisms substitute mild terms, not comparisons."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q310",
@@ -1167,7 +1706,14 @@
       "Hyperbole",
       "Euphemism"
     ],
-    "answer": "Simile"
+    "answer": "Simile",
+    "rationales": [
+      "Correct! This uses 'like' to compare, making it a simile.",
+      "Metaphors don't use 'like' or 'as'.",
+      "While vivid, it's not an exaggeration.",
+      "Euphemisms soften harsh terms, not relevant here."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q311",
@@ -1182,7 +1728,14 @@
       "Personification",
       "Symbolism"
     ],
-    "answer": "Personification"
+    "answer": "Personification",
+    "rationales": [
+      "No ironic contrast between expectation and reality.",
+      "This isn't an exaggeration.",
+      "Correct! Wind is given the human quality of whispering.",
+      "While potentially symbolic, the primary device is personification."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q312",
@@ -1197,7 +1750,14 @@
       "Litotes",
       "Paradox"
     ],
-    "answer": "Hyperbole"
+    "answer": "Hyperbole",
+    "rationales": [
+      "Correct! Hyperbole deliberately exaggerates for effect.",
+      "Understatement minimizes, opposite of exaggeration.",
+      "Litotes affirms through negation, not exaggeration.",
+      "Paradox presents contradictions, not exaggeration."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q313",
@@ -1212,7 +1772,14 @@
       "Euphemism",
       "Metonymy"
     ],
-    "answer": "Understatement"
+    "answer": "Understatement",
+    "rationales": [
+      "Paradox involves contradictory truths, not minimization.",
+      "Correct! Understatement deliberately minimizes significance.",
+      "While mild, understatement is more specific than euphemism here.",
+      "Metonymy substitutes related terms, not relevant."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q314",
@@ -1227,7 +1794,14 @@
       "Irony",
       "Synecdoche"
     ],
-    "answer": "Oxymoron"
+    "answer": "Oxymoron",
+    "rationales": [
+      "Correct! Oxymoron combines contradictory terms (jumbo = large, shrimp = small).",
+      "Paradox reveals truth through contradiction, not just word pairing.",
+      "While ironic, the specific device is oxymoron.",
+      "Synecdoche uses parts for wholes, not relevant."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q315",
@@ -1242,7 +1816,14 @@
       "Hyperbole",
       "Chiasmus"
     ],
-    "answer": "Paradox"
+    "answer": "Paradox",
+    "rationales": [
+      "Correct! This paradox seems contradictory but reveals truth about knowledge.",
+      "While containing irony, the primary device is paradox.",
+      "Not an exaggeration, but a philosophical truth.",
+      "Chiasmus reverses structure, not present here."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q316",
@@ -1257,7 +1838,14 @@
       "Euphemism",
       "Personification"
     ],
-    "answer": "Synecdoche"
+    "answer": "Synecdoche",
+    "rationales": [
+      "Metonymy substitutes associated terms, not parts for wholes.",
+      "Correct! Synecdoche uses 'hand' (part) to represent applause (whole).",
+      "Euphemisms soften harsh terms, not relevant here.",
+      "Personification gives human qualities to non-humans."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q317",
@@ -1272,7 +1860,14 @@
       "Irony",
       "Juxtaposition"
     ],
-    "answer": "Metonymy"
+    "answer": "Metonymy",
+    "rationales": [
+      "Synecdoche uses parts for wholes, not associations.",
+      "Correct! Metonymy substitutes 'White House' (place) for the President/administration.",
+      "No ironic contrast present.",
+      "Juxtaposition places contrasting elements together."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q318",
@@ -1287,7 +1882,14 @@
       "Understatement",
       "Paradox"
     ],
-    "answer": "Litotes"
+    "answer": "Litotes",
+    "rationales": [
+      "Correct! Litotes affirms by denying the opposite ('not bad' = good).",
+      "Euphemisms soften harsh terms, not the same as negation.",
+      "While understated, the specific device using negation is litotes.",
+      "Paradox involves contradictions, not simple negation."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q319",
@@ -1302,7 +1904,14 @@
       "Emphasize a point",
       "Transition to a new topic"
     ],
-    "answer": "Emphasize a point"
+    "answer": "Emphasize a point",
+    "rationales": [
+      "Rhetorical questions don't expect answers.",
+      "They clarify rather than confuse.",
+      "Correct! Rhetorical questions emphasize points without expecting answers.",
+      "While they can transition, emphasis is the primary purpose."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q320",
@@ -1317,7 +1926,14 @@
       "Antithesis",
       "Symbolism"
     ],
-    "answer": "Apostrophe"
+    "answer": "Apostrophe",
+    "rationales": [
+      "Correct! Apostrophe directly addresses Death as if it were present.",
+      "Metonymy substitutes related terms, not direct address.",
+      "Antithesis contrasts ideas, not present here.",
+      "While Death may be symbolic, the device is apostrophe."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q321",
@@ -1332,7 +1948,14 @@
       "Chiasmus",
       "Euphemism"
     ],
-    "answer": "Juxtaposition"
+    "answer": "Juxtaposition",
+    "rationales": [
+      "Correct! Juxtaposition places contrasting elements together for emphasis.",
+      "Parallelism uses similar structures, but the emphasis here is on contrast.",
+      "Chiasmus reverses structure, not simply contrasting.",
+      "Euphemisms soften harsh terms, not relevant."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q322",
@@ -1347,7 +1970,14 @@
       "Hyperbole",
       "Symbolism"
     ],
-    "answer": "Irony"
+    "answer": "Irony",
+    "rationales": [
+      "Correct! Irony is the contrast between expectation and reality.",
+      "Paradox reveals truth through seeming contradiction.",
+      "Hyperbole exaggerates, not about expectations.",
+      "Symbolism represents abstract ideas, not expectations."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q323",
@@ -1362,7 +1992,14 @@
       "Chiasmus",
       "Antithesis"
     ],
-    "answer": "Parallelism"
+    "answer": "Parallelism",
+    "rationales": [
+      "Correct! Parallelism uses similar grammatical structures.",
+      "Anaphora specifically repeats words at the beginning, not just structure.",
+      "Chiasmus reverses structure rather than repeating it.",
+      "Antithesis contrasts ideas, not just structure."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q324",
@@ -1377,7 +2014,14 @@
       "Paradox",
       "Understatement"
     ],
-    "answer": "Euphemism"
+    "answer": "Euphemism",
+    "rationales": [
+      "Correct! Euphemisms replace harsh terms with milder alternatives.",
+      "Irony contrasts expectations, doesn't soften.",
+      "Paradox presents contradictions, doesn't soften.",
+      "Understatement minimizes but doesn't specifically soften harsh terms."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q325",
@@ -1392,7 +2036,14 @@
       "Theme",
       "Conflict"
     ],
-    "answer": "Tone"
+    "answer": "Tone",
+    "rationales": [
+      "Setting involves time and place, not word choice.",
+      "Correct! Diction (word choice) directly creates and shapes tone.",
+      "Theme is the central idea, influenced by many elements.",
+      "Conflict is the struggle, not directly determined by diction."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q301",
@@ -1407,7 +2058,14 @@
       "Monitor Model",
       "Transfer Theory"
     ],
-    "answer": "Input Hypothesis"
+    "answer": "Input Hypothesis",
+    "rationales": [
+      "Correct! The Input Hypothesis (i+1) states learners acquire language when exposed to comprehensible input just beyond their current level.",
+      "Output Hypothesis emphasizes language production, not input.",
+      "Monitor Model is Krashen's broader framework, not specifically about input levels.",
+      "Transfer Theory addresses L1 influence, not input complexity."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q302",
@@ -1422,7 +2080,14 @@
       "Natural Order",
       "Code-Switching"
     ],
-    "answer": "Affective Filter"
+    "answer": "Affective Filter",
+    "rationales": [
+      "Critical Period refers to optimal age for language acquisition.",
+      "Correct! The Affective Filter represents emotional barriers (anxiety, low motivation) that prevent input from being acquired.",
+      "Natural Order describes the sequence of grammar acquisition.",
+      "Code-Switching is alternating between languages, not an emotional barrier."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q303",
@@ -1437,7 +2102,14 @@
       "Total Physical Response",
       "Peer imitation"
     ],
-    "answer": "Scaffolded discussion using academic vocabulary"
+    "answer": "Scaffolded discussion using academic vocabulary",
+    "rationales": [
+      "Playground talk develops BICS, not CALP.",
+      "Correct! Scaffolded academic discussions with explicit vocabulary instruction build CALP.",
+      "TPR is effective for comprehension but doesn't target academic language specifically.",
+      "Peer imitation may support social language but doesn't ensure academic language development."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q304",
@@ -1452,7 +2124,14 @@
       "Code-switching",
       "Translation"
     ],
-    "answer": "Modeling"
+    "answer": "Modeling",
+    "rationales": [
+      "Correct! Modeling demonstrates correct language use before students attempt it independently.",
+      "Drilling involves repetitive practice, not initial demonstration.",
+      "Code-switching is language alternation, not instructional demonstration.",
+      "Translation converts meaning between languages, not demonstrating form."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q305",
@@ -1467,7 +2146,14 @@
       "Total Physical Response",
       "Communicative Approach"
     ],
-    "answer": "Total Physical Response"
+    "answer": "Total Physical Response",
+    "rationales": [
+      "Silent Way minimizes teacher talk, doesn't emphasize movement.",
+      "Direct Method uses target language only, but doesn't focus on physical response.",
+      "Correct! TPR uses physical actions to reinforce language meaning and comprehension.",
+      "Communicative Approach emphasizes interaction, not specifically movement."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q306",
@@ -1482,7 +2168,14 @@
       "Pronunciation",
       "Fluency"
     ],
-    "answer": "Processing time"
+    "answer": "Processing time",
+    "rationales": [
+      "Wait time doesn't directly teach grammar.",
+      "Correct! Wait time gives ELLs processing time to think, translate internally, and formulate responses.",
+      "Pronunciation requires different interventions.",
+      "While helpful, the primary benefit is processing time, not immediate fluency."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q307",
@@ -1497,7 +2190,14 @@
       "Are used in social settings",
       "Depend on grammar rules"
     ],
-    "answer": "Are used in social settings"
+    "answer": "Are used in social settings",
+    "rationales": [
+      "BICS uses everyday vocabulary, not academic vocabulary.",
+      "BICS develops faster (1-2 years) than CALP (5-7 years).",
+      "Correct! BICS is conversational, context-embedded language used in social situations.",
+      "Both require grammar, but BICS is less formal and academic."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q308",
@@ -1512,7 +2212,14 @@
       "Fossilization",
       "Overgeneralization"
     ],
-    "answer": "Language transfer"
+    "answer": "Language transfer",
+    "rationales": [
+      "Correct! Language transfer occurs when L1 patterns influence L2 production (Spanish 'espectador' → 'espectator').",
+      "Code-switching is intentional alternation between languages, not an error.",
+      "Fossilization is persistent incorrect forms despite instruction.",
+      "Overgeneralization applies learned rules too broadly, not L1 influence."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q309",
@@ -1527,7 +2234,14 @@
       "Avoiding visuals",
       "Limiting peer interaction"
     ],
-    "answer": "Providing comprehensible input and context"
+    "answer": "Providing comprehensible input and context",
+    "rationales": [
+      "Grammar focus alone doesn't ensure communicative competence.",
+      "Correct! Comprehensible input with rich context supports natural acquisition.",
+      "Visuals are essential supports for ELLs.",
+      "Peer interaction builds communicative competence."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q310",
@@ -1542,7 +2256,14 @@
       "Syntax",
       "Phonemic awareness"
     ],
-    "answer": "Communicative competence"
+    "answer": "Communicative competence",
+    "rationales": [
+      "Morphology is word structure, not built primarily through discussion.",
+      "Correct! Collaboration develops the ability to use language appropriately in social contexts.",
+      "Syntax benefits, but communicative competence is the broader outcome.",
+      "Phonemic awareness involves sound manipulation, not discussion."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q311",
@@ -1557,7 +2278,14 @@
       "Root",
       "Stem"
     ],
-    "answer": "Prefix"
+    "answer": "Prefix",
+    "rationales": [
+      "Suffixes attach at the end.",
+      "Correct! Prefixes attach at the beginning (un-, re-, pre-).",
+      "Roots are the base meaning units.",
+      "Stems are bases to which affixes attach."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q312",
@@ -1572,7 +2300,14 @@
       "Inflection",
       "Stem"
     ],
-    "answer": "Suffix"
+    "answer": "Suffix",
+    "rationales": [
+      "Prefixes attach at the beginning.",
+      "Correct! Suffixes attach at the end (-ness, -tion, -ly).",
+      "Inflection is a type of suffix, but suffix is the general term.",
+      "Stems are not affixes."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q313",
@@ -1587,7 +2322,14 @@
       "-ful",
       "-ous"
     ],
-    "answer": "-tion"
+    "answer": "-tion",
+    "rationales": [
+      "-ize creates verbs from nouns/adjectives.",
+      "Correct! -tion creates nouns from verbs (act → action).",
+      "-ful creates adjectives from nouns.",
+      "-ous creates adjectives from nouns."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q314",
@@ -1602,7 +2344,14 @@
       "Adjectives",
       "Adverbs"
     ],
-    "answer": "Verbs"
+    "answer": "Verbs",
+    "rationales": [
+      "Nouns are formed by -tion, -ness, -ment.",
+      "Correct! -ize forms verbs (modern → modernize).",
+      "Adjectives use -ful, -ous, -able.",
+      "Adverbs use -ly."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q315",
@@ -1617,7 +2366,14 @@
       "Adverb",
       "Pronoun"
     ],
-    "answer": "Adjective"
+    "answer": "Adjective",
+    "rationales": [
+      "Correct! -ous creates adjectives (danger → dangerous).",
+      "-ize, -en, -ify create verbs.",
+      "-ly typically creates adverbs.",
+      "Pronouns are not formed with suffixes."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q316",
@@ -1632,7 +2388,14 @@
       "Copying sentences",
       "Reciting rhymes"
     ],
-    "answer": "Sorting words by affixes"
+    "answer": "Sorting words by affixes",
+    "rationales": [
+      "Memorization doesn't build awareness of word structure.",
+      "Correct! Sorting by affixes helps students analyze and understand word parts.",
+      "Copying doesn't emphasize morphological analysis.",
+      "Rhymes support phonological awareness, not morphological."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q317",
@@ -1647,7 +2410,14 @@
       "Compound",
       "Bound root"
     ],
-    "answer": "Derivational"
+    "answer": "Derivational",
+    "rationales": [
+      "Inflectional morphemes indicate grammar (tense, number) without changing meaning.",
+      "Correct! Derivational morphemes create new words and meanings (happy → happiness).",
+      "Compounds combine two words, not morphemes.",
+      "Bound roots don't change meaning, they carry core meaning."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q318",
@@ -1662,7 +2432,14 @@
       "Prefix",
       "Suffix root"
     ],
-    "answer": "Inflectional morpheme"
+    "answer": "Inflectional morpheme",
+    "rationales": [
+      "Derivational morphemes change word class or meaning.",
+      "Correct! Inflectional morphemes mark grammar (tense, number, comparison) without changing word class.",
+      "Prefixes attach at the beginning.",
+      "This is an inflectional suffix, not a root."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q319",
@@ -1677,7 +2454,14 @@
       "Fluency",
       "Phonology"
     ],
-    "answer": "Metalinguistic awareness"
+    "answer": "Metalinguistic awareness",
+    "rationales": [
+      "Syntax is sentence structure, not word analysis.",
+      "Correct! Metalinguistic awareness is consciously thinking about language structures.",
+      "Fluency is speed and accuracy, not language analysis.",
+      "Phonology is sound systems, not morphology."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q320",
@@ -1692,7 +2476,14 @@
       "Audio-lingual method",
       "Direct method"
     ],
-    "answer": "Communicative approach"
+    "answer": "Communicative approach",
+    "rationales": [
+      "Grammar-Translation emphasizes written translation and explicit grammar.",
+      "Correct! The Communicative approach emphasizes meaningful interaction and context.",
+      "Audio-lingual method focuses on drills and repetition.",
+      "Direct method uses target language only, without emphasizing visuals/gestures as much."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q321",
@@ -1707,7 +2498,14 @@
       "Correcting every error publicly",
       "Reducing peer interaction"
     ],
-    "answer": "Creating a supportive environment"
+    "answer": "Creating a supportive environment",
+    "rationales": [
+      "Frequent testing can raise anxiety.",
+      "Correct! A supportive, low-anxiety environment lowers the affective filter and promotes acquisition.",
+      "Public correction raises anxiety.",
+      "Peer interaction supports language development."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q322",
@@ -1722,7 +2520,14 @@
       "Drill pronunciation",
       "Avoid code-switching"
     ],
-    "answer": "Build syntax and academic discourse"
+    "answer": "Build syntax and academic discourse",
+    "rationales": [
+      "Correct! Sentence frames scaffold academic language structure and reasoning.",
+      "Phonics involves sound-letter relationships, not sentence structure.",
+      "Pronunciation is separate from sentence structure.",
+      "Sentence frames support language use, not eliminate code-switching."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q323",
@@ -1737,7 +2542,14 @@
       "Syntactic transfer",
       "Listening comprehension"
     ],
-    "answer": "Morphological awareness"
+    "answer": "Morphological awareness",
+    "rationales": [
+      "Correct! Discussing roots and affixes builds morphological awareness—understanding word structure.",
+      "Phonemic fluency involves sound manipulation, not word parts.",
+      "Syntactic transfer refers to sentence structure influence from L1.",
+      "Listening comprehension requires different strategies."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q324",
@@ -1752,7 +2564,14 @@
       "-ness, -tion",
       "-ed, -ing"
     ],
-    "answer": "-ness, -tion"
+    "answer": "-ness, -tion",
+    "rationales": [
+      "-able and -ous form adjectives.",
+      "-ize and -ify form verbs.",
+      "Correct! -ness and -tion are common noun-forming suffixes.",
+      "-ed and -ing are inflectional suffixes."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q325",
@@ -1767,7 +2586,14 @@
       "Simplify all reading",
       "Limit talk time"
     ],
-    "answer": "Use context-rich content lessons"
+    "answer": "Use context-rich content lessons",
+    "rationales": [
+      "Dictionaries are helpful but don't build deep understanding.",
+      "Correct! Context-rich lessons provide meaningful exposure and use of academic vocabulary.",
+      "Simplifying prevents exposure to academic language.",
+      "Talk time is essential for language development."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q326",
@@ -1782,7 +2608,14 @@
       "Modern English",
       "Contemporary English"
     ],
-    "answer": "Middle English"
+    "answer": "Middle English",
+    "rationales": [
+      "Old English (450-1100) predates the Norman Conquest.",
+      "Correct! Middle English (1100-1500) developed after the Norman Conquest brought French vocabulary into English.",
+      "Modern English came later, from 1500 onward.",
+      "Contemporary English is not a standard periodization term."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q327",
@@ -1797,7 +2630,14 @@
       "Great Vowel Shift",
       "Norman Conquest"
     ],
-    "answer": "Great Vowel Shift"
+    "answer": "Great Vowel Shift",
+    "rationales": [
+      "The Great Schism was a religious division, not a linguistic change.",
+      "The Industrial Revolution occurred later (1760-1840) and affected society, not pronunciation.",
+      "Correct! The Great Vowel Shift changed how long vowels were pronounced, creating spelling-pronunciation mismatches.",
+      "The Norman Conquest (1066) affected vocabulary but not this specific vowel change."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q328",
@@ -1812,7 +2652,14 @@
       "Middle English",
       "Contemporary English"
     ],
-    "answer": "Early Modern English"
+    "answer": "Early Modern English",
+    "rationales": [
+      "Old English ended around 1100 CE.",
+      "Correct! Early Modern English (1500-1800) includes the Renaissance, Shakespeare, and early standardization.",
+      "Middle English ended around 1500 CE.",
+      "Contemporary English came later."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q329",
@@ -1827,7 +2674,14 @@
       "Creole",
       "Derivation"
     ],
-    "answer": "Loanword"
+    "answer": "Loanword",
+    "rationales": [
+      "Calques translate structure, not adopt words directly.",
+      "Correct! A loanword is borrowed unchanged from another language (ballet, piano, café).",
+      "Creole is a type of language, not a borrowed word.",
+      "Derivation creates new words from existing roots, not borrowing."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q330",
@@ -1842,7 +2696,14 @@
       "Borrowing",
       "Neologism"
     ],
-    "answer": "Calque"
+    "answer": "Calque",
+    "rationales": [
+      "Pidgin is a simplified contact language, not a translation method.",
+      "Correct! A calque translates the structure literally (skyscraper = gratte-ciel).",
+      "Borrowing is general; calque is specifically literal translation.",
+      "Neologism is a newly coined word."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q331",
@@ -1857,7 +2718,14 @@
       "Phonology",
       "Syntax"
     ],
-    "answer": "Etymology"
+    "answer": "Etymology",
+    "rationales": [
+      "Correct! Etymology studies word origins and semantic evolution.",
+      "Morphology studies word structure.",
+      "Phonology studies sound systems.",
+      "Syntax studies sentence structure."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q332",
@@ -1872,7 +2740,14 @@
       "Dialect",
       "Sociolect"
     ],
-    "answer": "Pidgin"
+    "answer": "Pidgin",
+    "rationales": [
+      "Correct! Pidgins are simplified contact languages with no native speakers.",
+      "Creoles evolve from pidgins when they gain native speakers.",
+      "Dialects are varieties of a single language.",
+      "Sociolects are social varieties."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q333",
@@ -1887,7 +2762,14 @@
       "Idiolect",
       "Sociolect"
     ],
-    "answer": "Creole"
+    "answer": "Creole",
+    "rationales": [
+      "Dialects are regional/social varieties, not evolved pidgins.",
+      "Correct! Creoles develop when pidgins gain native speakers and expand grammatically.",
+      "Idiolects are individual speech patterns.",
+      "Sociolects are social group varieties."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q334",
@@ -1902,7 +2784,14 @@
       "A regional or social language variety",
       "A new language created from two others"
     ],
-    "answer": "A regional or social language variety"
+    "answer": "A regional or social language variety",
+    "rationales": [
+      "Register refers to formality level, not dialect.",
+      "This describes pidgin, not dialect.",
+      "Correct! Dialects are systematic regional or social varieties of a language.",
+      "This describes a creole or mixed language."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q335",
@@ -1917,7 +2806,14 @@
       "Idiolect",
       "Register"
     ],
-    "answer": "Idiolect"
+    "answer": "Idiolect",
+    "rationales": [
+      "Sociolect is group-based, not individual.",
+      "Dialect is regional/social, not individual.",
+      "Correct! Idiolect is an individual's unique linguistic fingerprint.",
+      "Register is formality level, not individual style."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q336",
@@ -1932,7 +2828,14 @@
       "Dialect",
       "Register"
     ],
-    "answer": "Sociolect"
+    "answer": "Sociolect",
+    "rationales": [
+      "Pidgin is a contact language, not a social variety.",
+      "Correct! Sociolect reflects social class, education, or group membership.",
+      "Dialect is regional, not specifically social.",
+      "Register is formality level."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q337",
@@ -1947,7 +2850,14 @@
       "Informal language used for identity or novelty",
       "Words borrowed from Latin"
     ],
-    "answer": "Informal language used for identity or novelty"
+    "answer": "Informal language used for identity or novelty",
+    "rationales": [
+      "Slang is informal, not formal.",
+      "Jargon is specialized; slang is broader and more informal.",
+      "Correct! Slang is informal, group-specific, and evolves rapidly.",
+      "Latin borrowings are not necessarily slang."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q338",
@@ -1962,7 +2872,14 @@
       "Slang",
       "Borrowing"
     ],
-    "answer": "Slang"
+    "answer": "Slang",
+    "rationales": [
+      "Not limited to one region.",
+      "It's not newly coined, but repurposed.",
+      "Correct! 'Cool' for 'good' is informal slang that emerged mid-20th century.",
+      "It's not borrowed from another language."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q339",
@@ -1977,7 +2894,14 @@
       "French",
       "Italian"
     ],
-    "answer": "Spanish"
+    "answer": "Spanish",
+    "rationales": [
+      "German did not contribute 'rodeo.'",
+      "Correct! 'Rodeo' comes from Spanish, reflecting cultural exchange in the American West.",
+      "Not from French.",
+      "Not from Italian."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q340",
@@ -1992,7 +2916,14 @@
       "Phonemic drift",
       "Idiolect"
     ],
-    "answer": "Lexical variation"
+    "answer": "Lexical variation",
+    "rationales": [
+      "Morphology is word structure, not regional word choice.",
+      "Correct! Lexical variation means different words for the same thing in different regions.",
+      "Phonemic drift is sound change over time.",
+      "Idiolect is individual, not regional."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q201",
@@ -2007,7 +2938,14 @@
       "Interactionist",
       "Cognitive"
     ],
-    "answer": "Behaviorist"
+    "answer": "Behaviorist",
+    "rationales": [
+      "Correct! Behaviorist theory (Skinner) views language as learned through imitation, practice, and reinforcement.",
+      "Nativist theory emphasizes innate biological capacity, not imitation.",
+      "Interactionist theory focuses on social interaction, not just imitation.",
+      "Cognitive theory links language to mental development, not conditioning."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q202",
@@ -2022,7 +2960,14 @@
       "Interlanguage",
       "Code-switching"
     ],
-    "answer": "Overgeneralization"
+    "answer": "Overgeneralization",
+    "rationales": [
+      "Telegraphic speech omits function words, not applies rules incorrectly.",
+      "Correct! Overgeneralization applies the regular past tense rule (-ed) to irregular verbs, showing rule learning.",
+      "Interlanguage is specific to L2 learners, not L1 development.",
+      "Code-switching alternates between languages, not relevant here."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q203",
@@ -2037,7 +2982,14 @@
       "Nativist",
       "Sociocultural"
     ],
-    "answer": "Nativist"
+    "answer": "Nativist",
+    "rationales": [
+      "Interactionist emphasizes social interaction, not innate devices.",
+      "Behaviorist focuses on learned behavior, not biological endowment.",
+      "Correct! Nativist theory (Chomsky) proposes an innate LAD that enables language acquisition.",
+      "Sociocultural emphasizes cultural context, not biological structures."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q204",
@@ -2052,7 +3004,14 @@
       "Cognitive Theory",
       "Innate Hypothesis"
     ],
-    "answer": "Interactionist Theory"
+    "answer": "Interactionist Theory",
+    "rationales": [
+      "Correct! Interactionist theory emphasizes that language develops through meaningful social interaction.",
+      "Behaviorist focuses on imitation/reinforcement, not social meaning-making.",
+      "Cognitive theory links language to mental development, not specifically social interaction.",
+      "Innate Hypothesis (nativist) emphasizes biological capacity, not interaction."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q205",
@@ -2067,7 +3026,14 @@
       "Input Hypothesis",
       "Communicative Approach"
     ],
-    "answer": "Critical Period Hypothesis"
+    "answer": "Critical Period Hypothesis",
+    "rationales": [
+      "Correct! The Critical Period Hypothesis states language acquisition is easiest during childhood before brain plasticity declines.",
+      "Monitor Model addresses conscious language learning, not age factors.",
+      "Input Hypothesis focuses on comprehensible input, not developmental timing.",
+      "Communicative Approach is a teaching method, not a developmental theory."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q206",
@@ -2082,7 +3048,14 @@
       "Fossilization",
       "Code-mixing"
     ],
-    "answer": "Negative transfer"
+    "answer": "Negative transfer",
+    "rationales": [
+      "Positive transfer helps learning through similarities, not creates errors.",
+      "Correct! Negative transfer (interference) occurs when L1 patterns cause errors in L2.",
+      "Fossilization is persistent errors despite instruction, not initial transfer.",
+      "Code-mixing blends languages intentionally, not creates grammar errors."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q207",
@@ -2097,7 +3070,14 @@
       "Interlanguage",
       "Code-switching"
     ],
-    "answer": "Positive transfer"
+    "answer": "Positive transfer",
+    "rationales": [
+      "Correct! Positive transfer occurs when L1-L2 similarities facilitate learning (e.g., cognates).",
+      "Negative transfer causes difficulties, not aids learning.",
+      "Interlanguage is the learner's evolving system, not the transfer itself.",
+      "Code-switching alternates languages, not transfer of patterns."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q208",
@@ -2112,7 +3092,14 @@
       "Pidgin",
       "Register"
     ],
-    "answer": "Interlanguage"
+    "answer": "Interlanguage",
+    "rationales": [
+      "Code-switching alternates between complete languages.",
+      "Correct! Interlanguage is the learner's evolving linguistic system between L1 and L2.",
+      "Pidgin is a contact language between groups, not individual learner language.",
+      "Register is formality level, not a developmental system."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q209",
@@ -2127,7 +3114,14 @@
       "Audio-Lingual",
       "Direct Method"
     ],
-    "answer": "Integrative Language Teaching"
+    "answer": "Integrative Language Teaching",
+    "rationales": [
+      "Correct! Integrative Language Teaching combines listening, speaking, reading, and writing in meaningful contexts.",
+      "Grammar-Translation focuses on written translation, not all skills.",
+      "Audio-Lingual emphasizes drilling and repetition, not integration.",
+      "Direct Method uses target language only but doesn't necessarily integrate all skills."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q210",
@@ -2142,7 +3136,14 @@
       "Behavioral Conditioning",
       "Drill and Practice"
     ],
-    "answer": "Collaborative Dialogue"
+    "answer": "Collaborative Dialogue",
+    "rationales": [
+      "Correct! Collaborative dialogue involves students negotiating meaning through peer interaction.",
+      "Direct instruction is teacher-led, not student-centered discussion.",
+      "Behavioral conditioning involves reinforcement, not collaborative meaning-making.",
+      "Drill and practice is repetitive, not collaborative or meaning-focused."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q211",
@@ -2157,7 +3158,14 @@
       "Math and science develop separately",
       "Reading skills hinder science vocabulary"
     ],
-    "answer": "Language arts reinforce cognitive skills across subjects"
+    "answer": "Language arts reinforce cognitive skills across subjects",
+    "rationales": [
+      "Language and content are deeply interconnected.",
+      "Correct! Language arts skills (reading, writing, discussion) support learning across all disciplines.",
+      "All subjects require and develop language skills.",
+      "Reading skills support, not hinder, content vocabulary."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q212",
@@ -2172,7 +3180,14 @@
       "Oral reading only in English",
       "Reducing subject vocabulary"
     ],
-    "answer": "Writing and discussion in all content areas"
+    "answer": "Writing and discussion in all content areas",
+    "rationales": [
+      "Grammar worksheets are isolated skill practice, not curriculum integration.",
+      "Correct! Language across the curriculum integrates reading, writing, and speaking into all subjects.",
+      "Not limited to oral reading or English class.",
+      "Should expand, not reduce, vocabulary across subjects."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q213",
@@ -2187,7 +3202,14 @@
       "Behavioral Conditioning",
       "Interlanguage Stage"
     ],
-    "answer": "Zone of Proximal Development"
+    "answer": "Zone of Proximal Development",
+    "rationales": [
+      "Critical Period refers to optimal age for language acquisition.",
+      "Correct! ZPD is the gap between independent and supported performance where learning happens.",
+      "Behavioral conditioning is Skinner's concept, not Vygotsky's.",
+      "Interlanguage is Selinker's concept for L2 learners."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q214",
@@ -2202,7 +3224,14 @@
       "Negative transfer",
       "Code-switching"
     ],
-    "answer": "Disciplinary literacy"
+    "answer": "Disciplinary literacy",
+    "rationales": [
+      "Interlanguage relates to L2 learning, not content literacy.",
+      "Correct! Disciplinary literacy applies reading/writing strategies specific to content areas.",
+      "Negative transfer causes errors, not strategy application.",
+      "Code-switching alternates languages, not applies strategies."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q215",
@@ -2217,7 +3246,14 @@
       "Dictation",
       "Grammar translation"
     ],
-    "answer": "Collaborative dialogue"
+    "answer": "Collaborative dialogue",
+    "rationales": [
+      "Silent reading lacks peer interaction.",
+      "Correct! Collaborative dialogue promotes language through peer interaction, modeling, and feedback.",
+      "Dictation is teacher-directed, not peer-based.",
+      "Grammar translation focuses on written work, not peer communication."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q216",
@@ -2232,7 +3268,14 @@
       "Dialect variation",
       "Interlanguage"
     ],
-    "answer": "Academic language"
+    "answer": "Academic language",
+    "rationales": [
+      "Correct! Academic language includes subject-specific vocabulary and formal discourse structures.",
+      "These are formal academic terms, not informal language.",
+      "Dialect variation is regional/social, not academic vocabulary.",
+      "Interlanguage is L2 learner language, not academic vocabulary instruction."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q217",
@@ -2247,7 +3290,14 @@
       "Phonemic decoding",
       "Rote learning"
     ],
-    "answer": "Cross-linguistic connections"
+    "answer": "Cross-linguistic connections",
+    "rationales": [
+      "Syntax transfer relates to sentence structure, not vocabulary comparison.",
+      "Correct! Cross-linguistic connections leverage knowledge across languages to deepen understanding.",
+      "Phonemic decoding is sound-letter relationships, not idiom comparison.",
+      "Rote learning is memorization without understanding."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q218",
@@ -2262,7 +3312,14 @@
       "Dictation practice",
       "Listening tests"
     ],
-    "answer": "Think-aloud modeling"
+    "answer": "Think-aloud modeling",
+    "rationales": [
+      "Silent reading logs track reading but don't model metacognition.",
+      "Correct! Think-aloud modeling explicitly demonstrates comprehension monitoring and strategy use.",
+      "Dictation doesn't develop metacognitive awareness.",
+      "Listening tests assess, not develop, metacognition."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q219",
@@ -2277,7 +3334,14 @@
       "Fossilization",
       "Overgeneralization"
     ],
-    "answer": "Negative transfer"
+    "answer": "Negative transfer",
+    "rationales": [
+      "Code-switching alternates complete languages, not creates errors.",
+      "Correct! Negative transfer from Spanish (no auxiliary verb needed) causes this English error.",
+      "Fossilization is persistent errors despite instruction, not initial transfer.",
+      "Overgeneralization applies learned rules too broadly, not L1 interference."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q220",
@@ -2292,7 +3356,14 @@
       "Phonemic awareness",
       "Spelling transfer"
     ],
-    "answer": "Language across the curriculum"
+    "answer": "Language across the curriculum",
+    "rationales": [
+      "Correct! Language across the curriculum integrates literacy skills into all subject areas.",
+      "Grammar immersion isn't a recognized approach.",
+      "Phonemic awareness is specific to sound-letter relationships.",
+      "Spelling transfer relates to word patterns, not cross-curricular integration."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q221",
@@ -2307,7 +3378,14 @@
       "Negative transfer",
       "Pidgin"
     ],
-    "answer": "Code-mixing"
+    "answer": "Code-mixing",
+    "rationales": [
+      "Interlanguage is a learner's evolving system, not mixing languages in speech.",
+      "Correct! Code-mixing blends elements from two languages within discourse.",
+      "Negative transfer causes errors, not intentional mixing.",
+      "Pidgin is a simplified contact language, not bilingual mixing."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q222",
@@ -2322,7 +3400,14 @@
       "Translation",
       "Immersion"
     ],
-    "answer": "Scaffolding"
+    "answer": "Scaffolding",
+    "rationales": [
+      "Direct instruction is explicit teaching, not gradual release.",
+      "Correct! Scaffolding provides temporary support that's gradually removed as competence grows.",
+      "Translation converts between languages, not provides instructional support.",
+      "Immersion surrounds learners with target language but doesn't describe gradual release."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q223",
@@ -2337,7 +3422,14 @@
       "Metacognition",
       "Positive transfer"
     ],
-    "answer": "Positive transfer"
+    "answer": "Positive transfer",
+    "rationales": [
+      "Phonemic awareness is sound manipulation, not pattern application.",
+      "Morphological transfer relates to word parts, not spelling patterns.",
+      "Metacognition is awareness of thinking, not pattern use.",
+      "Correct! Positive transfer applies known patterns to new contexts, facilitating learning."
+    ],
+    "correctIndex": 3
   },
   {
     "id": "Q224",
@@ -2352,7 +3444,14 @@
       "Tier 3 vocabulary",
       "Dialect terms"
     ],
-    "answer": "Tier 2 vocabulary"
+    "answer": "Tier 2 vocabulary",
+    "rationales": [
+      "Tier 1 is basic, everyday vocabulary (happy, run).",
+      "Correct! Tier 2 vocabulary appears across disciplines and supports academic discourse.",
+      "Tier 3 is domain-specific technical vocabulary (photosynthesis).",
+      "Dialect terms are regional/social, not academic categories."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q225",
@@ -2367,7 +3466,14 @@
       "Audiolingual method",
       "Phonics-focused lessons"
     ],
-    "answer": "Content-based instruction"
+    "answer": "Content-based instruction",
+    "rationales": [
+      "Correct! Content-based instruction teaches language through meaningful subject matter, integrating both goals.",
+      "Grammar drills isolate language forms from content.",
+      "Audiolingual method focuses on pattern practice, not content.",
+      "Phonics focuses on decoding, not content learning."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q401",
@@ -2382,7 +3488,14 @@
       "Syntax",
       "Semantics"
     ],
-    "answer": "Syntax"
+    "answer": "Syntax",
+    "rationales": [
+      "Phonology studies sound systems, not word arrangement.",
+      "Morphology studies word formation from morphemes, not sentence structure.",
+      "Correct! Syntax governs how words combine into phrases, clauses, and sentences.",
+      "Semantics studies meaning, not grammatical structure."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q402",
@@ -2397,7 +3510,14 @@
       "Semantics",
       "Pragmatics"
     ],
-    "answer": "Morphology"
+    "answer": "Morphology",
+    "rationales": [
+      "Phonology deals with sounds, not word parts.",
+      "Correct! Morphology analyzes word structure and formation from morphemes (roots, prefixes, suffixes).",
+      "Semantics addresses meaning, not word structure.",
+      "Pragmatics examines context and use, not word formation."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q403",
@@ -2412,7 +3532,14 @@
       "'Don't use double negatives.'",
       "'Always use whom as the object.'"
     ],
-    "answer": "'People often end sentences with prepositions in casual speech.'"
+    "answer": "'People often end sentences with prepositions in casual speech.'",
+    "rationales": [
+      "This is prescriptive—dictating what not to do.",
+      "Correct! Descriptive grammar observes actual language use without judgment.",
+      "This is prescriptive—dictating a rule.",
+      "This is prescriptive—dictating correct form."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q404",
@@ -2427,7 +3554,14 @@
       "Oxymoron",
       "Cliché"
     ],
-    "answer": "Ambiguity"
+    "answer": "Ambiguity",
+    "rationales": [
+      "Denotation is literal meaning, not multiple interpretations.",
+      "Correct! Ambiguity allows multiple valid interpretations.",
+      "Oxymoron combines contradictory terms, not creates multiple meanings.",
+      "Cliché is overused expression, not multiple interpretations."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q405",
@@ -2442,7 +3576,14 @@
       "Synecdoche",
       "Apostrophe"
     ],
-    "answer": "Imagery"
+    "answer": "Imagery",
+    "rationales": [
+      "Allusion references other texts, not sensory details.",
+      "Correct! Imagery uses sensory language (sight, sound, smell, taste, touch) to evoke experiences.",
+      "Synecdoche uses parts for wholes, not sensory details.",
+      "Apostrophe addresses absent entities, not creates sensory impressions."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q406",
@@ -2457,7 +3598,14 @@
       "Associated meanings and feelings",
       "Syntactic function"
     ],
-    "answer": "Associated meanings and feelings"
+    "answer": "Associated meanings and feelings",
+    "rationales": [
+      "Dictionary meaning is denotation, not connotation.",
+      "Spelling variants are orthographic, not connotative.",
+      "Correct! Connotation is the emotional/cultural associations beyond literal meaning.",
+      "Syntactic function is grammatical role, not meaning associations."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q407",
@@ -2472,7 +3620,14 @@
       "Ensure strict symmetry",
       "Eliminate ambiguity"
     ],
-    "answer": "Heighten tension or unease"
+    "answer": "Heighten tension or unease",
+    "rationales": [
+      "Irregular meter disrupts monotony rather than creates it.",
+      "Correct! Slant rhyme and irregular meter create tension and disrupt expectations, producing unease.",
+      "Irregular meter breaks symmetry, not ensures it.",
+      "These techniques can increase ambiguity, not eliminate it."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q408",
@@ -2487,7 +3642,14 @@
       "Chronological exposition",
       "Objective reporting"
     ],
-    "answer": "Exaggerated praise of a clearly flawed subject"
+    "answer": "Exaggerated praise of a clearly flawed subject",
+    "rationales": [
+      "Literal description lacks the contrast needed for irony.",
+      "Correct! Exaggerating praise of something flawed creates verbal irony—saying opposite of what's meant.",
+      "Chronological structure doesn't create irony.",
+      "Objective reporting avoids ironic tone."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q409",
@@ -2502,7 +3664,14 @@
       "Setting detail",
       "Foreshadowing"
     ],
-    "answer": "Characterization"
+    "answer": "Characterization",
+    "rationales": [
+      "Plot is sequence of events, not character revelation.",
+      "Correct! Characterization methods include dialogue revealing personality, beliefs, and values.",
+      "Setting is time/place, not character traits.",
+      "Foreshadowing hints at future events, not character values."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q410",
@@ -2517,7 +3686,14 @@
       "Character arc",
       "Point of view"
     ],
-    "answer": "Setting and mood"
+    "answer": "Setting and mood",
+    "rationales": [
+      "Correct! Setting (weather, location) and mood (ominous atmosphere) are developed through environmental description.",
+      "Tone is author's attitude; theme is central idea—neither directly developed here.",
+      "Character arc is personal growth trajectory, not environmental description.",
+      "Point of view is narrative perspective, not setting/mood."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q411",
@@ -2532,7 +3708,14 @@
       "A concept resonating across cultures and time",
       "A specific regional dialect"
     ],
-    "answer": "A concept resonating across cultures and time"
+    "answer": "A concept resonating across cultures and time",
+    "rationales": [
+      "Repeated names don't indicate universal significance.",
+      "Era-specific morals aren't universal.",
+      "Correct! Universal themes address fundamental human experiences that transcend culture and time.",
+      "Regional dialect is specific, not universal."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q412",
@@ -2547,7 +3730,14 @@
       "A clear, arguable claim with scope",
       "A rhetorical question"
     ],
-    "answer": "A clear, arguable claim with scope"
+    "answer": "A clear, arguable claim with scope",
+    "rationales": [
+      "Vague, broad statements lack focus and arguability.",
+      "Facts aren't arguable—strong theses present debatable positions.",
+      "Correct! Strong theses are clear, arguable, specific, and provide direction for the essay.",
+      "Questions don't assert positions—they invite inquiry."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q413",
@@ -2562,7 +3752,14 @@
       "Compare–contrast",
       "Process analysis"
     ],
-    "answer": "Compare–contrast"
+    "answer": "Compare–contrast",
+    "rationales": [
+      "Chronological shows time sequence, not evaluation.",
+      "Definition explains terms, not compares models.",
+      "Correct! Compare-contrast examines similarities and differences—ideal for evaluating two approaches.",
+      "Process analysis explains how something works, not compares models."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q414",
@@ -2577,7 +3774,14 @@
       "Five-act dramatic arc",
       "Stream-of-consciousness"
     ],
-    "answer": "Inverted pyramid with most important info first"
+    "answer": "Inverted pyramid with most important info first",
+    "rationales": [
+      "Correct! News articles use inverted pyramid—crucial information first, details following in decreasing importance.",
+      "Circular structure is literary, not journalistic.",
+      "Five-act structure is for drama, not news.",
+      "Stream-of-consciousness is experimental fiction, not journalism."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q415",
@@ -2592,7 +3796,14 @@
       "Adding transitional phrases that clarify logic",
       "Removing topic sentences"
     ],
-    "answer": "Adding transitional phrases that clarify logic"
+    "answer": "Adding transitional phrases that clarify logic",
+    "rationales": [
+      "Font variation is visual, not logical coherence.",
+      "Slang reduces formality and precision, not improves coherence.",
+      "Correct! Transitions (however, therefore, consequently) clarify logical relationships between ideas.",
+      "Topic sentences guide readers—removing them reduces coherence."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q416",
@@ -2607,7 +3818,14 @@
       "Clear purpose, concise paragraphs, formal register",
       "Second-person commands throughout"
     ],
-    "answer": "Clear purpose, concise paragraphs, formal register"
+    "answer": "Clear purpose, concise paragraphs, formal register",
+    "rationales": [
+      "Business letters should be professional, not personal or figurative.",
+      "Casual tone/slang lacks professionalism.",
+      "Correct! Business letters require clarity, brevity, formal register, and professional tone.",
+      "Commands can be appropriate but aren't the priority—clarity and formality are."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q417",
@@ -2622,7 +3840,14 @@
       "Personal anecdote only",
       "Fictional dialogue"
     ],
-    "answer": "Peer-reviewed research and credible statistics"
+    "answer": "Peer-reviewed research and credible statistics",
+    "rationales": [
+      "Sensory description is literary, not analytical evidence.",
+      "Correct! Data-heavy claims require credible, factual evidence from reliable sources.",
+      "Personal anecdotes alone lack the authority of research.",
+      "Fictional dialogue is creative, not factual evidence."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q601",
@@ -2637,7 +3862,14 @@
       "Syntax identification",
       "Summarizing"
     ],
-    "answer": "Context clue analysis"
+    "answer": "Context clue analysis",
+    "rationales": [
+      "Phonetic decoding uses sound-letter relationships, not context.",
+      "Correct! Context clue analysis uses surrounding words and sentences to determine meaning.",
+      "Syntax is sentence structure, not meaning inference.",
+      "Summarizing condenses main ideas, not word meanings."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q602",
@@ -2652,7 +3884,14 @@
       "Predicting",
       "Annotating"
     ],
-    "answer": "Scanning"
+    "answer": "Scanning",
+    "rationales": [
+      "Skimming finds main ideas, not specific details.",
+      "Correct! Scanning rapidly searches for specific information like statistics or names.",
+      "Predicting anticipates content, not locates existing details.",
+      "Annotating marks text but doesn't specifically locate information."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q603",
@@ -2667,7 +3906,14 @@
       "Metacognitive regulation",
       "Contextual inference"
     ],
-    "answer": "Metacognitive regulation"
+    "answer": "Metacognitive regulation",
+    "rationales": [
+      "Skimming is always fast, not variable based on difficulty.",
+      "While the rate varies, the key is awareness and adjustment.",
+      "Correct! Metacognitive regulation monitors comprehension and adjusts strategies accordingly.",
+      "Contextual inference determines meaning, not reading speed adjustment."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q604",
@@ -2682,7 +3928,14 @@
       "Fact-checking",
       "Syntax analysis"
     ],
-    "answer": "Summarization"
+    "answer": "Summarization",
+    "rationales": [
+      "Correct! Distinguishing main ideas from details is essential for effective summarization.",
+      "Inference draws conclusions, not identifies text structure.",
+      "Fact-checking verifies accuracy, not text structure.",
+      "Syntax analyzes sentence structure, not idea hierarchy."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q605",
@@ -2697,7 +3950,14 @@
       "Context clue analysis",
       "Morphological decoding"
     ],
-    "answer": "Prior knowledge activation"
+    "answer": "Prior knowledge activation",
+    "rationales": [
+      "Phonemic awareness is sound manipulation, not personal connections.",
+      "Correct! Prior knowledge activation links new information to existing knowledge for better comprehension.",
+      "Context clues determine word meanings, not personal connections.",
+      "Morphological decoding analyzes word structure, not personal experience."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q606",
@@ -2712,7 +3972,14 @@
       "How many pages is it?",
       "What font is used?"
     ],
-    "answer": "Who wrote this and why?"
+    "answer": "Who wrote this and why?",
+    "rationales": [
+      "Correct! Identifying author and purpose is fundamental to critical analysis of persuasive texts.",
+      "Spelling patterns are orthographic, not critical analysis.",
+      "Page count is irrelevant to analysis.",
+      "Font choice is aesthetic, not analytical."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q607",
@@ -2727,7 +3994,14 @@
       "Pathos",
       "Syntax"
     ],
-    "answer": "Pathos"
+    "answer": "Pathos",
+    "rationales": [
+      "Logos appeals to logic and reason, not emotions.",
+      "Ethos establishes credibility, not emotional appeal.",
+      "Correct! Pathos appeals to emotions (fear, sympathy, anger) to persuade.",
+      "Syntax is sentence structure, not a persuasive appeal."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q608",
@@ -2742,7 +4016,14 @@
       "Syntax and diction",
       "Word choice and connotation"
     ],
-    "answer": "Relevance and sufficiency"
+    "answer": "Relevance and sufficiency",
+    "rationales": [
+      "Correct! Evaluating evidence requires assessing if it's relevant (related) and sufficient (adequate amount).",
+      "Tone and style affect presentation, not evidence quality.",
+      "Syntax and diction are language choices, not evidence evaluation.",
+      "Word choice affects meaning but doesn't evaluate evidence support."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q609",
@@ -2757,7 +4038,14 @@
       "Imagery",
       "Metaphor"
     ],
-    "answer": "Bias"
+    "answer": "Bias",
+    "rationales": [
+      "Correct! Word choice revealing certainty vs. interpretation indicates bias or objectivity.",
+      "Syntax is sentence structure, not word choice implications.",
+      "Imagery creates sensory impressions, not relevant here.",
+      "Metaphor is figurative comparison, not relevant here."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q610",
@@ -2772,7 +4060,14 @@
       "Summative reasoning",
       "Literal comprehension"
     ],
-    "answer": "Critical reading of informational texts"
+    "answer": "Critical reading of informational texts",
+    "rationales": [
+      "Correct! Critical reading evaluates information for accuracy, bias, and purpose—essential for consumer literacy.",
+      "Predictive inference anticipates outcomes, not evaluates claims.",
+      "Summative reasoning is synthesis, but critical evaluation is more specific.",
+      "Literal comprehension understands surface meaning, not evaluates critically."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q611",
@@ -2787,7 +4082,14 @@
       "Rhythm and meter",
       "Bias and irony"
     ],
-    "answer": "Organization and accuracy"
+    "answer": "Organization and accuracy",
+    "rationales": [
+      "Memos use literal, not figurative language.",
+      "Correct! Workplace documents prioritize clear organization and factual accuracy.",
+      "Rhythm and meter are poetic devices, not workplace writing criteria.",
+      "While bias awareness helps, organization and accuracy are primary."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q612",
@@ -2802,7 +4104,14 @@
       "Contextual decoding",
       "Summarization"
     ],
-    "answer": "Reader response"
+    "answer": "Reader response",
+    "rationales": [
+      "Critical evaluation analyzes objectively; emotional reactions are subjective.",
+      "Correct! Reader response emphasizes personal interpretation and emotional engagement.",
+      "Contextual decoding determines word meanings, not emotional reactions.",
+      "Summarization condenses content, not records reactions."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q613",
@@ -2817,7 +4126,14 @@
       "Deepens understanding through reflection",
       "Eliminates the need for reading"
     ],
-    "answer": "Deepens understanding through reflection"
+    "answer": "Deepens understanding through reflection",
+    "rationales": [
+      "Writing increases cognitive engagement, not reduces it.",
+      "Writing to learn encourages reflection, not memorization.",
+      "Correct! Writing clarifies thinking, connects ideas, and deepens conceptual understanding.",
+      "Writing complements reading, not replaces it."
+    ],
+    "correctIndex": 2
   },
   {
     "id": "Q614",
@@ -2832,7 +4148,14 @@
       "Kinesthetic",
       "Narrative"
     ],
-    "answer": "Visual"
+    "answer": "Visual",
+    "rationales": [
+      "Correct! Diagrams are visual representations showing relationships spatially.",
+      "Auditory involves sound, not diagrams.",
+      "Kinesthetic involves movement/touch, not visual diagrams.",
+      "Narrative tells stories sequentially, not spatial relationships."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q615",
@@ -2847,7 +4170,14 @@
       "Card-stacking",
       "Transfer"
     ],
-    "answer": "Bandwagon"
+    "answer": "Bandwagon",
+    "rationales": [
+      "Testimonial uses individual endorsements, not claims about 'everyone.'",
+      "Correct! Bandwagon suggests joining the crowd—everyone's doing it, so should you.",
+      "Card-stacking presents only positive information, different technique.",
+      "Transfer associates product with positive symbols, not crowd appeal."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q616",
@@ -2862,7 +4192,14 @@
       "Bias detection",
       "Phonemic awareness"
     ],
-    "answer": "Visual literacy"
+    "answer": "Visual literacy",
+    "rationales": [
+      "Correct! Visual literacy includes creating and interpreting visual representations like graphic organizers.",
+      "Propaganda analysis evaluates persuasive techniques, not organizer selection.",
+      "Bias detection identifies favoritism, not relevant here.",
+      "Phonemic awareness involves sound manipulation, not visual organization."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q617",
@@ -2877,7 +4214,14 @@
       "Negative bias",
       "Descriptive narrative"
     ],
-    "answer": "Synergy in media"
+    "answer": "Synergy in media",
+    "rationales": [
+      "Correct! Synergy occurs when multiple media elements (audio + visual) work together for combined effect.",
+      "Ethos is credibility appeal, not multimodal integration.",
+      "Music choice might indicate bias, but synergy describes the integration.",
+      "Descriptive narrative tells details, not combines media modes."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q618",
@@ -2892,7 +4236,14 @@
       "Font style",
       "Sentence length"
     ],
-    "answer": "Author credentials and tone"
+    "answer": "Author credentials and tone",
+    "rationales": [
+      "Hyperlinks indicate sources but don't determine objectivity alone.",
+      "Correct! Author expertise and neutral tone are key indicators of objectivity.",
+      "Font style is aesthetic, not related to objectivity.",
+      "Sentence length affects readability, not objectivity."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q619",
@@ -2907,7 +4258,14 @@
       "Multiple-choice quizzes",
       "Copying vocabulary"
     ],
-    "answer": "Think-aloud modeling"
+    "answer": "Think-aloud modeling",
+    "rationales": [
+      "Silent reading doesn't explicitly demonstrate thinking processes.",
+      "Correct! Think-aloud modeling makes metacognitive strategies (monitoring, questioning, clarifying) visible and explicit.",
+      "Quizzes assess comprehension but don't build metacognitive awareness.",
+      "Copying vocabulary is rote practice, not metacognitive."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q620",
@@ -2922,7 +4280,14 @@
       "Memorize definitions",
       "Focus on grammar"
     ],
-    "answer": "Appreciate diversity of meaning"
+    "answer": "Appreciate diversity of meaning",
+    "rationales": [
+      "Multiple interpretations complement, not discredit, authorial intent.",
+      "Correct! Diverse interpretations validate reader response and show that meaning is constructed, not singular.",
+      "Comparing interpretations involves analysis, not memorization.",
+      "Grammar is not the focus of interpretation comparison."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q621",
@@ -2937,7 +4302,14 @@
       "Composing persuasive essays",
       "Practicing syntax drills"
     ],
-    "answer": "Practicing writing to learn"
+    "answer": "Practicing writing to learn",
+    "rationales": [
+      "Correct! Writing to learn uses informal writing to process and reflect on content learning.",
+      "This is science content, not literature.",
+      "Reflective journals are exploratory, not persuasive.",
+      "Syntax drills are grammar exercises, not reflection."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q622",
@@ -2952,7 +4324,14 @@
       "Syntax comprehension",
       "Summative reasoning"
     ],
-    "answer": "Visual interpretation"
+    "answer": "Visual interpretation",
+    "rationales": [
+      "Correct! Visual interpretation extracts meaning from visual data representations like charts.",
+      "Metaphorical reading interprets figurative language, not charts.",
+      "Syntax comprehension analyzes sentence structure, not visual data.",
+      "Summative reasoning synthesizes ideas but isn't specific to visual data."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q623",
@@ -2967,7 +4346,14 @@
       "Date of publication",
       "Evidence citations"
     ],
-    "answer": "Design aesthetics"
+    "answer": "Design aesthetics",
+    "rationales": [
+      "Correct! While design matters for usability, aesthetics don't determine credibility or accuracy.",
+      "Author credentials indicate expertise and credibility—essential.",
+      "Publication date shows currency—important for time-sensitive topics.",
+      "Evidence citations demonstrate research quality—essential."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q624",
@@ -2982,7 +4368,14 @@
       "Amuse",
       "Narrate"
     ],
-    "answer": "Inform or persuade"
+    "answer": "Inform or persuade",
+    "rationales": [
+      "PSAs can engage but entertainment isn't the primary purpose.",
+      "Correct! PSAs inform audiences about issues and/or persuade them toward action or behavior change.",
+      "Amusement may be a technique but not the goal.",
+      "Narration is a method, not a purpose."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q625",
@@ -2997,7 +4390,14 @@
       "Plain folks",
       "Fear appeal"
     ],
-    "answer": "Testimonial"
+    "answer": "Testimonial",
+    "rationales": [
+      "Transfer associates with symbols/concepts, not specific endorsers.",
+      "Correct! Testimonial uses endorsements from individuals (especially celebrities) to build credibility.",
+      "Plain folks presents speaker as ordinary person, opposite of celebrity.",
+      "Fear appeal uses threats or warnings, not endorsements."
+    ],
+    "correctIndex": 1
   },
   {
     "id": "Q626",
@@ -3012,7 +4412,14 @@
       "Phonemic awareness",
       "Literal comprehension"
     ],
-    "answer": "Critical media analysis"
+    "answer": "Critical media analysis",
+    "rationales": [
+      "Correct! Critical media analysis examines how technical choices (like shot selection) shape meaning and emotion.",
+      "This shows understanding, not confusion.",
+      "Phonemic awareness involves sound manipulation, not film analysis.",
+      "Literal comprehension understands surface meaning, not analyzes technique."
+    ],
+    "correctIndex": 0
   },
   {
     "id": "Q627",
@@ -3027,6 +4434,13 @@
       "Morphological structure",
       "Syntax"
     ],
-    "answer": "Nonverbal cues in media"
+    "answer": "Nonverbal cues in media",
+    "rationales": [
+      "Correct! Nonverbal cues in media include music, sound effects, and visuals that shape emotional response.",
+      "Logical appeals use reasoning, not music.",
+      "Morphological structure relates to word formation, not media.",
+      "Syntax is sentence structure, not media production."
+    ],
+    "correctIndex": 0
   }
 ]
