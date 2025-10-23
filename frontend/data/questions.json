@@ -1,0 +1,3032 @@
+[
+  {
+    "id": "Q101",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Hard",
+    "question": "Which revision improves sentence clarity?",
+    "options": [
+      "Running fast, the finish line was crossed by Maria.",
+      "Maria crossed the finish line quickly.",
+      "Maria, crossing the finish line fastly.",
+      "The finish line quickly was crossed Maria."
+    ],
+    "answer": "Maria crossed the finish line quickly."
+  },
+  {
+    "id": "Q102",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Which source is most reliable for academic research?",
+    "options": [
+      "Personal blog",
+      "Peer-reviewed journal article",
+      "Wikipedia page",
+      "Advertisement brochure"
+    ],
+    "answer": "Peer-reviewed journal article"
+  },
+  {
+    "id": "Q103",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Hard",
+    "question": "In 'The Great Gatsby', which theme is most prominent?",
+    "options": [
+      "The corrupting influence of wealth",
+      "The importance of education",
+      "The beauty of nature",
+      "The power of friendship"
+    ],
+    "answer": "The corrupting influence of wealth"
+  },
+  {
+    "id": "Q104",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Hard",
+    "question": "Which device is used in 'Ask not what your country can do for you'?",
+    "options": [
+      "Metaphor",
+      "Chiasmus",
+      "Hyperbole",
+      "Alliteration"
+    ],
+    "answer": "Chiasmus"
+  },
+  {
+    "id": "Q105",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Which point of view allows the narrator to know all characters' thoughts?",
+    "options": [
+      "First person",
+      "Second person",
+      "Third person limited",
+      "Third person omniscient"
+    ],
+    "answer": "Third person omniscient"
+  },
+  {
+    "id": "Q106",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "In MLA format, where does the period go in relation to the citation?",
+    "options": [
+      "Before the parenthetical citation",
+      "Inside the parenthetical citation",
+      "After the parenthetical citation",
+      "It doesn't matter"
+    ],
+    "answer": "After the parenthetical citation"
+  },
+  {
+    "id": "Q107",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Hard",
+    "question": "What is the rhyme scheme of a Shakespearean sonnet?",
+    "options": [
+      "ABAB CDCD EFEF GG",
+      "ABBA ABBA CDC DCD",
+      "AABB CCDD EEFF GG",
+      "ABCD ABCD EFGH IJ"
+    ],
+    "answer": "ABAB CDCD EFEF GG"
+  },
+  {
+    "id": "Q108",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Hard",
+    "question": "Which sentence correctly uses a semicolon?",
+    "options": [
+      "I love reading; especially novels.",
+      "The test is tomorrow; I need to study.",
+      "She is smart; because she reads a lot.",
+      "He ran quickly; to catch the bus."
+    ],
+    "answer": "The test is tomorrow; I need to study."
+  },
+  {
+    "id": "Q109",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "What is the difference between tone and mood?",
+    "options": [
+      "Tone is the reader's feeling; mood is the author's attitude",
+      "They are the same thing",
+      "Tone is the author's attitude; mood is the reader's feeling",
+      "Tone is only in poetry; mood is only in prose"
+    ],
+    "answer": "Tone is the author's attitude; mood is the reader's feeling"
+  },
+  {
+    "id": "Q110",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Which revision strategy is most effective for improving clarity?",
+    "options": [
+      "Reading your work aloud",
+      "Checking spelling only",
+      "Counting words",
+      "Changing font size"
+    ],
+    "answer": "Reading your work aloud"
+  },
+  {
+    "id": "Q111",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "How many lines are in a Shakespearean sonnet?",
+    "options": [
+      "12 lines",
+      "14 lines",
+      "16 lines",
+      "18 lines"
+    ],
+    "answer": "14 lines"
+  },
+  {
+    "id": "Q112",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Hard",
+    "question": "What's the rhyme scheme of a Shakespearean sonnet?",
+    "options": [
+      "ABBA ABBA CDC DCD",
+      "ABAB CDCD EFEF GG",
+      "AABB CCDD EEFF GG",
+      "ABCD ABCD EFGH IJ"
+    ],
+    "answer": "ABAB CDCD EFEF GG"
+  },
+  {
+    "id": "Q113",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Hard",
+    "question": "Where does the volta (turn in thought) typically occur in a Shakespearean sonnet?",
+    "options": [
+      "At line 5",
+      "At line 9 or in the final couplet (line 13)",
+      "At the very beginning (line 1)",
+      "At line 8"
+    ],
+    "answer": "At line 9 or in the final couplet (line 13)"
+  },
+  {
+    "id": "Q114",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which of the following is a recurring theme in Shakespeare's sonnets?",
+    "options": [
+      "Space exploration and technology",
+      "Love, time, beauty, and mortality",
+      "Political revolution",
+      "Agricultural practices"
+    ],
+    "answer": "Love, time, beauty, and mortality"
+  },
+  {
+    "id": "Q115",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "What's the primary focus of phonemic awareness?",
+    "options": [
+      "Recognizing sentence rhythm",
+      "Recognizing individual sounds in words",
+      "Identifying prefixes and suffixes",
+      "Memorizing sight words"
+    ],
+    "answer": "Recognizing individual sounds in words"
+  },
+  {
+    "id": "Q116",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Hard",
+    "question": "Which skill bridges decoding and comprehension?",
+    "options": [
+      "Vocabulary development",
+      "Phoneme blending",
+      "Sight word recognition",
+      "Oral fluency"
+    ],
+    "answer": "Oral fluency"
+  },
+  {
+    "id": "Q117",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "What stage comes before transitional literacy?",
+    "options": [
+      "Emergent",
+      "Fluent",
+      "Early",
+      "Proficient"
+    ],
+    "answer": "Early"
+  },
+  {
+    "id": "Q118",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Why is morphology instruction beneficial?",
+    "options": [
+      "It improves handwriting",
+      "It helps infer meaning from unfamiliar words",
+      "It improves sentence rhythm",
+      "It builds phonemic awareness"
+    ],
+    "answer": "It helps infer meaning from unfamiliar words"
+  },
+  {
+    "id": "Q119",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "What's a key strategy for struggling readers?",
+    "options": [
+      "Reducing text exposure",
+      "Assigning silent reading only",
+      "Modeling fluent reading",
+      "Avoiding feedback"
+    ],
+    "answer": "Modeling fluent reading"
+  },
+  {
+    "id": "Q120",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Hard",
+    "question": "What's metacognition in literacy?",
+    "options": [
+      "Memorizing definitions",
+      "Monitoring and adjusting one's understanding",
+      "Identifying literary genres",
+      "Copying model sentences"
+    ],
+    "answer": "Monitoring and adjusting one's understanding"
+  },
+  {
+    "id": "Q121",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Why is background knowledge critical for comprehension?",
+    "options": [
+      "It reduces decoding time",
+      "It links new information to existing schema",
+      "It improves phonics speed",
+      "It supports handwriting fluency"
+    ],
+    "answer": "It links new information to existing schema"
+  },
+  {
+    "id": "Q122",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Hard",
+    "question": "How does syntax shape meaning?",
+    "options": [
+      "Determines pronunciation",
+      "Influences rhythm",
+      "Organizes ideas and emphasis",
+      "Adds imagery"
+    ],
+    "answer": "Organizes ideas and emphasis"
+  },
+  {
+    "id": "Q123",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "What's the main purpose of literacy assessment?",
+    "options": [
+      "Ranking students",
+      "Identifying learning needs and progress",
+      "Recording attendance",
+      "Rewarding effort"
+    ],
+    "answer": "Identifying learning needs and progress"
+  },
+  {
+    "id": "Q124",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Which element defines fluent reading?",
+    "options": [
+      "Slow, careful decoding",
+      "Smooth, accurate, expressive reading",
+      "Memorization of every word",
+      "Reading silently only"
+    ],
+    "answer": "Smooth, accurate, expressive reading"
+  },
+  {
+    "id": "Q125",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Which best defines language register?",
+    "options": [
+      "Vocabulary level only",
+      "Sentence structure",
+      "Level of formality for audience and purpose",
+      "Tone of voice"
+    ],
+    "answer": "Level of formality for audience and purpose"
+  },
+  {
+    "id": "Q126",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "What does code-switching demonstrate?",
+    "options": [
+      "Poor grammar use",
+      "Flexibility in language based on audience",
+      "Avoidance of cultural norms",
+      "Memorization of word roots"
+    ],
+    "answer": "Flexibility in language based on audience"
+  },
+  {
+    "id": "Q127",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Hard",
+    "question": "What branch of linguistics studies meaning in context?",
+    "options": [
+      "Phonology",
+      "Morphology",
+      "Pragmatics",
+      "Semantics"
+    ],
+    "answer": "Pragmatics"
+  },
+  {
+    "id": "Q128",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Which sentence shows positive connotation?",
+    "options": [
+      "He's cheap.",
+      "He's thrifty.",
+      "He's stingy.",
+      "He's miserly."
+    ],
+    "answer": "He's thrifty."
+  },
+  {
+    "id": "Q129",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Denotation refers to a word's…",
+    "options": [
+      "Historical origin",
+      "Literal meaning",
+      "Figurative association",
+      "Emotional tone"
+    ],
+    "answer": "Literal meaning"
+  },
+  {
+    "id": "Q130",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Which is NOT a key component of communication?",
+    "options": [
+      "Sender",
+      "Message",
+      "Grammar",
+      "Feedback"
+    ],
+    "answer": "Grammar"
+  },
+  {
+    "id": "Q131",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Which quality ensures effective communication?",
+    "options": [
+      "Ambiguity",
+      "Clarity",
+      "Volume",
+      "Length"
+    ],
+    "answer": "Clarity"
+  },
+  {
+    "id": "Q132",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Tone is defined as…",
+    "options": [
+      "The emotional quality or attitude in language",
+      "The complexity of sentence structure",
+      "The literal meaning of a word",
+      "The rhythm of speech"
+    ],
+    "answer": "The emotional quality or attitude in language"
+  },
+  {
+    "id": "Q133",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Active listening means…",
+    "options": [
+      "Hearing and ignoring irrelevant details",
+      "Responding thoughtfully and showing understanding",
+      "Taking notes only",
+      "Finishing sentences for the speaker"
+    ],
+    "answer": "Responding thoughtfully and showing understanding"
+  },
+  {
+    "id": "Q134",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Nonverbal cues can…",
+    "options": [
+      "Only distract from meaning",
+      "Reinforce or contradict verbal messages",
+      "Replace written communication",
+      "Eliminate misunderstanding entirely"
+    ],
+    "answer": "Reinforce or contradict verbal messages"
+  },
+  {
+    "id": "Q135",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Hard",
+    "question": "Which is an example of situational irony?",
+    "options": [
+      "The reader knows the killer's identity before the detective does.",
+      "A fire station burns down.",
+      "A repeated vowel sound in poetry.",
+      "The moral lesson of a story."
+    ],
+    "answer": "A fire station burns down."
+  },
+  {
+    "id": "Q136",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Symbolism adds meaning by…",
+    "options": [
+      "Simplifying description",
+      "Representing abstract ideas through concrete objects",
+      "Listing adjectives",
+      "Creating suspense"
+    ],
+    "answer": "Representing abstract ideas through concrete objects"
+  },
+  {
+    "id": "Q137",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "A third-person limited narrator…",
+    "options": [
+      "Knows all characters' thoughts",
+      "Only knows one character's perspective",
+      "Uses 'you' to address the reader",
+      "Is part of the story's action"
+    ],
+    "answer": "Only knows one character's perspective"
+  },
+  {
+    "id": "Q138",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Conflict in a story is…",
+    "options": [
+      "The climax",
+      "The struggle between opposing forces",
+      "The exposition",
+      "The resolution"
+    ],
+    "answer": "The struggle between opposing forces"
+  },
+  {
+    "id": "Q139",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Theme is best described as…",
+    "options": [
+      "The moral lesson or universal truth of the story",
+      "The plot's main event",
+      "The story's timeline",
+      "The setting's location"
+    ],
+    "answer": "The moral lesson or universal truth of the story"
+  },
+  {
+    "id": "Q140",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Diction refers to…",
+    "options": [
+      "Sentence structure",
+      "Word choice",
+      "Figurative meaning",
+      "Dialogue pacing"
+    ],
+    "answer": "Word choice"
+  },
+  {
+    "id": "Q141",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Which sentence best shows imagery?",
+    "options": [
+      "He walked slowly.",
+      "The sunlight spilled like honey across the table.",
+      "She moved quickly.",
+      "It was late."
+    ],
+    "answer": "The sunlight spilled like honey across the table."
+  },
+  {
+    "id": "Q142",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "An author's voice reflects…",
+    "options": [
+      "The plot's complexity",
+      "The writer's individual style and tone",
+      "The story's setting",
+      "The genre of the work"
+    ],
+    "answer": "The writer's individual style and tone"
+  },
+  {
+    "id": "Q143",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Hard",
+    "question": "Syntax primarily affects…",
+    "options": [
+      "Sentence rhythm and emphasis",
+      "Theme development",
+      "Characterization",
+      "Symbolism"
+    ],
+    "answer": "Sentence rhythm and emphasis"
+  },
+  {
+    "id": "Q144",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Tone in writing reveals…",
+    "options": [
+      "The author's attitude",
+      "The story's location",
+      "The text's theme",
+      "The rhythm of language"
+    ],
+    "answer": "The author's attitude"
+  },
+  {
+    "id": "Q145",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which best defines theme?",
+    "options": [
+      "Setting of the story",
+      "Sequence of events",
+      "Central message or universal idea",
+      "Character's motivation"
+    ],
+    "answer": "Central message or universal idea"
+  },
+  {
+    "id": "Q146",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Characterization is developed through…",
+    "options": [
+      "Dialogue, actions, and description",
+      "Setting only",
+      "Sentence structure",
+      "Theme repetition"
+    ],
+    "answer": "Dialogue, actions, and description"
+  },
+  {
+    "id": "Q147",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which is a recurring symbol or image that reinforces meaning?",
+    "options": [
+      "Motif",
+      "Plot",
+      "Tone",
+      "Foreshadowing"
+    ],
+    "answer": "Motif"
+  },
+  {
+    "id": "Q148",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Tone reveals the author's…",
+    "options": [
+      "Mood",
+      "Attitude",
+      "Characterization",
+      "Diction"
+    ],
+    "answer": "Attitude"
+  },
+  {
+    "id": "Q149",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Mood affects the…",
+    "options": [
+      "Reader's emotions",
+      "Author's perspective",
+      "Character's motivation",
+      "Sentence rhythm"
+    ],
+    "answer": "Reader's emotions"
+  },
+  {
+    "id": "Q150",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Imagery appeals to…",
+    "options": [
+      "Grammar rules",
+      "The five senses",
+      "Symbolism",
+      "Syntax"
+    ],
+    "answer": "The five senses"
+  },
+  {
+    "id": "Q151",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Hard",
+    "question": "An allegory contains…",
+    "options": [
+      "Only figurative language",
+      "Both literal and symbolic meanings",
+      "One simple theme",
+      "Historical facts only"
+    ],
+    "answer": "Both literal and symbolic meanings"
+  },
+  {
+    "id": "Q152",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Foreshadowing helps to…",
+    "options": [
+      "Create suspense and anticipation",
+      "Summarize past events",
+      "Reveal the moral",
+      "Confuse readers intentionally"
+    ],
+    "answer": "Create suspense and anticipation"
+  },
+  {
+    "id": "Q153",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Conflict in literature functions to…",
+    "options": [
+      "Stall character development",
+      "Create action and reveal growth",
+      "Describe setting",
+      "Provide exposition"
+    ],
+    "answer": "Create action and reveal growth"
+  },
+  {
+    "id": "Q154",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Diction influences…",
+    "options": [
+      "The story's rhyme",
+      "Tone and meaning",
+      "Theme repetition",
+      "Sentence count"
+    ],
+    "answer": "Tone and meaning"
+  },
+  {
+    "id": "Q155",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which is an example of verbal irony?",
+    "options": [
+      "The opposite of what's said is meant",
+      "A surprise ending",
+      "Repetition of vowel sounds",
+      "A symbol representing an idea"
+    ],
+    "answer": "The opposite of what's said is meant"
+  },
+  {
+    "id": "Q156",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Symbolism helps readers…",
+    "options": [
+      "Understand literal events only",
+      "Find deeper meaning in concrete details",
+      "Track dialogue",
+      "Identify tone shifts"
+    ],
+    "answer": "Find deeper meaning in concrete details"
+  },
+  {
+    "id": "Q157",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Plot is best defined as…",
+    "options": [
+      "The message of the story",
+      "The sequence of related events",
+      "The setting's location",
+      "The author's word choice"
+    ],
+    "answer": "The sequence of related events"
+  },
+  {
+    "id": "Q158",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "The climax of a story is…",
+    "options": [
+      "The turning point or moment of greatest tension",
+      "The introduction",
+      "The falling action",
+      "The resolution"
+    ],
+    "answer": "The turning point or moment of greatest tension"
+  },
+  {
+    "id": "Q159",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Which is an example of formative assessment?",
+    "options": [
+      "Final exam",
+      "Weekly quiz",
+      "Report card grade",
+      "Standardized test"
+    ],
+    "answer": "Weekly quiz"
+  },
+  {
+    "id": "Q160",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Scaffolding helps students by…",
+    "options": [
+      "Increasing independent learning through gradual support removal",
+      "Assigning more homework",
+      "Memorizing vocabulary lists",
+      "Focusing on spelling drills only"
+    ],
+    "answer": "Increasing independent learning through gradual support removal"
+  },
+  {
+    "id": "Q161",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "A rubric ensures…",
+    "options": [
+      "Subjective grading",
+      "Consistent and transparent evaluation",
+      "Faster essay grading only",
+      "Less teacher involvement"
+    ],
+    "answer": "Consistent and transparent evaluation"
+  },
+  {
+    "id": "Q162",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Fluency in reading includes…",
+    "options": [
+      "Memorizing text",
+      "Reading with accuracy, speed, and expression",
+      "Quiet reading only",
+      "Summarizing content"
+    ],
+    "answer": "Reading with accuracy, speed, and expression"
+  },
+  {
+    "id": "Q163",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Which stage comes first in the writing process?",
+    "options": [
+      "Revising",
+      "Editing",
+      "Prewriting",
+      "Publishing"
+    ],
+    "answer": "Prewriting"
+  },
+  {
+    "id": "Q164",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Hard",
+    "question": "Metacognition involves…",
+    "options": [
+      "Word memorization",
+      "Monitoring one's own understanding and strategy use",
+      "Copying notes",
+      "Listening silently"
+    ],
+    "answer": "Monitoring one's own understanding and strategy use"
+  },
+  {
+    "id": "Q165",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "The goal of peer review is to…",
+    "options": [
+      "Grade peers",
+      "Provide constructive feedback to improve writing",
+      "Eliminate grammar errors only",
+      "Replace teacher feedback"
+    ],
+    "answer": "Provide constructive feedback to improve writing"
+  },
+  {
+    "id": "Q166",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Differentiated instruction means…",
+    "options": [
+      "Teaching everyone the same way",
+      "Tailoring lessons to individual learning needs",
+      "Assigning extra credit",
+      "Reducing standards"
+    ],
+    "answer": "Tailoring lessons to individual learning needs"
+  },
+  {
+    "id": "Q167",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Summative assessments are used to…",
+    "options": [
+      "Adjust ongoing teaching",
+      "Provide mid-unit feedback",
+      "Evaluate overall achievement at the end of instruction",
+      "Record attendance"
+    ],
+    "answer": "Evaluate overall achievement at the end of instruction"
+  },
+  {
+    "id": "Q168",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Reading conferences help teachers…",
+    "options": [
+      "Punish late readers",
+      "Discuss comprehension and growth individually",
+      "Avoid grading",
+      "Assign more work"
+    ],
+    "answer": "Discuss comprehension and growth individually"
+  },
+  {
+    "id": "Q301",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Which device repeats initial consonant sounds?",
+    "options": [
+      "Assonance",
+      "Alliteration",
+      "Consonance",
+      "Parallelism"
+    ],
+    "answer": "Alliteration"
+  },
+  {
+    "id": "Q302",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "The phrase 'The rain in Spain falls mainly on the plain' illustrates:",
+    "options": [
+      "Anaphora",
+      "Assonance",
+      "Metaphor",
+      "Juxtaposition"
+    ],
+    "answer": "Assonance"
+  },
+  {
+    "id": "Q303",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Repetition of consonant sounds at the ends of words is called:",
+    "options": [
+      "Chiasmus",
+      "Consonance",
+      "Alliteration",
+      "Antithesis"
+    ],
+    "answer": "Consonance"
+  },
+  {
+    "id": "Q304",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Which rhetorical device repeats words at the beginning of successive clauses?",
+    "options": [
+      "Epistrophe",
+      "Chiasmus",
+      "Anaphora",
+      "Antithesis"
+    ],
+    "answer": "Anaphora"
+  },
+  {
+    "id": "Q305",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Repetition at the end of successive clauses is called:",
+    "options": [
+      "Anaphora",
+      "Epistrophe",
+      "Chiasmus",
+      "Parallelism"
+    ],
+    "answer": "Epistrophe"
+  },
+  {
+    "id": "Q306",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Which example demonstrates parallel structure?",
+    "options": [
+      "She likes reading, writing, and jogging.",
+      "She likes reading and to jog.",
+      "She likes to read and jogging.",
+      "She likes reading then jog."
+    ],
+    "answer": "She likes reading, writing, and jogging."
+  },
+  {
+    "id": "Q307",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "'It was the best of times, it was the worst of times' illustrates:",
+    "options": [
+      "Chiasmus",
+      "Antithesis",
+      "Juxtaposition",
+      "Litotes"
+    ],
+    "answer": "Antithesis"
+  },
+  {
+    "id": "Q308",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Hard",
+    "question": "'Never let a Fool Kiss You or a Kiss Fool You' is an example of:",
+    "options": [
+      "Chiasmus",
+      "Antithesis",
+      "Parallelism",
+      "Synecdoche"
+    ],
+    "answer": "Chiasmus"
+  },
+  {
+    "id": "Q309",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Which compares two unlike things directly?",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Analogy",
+      "Euphemism"
+    ],
+    "answer": "Metaphor"
+  },
+  {
+    "id": "Q310",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "'Her eyes sparkled like diamonds' is a:",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Hyperbole",
+      "Euphemism"
+    ],
+    "answer": "Simile"
+  },
+  {
+    "id": "Q311",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "'The wind whispered through the trees' uses:",
+    "options": [
+      "Irony",
+      "Hyperbole",
+      "Personification",
+      "Symbolism"
+    ],
+    "answer": "Personification"
+  },
+  {
+    "id": "Q312",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Which device exaggerates for emphasis?",
+    "options": [
+      "Hyperbole",
+      "Understatement",
+      "Litotes",
+      "Paradox"
+    ],
+    "answer": "Hyperbole"
+  },
+  {
+    "id": "Q313",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Calling a disastrous event 'a small setback' is:",
+    "options": [
+      "Paradox",
+      "Understatement",
+      "Euphemism",
+      "Metonymy"
+    ],
+    "answer": "Understatement"
+  },
+  {
+    "id": "Q314",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "'Jumbo shrimp' is an example of:",
+    "options": [
+      "Oxymoron",
+      "Paradox",
+      "Irony",
+      "Synecdoche"
+    ],
+    "answer": "Oxymoron"
+  },
+  {
+    "id": "Q315",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "'The more you learn, the less you know' expresses:",
+    "options": [
+      "Paradox",
+      "Irony",
+      "Hyperbole",
+      "Chiasmus"
+    ],
+    "answer": "Paradox"
+  },
+  {
+    "id": "Q316",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "'Let's all give him a hand' uses a part for a whole:",
+    "options": [
+      "Metonymy",
+      "Synecdoche",
+      "Euphemism",
+      "Personification"
+    ],
+    "answer": "Synecdoche"
+  },
+  {
+    "id": "Q317",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "'The White House issued a statement' replaces an institution for people. This is:",
+    "options": [
+      "Synecdoche",
+      "Metonymy",
+      "Irony",
+      "Juxtaposition"
+    ],
+    "answer": "Metonymy"
+  },
+  {
+    "id": "Q318",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "'That's not bad at all' is an example of:",
+    "options": [
+      "Litotes",
+      "Euphemism",
+      "Understatement",
+      "Paradox"
+    ],
+    "answer": "Litotes"
+  },
+  {
+    "id": "Q319",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "A rhetorical question is used to:",
+    "options": [
+      "Solicit a response",
+      "Confuse the audience",
+      "Emphasize a point",
+      "Transition to a new topic"
+    ],
+    "answer": "Emphasize a point"
+  },
+  {
+    "id": "Q320",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "'O Death, where is thy sting?' demonstrates:",
+    "options": [
+      "Apostrophe",
+      "Metonymy",
+      "Antithesis",
+      "Symbolism"
+    ],
+    "answer": "Apostrophe"
+  },
+  {
+    "id": "Q321",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Placing 'love and hate' side by side for emphasis is:",
+    "options": [
+      "Juxtaposition",
+      "Parallelism",
+      "Chiasmus",
+      "Euphemism"
+    ],
+    "answer": "Juxtaposition"
+  },
+  {
+    "id": "Q322",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "The contrast between what's expected and what occurs defines:",
+    "options": [
+      "Irony",
+      "Paradox",
+      "Hyperbole",
+      "Symbolism"
+    ],
+    "answer": "Irony"
+  },
+  {
+    "id": "Q323",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "When an author repeats similar grammatical forms, they're using:",
+    "options": [
+      "Parallelism",
+      "Anaphora",
+      "Chiasmus",
+      "Antithesis"
+    ],
+    "answer": "Parallelism"
+  },
+  {
+    "id": "Q324",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Which device intentionally softens harsh realities?",
+    "options": [
+      "Euphemism",
+      "Irony",
+      "Paradox",
+      "Understatement"
+    ],
+    "answer": "Euphemism"
+  },
+  {
+    "id": "Q325",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Diction contributes most directly to a text's:",
+    "options": [
+      "Setting",
+      "Tone",
+      "Theme",
+      "Conflict"
+    ],
+    "answer": "Tone"
+  },
+  {
+    "id": "Q301",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Krashen's theory stating learners need input slightly above their level is called:",
+    "options": [
+      "Input Hypothesis",
+      "Output Hypothesis",
+      "Monitor Model",
+      "Transfer Theory"
+    ],
+    "answer": "Input Hypothesis"
+  },
+  {
+    "id": "Q302",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "The emotional factor that can block language learning is known as:",
+    "options": [
+      "Critical Period",
+      "Affective Filter",
+      "Natural Order",
+      "Code-Switching"
+    ],
+    "answer": "Affective Filter"
+  },
+  {
+    "id": "Q303",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Which strategy best supports students developing academic language (CALP)?",
+    "options": [
+      "Playground talk",
+      "Scaffolded discussion using academic vocabulary",
+      "Total Physical Response",
+      "Peer imitation"
+    ],
+    "answer": "Scaffolded discussion using academic vocabulary"
+  },
+  {
+    "id": "Q304",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "A teacher gives clear examples of how to form past tense before student practice. This is:",
+    "options": [
+      "Modeling",
+      "Drilling",
+      "Code-switching",
+      "Translation"
+    ],
+    "answer": "Modeling"
+  },
+  {
+    "id": "Q305",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Pairing language commands with movement is part of:",
+    "options": [
+      "Silent Way",
+      "Direct Method",
+      "Total Physical Response",
+      "Communicative Approach"
+    ],
+    "answer": "Total Physical Response"
+  },
+  {
+    "id": "Q306",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Waiting several seconds before calling on ELL students improves:",
+    "options": [
+      "Grammar",
+      "Processing time",
+      "Pronunciation",
+      "Fluency"
+    ],
+    "answer": "Processing time"
+  },
+  {
+    "id": "Q307",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Basic Interpersonal Communication Skills (BICS) differ from CALP because they:",
+    "options": [
+      "Require academic vocabulary",
+      "Develop more slowly",
+      "Are used in social settings",
+      "Depend on grammar rules"
+    ],
+    "answer": "Are used in social settings"
+  },
+  {
+    "id": "Q308",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "When a Spanish-speaking student writes 'espectator' for 'spectator,' this reflects:",
+    "options": [
+      "Language transfer",
+      "Code-switching",
+      "Fossilization",
+      "Overgeneralization"
+    ],
+    "answer": "Language transfer"
+  },
+  {
+    "id": "Q309",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Teachers can support second language acquisition most effectively by:",
+    "options": [
+      "Focusing only on grammar",
+      "Providing comprehensible input and context",
+      "Avoiding visuals",
+      "Limiting peer interaction"
+    ],
+    "answer": "Providing comprehensible input and context"
+  },
+  {
+    "id": "Q310",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Encouraging peer collaboration and discussion builds:",
+    "options": [
+      "Morphology",
+      "Communicative competence",
+      "Syntax",
+      "Phonemic awareness"
+    ],
+    "answer": "Communicative competence"
+  },
+  {
+    "id": "Q311",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "An affix attached to the beginning of a word is called a:",
+    "options": [
+      "Suffix",
+      "Prefix",
+      "Root",
+      "Stem"
+    ],
+    "answer": "Prefix"
+  },
+  {
+    "id": "Q312",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Which term means an affix added to the end of a root?",
+    "options": [
+      "Prefix",
+      "Suffix",
+      "Inflection",
+      "Stem"
+    ],
+    "answer": "Suffix"
+  },
+  {
+    "id": "Q313",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Which suffix changes a verb to a noun?",
+    "options": [
+      "-ize",
+      "-tion",
+      "-ful",
+      "-ous"
+    ],
+    "answer": "-tion"
+  },
+  {
+    "id": "Q314",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "The suffix '-ize' typically forms:",
+    "options": [
+      "Nouns",
+      "Verbs",
+      "Adjectives",
+      "Adverbs"
+    ],
+    "answer": "Verbs"
+  },
+  {
+    "id": "Q315",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "The suffix '-ous' turns a noun into an:",
+    "options": [
+      "Adjective",
+      "Verb",
+      "Adverb",
+      "Pronoun"
+    ],
+    "answer": "Adjective"
+  },
+  {
+    "id": "Q316",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Which classroom activity best supports morphological awareness?",
+    "options": [
+      "Memorizing spelling lists",
+      "Sorting words by affixes",
+      "Copying sentences",
+      "Reciting rhymes"
+    ],
+    "answer": "Sorting words by affixes"
+  },
+  {
+    "id": "Q317",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Which morpheme type changes word meaning but not grammatical role?",
+    "options": [
+      "Inflectional",
+      "Derivational",
+      "Compound",
+      "Bound root"
+    ],
+    "answer": "Derivational"
+  },
+  {
+    "id": "Q318",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Adding '-ed' to indicate past tense is an example of a:",
+    "options": [
+      "Derivational morpheme",
+      "Inflectional morpheme",
+      "Prefix",
+      "Suffix root"
+    ],
+    "answer": "Inflectional morpheme"
+  },
+  {
+    "id": "Q319",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Students comparing English and Spanish word endings practice:",
+    "options": [
+      "Syntax",
+      "Metalinguistic awareness",
+      "Fluency",
+      "Phonology"
+    ],
+    "answer": "Metalinguistic awareness"
+  },
+  {
+    "id": "Q320",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "A classroom focused on conversation, gestures, and visual aids demonstrates:",
+    "options": [
+      "Grammar-Translation",
+      "Communicative approach",
+      "Audio-lingual method",
+      "Direct method"
+    ],
+    "answer": "Communicative approach"
+  },
+  {
+    "id": "Q321",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Teachers lower the affective filter by:",
+    "options": [
+      "Increasing test frequency",
+      "Creating a supportive environment",
+      "Correcting every error publicly",
+      "Reducing peer interaction"
+    ],
+    "answer": "Creating a supportive environment"
+  },
+  {
+    "id": "Q322",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Providing sentence frames such as 'I think ___ because ___' helps students:",
+    "options": [
+      "Build syntax and academic discourse",
+      "Practice phonics",
+      "Drill pronunciation",
+      "Avoid code-switching"
+    ],
+    "answer": "Build syntax and academic discourse"
+  },
+  {
+    "id": "Q323",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "When teachers explicitly discuss word roots and affixes, they develop:",
+    "options": [
+      "Morphological awareness",
+      "Phonemic fluency",
+      "Syntactic transfer",
+      "Listening comprehension"
+    ],
+    "answer": "Morphological awareness"
+  },
+  {
+    "id": "Q324",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Suffixes that form nouns often end in:",
+    "options": [
+      "-able, -ous",
+      "-ize, -ify",
+      "-ness, -tion",
+      "-ed, -ing"
+    ],
+    "answer": "-ness, -tion"
+  },
+  {
+    "id": "Q325",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "The best way to help ELLs develop academic vocabulary is to:",
+    "options": [
+      "Give bilingual dictionaries",
+      "Use context-rich content lessons",
+      "Simplify all reading",
+      "Limit talk time"
+    ],
+    "answer": "Use context-rich content lessons"
+  },
+  {
+    "id": "Q326",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Which era of English followed the Norman Conquest and saw major French influence?",
+    "options": [
+      "Old English",
+      "Middle English",
+      "Modern English",
+      "Contemporary English"
+    ],
+    "answer": "Middle English"
+  },
+  {
+    "id": "Q327",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Hard",
+    "question": "Which event greatly affected vowel pronunciation between 1400–1600?",
+    "options": [
+      "The Great Schism",
+      "Industrial Revolution",
+      "Great Vowel Shift",
+      "Norman Conquest"
+    ],
+    "answer": "Great Vowel Shift"
+  },
+  {
+    "id": "Q328",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "The Renaissance and Shakespeare contributed to the rise of:",
+    "options": [
+      "Old English",
+      "Early Modern English",
+      "Middle English",
+      "Contemporary English"
+    ],
+    "answer": "Early Modern English"
+  },
+  {
+    "id": "Q329",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "A word adopted directly from another language, such as 'ballet', is called a:",
+    "options": [
+      "Calque",
+      "Loanword",
+      "Creole",
+      "Derivation"
+    ],
+    "answer": "Loanword"
+  },
+  {
+    "id": "Q330",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "A word-for-word translation of a foreign phrase is known as a:",
+    "options": [
+      "Pidgin",
+      "Calque",
+      "Borrowing",
+      "Neologism"
+    ],
+    "answer": "Calque"
+  },
+  {
+    "id": "Q331",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "The study of word origins and their historical changes is called:",
+    "options": [
+      "Etymology",
+      "Morphology",
+      "Phonology",
+      "Syntax"
+    ],
+    "answer": "Etymology"
+  },
+  {
+    "id": "Q332",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "A simplified communication system between speakers of different languages is called a:",
+    "options": [
+      "Pidgin",
+      "Creole",
+      "Dialect",
+      "Sociolect"
+    ],
+    "answer": "Pidgin"
+  },
+  {
+    "id": "Q333",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "A stable, fully developed language that evolved from a pidgin is known as a:",
+    "options": [
+      "Dialect",
+      "Creole",
+      "Idiolect",
+      "Sociolect"
+    ],
+    "answer": "Creole"
+  },
+  {
+    "id": "Q334",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Which of the following best defines 'dialect'?",
+    "options": [
+      "A social language register",
+      "A simplified communication form",
+      "A regional or social language variety",
+      "A new language created from two others"
+    ],
+    "answer": "A regional or social language variety"
+  },
+  {
+    "id": "Q335",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "An individual's unique way of speaking is referred to as their:",
+    "options": [
+      "Sociolect",
+      "Dialect",
+      "Idiolect",
+      "Register"
+    ],
+    "answer": "Idiolect"
+  },
+  {
+    "id": "Q336",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Language associated with specific social groups or classes is called a:",
+    "options": [
+      "Pidgin",
+      "Sociolect",
+      "Dialect",
+      "Register"
+    ],
+    "answer": "Sociolect"
+  },
+  {
+    "id": "Q337",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "Which statement best defines slang?",
+    "options": [
+      "A fixed formal register",
+      "A type of professional jargon",
+      "Informal language used for identity or novelty",
+      "Words borrowed from Latin"
+    ],
+    "answer": "Informal language used for identity or novelty"
+  },
+  {
+    "id": "Q338",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Easy",
+    "question": "The phrase 'cool' meaning 'good' or 'stylish' is an example of:",
+    "options": [
+      "A regionalism",
+      "A neologism",
+      "Slang",
+      "Borrowing"
+    ],
+    "answer": "Slang"
+  },
+  {
+    "id": "Q339",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "The word 'rodeo' entered English from:",
+    "options": [
+      "German",
+      "Spanish",
+      "French",
+      "Italian"
+    ],
+    "answer": "Spanish"
+  },
+  {
+    "id": "Q340",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-1",
+    "difficulty": "Medium",
+    "question": "Variation between 'pop' and 'soda' across U.S. regions demonstrates:",
+    "options": [
+      "Morphology",
+      "Lexical variation",
+      "Phonemic drift",
+      "Idiolect"
+    ],
+    "answer": "Lexical variation"
+  },
+  {
+    "id": "Q201",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which theory emphasizes imitation and reinforcement in language learning?",
+    "options": [
+      "Behaviorist",
+      "Nativist",
+      "Interactionist",
+      "Cognitive"
+    ],
+    "answer": "Behaviorist"
+  },
+  {
+    "id": "Q202",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Easy",
+    "question": "A child says 'I goed to the park.' This shows:",
+    "options": [
+      "Telegraphic speech",
+      "Overgeneralization",
+      "Interlanguage",
+      "Code-switching"
+    ],
+    "answer": "Overgeneralization"
+  },
+  {
+    "id": "Q203",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which theory claims humans are born with a Language Acquisition Device?",
+    "options": [
+      "Interactionist",
+      "Behaviorist",
+      "Nativist",
+      "Sociocultural"
+    ],
+    "answer": "Nativist"
+  },
+  {
+    "id": "Q204",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Language learning occurring through social interaction reflects:",
+    "options": [
+      "Interactionist Theory",
+      "Behaviorist Theory",
+      "Cognitive Theory",
+      "Innate Hypothesis"
+    ],
+    "answer": "Interactionist Theory"
+  },
+  {
+    "id": "Q205",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "The belief that early childhood is the most effective period for language learning supports the:",
+    "options": [
+      "Critical Period Hypothesis",
+      "Monitor Model",
+      "Input Hypothesis",
+      "Communicative Approach"
+    ],
+    "answer": "Critical Period Hypothesis"
+  },
+  {
+    "id": "Q206",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "An English learner using Spanish grammar patterns in English speech demonstrates:",
+    "options": [
+      "Positive transfer",
+      "Negative transfer",
+      "Fossilization",
+      "Code-mixing"
+    ],
+    "answer": "Negative transfer"
+  },
+  {
+    "id": "Q207",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Easy",
+    "question": "When similarities between two languages aid learning, this is:",
+    "options": [
+      "Positive transfer",
+      "Negative transfer",
+      "Interlanguage",
+      "Code-switching"
+    ],
+    "answer": "Positive transfer"
+  },
+  {
+    "id": "Q208",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "The transitional system combining elements of L1 and L2 is called:",
+    "options": [
+      "Code-switching",
+      "Interlanguage",
+      "Pidgin",
+      "Register"
+    ],
+    "answer": "Interlanguage"
+  },
+  {
+    "id": "Q209",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which approach emphasizes all four language domains in lessons?",
+    "options": [
+      "Integrative Language Teaching",
+      "Grammar-Translation",
+      "Audio-Lingual",
+      "Direct Method"
+    ],
+    "answer": "Integrative Language Teaching"
+  },
+  {
+    "id": "Q210",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Easy",
+    "question": "Students discussing solutions collaboratively to construct meaning exhibit:",
+    "options": [
+      "Collaborative Dialogue",
+      "Direct Instruction",
+      "Behavioral Conditioning",
+      "Drill and Practice"
+    ],
+    "answer": "Collaborative Dialogue"
+  },
+  {
+    "id": "Q211",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which best describes the link between language arts and other subjects?",
+    "options": [
+      "They are unrelated",
+      "Language arts reinforce cognitive skills across subjects",
+      "Math and science develop separately",
+      "Reading skills hinder science vocabulary"
+    ],
+    "answer": "Language arts reinforce cognitive skills across subjects"
+  },
+  {
+    "id": "Q212",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Teachers promoting 'language across the curriculum' encourage:",
+    "options": [
+      "Grammar worksheets",
+      "Writing and discussion in all content areas",
+      "Oral reading only in English",
+      "Reducing subject vocabulary"
+    ],
+    "answer": "Writing and discussion in all content areas"
+  },
+  {
+    "id": "Q213",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Vygotsky's concept describing the range where learning occurs with support is:",
+    "options": [
+      "Critical Period",
+      "Zone of Proximal Development",
+      "Behavioral Conditioning",
+      "Interlanguage Stage"
+    ],
+    "answer": "Zone of Proximal Development"
+  },
+  {
+    "id": "Q214",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "When students apply reading comprehension strategies in history class, they demonstrate:",
+    "options": [
+      "Interlanguage",
+      "Disciplinary literacy",
+      "Negative transfer",
+      "Code-switching"
+    ],
+    "answer": "Disciplinary literacy"
+  },
+  {
+    "id": "Q215",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Easy",
+    "question": "Which supports language acquisition through peer modeling and feedback?",
+    "options": [
+      "Silent reading",
+      "Collaborative dialogue",
+      "Dictation",
+      "Grammar translation"
+    ],
+    "answer": "Collaborative dialogue"
+  },
+  {
+    "id": "Q216",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Easy",
+    "question": "A teacher emphasizing content vocabulary like 'hypothesis' and 'variable' supports:",
+    "options": [
+      "Academic language",
+      "Informal language",
+      "Dialect variation",
+      "Interlanguage"
+    ],
+    "answer": "Academic language"
+  },
+  {
+    "id": "Q217",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Students comparing English idioms with ones in their native language practice:",
+    "options": [
+      "Syntax transfer",
+      "Cross-linguistic connections",
+      "Phonemic decoding",
+      "Rote learning"
+    ],
+    "answer": "Cross-linguistic connections"
+  },
+  {
+    "id": "Q218",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which instructional practice best develops metacognitive reading skills?",
+    "options": [
+      "Silent reading logs",
+      "Think-aloud modeling",
+      "Dictation practice",
+      "Listening tests"
+    ],
+    "answer": "Think-aloud modeling"
+  },
+  {
+    "id": "Q219",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "A student writes 'She no like apples.' This shows:",
+    "options": [
+      "Code-switching",
+      "Negative transfer",
+      "Fossilization",
+      "Overgeneralization"
+    ],
+    "answer": "Negative transfer"
+  },
+  {
+    "id": "Q220",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Integrating reading, writing, speaking, and listening into science lessons supports:",
+    "options": [
+      "Language across the curriculum",
+      "Grammar immersion",
+      "Phonemic awareness",
+      "Spelling transfer"
+    ],
+    "answer": "Language across the curriculum"
+  },
+  {
+    "id": "Q221",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which describes students using both Spanish and English within a conversation?",
+    "options": [
+      "Interlanguage",
+      "Code-mixing",
+      "Negative transfer",
+      "Pidgin"
+    ],
+    "answer": "Code-mixing"
+  },
+  {
+    "id": "Q222",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Easy",
+    "question": "The teacher gradually removing supports as students gain independence is:",
+    "options": [
+      "Direct instruction",
+      "Scaffolding",
+      "Translation",
+      "Immersion"
+    ],
+    "answer": "Scaffolding"
+  },
+  {
+    "id": "Q223",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "When students use known spelling patterns to decode new words, they demonstrate:",
+    "options": [
+      "Phonemic awareness",
+      "Morphological transfer",
+      "Metacognition",
+      "Positive transfer"
+    ],
+    "answer": "Positive transfer"
+  },
+  {
+    "id": "Q224",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Easy",
+    "question": "Academic words such as 'compare' or 'analyze' are considered:",
+    "options": [
+      "Tier 1 vocabulary",
+      "Tier 2 vocabulary",
+      "Tier 3 vocabulary",
+      "Dialect terms"
+    ],
+    "answer": "Tier 2 vocabulary"
+  },
+  {
+    "id": "Q225",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-2",
+    "difficulty": "Medium",
+    "question": "Which method best supports both language and content learning simultaneously?",
+    "options": [
+      "Content-based instruction",
+      "Grammar drills",
+      "Audiolingual method",
+      "Phonics-focused lessons"
+    ],
+    "answer": "Content-based instruction"
+  },
+  {
+    "id": "Q401",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Which level of language focuses on the arrangement of words into phrases and clauses?",
+    "options": [
+      "Phonology",
+      "Morphology",
+      "Syntax",
+      "Semantics"
+    ],
+    "answer": "Syntax"
+  },
+  {
+    "id": "Q402",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Identifying prefixes and suffixes to determine word formation is primarily a task in:",
+    "options": [
+      "Phonology",
+      "Morphology",
+      "Semantics",
+      "Pragmatics"
+    ],
+    "answer": "Morphology"
+  },
+  {
+    "id": "Q403",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "A descriptive grammar statement would MOST likely say:",
+    "options": [
+      "'Never split infinitives.'",
+      "'People often end sentences with prepositions in casual speech.'",
+      "'Don't use double negatives.'",
+      "'Always use whom as the object.'"
+    ],
+    "answer": "'People often end sentences with prepositions in casual speech.'"
+  },
+  {
+    "id": "Q404",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "A line that can be interpreted in multiple ways demonstrates:",
+    "options": [
+      "Denotation",
+      "Ambiguity",
+      "Oxymoron",
+      "Cliché"
+    ],
+    "answer": "Ambiguity"
+  },
+  {
+    "id": "Q405",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Which device best creates sensory impressions in readers?",
+    "options": [
+      "Allusion",
+      "Imagery",
+      "Synecdoche",
+      "Apostrophe"
+    ],
+    "answer": "Imagery"
+  },
+  {
+    "id": "Q406",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Connotation refers to:",
+    "options": [
+      "Dictionary meaning",
+      "Spelling variants",
+      "Associated meanings and feelings",
+      "Syntactic function"
+    ],
+    "answer": "Associated meanings and feelings"
+  },
+  {
+    "id": "Q407",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Hard",
+    "question": "A poet uses slant rhyme and irregular meter. The most likely effect is to:",
+    "options": [
+      "Create a monotonous rhythm",
+      "Heighten tension or unease",
+      "Ensure strict symmetry",
+      "Eliminate ambiguity"
+    ],
+    "answer": "Heighten tension or unease"
+  },
+  {
+    "id": "Q408",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Which choice best signals a shift in tone that creates ironic undertones?",
+    "options": [
+      "Literal description only",
+      "Exaggerated praise of a clearly flawed subject",
+      "Chronological exposition",
+      "Objective reporting"
+    ],
+    "answer": "Exaggerated praise of a clearly flawed subject"
+  },
+  {
+    "id": "Q409",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Dialogue that reveals a character's values is primarily an example of:",
+    "options": [
+      "Plot structure",
+      "Characterization",
+      "Setting detail",
+      "Foreshadowing"
+    ],
+    "answer": "Characterization"
+  },
+  {
+    "id": "Q410",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "A passage describing storm clouds gathering over a quiet town most directly develops:",
+    "options": [
+      "Setting and mood",
+      "Tone and theme",
+      "Character arc",
+      "Point of view"
+    ],
+    "answer": "Setting and mood"
+  },
+  {
+    "id": "Q411",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Which is the BEST indicator of a universal theme?",
+    "options": [
+      "A proper noun repeated throughout",
+      "A moral relevant only to one era",
+      "A concept resonating across cultures and time",
+      "A specific regional dialect"
+    ],
+    "answer": "A concept resonating across cultures and time"
+  },
+  {
+    "id": "Q412",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "The strongest thesis statement is typically:",
+    "options": [
+      "Vague and broad",
+      "A factual statement",
+      "A clear, arguable claim with scope",
+      "A rhetorical question"
+    ],
+    "answer": "A clear, arguable claim with scope"
+  },
+  {
+    "id": "Q413",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "Which organizational pattern is best for evaluating two pedagogical models?",
+    "options": [
+      "Chronological",
+      "Definition",
+      "Compare–contrast",
+      "Process analysis"
+    ],
+    "answer": "Compare–contrast"
+  },
+  {
+    "id": "Q414",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "A news article most appropriately uses which structure?",
+    "options": [
+      "Inverted pyramid with most important info first",
+      "Circular structure with motif return",
+      "Five-act dramatic arc",
+      "Stream-of-consciousness"
+    ],
+    "answer": "Inverted pyramid with most important info first"
+  },
+  {
+    "id": "Q415",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "Which revision MOST improves coherence in a formal essay?",
+    "options": [
+      "Adding varied fonts",
+      "Replacing academic terms with slang",
+      "Adding transitional phrases that clarify logic",
+      "Removing topic sentences"
+    ],
+    "answer": "Adding transitional phrases that clarify logic"
+  },
+  {
+    "id": "Q416",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Easy",
+    "question": "A business letter should prioritize:",
+    "options": [
+      "Personal storytelling and figurative language",
+      "Casual tone and slang",
+      "Clear purpose, concise paragraphs, formal register",
+      "Second-person commands throughout"
+    ],
+    "answer": "Clear purpose, concise paragraphs, formal register"
+  },
+  {
+    "id": "Q417",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-3",
+    "difficulty": "Medium",
+    "question": "In an expository essay, which evidence is MOST appropriate to support a data-heavy claim?",
+    "options": [
+      "Vivid sensory description",
+      "Peer-reviewed research and credible statistics",
+      "Personal anecdote only",
+      "Fictional dialogue"
+    ],
+    "answer": "Peer-reviewed research and credible statistics"
+  },
+  {
+    "id": "Q601",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Easy",
+    "question": "Using surrounding sentences to infer an unfamiliar word's meaning demonstrates:",
+    "options": [
+      "Phonetic decoding",
+      "Context clue analysis",
+      "Syntax identification",
+      "Summarizing"
+    ],
+    "answer": "Context clue analysis"
+  },
+  {
+    "id": "Q602",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Easy",
+    "question": "Which reading technique would best locate a specific statistic in a long article?",
+    "options": [
+      "Skimming",
+      "Scanning",
+      "Predicting",
+      "Annotating"
+    ],
+    "answer": "Scanning"
+  },
+  {
+    "id": "Q603",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "A reader slowing down for complex sections and speeding through easier ones demonstrates:",
+    "options": [
+      "Skimming",
+      "Variable reading rate",
+      "Metacognitive regulation",
+      "Contextual inference"
+    ],
+    "answer": "Metacognitive regulation"
+  },
+  {
+    "id": "Q604",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Easy",
+    "question": "Identifying whether a statement expresses a general idea or a supporting detail aids:",
+    "options": [
+      "Summarization",
+      "Inference",
+      "Fact-checking",
+      "Syntax analysis"
+    ],
+    "answer": "Summarization"
+  },
+  {
+    "id": "Q605",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "A reader connecting new material to personal experience is applying:",
+    "options": [
+      "Phonemic awareness",
+      "Prior knowledge activation",
+      "Context clue analysis",
+      "Morphological decoding"
+    ],
+    "answer": "Prior knowledge activation"
+  },
+  {
+    "id": "Q606",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Which question best promotes critical analysis of a persuasive text?",
+    "options": [
+      "Who wrote this and why?",
+      "What is the spelling pattern?",
+      "How many pages is it?",
+      "What font is used?"
+    ],
+    "answer": "Who wrote this and why?"
+  },
+  {
+    "id": "Q607",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Easy",
+    "question": "When a text appeals to emotions to influence readers, it primarily uses:",
+    "options": [
+      "Logos",
+      "Ethos",
+      "Pathos",
+      "Syntax"
+    ],
+    "answer": "Pathos"
+  },
+  {
+    "id": "Q608",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Determining if an author's evidence sufficiently supports a claim evaluates:",
+    "options": [
+      "Relevance and sufficiency",
+      "Tone and style",
+      "Syntax and diction",
+      "Word choice and connotation"
+    ],
+    "answer": "Relevance and sufficiency"
+  },
+  {
+    "id": "Q609",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Recognizing the difference between 'Scientists discovered' and 'Scientists believe' shows awareness of:",
+    "options": [
+      "Bias",
+      "Syntax",
+      "Imagery",
+      "Metaphor"
+    ],
+    "answer": "Bias"
+  },
+  {
+    "id": "Q610",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "A consumer comparing ingredient lists and company claims practices:",
+    "options": [
+      "Critical reading of informational texts",
+      "Predictive inference",
+      "Summative reasoning",
+      "Literal comprehension"
+    ],
+    "answer": "Critical reading of informational texts"
+  },
+  {
+    "id": "Q611",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "A workplace memo should be evaluated for:",
+    "options": [
+      "Figurative language",
+      "Organization and accuracy",
+      "Rhythm and meter",
+      "Bias and irony"
+    ],
+    "answer": "Organization and accuracy"
+  },
+  {
+    "id": "Q612",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Easy",
+    "question": "Recording emotional reactions to a poem in a reading journal reflects:",
+    "options": [
+      "Critical evaluation",
+      "Reader response",
+      "Contextual decoding",
+      "Summarization"
+    ],
+    "answer": "Reader response"
+  },
+  {
+    "id": "Q613",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Writing across content areas enhances learning because it:",
+    "options": [
+      "Reduces comprehension load",
+      "Forces rote memorization",
+      "Deepens understanding through reflection",
+      "Eliminates the need for reading"
+    ],
+    "answer": "Deepens understanding through reflection"
+  },
+  {
+    "id": "Q614",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Easy",
+    "question": "A diagram illustrating relationships between ideas supports which communication mode?",
+    "options": [
+      "Visual",
+      "Auditory",
+      "Kinesthetic",
+      "Narrative"
+    ],
+    "answer": "Visual"
+  },
+  {
+    "id": "Q615",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "An advertisement saying 'Everyone is switching to this phone!' demonstrates:",
+    "options": [
+      "Testimonial",
+      "Bandwagon",
+      "Card-stacking",
+      "Transfer"
+    ],
+    "answer": "Bandwagon"
+  },
+  {
+    "id": "Q616",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Selecting a graphic organizer for comparing two concepts represents:",
+    "options": [
+      "Visual literacy",
+      "Propaganda analysis",
+      "Bias detection",
+      "Phonemic awareness"
+    ],
+    "answer": "Visual literacy"
+  },
+  {
+    "id": "Q617",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "A documentary using both interviews and background music to persuade demonstrates:",
+    "options": [
+      "Synergy in media",
+      "Ethos appeal",
+      "Negative bias",
+      "Descriptive narrative"
+    ],
+    "answer": "Synergy in media"
+  },
+  {
+    "id": "Q618",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Evaluating whether an online article is objective involves checking:",
+    "options": [
+      "Hyperlinks",
+      "Author credentials and tone",
+      "Font style",
+      "Sentence length"
+    ],
+    "answer": "Author credentials and tone"
+  },
+  {
+    "id": "Q619",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Which activity best builds metacognitive reading awareness?",
+    "options": [
+      "Timed silent reading",
+      "Think-aloud modeling",
+      "Multiple-choice quizzes",
+      "Copying vocabulary"
+    ],
+    "answer": "Think-aloud modeling"
+  },
+  {
+    "id": "Q620",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Comparing multiple interpretations of the same poem teaches students to:",
+    "options": [
+      "Discredit authorial intent",
+      "Appreciate diversity of meaning",
+      "Memorize definitions",
+      "Focus on grammar"
+    ],
+    "answer": "Appreciate diversity of meaning"
+  },
+  {
+    "id": "Q621",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "A student writing reflective journal entries about lab experiments is:",
+    "options": [
+      "Practicing writing to learn",
+      "Summarizing literature",
+      "Composing persuasive essays",
+      "Practicing syntax drills"
+    ],
+    "answer": "Practicing writing to learn"
+  },
+  {
+    "id": "Q622",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Analyzing how a chart supports textual information demonstrates:",
+    "options": [
+      "Visual interpretation",
+      "Metaphorical reading",
+      "Syntax comprehension",
+      "Summative reasoning"
+    ],
+    "answer": "Visual interpretation"
+  },
+  {
+    "id": "Q623",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "When evaluating a website, which criterion is LEAST useful?",
+    "options": [
+      "Design aesthetics",
+      "Author's credentials",
+      "Date of publication",
+      "Evidence citations"
+    ],
+    "answer": "Design aesthetics"
+  },
+  {
+    "id": "Q624",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Easy",
+    "question": "The purpose of a public service announcement is primarily to:",
+    "options": [
+      "Entertain",
+      "Inform or persuade",
+      "Amuse",
+      "Narrate"
+    ],
+    "answer": "Inform or persuade"
+  },
+  {
+    "id": "Q625",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "A speaker using celebrity endorsements to influence an audience uses which propaganda technique?",
+    "options": [
+      "Transfer",
+      "Testimonial",
+      "Plain folks",
+      "Fear appeal"
+    ],
+    "answer": "Testimonial"
+  },
+  {
+    "id": "Q626",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Recognizing that film uses close-up shots to create empathy demonstrates:",
+    "options": [
+      "Critical media analysis",
+      "Visual confusion",
+      "Phonemic awareness",
+      "Literal comprehension"
+    ],
+    "answer": "Critical media analysis"
+  },
+  {
+    "id": "Q627",
+    "type": "mcq",
+    "mode": "Drill",
+    "subareaId": "SA-4",
+    "difficulty": "Medium",
+    "question": "Identifying how background music intensifies a news segment's emotional tone analyzes:",
+    "options": [
+      "Nonverbal cues in media",
+      "Logical appeals",
+      "Morphological structure",
+      "Syntax"
+    ],
+    "answer": "Nonverbal cues in media"
+  }
+]
