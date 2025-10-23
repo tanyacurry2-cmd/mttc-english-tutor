@@ -88,6 +88,25 @@ export default function LearnScreen() {
     setCurrentCardIndex(0); // Reset index when queue changes
   }, [cards, cardReviews]);
 
+  // Auto-mark card as viewed when it becomes visible
+  useEffect(() => {
+    const currentCard = cards.find(c => c.id === reviewQueue[currentCardIndex]);
+    if (!currentCard) return;
+    if (markingRef.current) return; // prevent double mark
+    
+    if (!viewedCards.has(currentCard.id)) {
+      const nextViewed = new Set(viewedCards);
+      nextViewed.add(currentCard.id);
+      setViewedCards(nextViewed);
+      saveViewedIds(nextViewed).catch(() => {});
+    }
+    
+    // Micro-lock to avoid thrash
+    markingRef.current = true;
+    const timer = setTimeout(() => { markingRef.current = false; }, 100);
+    return () => clearTimeout(timer);
+  }, [currentCardIndex, cards, reviewQueue, viewedCards]);
+
   const currentCard = cards.find(c => c.id === reviewQueue[currentCardIndex]);
 
   if (cards.length === 0) {
