@@ -1,3 +1,4 @@
+import 'react-native-get-random-values';
 import { useEffect, useMemo, useState } from "react";
 import { View, Text, Pressable, FlatList, Alert, StyleSheet } from "react-native";
 import { router } from "expo-router";
