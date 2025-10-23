@@ -235,16 +235,16 @@ export default function LearnScreen() {
               !isFlipped && styles.hiddenCard,
             ]}
           >
-            <View style={styles.cardHeader}>
-              <Text style={styles.subarea}>{currentCard.subarea}</Text>
-            </View>
-            <Text style={styles.answerLabel}>Answer:</Text>
-            <Text style={styles.answerText}>{currentCard.answer}</Text>
-            <View style={styles.explanationBox}>
-              <ScrollView>
+            <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 80 }}>
+              <View style={styles.cardHeader}>
+                <Text style={styles.subarea}>{currentCard.subarea}</Text>
+              </View>
+              <Text style={styles.answerLabel}>Answer:</Text>
+              <Text style={styles.answerText}>{currentCard.answer}</Text>
+              <View style={styles.explanationBox}>
                 <Text style={styles.explanationText}>{currentCard.explanation}</Text>
-              </ScrollView>
-            </View>
+              </View>
+            </ScrollView>
           </Animated.View>
         </TouchableOpacity>
 
