@@ -46,20 +46,11 @@ const features: FeatureTile[] = [
     color: theme.colors.accent,
   },
   {
-    id: 'exam',
-    title: 'Exam Mode',
-    icon: 'timer',
-    description: '20 questions, 25 minutes',
-    route: '/exam',
-    color: '#9B2C2C',
-    requiresPaid: true,
-  },
-  {
     id: 'assessment',
     title: 'Assessment',
     icon: 'clipboard-text',
-    description: '10-min diagnostic',
-    route: '/assessment',
+    description: '20-question diagnostic',
+    route: '/(tabs)/assessment',
     color: '#2D8A7E',
   },
   {
