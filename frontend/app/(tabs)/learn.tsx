@@ -311,6 +311,11 @@ const styles = StyleSheet.create({
     height: '100%',
     backgroundColor: theme.colors.accent,
   },
+  controlsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
   counter: {
     fontSize: theme.fontSize.lg,
     fontWeight: theme.fontWeight.semibold,
