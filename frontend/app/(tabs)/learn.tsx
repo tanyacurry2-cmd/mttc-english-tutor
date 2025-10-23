@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -17,6 +17,7 @@ import flashcardsData from '../../data/flashcards.json';
 import { Card } from '../../types/content';
 import { calculateNextReview, ReviewQuality, isDueForReview, sortCardsByPriority, DEFAULT_SRS_CARD } from '../../lib/srs';
 import { Button } from '../../components/Button';
+import { loadViewedIds, saveViewedIds } from '../../storage/flashcards';
 
 // Map subarea names to IDs
 const subareaNameToId: { [key: string]: string } = {
