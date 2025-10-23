@@ -90,7 +90,7 @@ export default function LearnScreen() {
 
   // Auto-mark card as viewed when it becomes visible
   useEffect(() => {
-    const currentCard = cards.find(c => c.id === reviewQueue[currentCardIndex]);
+    const currentCard = cards[currentCardIndex];
     if (!currentCard) return;
     if (markingRef.current) return; // prevent double mark
     
