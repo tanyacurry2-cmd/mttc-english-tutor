@@ -85,7 +85,6 @@ export default function LearnScreen() {
 
     const queue = sortCardsByPriority(cardsWithSRS);
     setReviewQueue(queue);
-    setCurrentCardIndex(0); // Reset index when queue changes
   }, [cards, cardReviews]);
 
   // Auto-mark card as viewed when it becomes visible
