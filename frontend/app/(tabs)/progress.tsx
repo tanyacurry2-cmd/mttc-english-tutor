@@ -92,6 +92,14 @@ export default function ProgressScreen() {
             <Text style={styles.readinessMessage}>
               {getReadinessMessage(overallReadiness)}
             </Text>
+            {diagnosticReadiness > 0 && (
+              <View style={styles.diagnosticReadiness}>
+                <Text style={styles.diagnosticLabel}>Diagnostic Readiness:</Text>
+                <Text style={[styles.diagnosticValue, { color: getReadinessColor(diagnosticReadiness) }]}>
+                  {diagnosticReadiness}%
+                </Text>
+              </View>
+            )}
           </View>
 
           <View style={styles.statsRow}>
