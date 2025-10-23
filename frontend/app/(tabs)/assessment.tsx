@@ -69,13 +69,19 @@ export default function DiagnosticScreen() {
     });
 
     const ema = await updateReadinessEma(adjScore01);
+    
+    // Prepare wrong questions with details
+    const wrongQuestions = pool.filter(question => wrongIds.includes(question.id));
+    
     router.replace({
       pathname: "/diagnostic-results",
       params: {
         score01: adjScore01.toString(),
         total: pool.length.toString(),
         wrongIds: JSON.stringify(wrongIds),
-        readiness: Math.round(ema * 100).toString()
+        readiness: Math.round(ema * 100).toString(),
+        wrongQuestions: JSON.stringify(wrongQuestions),
+        userAnswers: JSON.stringify(userAnswers)
       }
     });
   };
