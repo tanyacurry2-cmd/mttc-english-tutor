@@ -312,11 +312,12 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.accent,
   },
   counter: {
-    fontSize: theme.fontSize.md,
-    color: theme.colors.textSecondary,
+    fontSize: theme.fontSize.lg,
+    fontWeight: theme.fontWeight.semibold,
+    color: theme.colors.text,
     textAlign: 'center',
-    marginTop: theme.spacing.xs,
-    marginBottom: theme.spacing.xs,
+    marginTop: theme.spacing.sm,
+    marginBottom: theme.spacing.md,
   },
   limitMessage: {
     backgroundColor: theme.colors.accent,
