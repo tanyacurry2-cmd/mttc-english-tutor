@@ -15,6 +15,9 @@ const PER_SUBAREA = { "SA-1": 5, "SA-2": 5, "SA-3": 5, "SA-4": 5 } as const;
 const TOTAL = 20;
 const SECONDS = 20 * 60; // 20 minutes
 
+// Generate session ID once outside component
+const generateSessionId = () => `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+
 export default function DiagnosticScreen() {
   // Build a fresh pool on mount
   const pool: Question[] = useMemo(() => {
@@ -28,7 +31,7 @@ export default function DiagnosticScreen() {
   const [selected, setSelected] = useState<string>("");
   const [correct, setCorrect] = useState(0);
   const [wrongIds, setWrongIds] = useState<string[]>([]);
-  const sessionId = useMemo(() => uuid(), []);
+  const sessionId = useMemo(() => generateSessionId(), []);
 
   const q = pool[idx];
 
