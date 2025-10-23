@@ -315,7 +315,8 @@ const styles = StyleSheet.create({
     fontSize: theme.fontSize.md,
     color: theme.colors.textSecondary,
     textAlign: 'center',
-    marginTop: theme.spacing.md,
+    marginTop: theme.spacing.xs,
+    marginBottom: theme.spacing.xs,
   },
   limitMessage: {
     backgroundColor: theme.colors.accent,
