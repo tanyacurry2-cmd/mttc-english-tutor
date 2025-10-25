@@ -107,9 +107,10 @@ export default function HomeScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
-      <TrialBanner />
-      <ScrollView style={styles.scrollView}>
+    <StarryBackground>
+      <SafeAreaView style={styles.container}>
+        <TrialBanner />
+        <ScrollView style={styles.scrollView}>
         <View style={styles.header}>
           <View>
             <Text style={styles.greeting}>Hello, {user.email?.split('@')[0]}</Text>
