@@ -77,30 +77,14 @@ export default function ProgressScreen() {
       <TrialBanner />
       <ScrollView style={styles.scrollView}>
         <View style={styles.content}>
-          <View style={styles.readinessCard}>
-            <Text style={styles.readinessLabel}>Overall Readiness</Text>
-            <View style={styles.readinessCircle}>
-              <Text
-                style={[
-                  styles.readinessPercentage,
-                  { color: getReadinessColor(overallReadiness) },
-                ]}
-              >
-                {overallReadiness}%
+          {diagnosticReadiness > 0 && (
+            <View style={styles.readinessCard}>
+              <Text style={styles.diagnosticLabel}>Diagnostic Readiness:</Text>
+              <Text style={[styles.diagnosticValue, { color: getReadinessColor(diagnosticReadiness) }]}>
+                {diagnosticReadiness}%
               </Text>
             </View>
-            <Text style={styles.readinessMessage}>
-              {getReadinessMessage(overallReadiness)}
-            </Text>
-            {diagnosticReadiness > 0 && (
-              <View style={styles.diagnosticReadiness}>
-                <Text style={styles.diagnosticLabel}>Diagnostic Readiness:</Text>
-                <Text style={[styles.diagnosticValue, { color: getReadinessColor(diagnosticReadiness) }]}>
-                  {diagnosticReadiness}%
-                </Text>
-              </View>
-            )}
-          </View>
+          )}
 
           <View style={styles.statsRow}>
             <View style={styles.statBox}>
