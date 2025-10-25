@@ -47,28 +47,74 @@ export default function DrillScreen() {
     initializeAudio();
   }, []);
 
-  // Filter and initialize questions based on subarea params
+  // Filter and initialize questions with prioritized selection
   useEffect(() => {
-    let filteredQuestions = mcqData as MCQ[];
-    
-    // Filter by subarea if param is provided
-    if (params.subareaId) {
-      filteredQuestions = filteredQuestions.filter((q: any) => {
-        const qSubareaId = subareaNameToId[q.subarea] || '';
-        return qSubareaId === params.subareaId;
+    (async () => {
+      const stats = await loadStats();
+      let allQuestions = mcqData as MCQ[];
+      
+      // Filter by subarea if param is provided
+      if (params.subareaId) {
+        allQuestions = allQuestions.filter((q: any) => {
+          const qSubareaId = subareaNameToId[q.subarea] || '';
+          return qSubareaId === params.subareaId;
+        });
+      }
+      
+      // Convert to Question type for prioritizedPool
+      const questionsFormat = allQuestions.map(q => ({
+        id: q.id,
+        type: "mcq" as const,
+        mode: "Drill" as const,
+        subareaId: (subareaNameToId[q.subarea] || 'SA-1') as any,
+        question: q.stem,
+        options: q.options,
+        answer: q.options[q.correctIndex],
+        rationales: q.rationales,
+        correctIndex: q.correctIndex
+      }));
+      
+      // Get prioritized pool and shuffle
+      const prioritized = prioritizedPool(questionsFormat, stats, {
+        subareaId: params.subareaId as any,
+        preferUnseen: true,
+        freshnessMs: 1000 * 60 * 60 * 8 // 8 hours
       });
-    }
-    
-    setQuestions(filteredQuestions);
-    setCurrentQuestionIndex(0);
-    setSelectedAnswer(null);
-    setShowRationale(false);
+      
+      const shuffled = shuffle(prioritized);
+      
+      // Convert back to MCQ format
+      const prioritizedMCQs = shuffled.map(q => 
+        allQuestions.find(mcq => mcq.id === q.id)
+      ).filter(q => q !== undefined) as MCQ[];
+      
+      setQuestions(prioritizedMCQs);
+      setCurrentQuestionIndex(0);
+      setSelectedAnswer(null);
+      setShowRationale(false);
+    })();
   }, [params.subareaId]);
 
   // Shuffle questions
-  const handleShuffle = () => {
-    const shuffled = [...questions].sort(() => Math.random() - 0.5);
-    setQuestions(shuffled);
+  const handleShuffle = async () => {
+    const stats = await loadStats();
+    const questionsFormat = questions.map(q => ({
+      id: q.id,
+      type: "mcq" as const,
+      mode: "Drill" as const,
+      subareaId: (subareaNameToId[q.subarea] || 'SA-1') as any,
+      question: q.stem,
+      options: q.options,
+      answer: q.options[q.correctIndex],
+      rationales: q.rationales,
+      correctIndex: q.correctIndex
+    }));
+    const shuffled = shuffle(questionsFormat);
+    const shuffledMCQs = shuffled.map(q => 
+      questions.find(mcq => mcq.id === q.id)
+    ).filter(q => q !== undefined) as MCQ[];
+    
+    setQuestions(shuffledMCQs);
     setCurrentQuestionIndex(0);
     setSelectedAnswer(null);
     setShowRationale(false);
