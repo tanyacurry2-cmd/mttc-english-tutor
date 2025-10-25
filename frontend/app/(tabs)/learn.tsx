@@ -247,7 +247,7 @@ export default function LearnScreen() {
               !isFlipped && styles.hiddenCard,
             ]}
           >
-            <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 80 }}>
+            <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 20 }}>
               <View style={styles.cardHeader}>
                 <Text style={styles.subarea}>{currentCard.subarea}</Text>
               </View>
