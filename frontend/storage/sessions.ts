@@ -19,7 +19,7 @@ export async function loadSessions(): Promise<SessionSummary[]> {
 export async function saveSession(s: SessionSummary) {
   const list = await loadSessions();
   list.unshift(s);                          // newest first
-  await AsyncStorage.setItem(KEY, JSON.stringify(list.slice(0, 50)));
+  await AsyncStorage.setItem(KEY, JSON.stringify(list.slice(0, 5))); // Keep only 5 most recent
 }
 
 export async function loadReadinessEma(): Promise<number> {
