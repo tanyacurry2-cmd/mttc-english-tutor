@@ -476,6 +476,10 @@ const styles = StyleSheet.create({
     borderColor: theme.colors.error,
     backgroundColor: `${theme.colors.error}10`,
   },
+  incorrectOptionText: {
+    color: theme.colors.error,
+    fontWeight: theme.fontWeight.semibold,
+  },
   optionContent: {
     flexDirection: 'row',
     alignItems: 'center',
