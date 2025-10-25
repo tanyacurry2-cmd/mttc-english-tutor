@@ -474,9 +474,9 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#FFFFFF',
-    fontSize: theme.fontSize.md,
+    fontSize: theme.fontSize.sm,
     fontWeight: theme.fontWeight.semibold,
-    marginLeft: theme.spacing.sm,
+    marginLeft: theme.spacing.xs,
   },
   emptyState: {
     flex: 1,
