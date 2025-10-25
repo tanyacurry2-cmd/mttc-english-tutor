@@ -37,10 +37,8 @@ export default function LearnScreen() {
   const [cards, setCards] = useState<Card[]>([]);
   const [reviewQueue, setReviewQueue] = useState<string[]>([]);
   const [showResumePrompt, setShowResumePrompt] = useState(false);
-  const [viewedCards, setViewedCards] = useState<Set<string>>(new Set());
   const flipAnim = useState(new Animated.Value(0))[0];
   const hasAccess = checkTrialStatus();
-  const markingRef = useRef(false);
 
   // Load cards with prioritized selection
   useEffect(() => {
