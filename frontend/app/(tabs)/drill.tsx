@@ -447,10 +447,10 @@ const styles = StyleSheet.create({
     fontWeight: theme.fontWeight.semibold,
   },
   questionStem: {
-    fontSize: theme.fontSize.lg,
+    fontSize: theme.fontSize.md,
     color: theme.colors.text,
-    lineHeight: 28,
-    marginBottom: theme.spacing.lg,
+    lineHeight: 22,
+    marginBottom: theme.spacing.md,
   },
   optionsContainer: {
     marginTop: theme.spacing.md,
