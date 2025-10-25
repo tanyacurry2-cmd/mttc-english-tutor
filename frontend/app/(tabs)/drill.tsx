@@ -269,6 +269,7 @@ export default function DrillScreen() {
                         style={[
                           styles.optionText,
                           isSelected && styles.selectedOptionText,
+                          showIncorrect && styles.incorrectOptionText,
                         ]}
                       >
                         {option}
