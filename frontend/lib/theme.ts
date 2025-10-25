@@ -1,14 +1,14 @@
 export const theme = {
   colors: {
-    background: '#FAFAF7',
-    surface: '#FFFFFF',
-    text: '#0F1B2D',
-    textSecondary: '#60718A',
-    accent: '#C8A96A',
-    success: '#2D8A7E',
-    error: '#9B2C2C',
-    border: '#E5E7EB',
-    disabled: '#9CA3AF',
+    background: '#0A1929',
+    surface: '#132F4C',
+    text: '#FFFFFF',
+    textSecondary: '#B2BAC2',
+    accent: '#66B2FF',
+    success: '#5FC88F',
+    error: '#FF6B6B',
+    border: '#1E3A5F',
+    disabled: '#4A5568',
   },
   spacing: {
     xs: 4,
