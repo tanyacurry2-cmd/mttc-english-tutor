@@ -17,6 +17,8 @@ import { theme } from '../../lib/theme';
 import mcqData from '../../data/mcq.json';
 import { MCQ } from '../../types/content';
 import { playSuccessSound, playErrorSound, initializeAudio } from '../../lib/soundUtils';
+import { loadStats, bumpAttempt } from '../../storage/stats';
+import { prioritizedPool, shuffle } from '../../utils/selection';
 
 // Map subarea names to IDs
 const subareaNameToId: { [key: string]: string } = {
