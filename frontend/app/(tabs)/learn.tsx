@@ -370,8 +370,8 @@ const styles = StyleSheet.create({
   },
   cardContainer: {
     flex: 1,
-    marginTop: theme.spacing.xl,
-    marginBottom: theme.spacing.lg,
+    marginTop: theme.spacing.sm,
+    marginBottom: theme.spacing.md,
   },
   card: {
     flex: 1,
