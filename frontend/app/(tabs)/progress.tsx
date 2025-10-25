@@ -361,18 +361,20 @@ const styles = StyleSheet.create({
   diagnosticReadiness: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
     marginTop: theme.spacing.md,
     paddingTop: theme.spacing.md,
     borderTopWidth: 1,
     borderTopColor: theme.colors.border,
   },
   diagnosticLabel: {
-    fontSize: theme.fontSize.sm,
-    color: theme.colors.textSecondary,
+    fontSize: theme.fontSize.lg,
+    color: theme.colors.text,
+    fontWeight: theme.fontWeight.semibold,
     marginRight: theme.spacing.sm,
   },
   diagnosticValue: {
-    fontSize: theme.fontSize.lg,
+    fontSize: theme.fontSize.xxl,
     fontWeight: theme.fontWeight.bold,
   },
   diagnosticCard: {
