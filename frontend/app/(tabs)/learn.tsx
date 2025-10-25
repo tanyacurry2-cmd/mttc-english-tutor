@@ -164,7 +164,7 @@ export default function LearnScreen() {
     setIsFlipped(!isFlipped);
   };
 
-  const handleResponse = (quality: ReviewQuality) => {
+  const handleResponse = async (quality: ReviewQuality) => {
     if (!currentCard) return;
 
     const currentSRS = cardReviews[currentCard.id] || DEFAULT_SRS_CARD;
@@ -176,10 +176,18 @@ export default function LearnScreen() {
     flipAnim.setValue(0);
     
     if (currentCardIndex < cards.length - 1) {
-      setCurrentCardIndex(currentCardIndex + 1);
+      const nextIndex = currentCardIndex + 1;
+      setCurrentCardIndex(nextIndex);
+      // Mark next card as seen
+      if (cards[nextIndex]) {
+        await bumpSeen(cards[nextIndex].id);
+      }
     } else {
       // Reached end, restart from beginning
       setCurrentCardIndex(0);
+      if (cards[0]) {
+        await bumpSeen(cards[0].id);
+      }
     }
   };
 
