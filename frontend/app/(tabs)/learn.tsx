@@ -42,30 +42,55 @@ export default function LearnScreen() {
   const hasAccess = checkTrialStatus();
   const markingRef = useRef(false);
 
-  // Load viewed cards on mount
+  // Load cards with prioritized selection
   useEffect(() => {
     (async () => {
-      const viewed = await loadViewedIds();
-      setViewedCards(viewed);
-    })();
-  }, []);
-
-  // Filter cards based on subarea params
-  useEffect(() => {
-    let filteredCards = flashcardsData as Card[];
-    
-    // Filter by subarea if param is provided
-    if (params.subareaId) {
-      filteredCards = filteredCards.filter((card: any) => {
-        const cardSubareaId = subareaNameToId[card.subarea] || '';
-        return cardSubareaId === params.subareaId;
+      const stats = await loadStats();
+      let allCards = flashcardsData as Card[];
+      
+      // Filter by subarea if param is provided
+      if (params.subareaId) {
+        allCards = allCards.filter((card: any) => {
+          const cardSubareaId = subareaNameToId[card.subarea] || '';
+          return cardSubareaId === params.subareaId;
+        });
+      }
+      
+      // Convert to Question type for prioritizedPool
+      const questionsFormat = allCards.map(card => ({
+        id: card.id,
+        type: "flashcard" as const,
+        mode: "Learn" as const,
+        subareaId: (subareaNameToId[card.subarea] || 'SA-1') as any,
+        question: card.question,
+        answer: card.answer,
+        options: [],
+        rationales: [],
+        correctIndex: 0
+      }));
+      
+      // Get prioritized pool
+      const prioritized = prioritizedPool(questionsFormat, stats, {
+        subareaId: params.subareaId as any,
+        preferUnseen: true,
+        freshnessMs: 1000 * 60 * 60 * 8 // 8 hours
       });
-    }
-    
-    setCards(filteredCards);
-    setCurrentCardIndex(0);
-    setIsFlipped(false);
-    flipAnim.setValue(0);
+      
+      // Convert back to Card format
+      const prioritizedCards = prioritized.map(q => 
+        allCards.find(c => c.id === q.id)
+      ).filter(c => c !== undefined) as Card[];
+      
+      setCards(prioritizedCards);
+      setCurrentCardIndex(0);
+      setIsFlipped(false);
+      flipAnim.setValue(0);
+      
+      // Mark first card as seen
+      if (prioritizedCards[0]) {
+        await bumpSeen(prioritizedCards[0].id);
+      }
+    })();
   }, [params.subareaId]);
 
   // Shuffle cards
