@@ -178,10 +178,14 @@ export default function DrillScreen() {
     setSelectedAnswer(index);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (selectedAnswer === null) return;
     const isCorrect = selectedAnswer === currentQuestion.correctIndex;
     updateMCQHistory(currentQuestion.id, isCorrect);
+    
+    // Track attempt in stats
+    await bumpAttempt(currentQuestion.id, isCorrect);
+    
     setShowRationale(true);
     
     // Play sound and animation
