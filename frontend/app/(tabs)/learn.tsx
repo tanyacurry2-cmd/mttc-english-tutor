@@ -12,6 +12,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useAppStore } from '../../lib/store';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { TrialBanner } from '../../components/TrialBanner';
+import { StarryBackground } from '../../components/StarryBackground';
 import { theme } from '../../lib/theme';
 import flashcardsData from '../../data/flashcards.json';
 import { Card } from '../../types/content';
