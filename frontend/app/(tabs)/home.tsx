@@ -177,7 +177,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'transparent',
+    backgroundColor: theme.colors.background,
   },
   scrollView: {
     flex: 1,
