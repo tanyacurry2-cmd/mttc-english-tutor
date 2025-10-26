@@ -197,7 +197,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 32,
     fontWeight: theme.fontWeight.bold,
-    color: theme.colors.text,
+    color: theme.colors.accent,
     textAlign: 'center',
     marginBottom: theme.spacing.xs,
   },
@@ -210,7 +210,7 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: theme.fontSize.md,
-    color: theme.colors.textSecondary,
+    color: theme.colors.accent,
     textAlign: 'center',
     paddingHorizontal: theme.spacing.lg,
   },
