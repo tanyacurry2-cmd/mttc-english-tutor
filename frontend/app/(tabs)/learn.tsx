@@ -134,6 +134,7 @@ export default function LearnScreen() {
           />
         </View>
       </SafeAreaView>
+      </StarryBackground>
     );
   }
   const flipCard = () => {
