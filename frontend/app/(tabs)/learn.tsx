@@ -116,7 +116,8 @@ export default function LearnScreen() {
 
   if (cards.length === 0) {
     return (
-      <SafeAreaView style={styles.container}>
+      <StarryBackground>
+        <SafeAreaView style={styles.container}>
         <TrialBanner />
         <View style={styles.emptyState}>
           <MaterialCommunityIcons name="cards" size={64} color={theme.colors.textSecondary} />
