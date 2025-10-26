@@ -198,9 +198,10 @@ export default function LearnScreen() {
   const displayLimit = cards.length; // Total cards available
 
   return (
-    <SafeAreaView style={styles.container}>
-      <TrialBanner />
-      <View style={styles.content}>
+    <StarryBackground>
+      <SafeAreaView style={styles.container}>
+        <TrialBanner />
+        <View style={styles.content}>
         {params.subareaName && (
           <View style={styles.subareaHeader}>
             <TouchableOpacity onPress={() => router.back()} style={styles.backButtonHeader}>
