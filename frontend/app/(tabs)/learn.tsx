@@ -441,16 +441,17 @@ const styles = StyleSheet.create({
     marginLeft: theme.spacing.sm,
   },
   answerLabel: {
-    fontSize: theme.fontSize.md,
+    fontSize: theme.fontSize.sm,
     fontWeight: theme.fontWeight.semibold,
     color: theme.colors.textSecondary,
-    marginBottom: theme.spacing.sm,
+    marginBottom: theme.spacing.xs,
   },
   answerText: {
-    fontSize: theme.fontSize.lg,
+    fontSize: theme.fontSize.md,
     fontWeight: theme.fontWeight.bold,
     color: theme.colors.success,
-    marginBottom: theme.spacing.md,
+    marginBottom: theme.spacing.sm,
+    lineHeight: 22,
   },
   explanationBox: {
     backgroundColor: theme.colors.background,
