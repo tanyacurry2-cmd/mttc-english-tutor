@@ -183,11 +183,12 @@ export default function LearnScreen() {
 
   if (!currentCard) {
     return (
-      <SafeAreaView style={styles.container}>
-        <TrialBanner />
-        <View style={styles.emptyState}>
-          <MaterialCommunityIcons name="check-circle" size={64} color={theme.colors.success} />
-          <Text style={styles.emptyTitle}>All cards reviewed!</Text>
+      <StarryBackground>
+        <SafeAreaView style={styles.container}>
+          <TrialBanner />
+          <View style={styles.emptyState}>
+            <MaterialCommunityIcons name="check-circle" size={64} color={theme.colors.success} />
+            <Text style={styles.emptyTitle}>All cards reviewed!</Text>
           <Text style={styles.emptyText}>Come back later for more reviews</Text>
         </View>
       </SafeAreaView>
