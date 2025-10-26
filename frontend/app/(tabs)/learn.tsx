@@ -192,6 +192,7 @@ export default function LearnScreen() {
           <Text style={styles.emptyText}>Come back later for more reviews</Text>
         </View>
       </SafeAreaView>
+      </StarryBackground>
     );
   }
 
