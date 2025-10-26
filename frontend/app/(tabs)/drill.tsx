@@ -32,12 +32,11 @@ const subareaNameToId: { [key: string]: string } = {
 export default function DrillScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
-  const { mcqHistory, updateMCQHistory, checkTrialStatus } = useAppStore();
+  const { mcqHistory, updateMCQHistory } = useAppStore();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showRationale, setShowRationale] = useState(false);
   const [questions, setQuestions] = useState<MCQ[]>([]);
-  const hasAccess = checkTrialStatus();
 
   // Animation values
   const bounceAnim = useRef(new Animated.Value(1)).current;
