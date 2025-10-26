@@ -11,7 +11,6 @@ import { useRouter } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useAppStore } from '../../lib/store';
 import { TrialBanner } from '../../components/TrialBanner';
-import { StarryBackground } from '../../components/StarryBackground';
 import { theme } from '../../lib/theme';
 import { signOut } from 'firebase/auth';
 import { auth } from '../../lib/firebase';
