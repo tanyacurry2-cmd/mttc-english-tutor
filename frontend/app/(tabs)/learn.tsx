@@ -285,6 +285,7 @@ export default function LearnScreen() {
         )}
       </View>
     </SafeAreaView>
+    </StarryBackground>
   );
 }
 
