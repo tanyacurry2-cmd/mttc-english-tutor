@@ -138,22 +138,6 @@ export default function DrillScreen() {
 
   const displayLimit = questions.length;
 
-  if (!hasAccess) {
-    return (
-      <StarryBackground>
-        <SafeAreaView style={styles.container}>
-          <TrialBanner />
-          <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', padding: 20 }}>
-            <MaterialCommunityIcons name="lock" size={64} color={theme.colors.textSecondary} />
-            <Text style={{ fontSize: 18, marginTop: 16, textAlign: 'center', color: theme.colors.text }}>
-              Upgrade to access Drill mode
-            </Text>
-          </View>
-        </SafeAreaView>
-      </StarryBackground>
-    );
-  }
-
   if (questions.length === 0) {
     return (
       <StarryBackground>
