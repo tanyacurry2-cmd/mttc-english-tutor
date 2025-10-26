@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { View, StyleSheet, Dimensions } from 'react-native';
-import { theme } from '../lib/theme';
+import { LinearGradient } from 'expo-linear-gradient';
 
 const { width, height } = Dimensions.get('window');
 
@@ -33,6 +33,14 @@ export const StarryBackground: React.FC<{ children: React.ReactNode }> = ({ chil
 
   return (
     <View style={styles.container}>
+      {/* Gradient background layer */}
+      <LinearGradient
+        colors={['#0A1929', '#134E4A', '#0F766E']} // Dark blue to dark teal to teal
+        start={{ x: 0, y: 0 }}
+        end={{ x: 0, y: 1 }}
+        style={styles.gradient}
+      />
+      
       {/* Stars layer */}
       <View style={styles.starsContainer}>
         {stars.map((star) => (
@@ -63,7 +71,13 @@ export const StarryBackground: React.FC<{ children: React.ReactNode }> = ({ chil
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: theme.colors.background,
+  },
+  gradient: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
   },
   starsContainer: {
     position: 'absolute',
