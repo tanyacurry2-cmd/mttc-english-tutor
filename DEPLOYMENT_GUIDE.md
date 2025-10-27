@@ -323,7 +323,7 @@ Current content (MVP):
 ## 🧪 Testing in Development
 
 **Current environment:**
-- Web preview: https://mttcenglish.preview.emergentagent.com
+- Web preview: https://english-exam-coach.preview.emergentagent.com
 - Expo Go QR code available at the same URL
 
 **To test:**
