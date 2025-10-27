@@ -2204,4 +2204,54 @@
     "explanation": "Gaskell uses empathy and realism to awaken social conscience among her readership—hallmarks of early social-problem fiction. This blend makes the industrial struggles accessible and emotionally resonant to readers unfamiliar with factory life.",
     "difficulty": 2,
     "tags": ["Elizabeth Gaskell", "Mary Barton", "social conscience", "social-problem fiction", "Victorian literature"]
+  },
+  {
+    "id": "F650",
+    "subarea": "Genre & Craft",
+    "objective": "English syntax and sentence structure",
+    "question": "What makes the sentence 'They the park quickly across ran' incorrect?",
+    "answer": "It violates English syntax by scrambling normal word order (subject–verb–object)",
+    "explanation": "Standard English syntax follows subject–verb–object order. The correct version would be 'They ran quickly across the park.' Scrambling word order creates ungrammatical sentences that violate English conventions.",
+    "difficulty": 1,
+    "tags": ["syntax", "word order", "sentence structure", "grammar"]
+  },
+  {
+    "id": "F651",
+    "subarea": "Genre & Craft",
+    "objective": "Parallel structure and sentence coherence",
+    "question": "What is faulty parallel structure and why is 'She enjoys dancing, to swim, and playing tennis' incorrect?",
+    "answer": "Parallel structure requires consistent grammatical forms; this mixes gerunds with an infinitive",
+    "explanation": "Parallel structure means using the same grammatical pattern for items in a series. The correct version would be 'She enjoys dancing, swimming, and playing tennis' (all gerunds) or 'She likes to dance, to swim, and to play tennis' (all infinitives).",
+    "difficulty": 2,
+    "tags": ["parallel structure", "grammar", "consistency", "sentence structure"]
+  },
+  {
+    "id": "F652",
+    "subarea": "Genre & Craft",
+    "objective": "Sentence fragments and complete sentences",
+    "question": "What is a sentence fragment and why is 'Because she was late to the meeting' incomplete?",
+    "answer": "A fragment is a dependent clause without a main clause; this needs an independent clause to be complete",
+    "explanation": "A sentence fragment lacks a complete thought. 'Because she was late to the meeting' is a dependent clause that needs a main clause, like 'Because she was late to the meeting, she missed the announcement.' Dependent clauses cannot stand alone.",
+    "difficulty": 2,
+    "tags": ["sentence fragments", "dependent clauses", "complete sentences", "grammar"]
+  },
+  {
+    "id": "F653",
+    "subarea": "Genre & Craft",
+    "objective": "Modifiers and clarity",
+    "question": "What is a misplaced modifier and what's wrong with 'The teacher handed the papers to the students on the desk'?",
+    "answer": "'On the desk' incorrectly modifies 'students' instead of 'papers', creating confusion about what's on the desk",
+    "explanation": "A misplaced modifier is positioned incorrectly, causing ambiguity or illogical meaning. The sentence suggests students are on the desk. The correct version would be 'The teacher handed the papers on the desk to the students' or 'The teacher handed to the students the papers on the desk.'",
+    "difficulty": 2,
+    "tags": ["misplaced modifiers", "clarity", "grammar", "sentence structure"]
+  },
+  {
+    "id": "F654",
+    "subarea": "Genre & Craft",
+    "objective": "Structural ambiguity and coordination",
+    "question": "What makes 'She told him she loved her cat and so did he' structurally ambiguous?",
+    "answer": "The coordination creates ambiguity: did he also tell her, or did he also love her cat?",
+    "explanation": "Structural ambiguity occurs when sentence structure allows multiple interpretations. 'So did he' could mean 'he also told her' or 'he also loved her cat.' Clear writing avoids such ambiguity through careful coordination and punctuation.",
+    "difficulty": 2,
+    "tags": ["structural ambiguity", "coordination", "clarity", "sentence structure"]
   }]
