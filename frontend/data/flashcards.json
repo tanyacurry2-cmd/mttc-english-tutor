@@ -2104,4 +2104,54 @@
     "explanation": "'World Englishes' recognizes that British, Indian, Nigerian, and Singaporean English are all legitimate, evolving varieties. Each reflects local linguistic and cultural influences.",
     "difficulty": 2,
     "tags": ["World Englishes", "linguistic diversity", "varieties"]
+  },
+  {
+    "id": "F640",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "What is the primary educational purpose of pairing multicultural novels like The Joy Luck Club, Bless Me, Ultima, and The Namesake?",
+    "answer": "To explore the experiences of cultural identity and assimilation in the United States",
+    "explanation": "Each novel portrays generational and cultural negotiation, making them ideal for discussing themes of identity and assimilation. This pairing helps students understand diverse cultural perspectives and experiences.",
+    "difficulty": 2,
+    "tags": ["multicultural literature", "cultural identity", "assimilation", "teaching literature"]
+  },
+  {
+    "id": "F641",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "Why would a teacher pair The Diary of Anne Frank with Night by Elie Wiesel?",
+    "answer": "To examine personal and historical perspectives on human rights and moral courage",
+    "explanation": "Pairing survivor accounts helps students connect literature to ethical and historical understanding. These texts provide different viewpoints on the Holocaust, fostering empathy and critical thinking about human rights.",
+    "difficulty": 2,
+    "tags": ["Holocaust literature", "human rights", "moral courage", "teaching literature"]
+  },
+  {
+    "id": "F642",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "What is the main instructional benefit of comparing Their Eyes Were Watching God with modern spoken-word poetry?",
+    "answer": "To identify social commentary on gender and voice across time periods",
+    "explanation": "This comparison links historical and contemporary expressions of autonomy and voice, illustrating literature's social purpose. Students can see how themes of empowerment and self-expression evolve across different forms and eras.",
+    "difficulty": 2,
+    "tags": ["thematic comparison", "gender", "voice", "literary purpose"]
+  },
+  {
+    "id": "F643",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "What is the main purpose of a 'Literature of Place' unit featuring environmental writers like Mary Oliver and Wendell Berry?",
+    "answer": "To connect students' reading to ecological awareness and personal reflection",
+    "explanation": "This thematic unit integrates literature with environmental ethics and reflective thinking. It helps students develop awareness of humanity's relationship with nature while encouraging personal connections to place.",
+    "difficulty": 2,
+    "tags": ["environmental literature", "place-based learning", "ecological awareness", "teaching literature"]
+  },
+  {
+    "id": "F644",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "Why would a teacher compare Things Fall Apart by Chinua Achebe with early British colonial novels?",
+    "answer": "To expose students to non-Western viewpoints and post-colonial themes",
+    "explanation": "Achebe's work reclaims narrative authority, showing literature's power to challenge dominant cultural perspectives. This comparison helps students understand colonialism from multiple viewpoints and recognize how literature shapes historical narratives.",
+    "difficulty": 2,
+    "tags": ["post-colonial literature", "cultural perspectives", "narrative authority", "teaching literature"]
   }]
