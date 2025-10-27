@@ -10106,5 +10106,130 @@
     "difficulty": 2,
     "mode": "Drill",
     "type": "mcq"
+  },
+  {
+    "id": "Q663",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Understanding the active and constructive nature of viewing and visually representing information",
+    "question": "Students are comparing two television advertisements for the same product—one presented as a celebrity endorsement and the other as a short animated story. To help students understand how visual choices influence perception, which question would be most effective to ask first?",
+    "stem": "Students are comparing two television advertisements for the same product—one presented as a celebrity endorsement and the other as a short animated story. To help students understand how visual choices influence perception, which question would be most effective to ask first?",
+    "options": [
+      "Which advertisement do you personally prefer?",
+      "What is each advertisement's main visual technique for persuasion?",
+      "How long is each advertisement?",
+      "How much did the company pay for celebrity participation?"
+    ],
+    "answer": "What is each advertisement's main visual technique for persuasion?",
+    "correctIndex": 1,
+    "rationales": [
+      "Personal preference doesn't focus on analyzing visual construction techniques.",
+      "Correct! This question directs attention to how visual construction conveys meaning—central to media analysis.",
+      "Duration is a technical detail that doesn't address how visuals shape perception.",
+      "Production costs are irrelevant to analyzing persuasive visual techniques."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q664",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Understanding the active and constructive nature of viewing and visually representing information",
+    "question": "After watching a documentary about pollution, a teacher asks students to identify how the filmmaker's camera angles, lighting, and editing influenced their emotional response. This question mainly promotes students' ability to:",
+    "stem": "After watching a documentary about pollution, a teacher asks students to identify how the filmmaker's camera angles, lighting, and editing influenced their emotional response. This question mainly promotes students' ability to:",
+    "options": [
+      "summarize factual information accurately.",
+      "identify visual techniques that shape viewer interpretation.",
+      "critique the accuracy of the documentary's data.",
+      "predict what might happen if pollution continues."
+    ],
+    "answer": "identify visual techniques that shape viewer interpretation.",
+    "correctIndex": 1,
+    "rationales": [
+      "Summarizing facts doesn't address how visual techniques construct meaning and emotion.",
+      "Correct! Students learn that visual media doesn't just show—it constructs emotion and perspective through deliberate choices.",
+      "Data accuracy is separate from understanding how visual techniques influence viewer response.",
+      "Making predictions about pollution is unrelated to analyzing filmmaking techniques."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q665",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Understanding the active and constructive nature of viewing and visually representing information",
+    "question": "Students view two news clips about the same international event, one from a U.S. network and the other from a foreign broadcaster. The teacher asks, 'What differences do you notice in the way each network represents the people involved?' This question primarily helps students:",
+    "stem": "Students view two news clips about the same international event, one from a U.S. network and the other from a foreign broadcaster. The teacher asks, 'What differences do you notice in the way each network represents the people involved?' This question primarily helps students:",
+    "options": [
+      "practice distinguishing between facts and opinions.",
+      "evaluate the influence of cultural perspective on visual representation.",
+      "identify technical limitations of video production.",
+      "memorize global geography related to the event."
+    ],
+    "answer": "evaluate the influence of cultural perspective on visual representation.",
+    "correctIndex": 1,
+    "rationales": [
+      "While related, the focus is specifically on representation and bias, not general fact-opinion distinction.",
+      "Correct! The focus is on representation and bias—a core part of visual literacy. Students learn how cultural perspective shapes what is shown and how it's portrayed.",
+      "Technical limitations don't address how different networks construct meaning through representation.",
+      "Geography memorization is unrelated to analyzing visual representation and bias."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q666",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Understanding the active and constructive nature of viewing and visually representing information",
+    "question": "A teacher asks students to design an infographic summarizing a short article on renewable energy. This activity most directly develops students' understanding of:",
+    "stem": "A teacher asks students to design an infographic summarizing a short article on renewable energy. This activity most directly develops students' understanding of:",
+    "options": [
+      "how color, proportion, and layout affect communication.",
+      "how to cite digital sources in academic writing.",
+      "how to calculate data trends accurately.",
+      "how to critique authors' tone and mood."
+    ],
+    "answer": "how color, proportion, and layout affect communication.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Constructing visuals teaches how design choices shape message clarity and emphasis. Students actively experience how visual representation constructs meaning.",
+      "Citation skills are separate from understanding visual design principles.",
+      "Data calculation is a math skill, not visual representation analysis.",
+      "Critiquing tone relates to reading comprehension, not visual design principles."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q667",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Understanding the active and constructive nature of viewing and visually representing information",
+    "question": "Students view a short film with rapid editing and upbeat music. The teacher then asks, 'What mood or message do these visual and sound choices create?' This question best fosters students' ability to:",
+    "stem": "Students view a short film with rapid editing and upbeat music. The teacher then asks, 'What mood or message do these visual and sound choices create?' This question best fosters students' ability to:",
+    "options": [
+      "analyze how multimodal techniques influence audience response.",
+      "determine the literal sequence of events in the film.",
+      "memorize key dialogue for later discussion.",
+      "evaluate the technical quality of film editing."
+    ],
+    "answer": "analyze how multimodal techniques influence audience response.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Integrating sound and imagery analysis reinforces how meaning is actively built through visual composition and audio cues. This is multimodal literacy.",
+      "Determining event sequence focuses on comprehension, not how techniques shape response.",
+      "Memorizing dialogue doesn't address how visual and audio choices construct meaning.",
+      "Technical quality evaluation doesn't focus on how these choices influence audience interpretation."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
   }
 ]
