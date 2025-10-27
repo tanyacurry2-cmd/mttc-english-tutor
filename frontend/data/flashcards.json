@@ -2154,4 +2154,54 @@
     "explanation": "Achebe's work reclaims narrative authority, showing literature's power to challenge dominant cultural perspectives. This comparison helps students understand colonialism from multiple viewpoints and recognize how literature shapes historical narratives.",
     "difficulty": 2,
     "tags": ["post-colonial literature", "cultural perspectives", "narrative authority", "teaching literature"]
+  },
+  {
+    "id": "F645",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "What is the primary purpose of Emily Brontë's use of multiple narrators and non-linear structure in Wuthering Heights?",
+    "answer": "To present differing psychological perspectives that complicate moral judgment",
+    "explanation": "Brontë's framing devices (Lockwood and Nelly) invite readers to weigh conflicting viewpoints, deepening the novel's moral ambiguity. This narrative technique creates layers of interpretation and challenges readers to form their own moral conclusions.",
+    "difficulty": 2,
+    "tags": ["Wuthering Heights", "Emily Brontë", "narrative structure", "multiple narrators", "moral ambiguity"]
+  },
+  {
+    "id": "F646",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "How does Elizabeth Gaskell's North and South address industrialization and class conflict?",
+    "answer": "It integrates social realism with moral sympathy to critique economic inequality",
+    "explanation": "Gaskell's realist approach humanizes labor issues and bridges moral and social commentary—an early example of industrial fiction. She combines detailed observation of working-class life with empathetic storytelling to awaken social conscience.",
+    "difficulty": 2,
+    "tags": ["Elizabeth Gaskell", "North and South", "industrialization", "social realism", "Victorian literature"]
+  },
+  {
+    "id": "F647",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "Why was Charlotte Brontë's Jane Eyre considered groundbreaking among nineteenth-century novels?",
+    "answer": "It depicted a female protagonist whose moral and emotional autonomy challenge Victorian gender norms",
+    "explanation": "Jane's insistence on self-respect and conscience makes the novel an early feminist and psychological narrative. She refuses to compromise her values for love or social status, asserting her right to independence and moral agency.",
+    "difficulty": 2,
+    "tags": ["Charlotte Brontë", "Jane Eyre", "feminism", "Victorian gender norms", "female autonomy"]
+  },
+  {
+    "id": "F648",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "How does Emily Brontë's depiction of nature in Wuthering Heights differ from typical Romantic literature?",
+    "answer": "It presents the natural world as indifferent or violent rather than purely inspiring",
+    "explanation": "Her wild moorland setting mirrors the intensity of human passion and cruelty—nature as emotional landscape, not idyllic refuge. Unlike Romantic idealization of nature as a source of transcendence, Brontë's nature reflects raw human emotion and conflict.",
+    "difficulty": 2,
+    "tags": ["Wuthering Heights", "Emily Brontë", "nature imagery", "Romanticism", "Gothic literature"]
+  },
+  {
+    "id": "F649",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "Why does Elizabeth Gaskell combine sentimental narrative techniques with journalistic observation in Mary Barton?",
+    "answer": "To appeal to middle-class readers' empathy for working-class suffering",
+    "explanation": "Gaskell uses empathy and realism to awaken social conscience among her readership—hallmarks of early social-problem fiction. This blend makes the industrial struggles accessible and emotionally resonant to readers unfamiliar with factory life.",
+    "difficulty": 2,
+    "tags": ["Elizabeth Gaskell", "Mary Barton", "social conscience", "social-problem fiction", "Victorian literature"]
   }]
