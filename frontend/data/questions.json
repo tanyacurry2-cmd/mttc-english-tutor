@@ -4088,6 +4088,101 @@
     "options": []
   },
   {
+    "id": "F655",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Morphology and word structure",
+    "question": "What are bound morphemes and why does 'unbelievable' contain two of them?",
+    "answer": "'Un-' and '-able' are both bound morphemes that cannot stand alone; they attach to the free base 'believe'",
+    "explanation": "Bound morphemes are meaningful units that must attach to other morphemes. In 'unbelievable,' 'un-' (negation prefix) and '-able' (adjective-forming suffix) are bound to the free morpheme 'believe.' Neither can function independently as words.",
+    "difficulty": 2,
+    "tags": [
+      "morphology",
+      "bound morphemes",
+      "word structure",
+      "linguistics"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F656",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Inflectional vs. derivational morphology",
+    "question": "What is inflectional morphology and why is 'walk → walked' an example?",
+    "answer": "Inflectional morphology changes grammatical function without changing core meaning; '-ed' marks past tense",
+    "explanation": "Inflectional morphemes modify grammatical features (tense, number, case) without creating new words or changing word class. 'Walked' is still a verb meaning 'to walk,' just in past tense. This differs from derivational morphology, which creates new words.",
+    "difficulty": 2,
+    "tags": [
+      "inflectional morphology",
+      "grammar",
+      "tense",
+      "linguistics"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F657",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Syntactic ambiguity",
+    "question": "Why is 'Visiting relatives can be exhausting' syntactically ambiguous?",
+    "answer": "'Visiting relatives' can be a noun phrase (the act of visiting) or a participial phrase (relatives who visit)",
+    "explanation": "Syntactic ambiguity occurs when phrase structure allows multiple interpretations. This sentence could mean: (1) the act of visiting relatives is exhausting, or (2) relatives who are visiting you are exhausting. The phrase structure permits both readings.",
+    "difficulty": 2,
+    "tags": [
+      "syntactic ambiguity",
+      "phrase structure",
+      "linguistics",
+      "grammar"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F658",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Derivational morphology",
+    "question": "What is derivational morphology and why is 'happy → unhappy' an example?",
+    "answer": "Derivational morphology creates new words with changed meanings; 'un-' transforms the meaning of 'happy'",
+    "explanation": "Derivational morphemes create new words by changing meaning or word class. Adding 'un-' to 'happy' creates a word with opposite meaning. Unlike inflectional morphemes (which only add grammatical information), derivational changes are more fundamental and create distinct lexical items.",
+    "difficulty": 2,
+    "tags": [
+      "derivational morphology",
+      "word formation",
+      "prefixes",
+      "linguistics"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F659",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Semantic agreement",
+    "question": "What is semantic agreement and why does 'The thunder laughed across the sky' violate it?",
+    "answer": "Semantic agreement requires logical relationships between subject and predicate; thunder cannot literally laugh",
+    "explanation": "Semantic agreement ensures that predicates are logically compatible with their subjects. Thunder (an atmospheric sound) cannot perform the human action of laughing—this is a semantic mismatch. While acceptable as figurative language (personification), it violates literal semantic agreement.",
+    "difficulty": 2,
+    "tags": [
+      "semantic agreement",
+      "subject-predicate",
+      "personification",
+      "linguistics"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
     "id": "Q101",
     "subarea": "Genre & Craft",
     "subareaId": "SA-3",
@@ -9882,6 +9977,131 @@
       "Correct! 'She told him she loved her cat and so did he' could mean he also told her, or that he also loved her cat — structural ambiguity through coordination.",
       "This clearly coordinates two actions performed by the storm.",
       "This clearly coordinates two cities he wanted to visit."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q658",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Morphology and word structure",
+    "question": "Which of the following words contains two bound morphemes?",
+    "stem": "Which of the following words contains two bound morphemes?",
+    "options": [
+      "unbelievable",
+      "happiness",
+      "walking",
+      "sunlight"
+    ],
+    "answer": "unbelievable",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Un-' and '-able' are both bound morphemes attached to the free base 'believe.' Neither can function as independent words.",
+      "This contains one bound morpheme ('-ness') attached to the free morpheme 'happy.'",
+      "This contains one bound morpheme ('-ing') attached to the free morpheme 'walk.'",
+      "This is a compound word containing two free morphemes ('sun' + 'light'), not bound morphemes."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q659",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Inflectional vs. derivational morphology",
+    "question": "Which of the following best illustrates inflectional morphology?",
+    "stem": "Which of the following best illustrates inflectional morphology?",
+    "options": [
+      "Change → changer",
+      "Teach → teacher",
+      "Quick → quickly",
+      "Walk → walked"
+    ],
+    "answer": "Walk → walked",
+    "correctIndex": 3,
+    "rationales": [
+      "This is derivational morphology; '-er' creates a new noun from a verb.",
+      "This is derivational morphology; '-er' creates a new noun (person who teaches) from a verb.",
+      "This is derivational morphology; '-ly' changes an adjective into an adverb.",
+      "Correct! '-ed' marks past tense, an inflection that changes grammatical function but not lexical meaning. 'Walked' remains a verb with the same core meaning."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q660",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Syntactic ambiguity",
+    "question": "Which of these sentences demonstrates syntactic ambiguity created by phrase structure?",
+    "stem": "Which of these sentences demonstrates syntactic ambiguity created by phrase structure?",
+    "options": [
+      "Visiting relatives can be exhausting.",
+      "The teacher collected the essays before lunch.",
+      "They ran down the hill quickly.",
+      "The book on the desk belongs to Maria."
+    ],
+    "answer": "Visiting relatives can be exhausting.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Visiting relatives' can function as a noun phrase (the act of visiting) or a participial phrase (relatives who are visiting). The phrase structure permits both interpretations.",
+      "This has clear phrase structure with no ambiguity about who collected what and when.",
+      "This has straightforward structure indicating manner and direction of running.",
+      "The prepositional phrase 'on the desk' clearly modifies 'book' with no ambiguity."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q661",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Derivational morphology",
+    "question": "Which of the following illustrates derivational morphology?",
+    "stem": "Which of the following illustrates derivational morphology?",
+    "options": [
+      "Run → running",
+      "Happy → unhappy",
+      "Cat → cats",
+      "Sleep → slept"
+    ],
+    "answer": "Happy → unhappy",
+    "correctIndex": 1,
+    "rationales": [
+      "This is inflectional morphology; '-ing' creates the present participle form without changing core meaning.",
+      "Correct! Adding 'un-' creates a new word with a changed meaning (opposite), not just a grammatical variation. This is derivational morphology.",
+      "This is inflectional morphology; '-s' marks plural without changing the core meaning.",
+      "This is inflectional morphology; the vowel change marks past tense without creating a new word."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q662",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Semantic agreement",
+    "question": "Which sentence violates semantic agreement (the logical relationship between subject and predicate)?",
+    "stem": "Which sentence violates semantic agreement (the logical relationship between subject and predicate)?",
+    "options": [
+      "The idea was fascinating.",
+      "The committee have made its decision.",
+      "The thunder laughed across the sky.",
+      "The flowers were blooming early."
+    ],
+    "answer": "The thunder laughed across the sky.",
+    "correctIndex": 2,
+    "rationales": [
+      "This has proper semantic agreement; ideas can be fascinating.",
+      "This has a subject-verb agreement error (number mismatch), not a semantic violation.",
+      "Correct! Thunder doesn't literally laugh — this is a semantic mismatch (though acceptable as figurative language/personification). The predicate is incompatible with the nature of the subject.",
+      "This has proper semantic agreement; flowers can bloom."
     ],
     "difficulty": 2,
     "mode": "Drill",
