@@ -3767,5 +3767,105 @@
       "Syntax is sentence structure, not media production."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q628",
+    "subarea": "Meaning & Communication",
+    "objective": "Understand the integrated nature of the English language arts",
+    "stem": "A middle school teacher has students read excerpts from a famous speech before writing their own persuasive paragraphs on a modern topic. To strengthen the connection between reading and writing, the teacher asks students to analyze the rhetorical techniques used in the speech before they draft their own work. The primary benefit of this activity is that it helps students:",
+    "options": [
+      "memorize formal patterns of written and spoken argument.",
+      "transfer comprehension strategies from reading into composition.",
+      "imitate the stylistic conventions of historical texts.",
+      "focus on correct spelling and punctuation while writing."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Memorization is not the focus; understanding and application of rhetorical techniques is the goal.",
+      "Correct! Students are connecting analytical reading (how rhetoric works) with their own writing decisions—an integrated literacy practice.",
+      "Imitation is not the main goal; transferring analytical skills to composition is the focus.",
+      "Spelling and punctuation are not the primary focus of analyzing rhetorical techniques."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q629",
+    "subarea": "Meaning & Communication",
+    "objective": "Understand the integrated nature of the English language arts",
+    "stem": "After studying short stories with strong character development, students are asked to perform short dramatic readings of key scenes before writing a reflective essay about character motivation. The main advantage of this sequence is that it enables students to:",
+    "options": [
+      "compare film and literature as forms of storytelling.",
+      "understand narrative pacing through silent reading.",
+      "internalize literary characterization through expressive performance.",
+      "demonstrate memorization skills for key literary passages."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Film comparison is not part of this activity; the focus is on dramatic reading and writing.",
+      "Silent reading is not the method used here; students are performing aloud.",
+      "Correct! Oral interpretation deepens comprehension and helps students feel how language shapes character and tone.",
+      "Memorization is not the goal; understanding character motivation through performance is the focus."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q630",
+    "subarea": "Meaning & Communication",
+    "objective": "Understand the integrated nature of the English language arts",
+    "stem": "A teacher plays an audio recording of a contemporary poet reading their own work, then asks students to analyze how the poet's vocal delivery affects meaning. Students then record themselves reading one of their own poems aloud. This assignment primarily promotes students' ability to:",
+    "options": [
+      "evaluate how spoken language choices convey nuance and emotion.",
+      "identify phonemic awareness in a literary context.",
+      "assess the poet's adherence to standard pronunciation norms.",
+      "memorize and recite poetry for performance competition."
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! It links listening and speaking to interpretation—core ELA integration.",
+      "Phonemic awareness relates to sound manipulation in language learning, not poetry analysis.",
+      "Standard pronunciation is not the focus; vocal delivery and meaning are the goals.",
+      "Memorization and competition are not the objectives; analysis and self-expression are the focus."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q631",
+    "subarea": "Meaning & Communication",
+    "objective": "Understand the integrated nature of the English language arts",
+    "stem": "Students in an English class maintain a weekly blog where they respond to class readings and comment on one another's posts. This activity most directly supports development in which area?",
+    "options": [
+      "grammar and sentence mechanics",
+      "collaborative writing and audience awareness",
+      "historical literary analysis",
+      "memorization of key vocabulary terms"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "While grammar may be practiced, it is not the primary focus of blogging and commenting.",
+      "Correct! Commenting and responding online merges reading, writing, and communication skills while reinforcing authentic audience awareness.",
+      "Historical literary analysis may occur but is not the main benefit of the blog activity.",
+      "Memorization is not a focus; the activity emphasizes interaction and communication."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q632",
+    "subarea": "Meaning & Communication",
+    "objective": "Understand the integrated nature of the English language arts",
+    "stem": "An English teacher asks students to create short podcasts explaining the themes of assigned novels and to include brief quotations to support their points. This approach best fosters:",
+    "options": [
+      "oral fluency through repeated reading practice.",
+      "integrated comprehension by synthesizing speaking, reading, and writing skills.",
+      "technical editing of recorded audio files.",
+      "memorization of literary quotations for assessment purposes."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Oral fluency may improve, but the main goal is integrating multiple literacy skills.",
+      "Correct! Students read to gather evidence, write to plan their script, and speak to communicate analysis—pure language arts integration.",
+      "Technical editing is a side skill, not the primary educational focus.",
+      "Memorization is not the goal; synthesis and communication of ideas are the focus."
+    ],
+    "difficulty": 2
   }
 ]
