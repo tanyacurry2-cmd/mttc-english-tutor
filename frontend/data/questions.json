@@ -3993,6 +3993,101 @@
     "options": []
   },
   {
+    "id": "F650",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "English syntax and sentence structure",
+    "question": "What makes the sentence 'They the park quickly across ran' incorrect?",
+    "answer": "It violates English syntax by scrambling normal word order (subject–verb–object)",
+    "explanation": "Standard English syntax follows subject–verb–object order. The correct version would be 'They ran quickly across the park.' Scrambling word order creates ungrammatical sentences that violate English conventions.",
+    "difficulty": 1,
+    "tags": [
+      "syntax",
+      "word order",
+      "sentence structure",
+      "grammar"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F651",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Parallel structure and sentence coherence",
+    "question": "What is faulty parallel structure and why is 'She enjoys dancing, to swim, and playing tennis' incorrect?",
+    "answer": "Parallel structure requires consistent grammatical forms; this mixes gerunds with an infinitive",
+    "explanation": "Parallel structure means using the same grammatical pattern for items in a series. The correct version would be 'She enjoys dancing, swimming, and playing tennis' (all gerunds) or 'She likes to dance, to swim, and to play tennis' (all infinitives).",
+    "difficulty": 2,
+    "tags": [
+      "parallel structure",
+      "grammar",
+      "consistency",
+      "sentence structure"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F652",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Sentence fragments and complete sentences",
+    "question": "What is a sentence fragment and why is 'Because she was late to the meeting' incomplete?",
+    "answer": "A fragment is a dependent clause without a main clause; this needs an independent clause to be complete",
+    "explanation": "A sentence fragment lacks a complete thought. 'Because she was late to the meeting' is a dependent clause that needs a main clause, like 'Because she was late to the meeting, she missed the announcement.' Dependent clauses cannot stand alone.",
+    "difficulty": 2,
+    "tags": [
+      "sentence fragments",
+      "dependent clauses",
+      "complete sentences",
+      "grammar"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F653",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Modifiers and clarity",
+    "question": "What is a misplaced modifier and what's wrong with 'The teacher handed the papers to the students on the desk'?",
+    "answer": "'On the desk' incorrectly modifies 'students' instead of 'papers', creating confusion about what's on the desk",
+    "explanation": "A misplaced modifier is positioned incorrectly, causing ambiguity or illogical meaning. The sentence suggests students are on the desk. The correct version would be 'The teacher handed the papers on the desk to the students' or 'The teacher handed to the students the papers on the desk.'",
+    "difficulty": 2,
+    "tags": [
+      "misplaced modifiers",
+      "clarity",
+      "grammar",
+      "sentence structure"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F654",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Structural ambiguity and coordination",
+    "question": "What makes 'She told him she loved her cat and so did he' structurally ambiguous?",
+    "answer": "The coordination creates ambiguity: did he also tell her, or did he also love her cat?",
+    "explanation": "Structural ambiguity occurs when sentence structure allows multiple interpretations. 'So did he' could mean 'he also told her' or 'he also loved her cat.' Clear writing avoids such ambiguity through careful coordination and punctuation.",
+    "difficulty": 2,
+    "tags": [
+      "structural ambiguity",
+      "coordination",
+      "clarity",
+      "sentence structure"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
     "id": "Q101",
     "subarea": "Genre & Craft",
     "subareaId": "SA-3",
@@ -9662,6 +9757,131 @@
       "The novel critiques, not celebrates, industrial progress without social reform.",
       "Correct! Gaskell uses empathy and realism to awaken social conscience among her readership—hallmarks of early social-problem fiction.",
       "Factory life is portrayed seriously as a site of suffering, not entertainment."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q653",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "English syntax and sentence structure",
+    "question": "Which of the following sentences violates the conventions of English syntax?",
+    "stem": "Which of the following sentences violates the conventions of English syntax?",
+    "options": [
+      "The candle flickered softly in the wind.",
+      "Down the stairs fell the book with a thud.",
+      "They the park quickly across ran.",
+      "The dog barked loudly at the mail carrier."
+    ],
+    "answer": "They the park quickly across ran.",
+    "correctIndex": 2,
+    "rationales": [
+      "This follows standard subject–verb–object order with proper syntax.",
+      "This uses inverted word order for emphasis, which is grammatically acceptable in English.",
+      "Correct! 'They the park quickly across ran' scrambles normal English word order (subject–verb–object) and violates syntax conventions.",
+      "This follows standard English syntax with subject, verb, and adverbial phrase."
+    ],
+    "difficulty": 1,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q654",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Parallel structure and sentence coherence",
+    "question": "Which sentence demonstrates faulty parallel structure?",
+    "stem": "Which sentence demonstrates faulty parallel structure?",
+    "options": [
+      "The hikers were cold, tired, and hungry for dinner.",
+      "She enjoys dancing, to swim, and playing tennis.",
+      "He came, he saw, he conquered.",
+      "The speech was long but inspiring."
+    ],
+    "answer": "She enjoys dancing, to swim, and playing tennis.",
+    "correctIndex": 1,
+    "rationales": [
+      "This maintains parallel structure with three adjectives in a series.",
+      "Correct! Parallel structure requires consistent grammatical forms — this should be 'dancing, swimming, and playing' (all gerunds) or 'to dance, to swim, and to play' (all infinitives).",
+      "This demonstrates excellent parallel structure with three parallel clauses.",
+      "This uses parallel adjectives to describe the speech."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q655",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Sentence fragments and complete sentences",
+    "question": "Which of the following sentences contains a sentence fragment?",
+    "stem": "Which of the following sentences contains a sentence fragment?",
+    "options": [
+      "After the rain stopped, the children ran outside.",
+      "Because she was late to the meeting.",
+      "The bus left at noon sharp.",
+      "The teacher collected the homework on time."
+    ],
+    "answer": "Because she was late to the meeting.",
+    "correctIndex": 1,
+    "rationales": [
+      "This is a complete sentence with a dependent clause followed by an independent clause.",
+      "Correct! 'Because she was late to the meeting' is a dependent clause missing its main clause. It needs an independent clause to be complete.",
+      "This is a complete sentence with subject, verb, and additional details.",
+      "This is a complete sentence with subject, verb, and object."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q656",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Modifiers and clarity",
+    "question": "Which of the following sentences demonstrates a misplaced modifier?",
+    "stem": "Which of the following sentences demonstrates a misplaced modifier?",
+    "options": [
+      "She nearly drove her car for ten hours without stopping.",
+      "The teacher handed the papers to the students on the desk.",
+      "Running quickly, the child caught the ball.",
+      "After lunch, the meeting resumed promptly."
+    ],
+    "answer": "The teacher handed the papers to the students on the desk.",
+    "correctIndex": 1,
+    "rationales": [
+      "While 'nearly' could be clearer if moved, the sentence meaning is relatively clear.",
+      "Correct! 'On the desk' incorrectly modifies 'students,' implying they were sitting on the desk rather than the papers being on the desk. The modifier is misplaced.",
+      "The modifier 'Running quickly' correctly modifies 'the child.'",
+      "The modifier 'After lunch' correctly modifies when the meeting resumed."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q657",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Structural ambiguity and coordination",
+    "question": "Which of the following sentences is structurally ambiguous because of faulty coordination?",
+    "stem": "Which of the following sentences is structurally ambiguous because of faulty coordination?",
+    "options": [
+      "The coach praised the players, and the crowd cheered loudly.",
+      "She told him she loved her cat and so did he.",
+      "The storm passed quickly and left the sky clear.",
+      "He wanted to visit London and Paris during his trip."
+    ],
+    "answer": "She told him she loved her cat and so did he.",
+    "correctIndex": 1,
+    "rationales": [
+      "This has clear coordination between two independent clauses with no ambiguity.",
+      "Correct! 'She told him she loved her cat and so did he' could mean he also told her, or that he also loved her cat — structural ambiguity through coordination.",
+      "This clearly coordinates two actions performed by the storm.",
+      "This clearly coordinates two cities he wanted to visit."
     ],
     "difficulty": 2,
     "mode": "Drill",
