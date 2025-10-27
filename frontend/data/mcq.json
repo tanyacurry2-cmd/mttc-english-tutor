@@ -4167,5 +4167,105 @@
       "Translation methods are not the goal of this comparative study."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q648",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "stem": "In Wuthering Heights, Emily Brontë's use of multiple narrators and a non-linear structure primarily serves to:",
+    "options": [
+      "create a sense of historical distance between reader and character.",
+      "emphasize the power of social hierarchy in determining fate.",
+      "present differing psychological perspectives that complicate moral judgment.",
+      "highlight the influence of classical myth on Romantic storytelling."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "While historical distance exists, the primary purpose is psychological complexity, not temporal separation.",
+      "Social hierarchy is a theme, but the narrative structure's main function is to present multiple viewpoints.",
+      "Correct! Brontë's framing devices (Lockwood and Nelly) invite readers to weigh conflicting viewpoints, deepening the novel's moral ambiguity.",
+      "Classical myth is not the primary influence on Brontë's narrative technique."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q649",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "stem": "Elizabeth Gaskell's North and South explores industrialization and class conflict in Victorian England. Her portrayal of these social tensions is most significant because it:",
+    "options": [
+      "romanticizes the lives of working-class characters to promote idealism.",
+      "integrates social realism with moral sympathy to critique economic inequality.",
+      "rejects political engagement in favor of domestic harmony.",
+      "portrays the decline of rural England through comic irony."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Gaskell presents realistic, not romanticized, portrayals of working-class life.",
+      "Correct! Gaskell's realist approach humanizes labor issues and bridges moral and social commentary—an early example of industrial fiction.",
+      "The novel actively engages with political and economic issues rather than avoiding them.",
+      "Comic irony is not the dominant tone; Gaskell employs earnest social realism."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q650",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "stem": "Charlotte Brontë's Jane Eyre was groundbreaking among nineteenth-century novels because it:",
+    "options": [
+      "portrayed a heroine who rejects both love and independence.",
+      "depicted a female protagonist whose moral and emotional autonomy challenge Victorian gender norms.",
+      "idealized romantic dependence as a form of social stability.",
+      "dismissed religious and moral struggle as irrelevant to personal growth."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Jane seeks both love and independence on her own terms, not rejecting either.",
+      "Correct! Jane's insistence on self-respect and conscience makes the novel an early feminist and psychological narrative.",
+      "The novel critiques, rather than idealizes, romantic dependence that compromises autonomy.",
+      "Religious and moral struggle are central to Jane's character development throughout the novel."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q651",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "stem": "Emily Brontë's depiction of nature in Wuthering Heights differs from typical Romantic literature because it:",
+    "options": [
+      "presents the natural world as indifferent or violent rather than purely inspiring.",
+      "replaces imagery of rural beauty with industrial landscapes.",
+      "idealizes pastoral life as an escape from moral decay.",
+      "omits natural imagery to focus entirely on domestic interiors."
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Her wild moorland setting mirrors the intensity of human passion and cruelty—nature as emotional landscape, not idyllic refuge.",
+      "The novel is set on the moors, not in industrial landscapes.",
+      "Brontë subverts pastoral idealization by presenting nature as harsh and unforgiving.",
+      "Natural imagery is central to the novel's atmosphere and symbolism."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q652",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "stem": "In Mary Barton, Elizabeth Gaskell combines sentimental narrative techniques with journalistic observation to:",
+    "options": [
+      "disguise political content beneath conventional romance.",
+      "argue that industrial progress inevitably leads to social harmony.",
+      "appeal to middle-class readers' empathy for working-class suffering.",
+      "portray factory life as an entertaining backdrop for personal ambition."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Rather than disguising political content, Gaskell makes it central and explicit through empathetic storytelling.",
+      "The novel critiques, not celebrates, industrial progress without social reform.",
+      "Correct! Gaskell uses empathy and realism to awaken social conscience among her readership—hallmarks of early social-problem fiction.",
+      "Factory life is portrayed seriously as a site of suffering, not entertainment."
+    ],
+    "difficulty": 2
   }
 ]
