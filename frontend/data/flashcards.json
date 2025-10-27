@@ -2254,4 +2254,54 @@
     "explanation": "Structural ambiguity occurs when sentence structure allows multiple interpretations. 'So did he' could mean 'he also told her' or 'he also loved her cat.' Clear writing avoids such ambiguity through careful coordination and punctuation.",
     "difficulty": 2,
     "tags": ["structural ambiguity", "coordination", "clarity", "sentence structure"]
+  },
+  {
+    "id": "F655",
+    "subarea": "Genre & Craft",
+    "objective": "Morphology and word structure",
+    "question": "What are bound morphemes and why does 'unbelievable' contain two of them?",
+    "answer": "'Un-' and '-able' are both bound morphemes that cannot stand alone; they attach to the free base 'believe'",
+    "explanation": "Bound morphemes are meaningful units that must attach to other morphemes. In 'unbelievable,' 'un-' (negation prefix) and '-able' (adjective-forming suffix) are bound to the free morpheme 'believe.' Neither can function independently as words.",
+    "difficulty": 2,
+    "tags": ["morphology", "bound morphemes", "word structure", "linguistics"]
+  },
+  {
+    "id": "F656",
+    "subarea": "Genre & Craft",
+    "objective": "Inflectional vs. derivational morphology",
+    "question": "What is inflectional morphology and why is 'walk → walked' an example?",
+    "answer": "Inflectional morphology changes grammatical function without changing core meaning; '-ed' marks past tense",
+    "explanation": "Inflectional morphemes modify grammatical features (tense, number, case) without creating new words or changing word class. 'Walked' is still a verb meaning 'to walk,' just in past tense. This differs from derivational morphology, which creates new words.",
+    "difficulty": 2,
+    "tags": ["inflectional morphology", "grammar", "tense", "linguistics"]
+  },
+  {
+    "id": "F657",
+    "subarea": "Genre & Craft",
+    "objective": "Syntactic ambiguity",
+    "question": "Why is 'Visiting relatives can be exhausting' syntactically ambiguous?",
+    "answer": "'Visiting relatives' can be a noun phrase (the act of visiting) or a participial phrase (relatives who visit)",
+    "explanation": "Syntactic ambiguity occurs when phrase structure allows multiple interpretations. This sentence could mean: (1) the act of visiting relatives is exhausting, or (2) relatives who are visiting you are exhausting. The phrase structure permits both readings.",
+    "difficulty": 2,
+    "tags": ["syntactic ambiguity", "phrase structure", "linguistics", "grammar"]
+  },
+  {
+    "id": "F658",
+    "subarea": "Genre & Craft",
+    "objective": "Derivational morphology",
+    "question": "What is derivational morphology and why is 'happy → unhappy' an example?",
+    "answer": "Derivational morphology creates new words with changed meanings; 'un-' transforms the meaning of 'happy'",
+    "explanation": "Derivational morphemes create new words by changing meaning or word class. Adding 'un-' to 'happy' creates a word with opposite meaning. Unlike inflectional morphemes (which only add grammatical information), derivational changes are more fundamental and create distinct lexical items.",
+    "difficulty": 2,
+    "tags": ["derivational morphology", "word formation", "prefixes", "linguistics"]
+  },
+  {
+    "id": "F659",
+    "subarea": "Genre & Craft",
+    "objective": "Semantic agreement",
+    "question": "What is semantic agreement and why does 'The thunder laughed across the sky' violate it?",
+    "answer": "Semantic agreement requires logical relationships between subject and predicate; thunder cannot literally laugh",
+    "explanation": "Semantic agreement ensures that predicates are logically compatible with their subjects. Thunder (an atmospheric sound) cannot perform the human action of laughing—this is a semantic mismatch. While acceptable as figurative language (personification), it violates literal semantic agreement.",
+    "difficulty": 2,
+    "tags": ["semantic agreement", "subject-predicate", "personification", "linguistics"]
   }]
