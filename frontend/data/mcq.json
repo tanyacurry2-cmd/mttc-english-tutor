@@ -4067,5 +4067,105 @@
       "World Englishes includes all varieties, not just simplified diplomatic English."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q643",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "stem": "A teacher organizes a literature unit including The Joy Luck Club by Amy Tan, Bless Me, Ultima by Rudolfo Anaya, and The Namesake by Jhumpa Lahiri. The teacher's primary purpose in selecting these works is to:",
+    "options": [
+      "expose students to novels written exclusively in first person.",
+      "highlight the influence of myth and folklore in contemporary fiction.",
+      "explore the experiences of cultural identity and assimilation in the United States.",
+      "teach students how to apply postmodern literary theory."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "While some may use first person, narrative perspective is not the unifying theme.",
+      "Myth and folklore appear but are not the primary focus across all three novels.",
+      "Correct! Each novel portrays generational and cultural negotiation—ideal for discussing identity and assimilation.",
+      "Postmodern theory is not the main instructional goal of this selection."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q644",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "stem": "A high-school class reads The Diary of Anne Frank alongside Night by Elie Wiesel. The teacher's goal is most likely to:",
+    "options": [
+      "demonstrate different approaches to narrative structure.",
+      "examine personal and historical perspectives on human rights and moral courage.",
+      "introduce students to post-World War II literary techniques.",
+      "analyze translation differences between European and American editions."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "While structure varies, it is not the primary educational purpose of pairing these texts.",
+      "Correct! Pairing survivor accounts helps students connect literature to ethical and historical understanding.",
+      "Literary techniques are secondary to the human rights and moral themes.",
+      "Translation analysis is not the focus of this pairing."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q645",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "stem": "An English teacher assigns Their Eyes Were Watching God and asks students to compare it with modern spoken-word poetry exploring similar themes. This assignment primarily helps students:",
+    "options": [
+      "practice formal citation in research essays.",
+      "identify social commentary on gender and voice across time periods.",
+      "memorize dialect for oral performance.",
+      "evaluate publishing trends in African American literature."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Citation practice is a skill outcome, not the primary purpose of thematic comparison.",
+      "Correct! It links historical and contemporary expressions of autonomy and voice—illustrating literature's social purpose.",
+      "Memorization of dialect is not the instructional goal.",
+      "Publishing trends are not the focus of this thematic comparison."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q646",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "stem": "A teacher selects several environmental poems and essays, such as those by Mary Oliver and Wendell Berry, for a thematic unit titled 'Literature of Place.' The main instructional purpose of this unit is to:",
+    "options": [
+      "demonstrate scientific accuracy in literary description.",
+      "connect students' reading to ecological awareness and personal reflection.",
+      "teach metrical variation in free verse poetry.",
+      "focus on the economic factors influencing rural literature."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Scientific accuracy is not the primary goal of literary study.",
+      "Correct! It integrates literature with environmental ethics and reflective thinking.",
+      "Meter is a technical element, not the main purpose of this thematic unit.",
+      "Economic factors are not the central focus of environmental literature study."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q647",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "stem": "During a world-literature course, students read Things Fall Apart by Chinua Achebe and discuss colonial perspectives portrayed in early British novels. The teacher's intent in this comparison is to:",
+    "options": [
+      "reinforce grammar and vocabulary from non-Western sources.",
+      "expose students to non-Western viewpoints and post-colonial themes.",
+      "illustrate the chronological development of the English novel.",
+      "teach students translation methods for African languages."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Grammar and vocabulary are not the primary focus of this comparison.",
+      "Correct! Achebe's work reclaims narrative authority, showing literature's power to challenge dominant cultural perspectives.",
+      "Chronological development is secondary to examining cultural perspectives.",
+      "Translation methods are not the goal of this comparative study."
+    ],
+    "difficulty": 2
   }
 ]
