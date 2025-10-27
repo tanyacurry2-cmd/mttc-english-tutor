@@ -4367,5 +4367,105 @@
       "This clearly coordinates two cities he wanted to visit."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q658",
+    "subarea": "Genre & Craft",
+    "objective": "Morphology and word structure",
+    "stem": "Which of the following words contains two bound morphemes?",
+    "options": [
+      "unbelievable",
+      "happiness",
+      "walking",
+      "sunlight"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Un-' and '-able' are both bound morphemes attached to the free base 'believe.' Neither can function as independent words.",
+      "This contains one bound morpheme ('-ness') attached to the free morpheme 'happy.'",
+      "This contains one bound morpheme ('-ing') attached to the free morpheme 'walk.'",
+      "This is a compound word containing two free morphemes ('sun' + 'light'), not bound morphemes."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q659",
+    "subarea": "Genre & Craft",
+    "objective": "Inflectional vs. derivational morphology",
+    "stem": "Which of the following best illustrates inflectional morphology?",
+    "options": [
+      "Change → changer",
+      "Teach → teacher",
+      "Quick → quickly",
+      "Walk → walked"
+    ],
+    "correctIndex": 3,
+    "rationales": [
+      "This is derivational morphology; '-er' creates a new noun from a verb.",
+      "This is derivational morphology; '-er' creates a new noun (person who teaches) from a verb.",
+      "This is derivational morphology; '-ly' changes an adjective into an adverb.",
+      "Correct! '-ed' marks past tense, an inflection that changes grammatical function but not lexical meaning. 'Walked' remains a verb with the same core meaning."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q660",
+    "subarea": "Genre & Craft",
+    "objective": "Syntactic ambiguity",
+    "stem": "Which of these sentences demonstrates syntactic ambiguity created by phrase structure?",
+    "options": [
+      "Visiting relatives can be exhausting.",
+      "The teacher collected the essays before lunch.",
+      "They ran down the hill quickly.",
+      "The book on the desk belongs to Maria."
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Visiting relatives' can function as a noun phrase (the act of visiting) or a participial phrase (relatives who are visiting). The phrase structure permits both interpretations.",
+      "This has clear phrase structure with no ambiguity about who collected what and when.",
+      "This has straightforward structure indicating manner and direction of running.",
+      "The prepositional phrase 'on the desk' clearly modifies 'book' with no ambiguity."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q661",
+    "subarea": "Genre & Craft",
+    "objective": "Derivational morphology",
+    "stem": "Which of the following illustrates derivational morphology?",
+    "options": [
+      "Run → running",
+      "Happy → unhappy",
+      "Cat → cats",
+      "Sleep → slept"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "This is inflectional morphology; '-ing' creates the present participle form without changing core meaning.",
+      "Correct! Adding 'un-' creates a new word with a changed meaning (opposite), not just a grammatical variation. This is derivational morphology.",
+      "This is inflectional morphology; '-s' marks plural without changing the core meaning.",
+      "This is inflectional morphology; the vowel change marks past tense without creating a new word."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q662",
+    "subarea": "Genre & Craft",
+    "objective": "Semantic agreement",
+    "stem": "Which sentence violates semantic agreement (the logical relationship between subject and predicate)?",
+    "options": [
+      "The idea was fascinating.",
+      "The committee have made its decision.",
+      "The thunder laughed across the sky.",
+      "The flowers were blooming early."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "This has proper semantic agreement; ideas can be fascinating.",
+      "This has a subject-verb agreement error (number mismatch), not a semantic violation.",
+      "Correct! Thunder doesn't literally laugh — this is a semantic mismatch (though acceptable as figurative language/personification). The predicate is incompatible with the nature of the subject.",
+      "This has proper semantic agreement; flowers can bloom."
+    ],
+    "difficulty": 2
   }
 ]
