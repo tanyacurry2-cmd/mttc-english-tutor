@@ -2004,4 +2004,104 @@
     "explanation": "Synergy in Media occurs when multiple modes work together to create meaning greater than the sum of parts. Example: Documentary using interview (audio), archival photos (visual), captions (text) together for powerful effect.",
     "difficulty": 3,
     "tags": ["synergy", "media", "integration"]
+  },
+  {
+    "id": "F630",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What was the primary influence on Old English vocabulary?",
+    "answer": "Norse vocabulary introduced through Viking contact",
+    "explanation": "The Viking invasions infused Old English with Norse loanwords like 'sky,' 'egg,' and 'window,' shaping northern dialects. These words became permanent features of English.",
+    "difficulty": 2,
+    "tags": ["Old English", "Norse", "Viking", "language history"]
+  },
+  {
+    "id": "F631",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What event most contributed to standardizing English spelling and grammar?",
+    "answer": "The introduction of the printing press by William Caxton in 1476",
+    "explanation": "The printing press made written English more uniform and spread London's dialect as a standard. Mass production of texts required consistent spelling conventions.",
+    "difficulty": 2,
+    "tags": ["printing press", "standardization", "Caxton"]
+  },
+  {
+    "id": "F632",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "How did global expansion influence English vocabulary?",
+    "answer": "Colonial contact introduced loanwords from Hindi, Arabic, Swahili, and other languages",
+    "explanation": "Global expansion gave English words like 'bungalow' (Hindi), 'algebra' (Arabic), and 'safari' (Swahili), demonstrating English's ability to absorb vocabulary from worldwide contact.",
+    "difficulty": 2,
+    "tags": ["colonialism", "loanwords", "global English"]
+  },
+  {
+    "id": "F633",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What caused the divergence of British and American English spelling?",
+    "answer": "Noah Webster's dictionary reforms",
+    "explanation": "Webster intentionally simplified spellings—'color' vs. 'colour,' 'center' vs. 'centre'—to promote linguistic independence in the new American nation.",
+    "difficulty": 2,
+    "tags": ["American English", "Webster", "spelling reform"]
+  },
+  {
+    "id": "F634",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What caused rapid vocabulary expansion in the 20th century?",
+    "answer": "Technological and scientific innovation",
+    "explanation": "Modern inventions created terms like 'television,' 'internet,' 'genetic code,' and 'smartphone.' Science and technology drive the most rapid vocabulary growth in contemporary English.",
+    "difficulty": 2,
+    "tags": ["20th century", "technology", "vocabulary"]
+  },
+  {
+    "id": "F635",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "How do social movements shape language?",
+    "answer": "They influence evolving norms like gender-inclusive pronouns (singular 'they')",
+    "explanation": "Contemporary social awareness drives language change. The acceptance of singular 'they' for non-binary individuals shows how identity and expression movements reshape usage norms.",
+    "difficulty": 2,
+    "tags": ["social movements", "pronouns", "language change"]
+  },
+  {
+    "id": "F636",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What demonstrates English as a living, evolving language?",
+    "answer": "The emergence of internet slang and new verb forms like 'to google'",
+    "explanation": "Digital communication continuously produces new vocabulary and usage patterns. Words like 'google,' 'tweet,' and 'selfie' show language adapting to technological change.",
+    "difficulty": 2,
+    "tags": ["living language", "internet", "neologisms"]
+  },
+  {
+    "id": "F637",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "How do regional dialects develop?",
+    "answer": "Through isolation and distinct cultural contact patterns",
+    "explanation": "Geography, migration, and community interaction create region-specific pronunciations and idioms. Dialects reflect local history, settlement patterns, and cultural influences.",
+    "difficulty": 2,
+    "tags": ["dialects", "regional variation", "language geography"]
+  },
+  {
+    "id": "F638",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What does Harlem Renaissance writing demonstrate about language?",
+    "answer": "Creative adaptation of vernacular speech to convey cultural identity",
+    "explanation": "Writers like Langston Hughes and Zora Neale Hurston blended African American vernacular with literary English to express cultural voice and authenticity, showing language as identity.",
+    "difficulty": 2,
+    "tags": ["Harlem Renaissance", "vernacular", "cultural identity"]
+  },
+  {
+    "id": "F639",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What are 'World Englishes'?",
+    "answer": "Localized varieties of English shaped by regional and cultural factors",
+    "explanation": "'World Englishes' recognizes that British, Indian, Nigerian, and Singaporean English are all legitimate, evolving varieties. Each reflects local linguistic and cultural influences.",
+    "difficulty": 2,
+    "tags": ["World Englishes", "linguistic diversity", "varieties"]
   }]
