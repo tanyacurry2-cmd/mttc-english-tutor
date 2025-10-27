@@ -3867,5 +3867,205 @@
       "Memorization is not the goal; synthesis and communication of ideas are the focus."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q633",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "During the Old English period, the language was most heavily influenced by:",
+    "options": [
+      "Latin brought by Roman missionaries",
+      "Norse vocabulary introduced through Viking contact",
+      "Celtic grammatical structures",
+      "Norman French syntax"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "While Latin influenced Old English through Christianity, it was not the most pervasive influence.",
+      "Correct! The Viking invasions infused Old English with Norse loanwords like 'sky,' 'egg,' and 'window,' shaping northern dialects.",
+      "Celtic had minimal impact on Old English grammar; most Celtic influence was place names.",
+      "Norman French came later during the Middle English period, not Old English."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q634",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "Which event most contributed to the standardization of English spelling and grammar?",
+    "options": [
+      "The Great Vowel Shift",
+      "The introduction of the printing press by William Caxton in 1476",
+      "The Protestant Reformation",
+      "The publication of Johnson's Dictionary of the English Language in 1755"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "The Great Vowel Shift changed pronunciation but did not standardize spelling.",
+      "Correct! The printing press made written English more uniform and spread London's dialect as a standard.",
+      "The Reformation influenced Bible translation but was not the primary standardization force.",
+      "Johnson's Dictionary was important but came after printing had already established many standards."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q635",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "Which development most clearly reflects the influence of global expansion on the English language?",
+    "options": [
+      "The adoption of words like café and rendezvous",
+      "The inclusion of loanwords from Hindi, Arabic, and Swahili",
+      "The simplification of English verb conjugations",
+      "The creation of Middle English poetic forms"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "French borrowings reflect European contact, not global expansion.",
+      "Correct! Colonial contact introduced vocabulary such as 'bungalow,' 'algebra,' and 'safari,' demonstrating English's global borrowing.",
+      "Verb simplification was an internal development, not due to global expansion.",
+      "Middle English poetry was a literary development, not related to global contact."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q636",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "Which factor most contributed to the divergence of British and American English spelling conventions?",
+    "options": [
+      "The establishment of colonial universities",
+      "Noah Webster's dictionary reforms",
+      "The Industrial Revolution",
+      "Early missionary translation projects"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Colonial universities preserved British conventions rather than diverging from them.",
+      "Correct! Webster intentionally simplified spellings—'color' vs. 'colour'—to promote linguistic independence in the new nation.",
+      "The Industrial Revolution affected vocabulary but not systematic spelling differences.",
+      "Missionary projects did not focus on spelling reform."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q637",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "Which of the following best explains the rapid expansion of new vocabulary during the 20th century?",
+    "options": [
+      "Growth of literacy and public schooling",
+      "Technological and scientific innovation",
+      "Simplification of English grammar",
+      "Increased translation of classical texts"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Literacy growth helped spread language but did not create new vocabulary.",
+      "Correct! Terms like 'television,' 'internet,' and 'genetic code' arose with modern inventions and discoveries.",
+      "Grammar simplification is unrelated to vocabulary expansion.",
+      "Classical translations added some terms but not at the pace of modern technology."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q638",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "Which statement best illustrates how social movements shape language?",
+    "options": [
+      "Increased borrowing from Latin during the Renaissance",
+      "The emergence of gender-inclusive pronouns such as they for singular use",
+      "The creation of dictionaries to define 'standard' language",
+      "The replacement of Middle English endings with Modern English ones"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Latin borrowing was driven by scholarly interests, not social movements.",
+      "Correct! Contemporary social awareness influences evolving norms of identity and expression.",
+      "Dictionary creation reflected prescriptive authority, not social movements.",
+      "Grammar changes from Middle to Modern English were evolutionary, not movement-driven."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q639",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "Which of the following is an example of English as a living, evolving language?",
+    "options": [
+      "The preservation of Old English in historical archives",
+      "The continued use of Shakespearean English in modern writing",
+      "The emergence of internet slang and new verb forms such as 'to google'",
+      "The adoption of prescriptive grammar handbooks in schools"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Preservation of Old English maintains history but does not show evolution.",
+      "Using Shakespearean English is archaic practice, not evolution.",
+      "Correct! Digital communication continuously produces new vocabulary and usage patterns.",
+      "Prescriptive handbooks attempt to freeze language, not demonstrate evolution."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q640",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "Which statement best reflects how regional dialects develop within a single language?",
+    "options": [
+      "They arise from deliberate educational reforms.",
+      "They result from isolation and distinct cultural contact patterns.",
+      "They emerge only in rural communities.",
+      "They reflect the random variation of individual speakers."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Educational reforms try to standardize, not create dialects.",
+      "Correct! Geography, migration, and community interaction create region-specific pronunciations and idioms.",
+      "Dialects develop in both urban and rural areas.",
+      "Dialect formation is systematic, not random individual variation."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q641",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "The English used by writers of the Harlem Renaissance (e.g., Langston Hughes, Zora Neale Hurston) demonstrates:",
+    "options": [
+      "rejection of African linguistic heritage",
+      "codification of formal standard English",
+      "creative adaptation of vernacular speech to convey cultural identity",
+      "resistance to all linguistic experimentation"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Harlem Renaissance writers embraced African linguistic heritage.",
+      "They challenged formal conventions rather than codifying them.",
+      "Correct! Writers blended African American vernacular with literary English to express cultural voice and authenticity.",
+      "Harlem Renaissance was marked by linguistic experimentation, not resistance to it."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q642",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "stem": "In contemporary linguistics, the term World Englishes refers to:",
+    "options": [
+      "Attempts to restore classical grammar in global education",
+      "Localized varieties of English shaped by regional and cultural factors",
+      "The replacement of native languages with English worldwide",
+      "Simplified English used exclusively in diplomacy"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "World Englishes recognizes diversity, not restoration of classical grammar.",
+      "Correct! 'World Englishes' recognizes that British, Indian, Nigerian, and Singaporean English are all legitimate, evolving varieties.",
+      "The term celebrates multilingualism, not language replacement.",
+      "World Englishes includes all varieties, not just simplified diplomatic English."
+    ],
+    "difficulty": 2
   }
 ]
