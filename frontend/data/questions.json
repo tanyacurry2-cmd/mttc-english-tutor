@@ -10895,5 +10895,130 @@
     "difficulty": 2,
     "mode": "Drill",
     "type": "mcq"
+  },
+  {
+    "id": "Q668",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language evolution and lexical development",
+    "question": "Which of the following is the most likely reason that the term streaming has become part of the Standard American English lexicon?",
+    "stem": "Which of the following is the most likely reason that the term streaming has become part of the Standard American English lexicon?",
+    "options": [
+      "It expresses a newly developed technology and everyday activity.",
+      "It originated as a slang term used only in music journalism.",
+      "It replaced a classical Latin term that was difficult to spell.",
+      "It has remained unchanged in meaning since the nineteenth century."
+    ],
+    "answer": "It expresses a newly developed technology and everyday activity.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Streaming' filled a new communicative need tied to digital media—exactly how English expands to accommodate technological and cultural changes.",
+      "While it may have appeared in specialized contexts first, it became mainstream because it describes a universal activity, not just journalism.",
+      "There was no difficult Latin term it replaced; it arose organically from the technological need.",
+      "The digital media sense of 'streaming' is recent, not from the nineteenth century."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q669",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language evolution and lexical development",
+    "question": "Which of the following newly coined words is most likely to become a permanent part of standard English?",
+    "stem": "Which of the following newly coined words is most likely to become a permanent part of standard English?",
+    "options": [
+      "doomscrolling — obsessive reading of negative online news",
+      "fleeky-boo — a short-lived social-media catchphrase",
+      "quizzify — an invented term with no real application",
+      "scribblr — a single brand name with no generic meaning"
+    ],
+    "answer": "doomscrolling — obsessive reading of negative online news",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! It describes a recognizable human behavior in the digital era; utility and widespread recognition predict longevity in the lexicon.",
+      "Short-lived catchphrases typically fade without sustained use or clear utility.",
+      "Invented terms without practical application rarely gain traction in the language.",
+      "Brand names remain specific unless they become genericized (like 'xerox' or 'kleenex'), which requires widespread adoption."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q670",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language evolution and lexical development",
+    "question": "The widespread acceptance of terms such as blog, podcast, and selfie best illustrates which characteristic of the English language?",
+    "stem": "The widespread acceptance of terms such as blog, podcast, and selfie best illustrates which characteristic of the English language?",
+    "options": [
+      "Its ability to generate new words to describe cultural innovations",
+      "Its reliance on foreign borrowings for vocabulary expansion",
+      "Its decline in grammatical precision over time",
+      "Its preference for formal, academic registers"
+    ],
+    "answer": "Its ability to generate new words to describe cultural innovations",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! English grows through creative adaptation to new technologies and experiences. These terms arose from technological and cultural shifts.",
+      "These are newly coined English words, not borrowings from other languages.",
+      "These new words don't indicate grammatical decline—they show lexical innovation and adaptability.",
+      "These terms emerged from informal, popular culture, not formal academic contexts."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q671",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Semantic change and language evolution",
+    "question": "Which of the following examples best demonstrates the process of semantic shift in English?",
+    "stem": "Which of the following examples best demonstrates the process of semantic shift in English?",
+    "options": [
+      "The word tweet changing from a bird sound to an online post",
+      "The word ballet entering English from French",
+      "The word run forming the noun runner",
+      "The word color spelled without the British u"
+    ],
+    "answer": "The word tweet changing from a bird sound to an online post",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Tweet' gained a new, technology-driven meaning—semantic change in action. The original meaning remains, but a new sense was added.",
+      "This is borrowing, not semantic shift. The word maintains its original meaning from French.",
+      "This is derivation (morphological word formation), not semantic shift.",
+      "This is spelling variation between dialects, not semantic change."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q672",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language evolution and social change",
+    "question": "The increasing use of gender-neutral pronouns such as they in singular contexts primarily reflects:",
+    "stem": "The increasing use of gender-neutral pronouns such as they in singular contexts primarily reflects:",
+    "options": [
+      "a shift in grammatical rules caused by foreign influence.",
+      "resistance to prescriptive grammar and changing social norms.",
+      "a decline in written literacy skills.",
+      "confusion between spoken and written registers."
+    ],
+    "answer": "resistance to prescriptive grammar and changing social norms.",
+    "correctIndex": 1,
+    "rationales": [
+      "This change is driven by social awareness within English, not foreign language influence.",
+      "Correct! Language adapts to evolving social consciousness—English adjusts its grammar to reflect inclusivity and recognition of diverse identities.",
+      "This represents linguistic evolution in response to social needs, not declining literacy.",
+      "Singular 'they' appears in both spoken and written registers; it's a deliberate grammatical adaptation, not confusion."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
   }
 ]
