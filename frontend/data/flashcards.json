@@ -2654,4 +2654,54 @@
     "explanation": "Adopted without translation. Examples: ballet (French), piano (Italian), algebra (Arabic).",
     "difficulty": 1,
     "tags": ["loanword", "borrowing", "etymology", "linguistics"]
+  },
+  {
+    "id": "F695",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language contributed piano, balcony, and opera to English?",
+    "answer": "Italian",
+    "explanation": "Italian borrowings from Renaissance era, reflecting Italy's art and music influence.",
+    "difficulty": 1,
+    "tags": ["loanwords", "Italian", "borrowing", "Renaissance"]
+  },
+  {
+    "id": "F696",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language gave English the words cookie, boss, and yacht?",
+    "answer": "Dutch",
+    "explanation": "Dutch traders and settlers contributed everyday and nautical terms in the 17th century.",
+    "difficulty": 1,
+    "tags": ["loanwords", "Dutch", "borrowing", "nautical"]
+  },
+  {
+    "id": "F697",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language is the source of canyon, patio, and rodeo in English?",
+    "answer": "Spanish",
+    "explanation": "Spanish colonists in North America left lasting vocabulary imprints on English.",
+    "difficulty": 1,
+    "tags": ["loanwords", "Spanish", "borrowing", "Americas"]
+  },
+  {
+    "id": "F698",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language contributed bungalow, pyjamas, and shampoo to English?",
+    "answer": "Hindi",
+    "explanation": "Borrowings from Hindi during British colonial contact with India.",
+    "difficulty": 1,
+    "tags": ["loanwords", "Hindi", "borrowing", "colonial"]
+  },
+  {
+    "id": "F699",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language gave English kindergarten, doppelgänger, and waltz?",
+    "answer": "German",
+    "explanation": "Germany contributed educational, philosophical, and cultural terms in the 19th century.",
+    "difficulty": 1,
+    "tags": ["loanwords", "German", "borrowing", "education"]
   }]
