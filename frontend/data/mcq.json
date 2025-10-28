@@ -4667,5 +4667,105 @@
       "Singular 'they' appears in both spoken and written registers; it's a deliberate grammatical adaptation, not confusion."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q673",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "stem": "The words piano, balcony, and opera entered English as a result of contact with which language?",
+    "options": [
+      "French",
+      "Italian",
+      "Spanish",
+      "German"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "While French contributed many words to English, these specific terms are Italian.",
+      "Correct! These are Italian borrowings from the Renaissance era, reflecting Italy's influence on art and music.",
+      "Spanish contributed different vocabulary, particularly related to the Americas.",
+      "German contributed educational and philosophical terms, not these artistic ones."
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "Q674",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "stem": "The English words cookie, boss, and yacht came into the language primarily through contact with speakers of:",
+    "options": [
+      "Dutch",
+      "Gaelic",
+      "Portuguese",
+      "Norse"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Dutch traders and settlers contributed many everyday and nautical terms during the seventeenth century.",
+      "Gaelic contributed some place names and cultural terms but not these specific words.",
+      "Portuguese contributed fewer terms to English, mainly related to trade.",
+      "Norse contributed many words but much earlier, during the Viking Age."
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "Q675",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "stem": "The words canyon, patio, and rodeo were borrowed into English through interaction with:",
+    "options": [
+      "Latin scholars in medieval England",
+      "Spanish colonists in North America",
+      "French explorers in Canada",
+      "Italian merchants in the Mediterranean"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "While Latin influenced English scholarly vocabulary, these are modern Spanish borrowings.",
+      "Correct! Spanish influence spread throughout the Americas, leaving lasting imprints on English vocabulary.",
+      "French contributed Canadian terms but not these specifically Spanish words.",
+      "Italian merchants influenced trade vocabulary but not these western American terms."
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "Q676",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "stem": "The words bungalow, pyjamas, and shampoo came into English through contact with which language?",
+    "options": [
+      "Hindi",
+      "Greek",
+      "Swahili",
+      "Malay"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! These are borrowings from Hindi during British colonial contact with India.",
+      "Greek contributed scientific and philosophical terms, not these domestic words.",
+      "Swahili contributed some words through East African contact but not these specific terms.",
+      "Malay contributed some words but these are specifically from Hindi."
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "Q677",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "stem": "The words kindergarten, doppelgänger, and waltz entered English as a result of cultural contact with:",
+    "options": [
+      "French artists",
+      "German speakers",
+      "Scandinavian traders",
+      "Celtic poets"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "French contributed many cultural terms but not these specifically German words.",
+      "Correct! Germany contributed many educational, philosophical, and cultural terms to English during the nineteenth century.",
+      "Scandinavian languages contributed earlier Norse vocabulary, not these German terms.",
+      "Celtic languages contributed place names and some cultural terms but not these German borrowings."
+    ],
+    "difficulty": 1
   }
 ]
