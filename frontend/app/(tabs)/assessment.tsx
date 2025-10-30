@@ -1,10 +1,11 @@
 import 'react-native-get-random-values';
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useState, useEffect } from "react";
 import { View, Text, Pressable, FlatList, Alert, StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { balancedPickBySubarea, Question } from "../../utils/selection";
 import Countdown from "../../components/Countdown";
 import { saveSession, updateReadinessEma } from "../../storage/sessions";
+import { getMasteredQuestionIds, updateMasteredQuestion } from "../../storage/mastery";
 import { v4 as uuid } from "uuid";
 import { theme } from "../../lib/theme";
 
@@ -19,10 +20,24 @@ const SECONDS = 20 * 60; // 20 minutes
 const generateSessionId = () => `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 
 export default function DiagnosticScreen() {
-  // Build a fresh pool on mount
+  const [masteredIds, setMasteredIds] = useState<string[]>([]);
+  
+  // Load mastered question IDs on mount
+  useEffect(() => {
+    (async () => {
+      const ids = await getMasteredQuestionIds();
+      setMasteredIds(ids);
+    })();
+  }, []);
+  
+  // Build a fresh pool on mount, excluding mastered questions
   const pool: Question[] = useMemo(() => {
     try {
-      const mcqs = (questionsData as Question[]).filter(q => q.type === "mcq" && q.mode === "Drill");
+      const mcqs = (questionsData as Question[]).filter(
+        q => q.type === "mcq" && 
+        q.mode === "Drill" && 
+        !masteredIds.includes(q.id) // Filter out mastered questions
+      );
       const picked = balancedPickBySubarea(mcqs, PER_SUBAREA);
       // Fallback if any subarea was short
       return picked.slice(0, TOTAL);
@@ -30,7 +45,7 @@ export default function DiagnosticScreen() {
       console.error("Error creating question pool:", error);
       return [];
     }
-  }, []);
+  }, [masteredIds]);
 
   const [idx, setIdx] = useState(0);
   const [selected, setSelected] = useState<string>("");
