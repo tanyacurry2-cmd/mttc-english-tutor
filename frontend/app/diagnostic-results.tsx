@@ -182,6 +182,16 @@ export default function DiagnosticResults() {
           </Pressable>
         </View>
       </View>
+      
+      {/* Confetti Cannon for 100% scores */}
+      <ConfettiCannon
+        ref={confettiRef}
+        count={250}
+        origin={{x: -10, y: 0}}
+        colors={['#00CED1', '#FFD700']} // Bright teal and gold
+        fadeOut
+        autoStart={false}
+      />
     </ScrollView>
   );
 }
