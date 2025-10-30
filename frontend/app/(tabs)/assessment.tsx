@@ -56,12 +56,15 @@ export default function DiagnosticScreen() {
 
   const q = pool[idx];
 
-  const submit = () => {
+  const submit = async () => {
     if (!q) return;
     const isCorrect = selected === q.answer;
     
     // Track user answer
     setUserAnswers(prev => ({ ...prev, [q.id]: selected }));
+    
+    // Update mastered question tracking
+    await updateMasteredQuestion(q.id, isCorrect);
     
     if (isCorrect) setCorrect(c => c + 1); else setWrongIds(w => [...w, q.id]);
     setSelected("");
