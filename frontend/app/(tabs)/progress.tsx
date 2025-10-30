@@ -228,6 +228,74 @@ export default function ProgressScreen() {
             </View>
           )}
           
+          {/* Mastered Flashcards Section */}
+          {masteredFlashcardsCount > 0 && (
+            <View style={styles.masteredCard}>
+              <TouchableOpacity 
+                style={styles.masteredHeader}
+                onPress={() => setShowMasteredFlashcards(!showMasteredFlashcards)}
+              >
+                <View style={styles.masteredTitleRow}>
+                  <MaterialCommunityIcons 
+                    name="cards" 
+                    size={24} 
+                    color={theme.colors.accent} 
+                  />
+                  <Text style={styles.masteredTitle}>
+                    Flashcards Mastered ({masteredFlashcardsCount})
+                  </Text>
+                </View>
+                <MaterialCommunityIcons 
+                  name={showMasteredFlashcards ? "chevron-up" : "chevron-down"} 
+                  size={24} 
+                  color={theme.colors.textSecondary} 
+                />
+              </TouchableOpacity>
+              
+              {showMasteredFlashcards && (
+                <View style={styles.masteredContent}>
+                  <Text style={styles.masteredDescription}>
+                    These flashcards won't appear in Learn mode. Tap to reinstate them.
+                  </Text>
+                  
+                  <TouchableOpacity 
+                    style={styles.reinstateAllButton}
+                    onPress={handleReinstateAllFlashcards}
+                  >
+                    <MaterialCommunityIcons name="refresh" size={18} color={theme.colors.accent} />
+                    <Text style={styles.reinstateAllText}>Reinstate All</Text>
+                  </TouchableOpacity>
+                  
+                  {masteredFlashcardsList.map((item) => {
+                    const flashcard = (flashcardsData as Card[]).find(f => f.id === item.id);
+                    return (
+                      <TouchableOpacity
+                        key={item.id}
+                        style={styles.masteredItem}
+                        onPress={() => handleReinstateFlashcard(item.id)}
+                      >
+                        <View style={styles.masteredItemContent}>
+                          <Text style={styles.masteredItemId}>{item.id}</Text>
+                          <Text style={styles.masteredItemText} numberOfLines={2}>
+                            {flashcard?.question || 'Unknown flashcard'}
+                          </Text>
+                          <Text style={styles.masteredItemCount}>
+                            Correct: {item.correctCount} times
+                          </Text>
+                        </View>
+                        <MaterialCommunityIcons 
+                          name="restore" 
+                          size={20} 
+                          color={theme.colors.accent} 
+                        />
+                      </TouchableOpacity>
+                    );
+                  })}
+                </View>
+              )}
+            </View>
+          )}
+          
           {diagnosticReadiness > 0 && (
             <View style={styles.readinessCard}>
               <Text style={styles.diagnosticLabel}>Diagnostic Readiness:</Text>
