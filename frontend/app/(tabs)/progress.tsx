@@ -5,6 +5,8 @@ import {
   StyleSheet,
   SafeAreaView,
   ScrollView,
+  TouchableOpacity,
+  Alert,
 } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useAppStore } from '../../lib/store';
@@ -12,11 +14,16 @@ import { TrialBanner } from '../../components/TrialBanner';
 import { theme } from '../../lib/theme';
 import { Subarea } from '../../types/content';
 import { loadSessions, loadReadinessEma, SessionSummary } from '../../storage/sessions';
+import { getMasteredQuestions, reinstateMasteredQuestion, reinstateAllMastered, MasteredQuestion, isMastered } from '../../storage/mastery';
+import questionsData from '../../data/questions.json';
+import { Question } from '../../utils/selection';
 
 export default function ProgressScreen() {
   const { readinessBySubarea, mcqHistory, cardReviews, streakDays } = useAppStore();
   const [diagnosticReadiness, setDiagnosticReadiness] = useState<number>(0);
   const [diagnosticHistory, setDiagnosticHistory] = useState<SessionSummary[]>([]);
+  const [masteredQuestions, setMasteredQuestions] = useState<Record<string, MasteredQuestion>>({});
+  const [showMastered, setShowMastered] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -24,8 +31,40 @@ export default function ProgressScreen() {
       if (Number.isFinite(ema)) setDiagnosticReadiness(Math.round(ema * 100));
       const sessions = await loadSessions();
       setDiagnosticHistory(sessions);
+      const mastered = await getMasteredQuestions();
+      setMasteredQuestions(mastered);
     })();
   }, []);
+  
+  const refreshMastered = async () => {
+    const mastered = await getMasteredQuestions();
+    setMasteredQuestions(mastered);
+  };
+  
+  const handleReinstate = async (questionId: string) => {
+    await reinstateMasteredQuestion(questionId);
+    await refreshMastered();
+  };
+  
+  const handleReinstateAll = () => {
+    Alert.alert(
+      'Reinstate All Questions',
+      'Are you sure you want to reinstate all mastered questions? They will appear in future assessments.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        { 
+          text: 'Reinstate All', 
+          onPress: async () => {
+            await reinstateAllMastered();
+            await refreshMastered();
+          }
+        }
+      ]
+    );
+  };
+  
+  const masteredList = Object.values(masteredQuestions).filter(q => isMastered(q));
+  const masteredCount = masteredList.length;
 
   const calculateOverallReadiness = () => {
     const values = Object.values(readinessBySubarea);
