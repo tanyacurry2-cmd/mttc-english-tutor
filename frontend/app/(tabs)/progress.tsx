@@ -513,4 +513,78 @@ const styles = StyleSheet.create({
     fontSize: theme.fontSize.sm,
     color: theme.colors.textSecondary,
   },
+  masteredCard: {
+    backgroundColor: theme.colors.surface,
+    borderRadius: theme.borderRadius.lg,
+    padding: theme.spacing.md,
+    marginBottom: theme.spacing.md,
+    borderWidth: 2,
+    borderColor: theme.colors.success,
+  },
+  masteredHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  masteredTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: theme.spacing.sm,
+  },
+  masteredTitle: {
+    fontSize: theme.fontSize.lg,
+    fontWeight: theme.fontWeight.bold,
+    color: theme.colors.text,
+  },
+  masteredContent: {
+    marginTop: theme.spacing.md,
+  },
+  masteredDescription: {
+    fontSize: theme.fontSize.sm,
+    color: theme.colors.textSecondary,
+    marginBottom: theme.spacing.md,
+  },
+  reinstateAllButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: theme.spacing.xs,
+    backgroundColor: `${theme.colors.accent}15`,
+    padding: theme.spacing.sm,
+    borderRadius: theme.borderRadius.md,
+    marginBottom: theme.spacing.md,
+  },
+  reinstateAllText: {
+    color: theme.colors.accent,
+    fontWeight: theme.fontWeight.semibold,
+    fontSize: theme.fontSize.md,
+  },
+  masteredItem: {
+    backgroundColor: theme.colors.background,
+    padding: theme.spacing.md,
+    borderRadius: theme.borderRadius.md,
+    marginBottom: theme.spacing.sm,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  masteredItemContent: {
+    flex: 1,
+    marginRight: theme.spacing.md,
+  },
+  masteredItemId: {
+    fontSize: theme.fontSize.xs,
+    color: theme.colors.textSecondary,
+    marginBottom: theme.spacing.xs,
+  },
+  masteredItemText: {
+    fontSize: theme.fontSize.sm,
+    color: theme.colors.text,
+    marginBottom: theme.spacing.xs,
+  },
+  masteredItemCount: {
+    fontSize: theme.fontSize.xs,
+    color: theme.colors.success,
+    fontWeight: theme.fontWeight.semibold,
+  },
 });
