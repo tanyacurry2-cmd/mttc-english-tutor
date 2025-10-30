@@ -7,9 +7,11 @@ import {
   ScrollView,
   TouchableOpacity,
   Animated,
+  Modal,
 } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import ConfettiCannon from 'react-native-confetti-cannon';
 import { useAppStore } from '../../lib/store';
 import { TrialBanner } from '../../components/TrialBanner';
 import { StarryBackground } from '../../components/StarryBackground';
@@ -20,6 +22,7 @@ import { MCQ } from '../../types/content';
 import { playSuccessSound, playErrorSound, initializeAudio } from '../../lib/soundUtils';
 import { loadStats, bumpAttempt } from '../../storage/stats';
 import { prioritizedPool, shuffle } from '../../utils/selection';
+import { getConsecutiveCorrect, incrementConsecutive, resetConsecutive } from '../../storage/mastery';
 
 // Map subarea names to IDs
 const subareaNameToId: { [key: string]: string } = {
