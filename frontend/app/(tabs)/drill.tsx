@@ -309,6 +309,47 @@ export default function DrillScreen() {
             )}
           </View>
         </ScrollView>
+        
+        {/* Confetti Cannon */}
+        <ConfettiCannon
+          ref={confettiRef}
+          count={200}
+          origin={{x: -10, y: 0}}
+          colors={['#00CED1', '#FFD700']} // Bright teal and gold
+          fadeOut
+          autoStart={false}
+        />
+        
+        {/* 10 Consecutive Streak Modal */}
+        <Modal
+          visible={showStreakModal}
+          transparent
+          animationType="fade"
+          onRequestClose={() => setShowStreakModal(false)}
+        >
+          <View style={styles.modalOverlay}>
+            <View style={styles.modalContent}>
+              <MaterialCommunityIcons 
+                name="trophy" 
+                size={64} 
+                color="#FFD700" 
+              />
+              <Text style={styles.modalTitle}>🎉 Amazing Streak!</Text>
+              <Text style={styles.modalText}>
+                10 consecutive answers correct!
+              </Text>
+              <Text style={styles.modalSubtext}>
+                Keep up the excellent work!
+              </Text>
+              <TouchableOpacity
+                style={styles.modalButton}
+                onPress={() => setShowStreakModal(false)}
+              >
+                <Text style={styles.modalButtonText}>Continue</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </Modal>
       </SafeAreaView>
     </StarryBackground>
   );
