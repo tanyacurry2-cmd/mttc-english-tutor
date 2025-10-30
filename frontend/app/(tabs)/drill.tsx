@@ -40,10 +40,23 @@ export default function DrillScreen() {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showRationale, setShowRationale] = useState(false);
   const [questions, setQuestions] = useState<MCQ[]>([]);
+  const [consecutiveCorrect, setConsecutiveCorrect] = useState(0);
+  const [showStreakModal, setShowStreakModal] = useState(false);
+  
+  // Confetti ref
+  const confettiRef = useRef<any>(null);
 
   // Animation values
   const bounceAnim = useRef(new Animated.Value(1)).current;
   const shakeAnim = useRef(new Animated.Value(0)).current;
+
+  // Load consecutive count on mount
+  useEffect(() => {
+    (async () => {
+      const count = await getConsecutiveCorrect();
+      setConsecutiveCorrect(count);
+    })();
+  }, []);
 
   // Initialize audio on mount
   useEffect(() => {
