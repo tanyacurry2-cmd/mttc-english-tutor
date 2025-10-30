@@ -102,7 +102,7 @@ export default function LearnScreen() {
         await bumpSeen(prioritizedCards[0].id);
       }
     })();
-  }, [params.subareaId]);
+  }, [params.subareaId, masteredIds]);
 
   // Shuffle cards
   const handleShuffle = () => {
