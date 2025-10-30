@@ -165,6 +165,10 @@ export default function LearnScreen() {
     const newSRS = calculateNextReview(currentSRS, quality);
     updateCardReview(currentCard.id, newSRS);
 
+    // Track mastery for flashcards (Good = correct, Wrong = incorrect)
+    const wasCorrect = quality === ReviewQuality.GOOD;
+    await updateMasteredFlashcard(currentCard.id, wasCorrect);
+
     // Move to next card
     setIsFlipped(false);
     flipAnim.setValue(0);
