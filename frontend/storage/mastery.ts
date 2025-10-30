@@ -1,6 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const MASTERED_KEY = 'masteredQuestions';
+const MASTERED_FLASHCARDS_KEY = 'masteredFlashcards';
 const CONSECUTIVE_KEY = 'consecutiveCorrect';
 
 // Question is considered mastered if answered correctly in last 2 assessments
@@ -8,6 +9,13 @@ export interface MasteredQuestion {
   id: string;
   correctCount: number;
   lastCorrect: string; // ISO date
+}
+
+// Flashcard is considered mastered if marked correct 3 times
+export interface MasteredFlashcard {
+  id: string;
+  correctCount: number;
+  lastCorrect: string;
 }
 
 export const getMasteredQuestions = async (): Promise<Record<string, MasteredQuestion>> => {
@@ -74,6 +82,74 @@ export const reinstateAllMastered = async () => {
     await AsyncStorage.removeItem(MASTERED_KEY);
   } catch (error) {
     console.error('Error reinstating all:', error);
+  }
+};
+
+// FLASHCARD MASTERY FUNCTIONS
+export const getMasteredFlashcards = async (): Promise<Record<string, MasteredFlashcard>> => {
+  try {
+    const data = await AsyncStorage.getItem(MASTERED_FLASHCARDS_KEY);
+    return data ? JSON.parse(data) : {};
+  } catch (error) {
+    console.error('Error getting mastered flashcards:', error);
+    return {};
+  }
+};
+
+export const updateMasteredFlashcard = async (flashcardId: string, wasCorrect: boolean) => {
+  try {
+    const mastered = await getMasteredFlashcards();
+    
+    if (wasCorrect) {
+      if (mastered[flashcardId]) {
+        mastered[flashcardId].correctCount += 1;
+        mastered[flashcardId].lastCorrect = new Date().toISOString();
+      } else {
+        mastered[flashcardId] = {
+          id: flashcardId,
+          correctCount: 1,
+          lastCorrect: new Date().toISOString()
+        };
+      }
+    } else {
+      // Reset if marked incorrect
+      if (mastered[flashcardId]) {
+        mastered[flashcardId].correctCount = 0;
+      }
+    }
+    
+    await AsyncStorage.setItem(MASTERED_FLASHCARDS_KEY, JSON.stringify(mastered));
+  } catch (error) {
+    console.error('Error updating mastered flashcard:', error);
+  }
+};
+
+export const isFlashcardMastered = (flashcard: MasteredFlashcard | undefined): boolean => {
+  return flashcard ? flashcard.correctCount >= 3 : false;
+};
+
+export const getMasteredFlashcardIds = async (): Promise<string[]> => {
+  const mastered = await getMasteredFlashcards();
+  return Object.keys(mastered).filter(id => isFlashcardMastered(mastered[id]));
+};
+
+export const reinstateMasteredFlashcard = async (flashcardId: string) => {
+  try {
+    const mastered = await getMasteredFlashcards();
+    if (mastered[flashcardId]) {
+      delete mastered[flashcardId];
+      await AsyncStorage.setItem(MASTERED_FLASHCARDS_KEY, JSON.stringify(mastered));
+    }
+  } catch (error) {
+    console.error('Error reinstating flashcard:', error);
+  }
+};
+
+export const reinstateAllMasteredFlashcards = async () => {
+  try {
+    await AsyncStorage.removeItem(MASTERED_FLASHCARDS_KEY);
+  } catch (error) {
+    console.error('Error reinstating all flashcards:', error);
   }
 };
 
