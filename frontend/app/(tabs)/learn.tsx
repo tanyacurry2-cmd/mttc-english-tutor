@@ -20,6 +20,7 @@ import { calculateNextReview, ReviewQuality, isDueForReview, sortCardsByPriority
 import { Button } from '../../components/Button';
 import { loadStats, bumpSeen } from '../../storage/stats';
 import { prioritizedPool } from '../../utils/selection';
+import { getMasteredFlashcardIds, updateMasteredFlashcard } from '../../storage/mastery';
 
 // Map subarea names to IDs
 const subareaNameToId: { [key: string]: string } = {
@@ -38,14 +39,25 @@ export default function LearnScreen() {
   const [cards, setCards] = useState<Card[]>([]);
   const [reviewQueue, setReviewQueue] = useState<string[]>([]);
   const [showResumePrompt, setShowResumePrompt] = useState(false);
+  const [masteredIds, setMasteredIds] = useState<string[]>([]);
   const flipAnim = useState(new Animated.Value(0))[0];
   const hasAccess = checkTrialStatus();
 
-  // Load cards with prioritized selection
+  // Load mastered flashcard IDs
+  useEffect(() => {
+    (async () => {
+      const ids = await getMasteredFlashcardIds();
+      setMasteredIds(ids);
+    })();
+  }, []);
+
+  // Load cards with prioritized selection and filter mastered
   useEffect(() => {
     (async () => {
       const stats = await loadStats();
-      let allCards = flashcardsData as Card[];
+      let allCards = (flashcardsData as Card[]).filter(
+        card => !masteredIds.includes(card.id) // Filter out mastered flashcards
+      );
       
       // Filter by subarea if param is provided
       if (params.subareaId) {
