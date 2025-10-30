@@ -3,9 +3,12 @@ import { router, useLocalSearchParams } from "expo-router";
 import { theme } from "../lib/theme";
 import { Question } from "../utils/selection";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import ConfettiCannon from 'react-native-confetti-cannon';
+import { useRef, useEffect } from "react";
 
 export default function DiagnosticResults() {
   const params = useLocalSearchParams();
+  const confettiRef = useRef<any>(null);
   
   // Parse params with fallback values
   const score01 = params.score01 ? parseFloat(params.score01 as string) : 0;
@@ -15,6 +18,13 @@ export default function DiagnosticResults() {
   const wrongQuestions = params.wrongQuestions ? JSON.parse(params.wrongQuestions as string) as Question[] : [];
   const userAnswers = params.userAnswers ? JSON.parse(params.userAnswers as string) as Record<string, string> : {};
   const scorePct = Math.round(score01 * 100);
+
+  // Trigger confetti for perfect scores
+  useEffect(() => {
+    if (scorePct === 100) {
+      setTimeout(() => confettiRef.current?.start(), 300);
+    }
+  }, [scorePct]);
 
   const getScoreColor = () => {
     if (scorePct >= 80) return theme.colors.success;
