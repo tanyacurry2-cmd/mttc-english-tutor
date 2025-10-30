@@ -1,0 +1,114 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+const MASTERED_KEY = 'masteredQuestions';
+const CONSECUTIVE_KEY = 'consecutiveCorrect';
+
+// Question is considered mastered if answered correctly in last 2 assessments
+export interface MasteredQuestion {
+  id: string;
+  correctCount: number;
+  lastCorrect: string; // ISO date
+}
+
+export const getMasteredQuestions = async (): Promise<Record<string, MasteredQuestion>> => {
+  try {
+    const data = await AsyncStorage.getItem(MASTERED_KEY);
+    return data ? JSON.parse(data) : {};
+  } catch (error) {
+    console.error('Error getting mastered questions:', error);
+    return {};
+  }
+};
+
+export const updateMasteredQuestion = async (questionId: string, wasCorrect: boolean) => {
+  try {
+    const mastered = await getMasteredQuestions();
+    
+    if (wasCorrect) {
+      if (mastered[questionId]) {
+        mastered[questionId].correctCount += 1;
+        mastered[questionId].lastCorrect = new Date().toISOString();
+      } else {
+        mastered[questionId] = {
+          id: questionId,
+          correctCount: 1,
+          lastCorrect: new Date().toISOString()
+        };
+      }
+    } else {
+      // Reset if answered incorrectly
+      if (mastered[questionId]) {
+        mastered[questionId].correctCount = 0;
+      }
+    }
+    
+    await AsyncStorage.setItem(MASTERED_KEY, JSON.stringify(mastered));
+  } catch (error) {
+    console.error('Error updating mastered question:', error);
+  }
+};
+
+export const isMastered = (question: MasteredQuestion | undefined): boolean => {
+  return question ? question.correctCount >= 2 : false;
+};
+
+export const getMasteredQuestionIds = async (): Promise<string[]> => {
+  const mastered = await getMasteredQuestions();
+  return Object.keys(mastered).filter(id => isMastered(mastered[id]));
+};
+
+export const reinstateMasteredQuestion = async (questionId: string) => {
+  try {
+    const mastered = await getMasteredQuestions();
+    if (mastered[questionId]) {
+      delete mastered[questionId];
+      await AsyncStorage.setItem(MASTERED_KEY, JSON.stringify(mastered));
+    }
+  } catch (error) {
+    console.error('Error reinstating question:', error);
+  }
+};
+
+export const reinstateAllMastered = async () => {
+  try {
+    await AsyncStorage.removeItem(MASTERED_KEY);
+  } catch (error) {
+    console.error('Error reinstating all:', error);
+  }
+};
+
+// Consecutive correct tracking (session-based, resets on app restart)
+export const getConsecutiveCorrect = async (): Promise<number> => {
+  try {
+    const data = await AsyncStorage.getItem(CONSECUTIVE_KEY);
+    return data ? parseInt(data, 10) : 0;
+  } catch (error) {
+    console.error('Error getting consecutive:', error);
+    return 0;
+  }
+};
+
+export const incrementConsecutive = async (): Promise<number> => {
+  try {
+    const current = await getConsecutiveCorrect();
+    const newValue = current + 1;
+    await AsyncStorage.setItem(CONSECUTIVE_KEY, newValue.toString());
+    return newValue;
+  } catch (error) {
+    console.error('Error incrementing consecutive:', error);
+    return 0;
+  }
+};
+
+export const resetConsecutive = async () => {
+  try {
+    await AsyncStorage.setItem(CONSECUTIVE_KEY, '0');
+  } catch (error) {
+    console.error('Error resetting consecutive:', error);
+  }
+};
+
+// Call this on app startup to reset consecutive counter
+export const initConsecutiveCounter = async () => {
+  await resetConsecutive();
+};
