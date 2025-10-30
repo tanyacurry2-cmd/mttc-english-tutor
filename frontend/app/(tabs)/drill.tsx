@@ -186,11 +186,22 @@ export default function DrillScreen() {
     
     setShowRationale(true);
     
-    // Play sound and animation
+    // Handle consecutive tracking
     if (isCorrect) {
+      const newCount = await incrementConsecutive();
+      setConsecutiveCorrect(newCount);
+      
+      // Show confetti celebration at 10 consecutive
+      if (newCount === 10) {
+        setShowStreakModal(true);
+        confettiRef.current?.start();
+      }
+      
       playSuccessSound();
       playBounceAnimation();
     } else {
+      await resetConsecutive();
+      setConsecutiveCorrect(0);
       playErrorSound();
       playShakeAnimation();
     }
