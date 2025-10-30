@@ -14,16 +14,31 @@ import { TrialBanner } from '../../components/TrialBanner';
 import { theme } from '../../lib/theme';
 import { Subarea } from '../../types/content';
 import { loadSessions, loadReadinessEma, SessionSummary } from '../../storage/sessions';
-import { getMasteredQuestions, reinstateMasteredQuestion, reinstateAllMastered, MasteredQuestion, isMastered } from '../../storage/mastery';
+import { 
+  getMasteredQuestions, 
+  reinstateMasteredQuestion, 
+  reinstateAllMastered, 
+  MasteredQuestion, 
+  isMastered,
+  getMasteredFlashcards,
+  reinstateMasteredFlashcard,
+  reinstateAllMasteredFlashcards,
+  MasteredFlashcard,
+  isFlashcardMastered
+} from '../../storage/mastery';
 import questionsData from '../../data/questions.json';
+import flashcardsData from '../../data/flashcards.json';
 import { Question } from '../../utils/selection';
+import { Card } from '../../types/content';
 
 export default function ProgressScreen() {
   const { readinessBySubarea, mcqHistory, cardReviews, streakDays } = useAppStore();
   const [diagnosticReadiness, setDiagnosticReadiness] = useState<number>(0);
   const [diagnosticHistory, setDiagnosticHistory] = useState<SessionSummary[]>([]);
   const [masteredQuestions, setMasteredQuestions] = useState<Record<string, MasteredQuestion>>({});
+  const [masteredFlashcards, setMasteredFlashcards] = useState<Record<string, MasteredFlashcard>>({});
   const [showMastered, setShowMastered] = useState(false);
+  const [showMasteredFlashcards, setShowMasteredFlashcards] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -33,16 +48,25 @@ export default function ProgressScreen() {
       setDiagnosticHistory(sessions);
       const mastered = await getMasteredQuestions();
       setMasteredQuestions(mastered);
+      const masteredCards = await getMasteredFlashcards();
+      setMasteredFlashcards(masteredCards);
     })();
   }, []);
   
   const refreshMastered = async () => {
     const mastered = await getMasteredQuestions();
     setMasteredQuestions(mastered);
+    const masteredCards = await getMasteredFlashcards();
+    setMasteredFlashcards(masteredCards);
   };
   
   const handleReinstate = async (questionId: string) => {
     await reinstateMasteredQuestion(questionId);
+    await refreshMastered();
+  };
+  
+  const handleReinstateFlashcard = async (flashcardId: string) => {
+    await reinstateMasteredFlashcard(flashcardId);
     await refreshMastered();
   };
   
@@ -63,8 +87,28 @@ export default function ProgressScreen() {
     );
   };
   
+  const handleReinstateAllFlashcards = () => {
+    Alert.alert(
+      'Reinstate All Flashcards',
+      'Are you sure you want to reinstate all mastered flashcards? They will appear in Learn mode.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        { 
+          text: 'Reinstate All', 
+          onPress: async () => {
+            await reinstateAllMasteredFlashcards();
+            await refreshMastered();
+          }
+        }
+      ]
+    );
+  };
+  
   const masteredList = Object.values(masteredQuestions).filter(q => isMastered(q));
   const masteredCount = masteredList.length;
+  
+  const masteredFlashcardsList = Object.values(masteredFlashcards).filter(f => isFlashcardMastered(f));
+  const masteredFlashcardsCount = masteredFlashcardsList.length;
 
   const calculateOverallReadiness = () => {
     const values = Object.values(readinessBySubarea);
