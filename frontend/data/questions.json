@@ -4942,6 +4942,101 @@
     "options": []
   },
   {
+    "id": "F700",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What's wrong with: 'While driving to school, the fog made it difficult to see'?",
+    "answer": "Misplaced modifier - the fog wasn't driving",
+    "explanation": "The modifier 'While driving to school' should modify the student/driver, not the fog.",
+    "difficulty": 2,
+    "tags": [
+      "misplaced modifier",
+      "grammar",
+      "clarity",
+      "syntax"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F701",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "Which correctly places modifiers: 'Covered in sauce, the waiter served the pasta' or 'The waiter covered the pasta in sauce before serving it'?",
+    "answer": "Second version - clearly shows pasta was covered in sauce",
+    "explanation": "First version wrongly suggests the waiter (not pasta) was covered in sauce. Clear placement avoids confusion.",
+    "difficulty": 2,
+    "tags": [
+      "misplaced modifier",
+      "grammar",
+      "clarity",
+      "syntax"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F702",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What is a dangling modifier?",
+    "answer": "Modifier with missing or illogical subject",
+    "explanation": "Example: 'Walking to the store, the rain began' - 'walking' illogically modifies 'rain'. The walker is missing.",
+    "difficulty": 2,
+    "tags": [
+      "dangling modifier",
+      "grammar",
+      "syntax",
+      "clarity"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F703",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "How to fix: 'She nearly watched the movie for three hours'?",
+    "answer": "'She watched the movie for nearly three hours'",
+    "explanation": "'Nearly' should modify the time (three hours), not the act of watching. Proper placement clarifies meaning.",
+    "difficulty": 2,
+    "tags": [
+      "misplaced modifier",
+      "adverb placement",
+      "grammar",
+      "clarity"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F704",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What's the clearest way to modify 'test': 'a test to students that was difficult' or 'a difficult test to students'?",
+    "answer": "'A difficult test to students' - modifier before noun",
+    "explanation": "Placing 'difficult' right before 'test' avoids ambiguity. First version could mean students were difficult.",
+    "difficulty": 1,
+    "tags": [
+      "modifier placement",
+      "grammar",
+      "clarity",
+      "syntax"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
     "id": "Q101",
     "subarea": "Genre & Craft",
     "subareaId": "SA-3",
@@ -11238,6 +11333,131 @@
       "Celtic languages contributed place names and some cultural terms but not these German borrowings."
     ],
     "difficulty": 1,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q678",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "Which of the following sentences contains a misplaced modifier?",
+    "stem": "Which of the following sentences contains a misplaced modifier?",
+    "options": [
+      "While driving to school, the fog made it difficult to see the road.",
+      "To improve her grades, Maria studied every night after dinner.",
+      "Running late, the students rushed to their next class.",
+      "The boy wearing a blue hat waved from across the street."
+    ],
+    "answer": "While driving to school, the fog made it difficult to see the road.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The fog wasn't driving to school; the modifier 'While driving to school' should modify the student, not the fog.",
+      "This correctly places the modifier—Maria is the one improving grades and studying.",
+      "This correctly places the modifier—the students are running late and rushing.",
+      "This correctly places the modifier—the boy is wearing the hat."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q679",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "Select the sentence that correctly places the modifier.",
+    "stem": "Select the sentence that correctly places the modifier.",
+    "options": [
+      "Covered in sauce, the waiter served the pasta to the customer.",
+      "The waiter served the pasta covered in sauce to the customer.",
+      "The waiter covered the pasta in sauce before serving it to the customer.",
+      "Covered in sauce, the customer received the pasta from the waiter."
+    ],
+    "answer": "The waiter covered the pasta in sauce before serving it to the customer.",
+    "correctIndex": 2,
+    "rationales": [
+      "This misplaces the modifier—it suggests the waiter was covered in sauce.",
+      "This is ambiguous—it could mean the waiter or pasta is covered in sauce.",
+      "Correct! This version clearly shows that the pasta—not the waiter or the customer—was covered in sauce.",
+      "This misplaces the modifier—it suggests the customer was covered in sauce."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q680",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "Which sentence contains a dangling modifier?",
+    "stem": "Which sentence contains a dangling modifier?",
+    "options": [
+      "Hoping to earn a promotion, the employee worked late every night.",
+      "Walking to the store, the rain began to fall.",
+      "The teacher handed back the essays written by her students.",
+      "To prepare for the exam, Malik reviewed his notes carefully."
+    ],
+    "answer": "Walking to the store, the rain began to fall.",
+    "correctIndex": 1,
+    "rationales": [
+      "This correctly places the modifier—the employee is hoping and working.",
+      "Correct! 'Walking to the store' illogically modifies 'the rain.' The implied subject (the walker) is missing.",
+      "This sentence has no dangling modifier—the modifier 'written by her students' correctly describes the essays.",
+      "This correctly places the modifier—Malik is preparing and reviewing."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q681",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "Choose the revision that eliminates the misplaced modifier. Original: She nearly watched the movie for three hours.",
+    "stem": "Choose the revision that eliminates the misplaced modifier. Original: She nearly watched the movie for three hours.",
+    "options": [
+      "She watched the movie for nearly three hours.",
+      "Nearly for three hours, she watched the movie.",
+      "The movie she watched nearly for three hours.",
+      "She watched nearly the movie for three hours."
+    ],
+    "answer": "She watched the movie for nearly three hours.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Nearly' should modify the time spent, not the act of watching. This placement makes the meaning clear.",
+      "This awkward placement still creates ambiguity about what 'nearly' modifies.",
+      "This version is grammatically awkward and still misplaces 'nearly.'",
+      "This incorrectly places 'nearly' before 'the movie,' suggesting she almost watched the movie itself."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q682",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "Which of the following best illustrates a correct use of modifiers?",
+    "stem": "Which of the following best illustrates a correct use of modifiers?",
+    "options": [
+      "The teacher gave a test to the students that was difficult.",
+      "The teacher gave the students a difficult test.",
+      "The teacher gave a difficult test to the students who complained.",
+      "A test that was difficult the teacher gave to the students."
+    ],
+    "answer": "The teacher gave the students a difficult test.",
+    "correctIndex": 1,
+    "rationales": [
+      "This misplaces 'that was difficult'—it could modify 'students' instead of 'test.'",
+      "Correct! The modifier 'difficult' is placed right before the noun it describes, avoiding ambiguity.",
+      "While grammatical, this changes meaning by adding 'who complained' rather than focusing on modifier placement.",
+      "This awkward word order violates standard English syntax."
+    ],
+    "difficulty": 2,
     "mode": "Drill",
     "type": "mcq"
   }
