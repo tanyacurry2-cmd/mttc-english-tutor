@@ -2704,4 +2704,54 @@
     "explanation": "Germany contributed educational, philosophical, and cultural terms in the 19th century.",
     "difficulty": 1,
     "tags": ["loanwords", "German", "borrowing", "education"]
+  },
+  {
+    "id": "F700",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What's wrong with: 'While driving to school, the fog made it difficult to see'?",
+    "answer": "Misplaced modifier - the fog wasn't driving",
+    "explanation": "The modifier 'While driving to school' should modify the student/driver, not the fog.",
+    "difficulty": 2,
+    "tags": ["misplaced modifier", "grammar", "clarity", "syntax"]
+  },
+  {
+    "id": "F701",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "Which correctly places modifiers: 'Covered in sauce, the waiter served the pasta' or 'The waiter covered the pasta in sauce before serving it'?",
+    "answer": "Second version - clearly shows pasta was covered in sauce",
+    "explanation": "First version wrongly suggests the waiter (not pasta) was covered in sauce. Clear placement avoids confusion.",
+    "difficulty": 2,
+    "tags": ["misplaced modifier", "grammar", "clarity", "syntax"]
+  },
+  {
+    "id": "F702",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What is a dangling modifier?",
+    "answer": "Modifier with missing or illogical subject",
+    "explanation": "Example: 'Walking to the store, the rain began' - 'walking' illogically modifies 'rain'. The walker is missing.",
+    "difficulty": 2,
+    "tags": ["dangling modifier", "grammar", "syntax", "clarity"]
+  },
+  {
+    "id": "F703",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "How to fix: 'She nearly watched the movie for three hours'?",
+    "answer": "'She watched the movie for nearly three hours'",
+    "explanation": "'Nearly' should modify the time (three hours), not the act of watching. Proper placement clarifies meaning.",
+    "difficulty": 2,
+    "tags": ["misplaced modifier", "adverb placement", "grammar", "clarity"]
+  },
+  {
+    "id": "F704",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What's the clearest way to modify 'test': 'a test to students that was difficult' or 'a difficult test to students'?",
+    "answer": "'A difficult test to students' - modifier before noun",
+    "explanation": "Placing 'difficult' right before 'test' avoids ambiguity. First version could mean students were difficult.",
+    "difficulty": 1,
+    "tags": ["modifier placement", "grammar", "clarity", "syntax"]
   }]
