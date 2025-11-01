@@ -5132,6 +5132,25 @@
     "options": []
   },
   {
+    "id": "F710",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Historical context and literary analysis",
+    "question": "Students confused why 19th-century protagonist won't leave despite inheritance. Best activity?",
+    "answer": "Analyze Married Women's Property Acts to understand legal restrictions on single women",
+    "explanation": "Primary source analysis directly addresses historical/legal constraints (no loans, property, credit without male relative). Builds historical empathy for character's predicament.",
+    "difficulty": 2,
+    "tags": [
+      "historical context",
+      "primary sources",
+      "literature analysis",
+      "social constraints"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
     "id": "Q101",
     "subarea": "Genre & Craft",
     "subareaId": "SA-3",
@@ -11676,6 +11695,31 @@
       "Personal reflection addresses emotional response rather than content mastery and retention.",
       "Correct! This demonstrates higher-order thinking (analysis and synthesis) by requiring students to integrate new content with prior knowledge, which is a strong indicator of deep content learning and retention.",
       "Copying quotes without analysis shows only the ability to locate information, not comprehension or retention."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q688",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Historical context and literary analysis",
+    "question": "Students in an English class are reading a late nineteenth-century novel in which the unmarried female protagonist chooses not to leave her dependent living situation, despite inheriting money. The students are confused by her decision, arguing that she has the financial means to be independent. Which instructional activity would be most effective for helping students understand the protagonist's reluctance to strike out on her own?",
+    "stem": "Students in an English class are reading a late nineteenth-century novel in which the unmarried female protagonist chooses not to leave her dependent living situation, despite inheriting money. The students are confused by her decision, arguing that she has the financial means to be independent. Which instructional activity would be most effective for helping students understand the protagonist's reluctance to strike out on her own?",
+    "options": [
+      "Assign a research paper comparing the protagonist's inheritance to modern salary equivalents.",
+      "Discuss contemporary popular songs about seeking freedom and independence.",
+      "Lead a class debate on whether money truly brings happiness and independence.",
+      "Have students analyze excerpts from the historical 'Married Women's Property Acts' to understand the legal and credit restrictions placed on single women seeking to secure housing."
+    ],
+    "answer": "Have students analyze excerpts from the historical 'Married Women's Property Acts' to understand the legal and credit restrictions placed on single women seeking to secure housing.",
+    "correctIndex": 3,
+    "rationales": [
+      "While understanding the value of money is relevant, it doesn't address the legal and social barriers that prevented independence.",
+      "Contemporary songs about freedom are anachronistic and don't provide historical context for 19th-century constraints.",
+      "A philosophical debate about money and happiness misses the specific historical restrictions the character faced.",
+      "Correct! This activity directly addresses the historical and legal constraints (inability to secure a loan, purchase property, or establish credit without a male relative) that are absent in the students' modern understanding. This primary source analysis is the most effective way to build historical empathy for the character's predicament."
     ],
     "difficulty": 2,
     "mode": "Drill",
