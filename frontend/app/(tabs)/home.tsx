@@ -251,32 +251,44 @@ const styles = StyleSheet.create({
     width: 1,
     backgroundColor: theme.colors.border,
   },
-  recommendationCard: {
-    backgroundColor: theme.colors.surface,
-    margin: theme.spacing.lg,
-    borderRadius: theme.borderRadius.lg,
-    padding: theme.spacing.lg,
+  quickAccessContainer: {
+    flexDirection: 'row',
+    marginHorizontal: theme.spacing.lg,
+    marginBottom: theme.spacing.lg,
+    gap: theme.spacing.md,
+  },
+  quickAccessButton: {
+    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
+    padding: theme.spacing.lg,
+    borderRadius: theme.borderRadius.lg,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
+    shadowOpacity: 0.2,
     shadowRadius: 4,
-    elevation: 3,
+    elevation: 4,
   },
-  recommendationContent: {
+  learnButton: {
+    backgroundColor: '#DC3545', // Red color
+  },
+  drillButton: {
+    backgroundColor: theme.colors.accent, // Accent color
+  },
+  quickAccessTextContainer: {
     marginLeft: theme.spacing.md,
     flex: 1,
   },
-  recommendationTitle: {
-    fontSize: theme.fontSize.md,
-    fontWeight: theme.fontWeight.semibold,
-    color: theme.colors.text,
+  quickAccessTitle: {
+    fontSize: theme.fontSize.lg,
+    fontWeight: theme.fontWeight.bold,
+    color: '#FFFFFF',
+    marginBottom: theme.spacing.xs,
   },
-  recommendationText: {
+  quickAccessCount: {
     fontSize: theme.fontSize.sm,
-    color: theme.colors.textSecondary,
-    marginTop: theme.spacing.xs,
+    color: '#FFFFFF',
+    opacity: 0.9,
   },
   sectionTitle: {
     fontSize: theme.fontSize.lg,
