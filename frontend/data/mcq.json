@@ -4867,5 +4867,25 @@
       "This awkward word order violates standard English syntax."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q683",
+    "subarea": "Skills & Processes",
+    "objective": "Visual literacy and symbolic interpretation",
+    "stem": "A photograph shows a large, ornamental mirror hanging on a wall. The mirror's reflection is slightly distorted and shattered by a single, prominent crack that runs through the glass. In the foreground, a single, antique gavel (a judge's hammer) rests on a nearby desk. The visual image is most likely intended to suggest a cause-and-effect relationship between which of the following aspects of contemporary life?",
+    "options": [
+      "The cost of antique restoration and modern interior design.",
+      "The increasing pressure on legal professionals and the pursuit of political office.",
+      "A flawed justice system and the consequent breakdown of public trust.",
+      "The economic disparity between the wealthy and the working class."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "While both are antiques, this interpretation misses the symbolic meaning of the specific objects chosen.",
+      "This interprets individual stress rather than the broader symbolic message about institutional integrity.",
+      "Correct! The gavel symbolizes the law and justice system (the cause). The cracked mirror symbolizes reflection and integrity that is shattered or fractured (the effect: loss of public faith/trust).",
+      "While gavels can represent authority, the cracked mirror specifically suggests broken reflection/trust, not economic class division."
+    ],
+    "difficulty": 2
   }
 ]
