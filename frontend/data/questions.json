@@ -5075,6 +5075,25 @@
     "options": []
   },
   {
+    "id": "F707",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Content-area literacy and instructional strategies",
+    "question": "What's the best purpose for a reading journal in a science ecology unit?",
+    "answer": "Connect new vocabulary to familiar terms and summarize key concepts",
+    "explanation": "Directly addresses content learning (vocabulary, concepts, summarization) and active processing of informational text. Most effective for instructional goals.",
+    "difficulty": 2,
+    "tags": [
+      "reading journal",
+      "content literacy",
+      "vocabulary",
+      "comprehension"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
     "id": "Q101",
     "subarea": "Genre & Craft",
     "subareaId": "SA-3",
@@ -11544,6 +11563,31 @@
       "Correct! The melting watch/clock and the specific year suggest time is running out or change is accelerating (cause: time/inaction). The submerged city is the direct result (effect: flooding/climate catastrophe).",
       "While the watch is antique, the submersion and melting suggest environmental urgency, not technological obsolescence.",
       "This misreads the image—the submerged city indicates instability and crisis, not stable infrastructure."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q685",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Content-area literacy and instructional strategies",
+    "question": "A middle school science teacher assigns students to keep a reading journal while studying a unit on ecology. The most effective instructional purpose of this reading journal is to encourage students to:",
+    "stem": "A middle school science teacher assigns students to keep a reading journal while studying a unit on ecology. The most effective instructional purpose of this reading journal is to encourage students to:",
+    "options": [
+      "Record predictions about what will happen next in the reading.",
+      "Focus on the emotional reactions and opinions the text generates.",
+      "Connect new science vocabulary to familiar terms and summarize key concepts.",
+      "Identify and critique the author's overall writing style and tone."
+    ],
+    "answer": "Connect new science vocabulary to familiar terms and summarize key concepts.",
+    "correctIndex": 2,
+    "rationales": [
+      "While predictions can support engagement, they don't directly address content mastery in informational science texts.",
+      "Emotional reactions are more appropriate for narrative texts; science texts require focus on concepts and vocabulary.",
+      "Correct! This directly addresses content learning (vocabulary, concepts, summarization) and active processing of informational text, making it the most effective use for this instructional goal.",
+      "Style and tone analysis are secondary to understanding ecological concepts and terminology in a science unit."
     ],
     "difficulty": 2,
     "mode": "Drill",
