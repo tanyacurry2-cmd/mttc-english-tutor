@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -18,6 +18,7 @@ import { auth } from '../../lib/firebase';
 import flashcardsData from '../../data/flashcards.json';
 import mcqData from '../../data/mcq.json';
 import { Subarea } from '../../types/content';
+import { getMasteredFlashcardIds, getMasteredQuestionIds } from '../../storage/mastery';
 
 type FeatureTile = {
   id: string;
