@@ -2774,4 +2774,14 @@
     "explanation": "Melting watch = time running out/accelerating change (cause: time/inaction). Submerged city = flooding/climate catastrophe (effect). Urgency of environmental action.",
     "difficulty": 2,
     "tags": ["visual literacy", "symbolism", "climate change", "interpretation"]
+  },
+  {
+    "id": "F707",
+    "subarea": "Skills & Processes",
+    "objective": "Content-area literacy and instructional strategies",
+    "question": "What's the best purpose for a reading journal in a science ecology unit?",
+    "answer": "Connect new vocabulary to familiar terms and summarize key concepts",
+    "explanation": "Directly addresses content learning (vocabulary, concepts, summarization) and active processing of informational text. Most effective for instructional goals.",
+    "difficulty": 2,
+    "tags": ["reading journal", "content literacy", "vocabulary", "comprehension"]
   }]
