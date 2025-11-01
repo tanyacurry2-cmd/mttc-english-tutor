@@ -52,6 +52,54 @@ async def get_status_checks():
     status_checks = await db.status_checks.find().to_list(1000)
     return [StatusCheck(**status_check) for status_check in status_checks]
 
+# Question API Endpoints
+@api_router.get("/questions")
+async def get_all_questions(
+    type: str = None,
+    subareaId: str = None,
+    mode: str = None
+):
+    """Get all questions with optional filters"""
+    query = {}
+    if type:
+        query["type"] = type
+    if subareaId:
+        query["subareaId"] = subareaId
+    if mode:
+        query["mode"] = mode
+    
+    questions = await db.questions.find(query, {"_id": 0}).to_list(10000)
+    return questions
+
+@api_router.get("/questions/{question_id}")
+async def get_question(question_id: str):
+    """Get a single question by ID"""
+    question = await db.questions.find_one({"id": question_id}, {"_id": 0})
+    if not question:
+        return {"error": "Question not found"}
+    return question
+
+@api_router.get("/questions/stats")
+async def get_question_stats():
+    """Get statistics about the question library"""
+    total = await db.questions.count_documents({})
+    flashcards = await db.questions.count_documents({"type": "flashcard"})
+    mcqs = await db.questions.count_documents({"type": "mcq"})
+    
+    subarea_stats = {}
+    for sa in ["SA-1", "SA-2", "SA-3", "SA-4"]:
+        subarea_stats[sa] = {
+            "mcqs": await db.questions.count_documents({"subareaId": sa, "type": "mcq"}),
+            "flashcards": await db.questions.count_documents({"subareaId": sa, "type": "flashcard"})
+        }
+    
+    return {
+        "total": total,
+        "flashcards": flashcards,
+        "mcqs": mcqs,
+        "by_subarea": subarea_stats
+    }
+
 # Include the router in the main app
 app.include_router(api_router)
 
