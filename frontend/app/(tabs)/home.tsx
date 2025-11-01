@@ -70,6 +70,23 @@ export default function HomeScreen() {
   const { user, readinessBySubarea, cardReviews, mcqHistory, checkTrialStatus } = useAppStore();
   const logout = useAppStore((state) => state.logout);
   const hasAccess = checkTrialStatus();
+  
+  const [unmasteredFlashcards, setUnmasteredFlashcards] = useState(0);
+  const [unmasteredQuestions, setUnmasteredQuestions] = useState(0);
+  
+  // Load unmastered counts
+  useEffect(() => {
+    (async () => {
+      const masteredFlashcardIds = await getMasteredFlashcardIds();
+      const masteredQuestionIds = await getMasteredQuestionIds();
+      
+      const totalFlashcards = flashcardsData.length;
+      const totalQuestions = mcqData.length;
+      
+      setUnmasteredFlashcards(totalFlashcards - masteredFlashcardIds.length);
+      setUnmasteredQuestions(totalQuestions - masteredQuestionIds.length);
+    })();
+  }, []);
 
   const handleLogout = async () => {
     await signOut(auth);
