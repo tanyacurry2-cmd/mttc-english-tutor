@@ -415,12 +415,12 @@ const styles = StyleSheet.create({
   cardFront: {
     position: 'absolute',
     width: '100%',
-    height: '100%',
+    minHeight: '100%',
   },
   cardBack: {
     position: 'absolute',
     width: '100%',
-    height: '100%',
+    minHeight: '100%',
   },
   hiddenCard: {
     opacity: 0,
