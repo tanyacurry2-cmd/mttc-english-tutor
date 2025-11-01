@@ -156,14 +156,31 @@ export default function HomeScreen() {
           </View>
         </View>
 
-        <View style={styles.recommendationCard}>
-          <MaterialCommunityIcons name="lightbulb" size={24} color={theme.colors.accent} />
-          <View style={styles.recommendationContent}>
-            <Text style={styles.recommendationTitle}>Next Best Step</Text>
-            <Text style={styles.recommendationText}>
-              {nextStep.type} {nextStep.subarea} ({nextStep.count} items)
-            </Text>
-          </View>
+        {/* Quick Access Buttons */}
+        <View style={styles.quickAccessContainer}>
+          <TouchableOpacity 
+            style={[styles.quickAccessButton, styles.learnButton]}
+            onPress={() => router.push('/(tabs)/learn')}
+            activeOpacity={0.8}
+          >
+            <MaterialCommunityIcons name="cards" size={28} color="#FFFFFF" />
+            <View style={styles.quickAccessTextContainer}>
+              <Text style={styles.quickAccessTitle}>Learn</Text>
+              <Text style={styles.quickAccessCount}>{unmasteredFlashcards} Flashcards</Text>
+            </View>
+          </TouchableOpacity>
+          
+          <TouchableOpacity 
+            style={[styles.quickAccessButton, styles.drillButton]}
+            onPress={() => router.push('/(tabs)/drill')}
+            activeOpacity={0.8}
+          >
+            <MaterialCommunityIcons name="clipboard-check" size={28} color="#FFFFFF" />
+            <View style={styles.quickAccessTextContainer}>
+              <Text style={styles.quickAccessTitle}>Drill</Text>
+              <Text style={styles.quickAccessCount}>{unmasteredQuestions} Questions</Text>
+            </View>
+          </TouchableOpacity>
         </View>
 
         <Text style={styles.sectionTitle}>Study Modes</Text>
