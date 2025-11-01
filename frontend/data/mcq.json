@@ -4887,5 +4887,25 @@
       "While gavels can represent authority, the cracked mirror specifically suggests broken reflection/trust, not economic class division."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q684",
+    "subarea": "Skills & Processes",
+    "objective": "Visual literacy and symbolic interpretation",
+    "stem": "An illustration depicts a recognizable city skyline, half-submerged in water. In the foreground, an oversized, antique pocket watch has melted and warped over a tree branch, with its hands pointing toward a specific, recent year. The visual image is most likely intended to suggest a cause-and-effect relationship between which of the following aspects of contemporary life?",
+    "options": [
+      "Historical shifts in fashion and industrial manufacturing practices.",
+      "The rapid passage of time and the effects of climate change.",
+      "The decline of physical timekeeping devices and the rise of digital technology.",
+      "The growth of maritime trade and the stability of coastal infrastructure."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "The melted watch and submerged city are not related to fashion or manufacturing trends.",
+      "Correct! The melting watch/clock and the specific year suggest time is running out or change is accelerating (cause: time/inaction). The submerged city is the direct result (effect: flooding/climate catastrophe).",
+      "While the watch is antique, the submersion and melting suggest environmental urgency, not technological obsolescence.",
+      "This misreads the image—the submerged city indicates instability and crisis, not stable infrastructure."
+    ],
+    "difficulty": 2
   }
 ]
