@@ -53,32 +53,6 @@ async def get_status_checks():
     return [StatusCheck(**status_check) for status_check in status_checks]
 
 # Question API Endpoints
-@api_router.get("/questions")
-async def get_all_questions(
-    type: str = None,
-    subareaId: str = None,
-    mode: str = None
-):
-    """Get all questions with optional filters"""
-    query = {}
-    if type:
-        query["type"] = type
-    if subareaId:
-        query["subareaId"] = subareaId
-    if mode:
-        query["mode"] = mode
-    
-    questions = await db.questions.find(query, {"_id": 0}).to_list(10000)
-    return questions
-
-@api_router.get("/questions/{question_id}")
-async def get_question(question_id: str):
-    """Get a single question by ID"""
-    question = await db.questions.find_one({"id": question_id}, {"_id": 0})
-    if not question:
-        return {"error": "Question not found"}
-    return question
-
 @api_router.get("/questions/stats")
 async def get_question_stats():
     """Get statistics about the question library"""
@@ -99,6 +73,32 @@ async def get_question_stats():
         "mcqs": mcqs,
         "by_subarea": subarea_stats
     }
+
+@api_router.get("/questions/{question_id}")
+async def get_question(question_id: str):
+    """Get a single question by ID"""
+    question = await db.questions.find_one({"id": question_id}, {"_id": 0})
+    if not question:
+        return {"error": "Question not found"}
+    return question
+
+@api_router.get("/questions")
+async def get_all_questions(
+    type: str = None,
+    subareaId: str = None,
+    mode: str = None
+):
+    """Get all questions with optional filters"""
+    query = {}
+    if type:
+        query["type"] = type
+    if subareaId:
+        query["subareaId"] = subareaId
+    if mode:
+        query["mode"] = mode
+    
+    questions = await db.questions.find(query, {"_id": 0}).to_list(10000)
+    return questions
 
 # Include the router in the main app
 app.include_router(api_router)
