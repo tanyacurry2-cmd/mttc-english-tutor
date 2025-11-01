@@ -2764,4 +2764,14 @@
     "explanation": "Gavel = law/justice (cause). Cracked mirror = shattered integrity/reflection (effect: lost public faith). Visual symbolism conveys social commentary.",
     "difficulty": 2,
     "tags": ["visual literacy", "symbolism", "media analysis", "interpretation"]
+  },
+  {
+    "id": "F706",
+    "subarea": "Skills & Processes",
+    "objective": "Visual literacy and symbolic interpretation",
+    "question": "An illustration shows a melted pocket watch over a tree branch with a submerged city. What does this symbolize?",
+    "answer": "Rapid time passage and climate change effects",
+    "explanation": "Melting watch = time running out/accelerating change (cause: time/inaction). Submerged city = flooding/climate catastrophe (effect). Urgency of environmental action.",
+    "difficulty": 2,
+    "tags": ["visual literacy", "symbolism", "climate change", "interpretation"]
   }]
