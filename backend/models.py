@@ -11,7 +11,7 @@ class MCQQuestion(BaseModel):
     stem: str
     options: List[str]
     correctIndex: int
-    answer: str  # The correct answer text
+    answer: str
     rationales: List[str]
     difficulty: int
     mode: str = "Drill"
@@ -35,25 +35,3 @@ class Flashcard(BaseModel):
     options: List[str] = []
     created_at: Optional[datetime] = Field(default_factory=datetime.utcnow)
     updated_at: Optional[datetime] = Field(default_factory=datetime.utcnow)
-
-# Unified Question Model (for frontend consumption)
-class Question(BaseModel):
-    id: str
-    subarea: str
-    subareaId: str
-    objective: str
-    mode: str
-    type: str
-    difficulty: int
-    # MCQ fields
-    stem: Optional[str] = None
-    question: Optional[str] = None
-    options: Optional[List[str]] = None
-    correctIndex: Optional[int] = None
-    answer: Optional[str] = None
-    rationales: Optional[List[str]] = None
-    # Flashcard fields
-    explanation: Optional[str] = None
-    tags: Optional[List[str]] = None
-    created_at: Optional[datetime] = None
-    updated_at: Optional[datetime] = None
