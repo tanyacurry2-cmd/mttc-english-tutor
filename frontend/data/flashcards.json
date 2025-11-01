@@ -2754,4 +2754,14 @@
     "explanation": "Placing 'difficult' right before 'test' avoids ambiguity. First version could mean students were difficult.",
     "difficulty": 1,
     "tags": ["modifier placement", "grammar", "clarity", "syntax"]
+  },
+  {
+    "id": "F705",
+    "subarea": "Skills & Processes",
+    "objective": "Visual literacy and symbolic interpretation",
+    "question": "A photo shows a cracked mirror with a gavel. What cause-and-effect does this symbolize?",
+    "answer": "Flawed justice system causing breakdown of public trust",
+    "explanation": "Gavel = law/justice (cause). Cracked mirror = shattered integrity/reflection (effect: lost public faith). Visual symbolism conveys social commentary.",
+    "difficulty": 2,
+    "tags": ["visual literacy", "symbolism", "media analysis", "interpretation"]
   }]
