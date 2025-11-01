@@ -4907,5 +4907,25 @@
       "This misreads the image—the submerged city indicates instability and crisis, not stable infrastructure."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q685",
+    "subarea": "Skills & Processes",
+    "objective": "Content-area literacy and instructional strategies",
+    "stem": "A middle school science teacher assigns students to keep a reading journal while studying a unit on ecology. The most effective instructional purpose of this reading journal is to encourage students to:",
+    "options": [
+      "Record predictions about what will happen next in the reading.",
+      "Focus on the emotional reactions and opinions the text generates.",
+      "Connect new science vocabulary to familiar terms and summarize key concepts.",
+      "Identify and critique the author's overall writing style and tone."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "While predictions can support engagement, they don't directly address content mastery in informational science texts.",
+      "Emotional reactions are more appropriate for narrative texts; science texts require focus on concepts and vocabulary.",
+      "Correct! This directly addresses content learning (vocabulary, concepts, summarization) and active processing of informational text, making it the most effective use for this instructional goal.",
+      "Style and tone analysis are secondary to understanding ecological concepts and terminology in a science unit."
+    ],
+    "difficulty": 2
   }
 ]
