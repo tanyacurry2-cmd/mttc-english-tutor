@@ -20,8 +20,8 @@ async def migrate_questions():
     with open(questions_path, 'r') as f:
         questions = json.load(f)
     
-    # Clear existing questions
-    await db.questions.delete_many({})
+    # Clear existing questions and drop indexes
+    await db.questions.drop()
     
     print(f"Migrating {len(questions)} questions to MongoDB...")
     
@@ -31,12 +31,14 @@ async def migrate_questions():
         print(f"✅ Successfully migrated {len(result.inserted_ids)} questions!")
     
     # Create indexes for better performance
-    await db.questions.create_index("id", unique=True)
-    await db.questions.create_index("subareaId")
-    await db.questions.create_index("type")
-    await db.questions.create_index("mode")
-    
-    print("✅ Created indexes")
+    try:
+        await db.questions.create_index("id", unique=True)
+        await db.questions.create_index("subareaId")
+        await db.questions.create_index("type")
+        await db.questions.create_index("mode")
+        print("✅ Created indexes")
+    except Exception as e:
+        print(f"Index creation: {e}")
     
     # Show statistics
     flashcard_count = await db.questions.count_documents({"type": "flashcard"})
