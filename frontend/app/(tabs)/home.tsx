@@ -94,24 +94,6 @@ export default function HomeScreen() {
     router.replace('/signup');
   };
 
-  const calculateNextBestStep = (): { subarea: Subarea; type: string; count: number } => {
-    // Find the weakest subarea
-    const subareas = Object.entries(readinessBySubarea) as [Subarea, number][];
-    const weakest = subareas.reduce((min, curr) => 
-      curr[1] < min[1] ? curr : min
-    );
-
-    // Count available items in that subarea
-    const mcqCount = mcqData.filter(q => q.subarea === weakest[0]).length;
-    
-    return {
-      subarea: weakest[0],
-      type: 'Drill',
-      count: mcqCount,
-    };
-  };
-
-  const nextStep = calculateNextBestStep();
   const overallReadiness = Math.round(
     Object.values(readinessBySubarea).reduce((sum, val) => sum + val, 0) / 4
   );
