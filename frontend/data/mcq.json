@@ -4927,5 +4927,45 @@
       "Style and tone analysis are secondary to understanding ecological concepts and terminology in a science unit."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q686",
+    "subarea": "Skills & Processes",
+    "objective": "Metacognition and comprehension monitoring",
+    "stem": "Which of the following reading journal prompts is most effective for promoting metacognition and deeper understanding of informational text content?",
+    "options": [
+      "List three facts from the chapter you think are the most interesting.",
+      "If you were the author, what would you title this chapter?",
+      "What specific sentence or paragraph confused you, and what steps did you take to try and clarify its meaning?",
+      "Write a short thank-you note to the author for providing this information."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Listing facts shows recall but doesn't promote reflection on the comprehension process itself.",
+      "Creating titles engages creativity but doesn't address monitoring one's own understanding of content.",
+      "Correct! This prompt forces students to monitor their own comprehension, identify breakdowns in understanding, and reflect on their problem-solving strategies—the core components of metacognition for content learning.",
+      "Thank-you notes are creative but don't develop metacognitive awareness of the reading process."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q687",
+    "subarea": "Skills & Processes",
+    "objective": "Assessment of content comprehension through journals",
+    "stem": "A high school history teacher uses reading journal entries as part of a formal assessment. To best evaluate students' comprehension and retention of the content (historical events, dates, and causes), the teacher should prioritize journal entries that show the student can:",
+    "options": [
+      "Use figurative language and creative illustrations to represent the reading.",
+      "Reflectively discuss how the historical events made them feel personally.",
+      "Formulate questions that connect the chapter's events to previously learned historical concepts.",
+      "Simply copy five direct quotes from the textbook without commentary."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Creative illustrations show engagement but don't necessarily demonstrate comprehension of historical content.",
+      "Personal reflection addresses emotional response rather than content mastery and retention.",
+      "Correct! This demonstrates higher-order thinking (analysis and synthesis) by requiring students to integrate new content with prior knowledge, which is a strong indicator of deep content learning and retention.",
+      "Copying quotes without analysis shows only the ability to locate information, not comprehension or retention."
+    ],
+    "difficulty": 2
   }
 ]
