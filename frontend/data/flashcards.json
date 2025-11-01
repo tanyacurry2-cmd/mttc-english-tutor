@@ -2784,4 +2784,24 @@
     "explanation": "Directly addresses content learning (vocabulary, concepts, summarization) and active processing of informational text. Most effective for instructional goals.",
     "difficulty": 2,
     "tags": ["reading journal", "content literacy", "vocabulary", "comprehension"]
+  },
+  {
+    "id": "F708",
+    "subarea": "Skills & Processes",
+    "objective": "Metacognition and comprehension monitoring",
+    "question": "Best reading journal prompt for promoting metacognition in informational text?",
+    "answer": "What confused you, and what steps did you take to clarify its meaning?",
+    "explanation": "Forces students to monitor comprehension, identify breakdowns, and reflect on problem-solving strategies—core metacognition for content learning.",
+    "difficulty": 2,
+    "tags": ["metacognition", "reading journal", "comprehension monitoring", "problem-solving"]
+  },
+  {
+    "id": "F709",
+    "subarea": "Skills & Processes",
+    "objective": "Assessment of content comprehension through journals",
+    "question": "How should a history teacher assess journal entries for content comprehension?",
+    "answer": "Prioritize entries showing questions connecting new events to prior concepts",
+    "explanation": "Demonstrates higher-order thinking (analysis/synthesis) by integrating new content with prior knowledge—strong indicator of deep content learning.",
+    "difficulty": 2,
+    "tags": ["assessment", "reading journal", "content comprehension", "synthesis"]
   }]
