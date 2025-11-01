@@ -2804,4 +2804,14 @@
     "explanation": "Demonstrates higher-order thinking (analysis/synthesis) by integrating new content with prior knowledge—strong indicator of deep content learning.",
     "difficulty": 2,
     "tags": ["assessment", "reading journal", "content comprehension", "synthesis"]
+  },
+  {
+    "id": "F710",
+    "subarea": "Skills & Processes",
+    "objective": "Historical context and literary analysis",
+    "question": "Students confused why 19th-century protagonist won't leave despite inheritance. Best activity?",
+    "answer": "Analyze Married Women's Property Acts to understand legal restrictions on single women",
+    "explanation": "Primary source analysis directly addresses historical/legal constraints (no loans, property, credit without male relative). Builds historical empathy for character's predicament.",
+    "difficulty": 2,
+    "tags": ["historical context", "primary sources", "literature analysis", "social constraints"]
   }]
