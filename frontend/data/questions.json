@@ -12124,5 +12124,55 @@
     "difficulty": 2,
     "mode": "Drill",
     "type": "mcq"
+  },
+  {
+    "id": "Q705",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Reading Strategies",
+    "question": "Annotating a text would be the most effective reading strategy to use for which of the following purposes?",
+    "stem": "Annotating a text would be the most effective reading strategy to use for which of the following purposes?",
+    "options": [
+      "Estimating the time it will take to read an entire chapter.",
+      "Generating an initial list of potential topics for a final research paper.",
+      "Tracking the development of a complex character's motivations throughout a novel.",
+      "Determining the author's primary source material used to write the historical non-fiction book."
+    ],
+    "answer": "Tracking the development of a complex character's motivations throughout a novel.",
+    "correctIndex": 2,
+    "rationales": [
+      "Time estimation requires skimming or scanning, not detailed annotation.",
+      "Topic generation is better served by brainstorming or freewriting, not annotation.",
+      "Correct! Annotating (taking notes directly in the margins, highlighting, and asking questions) is a close reading strategy. It is essential for tracking complex, subtle changes in character, theme, or argument over a long period, which cannot be accomplished through superficial reading.",
+      "Identifying primary sources requires examining citations and references, not annotation of the text itself."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q706",
+    "subarea": "Skills & Processes",
+    "subareaId": "SA-4",
+    "objective": "Reading Strategies",
+    "question": "Summarizing a lengthy historical document would be the most effective reading strategy to use for which of the following purposes?",
+    "stem": "Summarizing a lengthy historical document would be the most effective reading strategy to use for which of the following purposes?",
+    "options": [
+      "Locating specific evidence needed to support a narrow claim in an essay.",
+      "Identifying the main arguments and conclusions to ensure overall comprehension before class discussion.",
+      "Evaluating the syntax and precise word choice used by the author.",
+      "Connecting new terminology to personal prior knowledge and experiences."
+    ],
+    "answer": "Identifying the main arguments and conclusions to ensure overall comprehension before class discussion.",
+    "correctIndex": 1,
+    "rationales": [
+      "Locating specific evidence requires scanning or close reading, not summarizing.",
+      "Correct! Summarizing is a strategy aimed at distilling the core message by identifying only the main ideas and supporting claims, thus ensuring the student grasps the overall comprehension (gist) of the document without getting lost in the details.",
+      "Evaluating syntax and word choice requires close reading and analysis, not summarizing.",
+      "Connecting terminology to prior knowledge requires elaboration or personal reflection strategies, not summarizing."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
   }
 ]
