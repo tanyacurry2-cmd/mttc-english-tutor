@@ -168,4 +168,14 @@ const styles = StyleSheet.create({
     marginTop: 16,
     fontSize: 12,
   },
+  termsLink: {
+    marginTop: 12,
+    paddingVertical: 8,
+  },
+  termsText: {
+    textAlign: "center",
+    color: "#98acd3",
+    fontSize: 12,
+    textDecorationLine: "underline",
+  },
 });
