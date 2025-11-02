@@ -116,9 +116,14 @@ export default function HomeScreen() {
             <Text style={styles.greeting}>Hello, {user.email?.split('@')[0]}</Text>
             <Text style={styles.subtitle}>Ready to ace the MTTC?</Text>
           </View>
-          <TouchableOpacity onPress={handleLogout} style={styles.logoutButton}>
-            <MaterialCommunityIcons name="logout" size={24} color={theme.colors.text} />
-          </TouchableOpacity>
+          <View style={styles.headerButtons}>
+            <TouchableOpacity onPress={() => router.push('/intro')} style={styles.infoButton}>
+              <MaterialCommunityIcons name="information-outline" size={24} color={theme.colors.text} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={handleLogout} style={styles.logoutButton}>
+              <MaterialCommunityIcons name="logout" size={24} color={theme.colors.text} />
+            </TouchableOpacity>
+          </View>
         </View>
 
         <View style={styles.statsCard}>
