@@ -5467,5 +5467,65 @@
       "Sequential structure follows chronological or step-by-step order, not comparison."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q713",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "stem": "Which pair of words are true cognates?",
+    "options": [
+      "Library / librería",
+      "Animal / animal",
+      "Rope / ropa",
+      "Actual / actualmente"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "False cognate. Library (English) means a place for books, but librería (Spanish) means bookstore.",
+      "Correct! They share both meaning and origin (Latin animalis). Both mean the same thing in English and Spanish.",
+      "False cognate. Rope (English) means cord, but ropa (Spanish) means clothing.",
+      "False cognate. Actual (English) means real/current, but actualmente (Spanish) means currently/nowadays."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q714",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "stem": "A teacher explains that attention (English) and atención (Spanish) have the same Latin root.\nWhat skill is the teacher promoting?",
+    "options": [
+      "Morphological awareness",
+      "Syntax development",
+      "Cognate recognition",
+      "Phonemic segmentation"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Morphological awareness involves understanding word parts (prefixes, suffixes, roots), not cross-language connections.",
+      "Syntax development focuses on sentence structure, not vocabulary relationships.",
+      "Correct! The teacher is helping students recognize cognates—words that share origins and meanings across languages.",
+      "Phonemic segmentation involves breaking words into individual sounds, not recognizing cross-language word relationships."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q715",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "stem": "An English learner confuses sensible (English) with sensible (Spanish) meaning 'sensitive.'\nThis confusion illustrates which concept?",
+    "options": [
+      "Homophone interference",
+      "False cognates",
+      "Semantic drift",
+      "Syntax transfer"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Homophones are words that sound the same but have different meanings within one language, not across languages.",
+      "Correct! False cognates are words that look similar in two languages but have different meanings. Sensible (English) means reasonable, while sensible (Spanish) means sensitive.",
+      "Semantic drift refers to how word meanings change over time within a language, not cross-language confusion.",
+      "Syntax transfer involves applying sentence structure rules from one language to another, not vocabulary confusion."
+    ],
+    "difficulty": 2
   }
 ]
