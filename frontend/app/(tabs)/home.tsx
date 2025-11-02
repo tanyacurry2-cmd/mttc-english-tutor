@@ -225,6 +225,14 @@ const styles = StyleSheet.create({
   logoutButton: {
     padding: theme.spacing.sm,
   },
+  headerButtons: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: theme.spacing.sm,
+  },
+  infoButton: {
+    padding: theme.spacing.sm,
+  },
   statsCard: {
     backgroundColor: theme.colors.surface,
     margin: theme.spacing.lg,
