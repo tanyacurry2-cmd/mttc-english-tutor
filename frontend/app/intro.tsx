@@ -79,6 +79,11 @@ export default function IntroScreen() {
 
       {/* Footer tagline */}
       <Text style={styles.tagline}>Study smarter. Track your growth. Pass with confidence.</Text>
+      
+      {/* Terms & Privacy Link */}
+      <TouchableOpacity onPress={() => router.push('/terms')} style={styles.termsLink}>
+        <Text style={styles.termsText}>Terms of Service & Privacy Policy</Text>
+      </TouchableOpacity>
     </ScrollView>
   );
 }
