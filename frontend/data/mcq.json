@@ -5387,5 +5387,85 @@
       "This is too general and doesn't address the essay's specific focus on saving money."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q709",
+    "subarea": "Genre & Craft",
+    "objective": "Organizational Structures",
+    "stem": "A student is writing an expository essay explaining how the invention of the printing press influenced literacy rates in Europe.\nWhich organizational structure would be most effective?",
+    "options": [
+      "Sequential – listing inventions before and after the printing press",
+      "Cause and Effect – showing how the invention led to rising literacy",
+      "Problem and Solution – describing the lack of books, then offering printing as the fix",
+      "Spatial – describing printing shops in various cities"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Sequential structure focuses on chronological order, not the relationship between the invention and its impact.",
+      "Correct! The essay explains how one development (printing press) produced another outcome (rising literacy). Cause and Effect is the most effective structure.",
+      "While this could work, the essay's focus is on influence (cause and effect), not presenting a problem that needs solving.",
+      "Spatial structure organizes by location, which doesn't address the causal relationship the essay explores."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q710",
+    "subarea": "Genre & Craft",
+    "objective": "Organizational Structures",
+    "stem": "A student plans to describe how water travels through the human body, from ingestion to elimination.\nWhich structure should the student use?",
+    "options": [
+      "Sequential",
+      "Problem and Solution",
+      "Compare and Contrast",
+      "Cause and Effect"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The explanation follows a process in time order, making Sequential the most appropriate structure.",
+      "Problem and Solution addresses issues and remedies, not a step-by-step process.",
+      "Compare and Contrast analyzes similarities and differences, which doesn't fit a process description.",
+      "While cause and effect might show relationships, the primary focus is on the sequence of steps."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q711",
+    "subarea": "Genre & Craft",
+    "objective": "Organizational Structures",
+    "stem": "A student wants to write about air pollution in major U.S. cities and propose ways to reduce it.\nWhich organizational pattern would best suit this purpose?",
+    "options": [
+      "Spatial – grouping information by location",
+      "Problem and Solution – describing pollution issues and offering remedies",
+      "Chronological – explaining pollution through time",
+      "Cause and Effect – focusing on why pollution exists"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "While spatial organization could work for organizing by city, it doesn't address the core purpose of proposing solutions.",
+      "Correct! The task involves presenting an issue (air pollution) and recommending fixes (solutions). Problem and Solution is the best fit.",
+      "Chronological structure focuses on time sequence, not problem-solving.",
+      "Cause and Effect explains why pollution exists but doesn't emphasize the solutions aspect of the essay."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q712",
+    "subarea": "Genre & Craft",
+    "objective": "Organizational Structures",
+    "stem": "A student is creating an essay comparing the architecture of northern and southern Europe.\nWhich structure is most effective?",
+    "options": [
+      "Cause and Effect",
+      "Problem and Solution",
+      "Compare and Contrast",
+      "Sequential"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Cause and Effect shows relationships between events, not similarities and differences.",
+      "Problem and Solution addresses issues and remedies, not comparative analysis.",
+      "Correct! The essay centers on analyzing similarities and differences between two subjects (northern and southern European architecture).",
+      "Sequential structure follows chronological or step-by-step order, not comparison."
+    ],
+    "difficulty": 2
   }
 ]
