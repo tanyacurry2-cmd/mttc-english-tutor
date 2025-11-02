@@ -5147,5 +5147,45 @@
       "The poem states 'No word,' showing actions over words."
     ],
     "difficulty": 3
+  },
+  {
+    "id": "Q697",
+    "subarea": "Literature & Understanding",
+    "objective": "Theme Analysis",
+    "stem": "Title: The Alchemist (1988)\nAuthor: Paulo Coelho\n\nSantiago, a young shepherd in Spain, keeps dreaming about treasure buried near the Egyptian pyramids. Against everyone's advice, he sells his flock and begins a long, punishing journey across the desert. He's robbed, betrayed, and tested by failure, but he keeps moving forward—guided by faith in his Personal Legend (his unique purpose in life).\n\nThrough persistence, he learns that the \"treasure\" he sought wasn't gold, but wisdom and self-knowledge gained from the journey itself.\n\nWhich statement best expresses a central theme of The Alchemist?",
+    "options": [
+      "Destiny rewards only those born into privilege.",
+      "Perseverance and faith transform obstacles into opportunities.",
+      "Achieving dreams requires abandoning spiritual belief.",
+      "True success depends solely on external circumstances."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "The text shows Santiago's journey transcends privilege; his wealth is sold and lost.",
+      "Correct! Santiago's relentless pursuit of his dream and his trust in the journey illustrate that perseverance and belief lead to transformation.",
+      "Santiago's spiritual faith guides him throughout; it's central, not abandoned.",
+      "Santiago's transformation comes from internal growth and persistence, not external factors."
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "Q698",
+    "subarea": "Literature & Understanding",
+    "objective": "Theme Analysis",
+    "stem": "Title: A Raisin in the Sun\nAuthor: Lorraine Hansberry\nTheme: The perseverance needed to achieve a personal dream\n\nWalter Lee Younger paces the small apartment, his voice tight with frustration.\n\n\"Sometimes it feels like all I do is work for other people's dreams,\" he says.\nRuth watches quietly, weary but determined.\n\"Then work for your own,\" she answers. \"Just don't forget the rest of us while you're at it.\"\nHe stops. The worn linoleum gleams faintly in the morning light.\n\"I ain't quitting,\" he says. \"I just want something that's mine.\"\n\nIn this moment, Walter faces the weight of deferred hope—but he also refuses to surrender it.\n\nWhich statement best expresses a central idea of this passage?",
+    "options": [
+      "Family obligations make personal dreams impossible to achieve.",
+      "The determination to rise above hardship gives life its dignity.",
+      "Material wealth is the only true measure of success.",
+      "Conflict within families destroys ambition."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Ruth encourages Walter to pursue his dreams while maintaining family bonds, not abandon them.",
+      "Correct! Walter's persistence, even amid poverty and frustration, illustrates that dignity and meaning come from perseverance in pursuit of one's dream.",
+      "Walter seeks something meaningful and personal ('mine'), not just material wealth.",
+      "The passage shows Ruth supporting Walter's ambition, not conflict destroying it."
+    ],
+    "difficulty": 3
   }
 ]
