@@ -12174,5 +12174,55 @@
     "difficulty": 2,
     "mode": "Drill",
     "type": "mcq"
+  },
+  {
+    "id": "Q707",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Expository Writing",
+    "question": "A student is revising the introduction to an expository essay explaining how to manage test anxiety.\nWhich of the following versions of the opening sentence would be most appropriate for the essay?",
+    "stem": "A student is revising the introduction to an expository essay explaining how to manage test anxiety.\nWhich of the following versions of the opening sentence would be most appropriate for the essay?",
+    "options": [
+      "Many students hate taking tests because they make people nervous and tired.",
+      "Tests can cause anxiety, but a few simple strategies can make the experience calmer and more productive.",
+      "Test anxiety has always been around and probably always will be.",
+      "Everyone knows tests are stressful, so this paper will talk about that."
+    ],
+    "answer": "Tests can cause anxiety, but a few simple strategies can make the experience calmer and more productive.",
+    "correctIndex": 1,
+    "rationales": [
+      "This is too informal and vague, lacking the clear purpose and tone expected in expository writing.",
+      "Correct! It clearly introduces the topic (test anxiety) and sets up an explanatory purpose (offering strategies), matching the expository task.",
+      "This is too general and doesn't establish the essay's purpose or direction.",
+      "This uses informal language ('everyone knows', 'talk about') and doesn't clearly preview the essay's content."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q708",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Expository Writing",
+    "question": "A student is writing an expository essay describing how to save money on groceries.\nWhich of the following topic sentences would be most appropriate for the first paragraph?",
+    "stem": "A student is writing an expository essay describing how to save money on groceries.\nWhich of the following topic sentences would be most appropriate for the first paragraph?",
+    "options": [
+      "Groceries are very expensive these days, which is really annoying.",
+      "Shopping for food can take a long time if you are not organized.",
+      "Saving money on groceries is possible when shoppers plan meals, use coupons, and compare prices.",
+      "Everyone has to eat, but not everyone enjoys grocery shopping."
+    ],
+    "answer": "Saving money on groceries is possible when shoppers plan meals, use coupons, and compare prices.",
+    "correctIndex": 2,
+    "rationales": [
+      "This is too informal and expresses opinion rather than establishing an expository focus.",
+      "This shifts focus to time management rather than the essay's stated topic of saving money.",
+      "Correct! This topic sentence clearly previews the paragraph's main idea and provides a roadmap of specific strategies (planning, coupons, comparing prices) that align with the expository purpose.",
+      "This is too general and doesn't address the essay's specific focus on saving money."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
   }
 ]
