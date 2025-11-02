@@ -5,7 +5,7 @@
 The MTTC English Tutor app is **fully functional on web preview** but has limited support in Expo Go due to native module requirements.
 
 ### ✅ Working on Web Preview
-- URL: https://english-exam-coach.preview.emergentagent.com
+- URL: https://english-exam-prep-5.preview.emergentagent.com
 - Full signup/login flow
 - All study modes (Learn, Drill, Progress)
 - Trial tracking
@@ -24,7 +24,7 @@ The MTTC English Tutor app is **fully functional on web preview** but has limite
 
 ### Option 1: Use Web Preview (Current - Recommended for Testing)
 ```
-✅ Access: https://english-exam-coach.preview.emergentagent.com
+✅ Access: https://english-exam-prep-5.preview.emergentagent.com
 ✅ Test all features except IAP (gracefully disabled on web)
 ✅ Fully functional for demo and testing
 ```
