@@ -16,37 +16,37 @@ export default function IntroScreen() {
       {/* Feature List */}
       <View style={styles.card}>
         <Feature
-          icon={<MaterialCommunityIcons name="shuffle-variant" size={22} color="#cfe0ff" />}
+          icon={<MaterialCommunityIcons name="shuffle-variant" size={20} color="#cfe0ff" />}
           title="Shuffled Flashcards & Drills"
           body="Every session feels new with randomized items for stronger recall."
         />
         <Separator />
         <Feature
-          icon={<Ionicons name="layers-outline" size={22} color="#cfe0ff" />}
+          icon={<Ionicons name="layers-outline" size={20} color="#cfe0ff" />}
           title="560+ Exam-Aligned Questions"
           body="Items mapped directly to MTTC English 002 objectives."
         />
         <Separator />
         <Feature
-          icon={<MaterialCommunityIcons name="target-account" size={22} color="#cfe0ff" />}
+          icon={<MaterialCommunityIcons name="target-account" size={20} color="#cfe0ff" />}
           title="Smart Review Logic"
           body="Prioritizes unseen or missed items; skips cards you've mastered."
         />
         <Separator />
         <Feature
-          icon={<Ionicons name="timer-outline" size={22} color="#cfe0ff" />}
+          icon={<Ionicons name="timer-outline" size={20} color="#cfe0ff" />}
           title="Take an Assessment Anytime"
           body="Timed 20-question diagnostics; stores your last 5 scores."
         />
         <Separator />
         <Feature
-          icon={<MaterialCommunityIcons name="folder-star-outline" size={22} color="#cfe0ff" />}
+          icon={<MaterialCommunityIcons name="folder-star-outline" size={20} color="#cfe0ff" />}
           title="Mastered Questions Folder"
           body="Keep mastered items separate, with an option to restore for spaced review."
         />
         <Separator />
         <Feature
-          icon={<MaterialCommunityIcons name="chart-line" size={22} color="#cfe0ff" />}
+          icon={<MaterialCommunityIcons name="chart-line" size={20} color="#cfe0ff" />}
           title="Daily Progress Tracker"
           body="See daily streak, flashcards reviewed, and questions answered."
         />
