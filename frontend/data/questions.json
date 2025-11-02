@@ -5151,6 +5151,60 @@
     "options": []
   },
   {
+    "id": "F711",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a cognate?",
+    "answer": "A word in two languages that shares the same origin and a similar meaning",
+    "explanation": "Example: Family (English) and familia (Spanish) both come from Latin familia.",
+    "difficulty": 2,
+    "tags": [
+      "cognates",
+      "word relationships",
+      "etymology"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F712",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a true cognate?",
+    "answer": "A cognate that looks alike, sounds similar, and has the same meaning in both languages",
+    "explanation": "Example: Hospital (English) and hospital (Spanish).",
+    "difficulty": 2,
+    "tags": [
+      "cognates",
+      "true cognates",
+      "word relationships"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F713",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a false cognate?",
+    "answer": "A word that looks similar in two languages but has different meanings",
+    "explanation": "Example: Embarrassed (English) vs. embarazada (Spanish), which means pregnant.",
+    "difficulty": 2,
+    "tags": [
+      "cognates",
+      "false cognates",
+      "word relationships"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
     "id": "Q101",
     "subarea": "Genre & Craft",
     "subareaId": "SA-3",
@@ -12320,6 +12374,81 @@
       "Problem and Solution addresses issues and remedies, not comparative analysis.",
       "Correct! The essay centers on analyzing similarities and differences between two subjects (northern and southern European architecture).",
       "Sequential structure follows chronological or step-by-step order, not comparison."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q713",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Word Relationships - Cognates",
+    "question": "Which pair of words are true cognates?",
+    "stem": "Which pair of words are true cognates?",
+    "options": [
+      "Library / librería",
+      "Animal / animal",
+      "Rope / ropa",
+      "Actual / actualmente"
+    ],
+    "answer": "Animal / animal",
+    "correctIndex": 1,
+    "rationales": [
+      "False cognate. Library (English) means a place for books, but librería (Spanish) means bookstore.",
+      "Correct! They share both meaning and origin (Latin animalis). Both mean the same thing in English and Spanish.",
+      "False cognate. Rope (English) means cord, but ropa (Spanish) means clothing.",
+      "False cognate. Actual (English) means real/current, but actualmente (Spanish) means currently/nowadays."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q714",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Word Relationships - Cognates",
+    "question": "A teacher explains that attention (English) and atención (Spanish) have the same Latin root.\nWhat skill is the teacher promoting?",
+    "stem": "A teacher explains that attention (English) and atención (Spanish) have the same Latin root.\nWhat skill is the teacher promoting?",
+    "options": [
+      "Morphological awareness",
+      "Syntax development",
+      "Cognate recognition",
+      "Phonemic segmentation"
+    ],
+    "answer": "Cognate recognition",
+    "correctIndex": 2,
+    "rationales": [
+      "Morphological awareness involves understanding word parts (prefixes, suffixes, roots), not cross-language connections.",
+      "Syntax development focuses on sentence structure, not vocabulary relationships.",
+      "Correct! The teacher is helping students recognize cognates—words that share origins and meanings across languages.",
+      "Phonemic segmentation involves breaking words into individual sounds, not recognizing cross-language word relationships."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q715",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Word Relationships - Cognates",
+    "question": "An English learner confuses sensible (English) with sensible (Spanish) meaning 'sensitive.'\nThis confusion illustrates which concept?",
+    "stem": "An English learner confuses sensible (English) with sensible (Spanish) meaning 'sensitive.'\nThis confusion illustrates which concept?",
+    "options": [
+      "Homophone interference",
+      "False cognates",
+      "Semantic drift",
+      "Syntax transfer"
+    ],
+    "answer": "False cognates",
+    "correctIndex": 1,
+    "rationales": [
+      "Homophones are words that sound the same but have different meanings within one language, not across languages.",
+      "Correct! False cognates are words that look similar in two languages but have different meanings. Sensible (English) means reasonable, while sensible (Spanish) means sensitive.",
+      "Semantic drift refers to how word meanings change over time within a language, not cross-language confusion.",
+      "Syntax transfer involves applying sentence structure rules from one language to another, not vocabulary confusion."
     ],
     "difficulty": 2,
     "mode": "Drill",
