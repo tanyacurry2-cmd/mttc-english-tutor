@@ -280,13 +280,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   quickAccessTitle: {
-    fontSize: theme.fontSize.md,
+    fontSize: theme.fontSize.sm,
     fontWeight: theme.fontWeight.bold,
     color: '#FFFFFF',
     marginBottom: theme.spacing.xs,
   },
   quickAccessCount: {
-    fontSize: theme.fontSize.xs,
+    fontSize: 11,
     color: '#FFFFFF',
     opacity: 0.9,
   },
