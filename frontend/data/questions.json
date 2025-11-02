@@ -11974,5 +11974,155 @@
     "difficulty": 3,
     "mode": "Drill",
     "type": "mcq"
+  },
+  {
+    "id": "Q699",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Parallel Structure and Language Conventions",
+    "question": "Many people choose to start the day with healthy routines.\nThey might go for a brisk walk, prepare a balanced breakfast, and read something uplifting before work.\nThese habits can boost energy, sharpen focus, and improve mood throughout the morning.\nTo make these practices most effective, a person should plan ahead, stay consistent, and __________.\n\nWhich sentence best maintains the parallel structure of the paragraph?",
+    "stem": "Many people choose to start the day with healthy routines.\nThey might go for a brisk walk, prepare a balanced breakfast, and read something uplifting before work.\nThese habits can boost energy, sharpen focus, and improve mood throughout the morning.\nTo make these practices most effective, a person should plan ahead, stay consistent, and __________.\n\nWhich sentence best maintains the parallel structure of the paragraph?",
+    "options": [
+      "try to keep distractions at a minimum",
+      "maintaining a positive mindset",
+      "they will probably feel better all day",
+      "making sure to get enough rest"
+    ],
+    "answer": "try to keep distractions at a minimum",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Plan ahead, stay consistent, and try to keep distractions at a minimum' keeps all three verbs in the same base-verb form ('plan,' 'stay,' 'try'). The others break the pattern or shift tense.",
+      "This uses a gerund ('maintaining') which breaks the parallel structure with the base verbs.",
+      "This shifts to a future tense clause and changes the subject, breaking parallelism.",
+      "This uses a gerund ('making sure') which doesn't match the base verb pattern."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q700",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Transitions and Cohesiveness",
+    "question": "Many cities are investing in green roofs—gardens planted on top of buildings.\nThese spaces help insulate structures, reduce stormwater runoff, and provide habitats for birds and insects.\n__________, they also offer residents peaceful areas for relaxation and community gardening.\n\nWhich transition best maintains the cohesiveness of the excerpt?",
+    "stem": "Many cities are investing in green roofs—gardens planted on top of buildings.\nThese spaces help insulate structures, reduce stormwater runoff, and provide habitats for birds and insects.\n__________, they also offer residents peaceful areas for relaxation and community gardening.\n\nWhich transition best maintains the cohesiveness of the excerpt?",
+    "options": [
+      "However",
+      "For example",
+      "Moreover",
+      "On the contrary"
+    ],
+    "answer": "Moreover",
+    "correctIndex": 2,
+    "rationales": [
+      "'However' signals contrast, which would contradict the positive benefits already listed.",
+      "'For example' suggests a specific instance, but this sentence adds another benefit, not an example.",
+      "Correct! 'Moreover' adds information in support of the previous idea, linking environmental benefits with social ones.",
+      "'On the contrary' introduces opposition, which doesn't fit the supportive tone."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q701",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Transitions and Cohesiveness",
+    "question": "The city recently expanded its public transportation system to reduce traffic congestion.\nRidership has increased significantly, and downtown air quality has improved.\n__________, suburban commuters still prefer to drive their own vehicles.\n\nWhich transition best completes the excerpt?",
+    "stem": "The city recently expanded its public transportation system to reduce traffic congestion.\nRidership has increased significantly, and downtown air quality has improved.\n__________, suburban commuters still prefer to drive their own vehicles.\n\nWhich transition best completes the excerpt?",
+    "options": [
+      "However",
+      "For example",
+      "Moreover",
+      "In addition"
+    ],
+    "answer": "However",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'However' signals contrast — despite improvements, some people continue to drive.",
+      "'For example' would suggest an illustration, not a contrast.",
+      "'Moreover' would add supporting information, not contrast.",
+      "'In addition' would continue the positive trend, not introduce a contrasting fact."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q702",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Transitions and Cohesiveness",
+    "question": "Many schools encourage students to participate in community service projects.\nThese activities help young people develop empathy and responsibility.\n__________, students might volunteer at a food bank or assist at a local shelter.\n\nWhich transition best completes the excerpt?",
+    "stem": "Many schools encourage students to participate in community service projects.\nThese activities help young people develop empathy and responsibility.\n__________, students might volunteer at a food bank or assist at a local shelter.\n\nWhich transition best completes the excerpt?",
+    "options": [
+      "For example",
+      "On the contrary",
+      "Moreover",
+      "However"
+    ],
+    "answer": "For example",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The third sentence provides a specific illustration of the general idea in the previous one.",
+      "'On the contrary' would contradict the previous statement, which doesn't fit here.",
+      "'Moreover' would add another benefit, but this sentence provides examples, not additional benefits.",
+      "'However' would introduce contrast, which doesn't match the supporting examples given."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q703",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Transitions and Cohesiveness",
+    "question": "Exercise improves physical health by strengthening the heart and muscles.\n__________, it can also enhance mental well-being by reducing stress and anxiety.\n\nWhich transition best completes the excerpt?",
+    "stem": "Exercise improves physical health by strengthening the heart and muscles.\n__________, it can also enhance mental well-being by reducing stress and anxiety.\n\nWhich transition best completes the excerpt?",
+    "options": [
+      "However",
+      "For example",
+      "Moreover",
+      "On the contrary"
+    ],
+    "answer": "Moreover",
+    "correctIndex": 2,
+    "rationales": [
+      "'However' would introduce contrast, but the sentence adds supporting information.",
+      "'For example' would suggest a specific instance, not an additional benefit.",
+      "Correct! 'Moreover' adds a reinforcing benefit to the initial claim.",
+      "'On the contrary' would contradict the first statement, which doesn't fit the supportive tone."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q704",
+    "subarea": "Genre & Craft",
+    "subareaId": "SA-3",
+    "objective": "Transitions and Cohesiveness",
+    "question": "Some people believe technology isolates individuals from one another.\n__________, many online communities bring people together and foster genuine friendships.\n\nWhich transition best completes the excerpt?",
+    "stem": "Some people believe technology isolates individuals from one another.\n__________, many online communities bring people together and foster genuine friendships.\n\nWhich transition best completes the excerpt?",
+    "options": [
+      "Moreover",
+      "On the contrary",
+      "For example",
+      "In addition"
+    ],
+    "answer": "On the contrary",
+    "correctIndex": 1,
+    "rationales": [
+      "'Moreover' would add support to the first idea, but this sentence refutes it.",
+      "Correct! 'On the contrary' directly refutes the idea expressed in the first sentence.",
+      "'For example' would provide an illustration supporting the first sentence, not refuting it.",
+      "'In addition' would continue supporting the first idea, not contradicting it."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
   }
 ]
