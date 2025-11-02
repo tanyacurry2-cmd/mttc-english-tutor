@@ -2814,4 +2814,34 @@
     "explanation": "Primary source analysis directly addresses historical/legal constraints (no loans, property, credit without male relative). Builds historical empathy for character's predicament.",
     "difficulty": 2,
     "tags": ["historical context", "primary sources", "literature analysis", "social constraints"]
+  },
+  {
+    "id": "F711",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a cognate?",
+    "answer": "A word in two languages that shares the same origin and a similar meaning",
+    "explanation": "Example: Family (English) and familia (Spanish) both come from Latin familia.",
+    "difficulty": 2,
+    "tags": ["cognates", "word relationships", "etymology"]
+  },
+  {
+    "id": "F712",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a true cognate?",
+    "answer": "A cognate that looks alike, sounds similar, and has the same meaning in both languages",
+    "explanation": "Example: Hospital (English) and hospital (Spanish).",
+    "difficulty": 2,
+    "tags": ["cognates", "true cognates", "word relationships"]
+  },
+  {
+    "id": "F713",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a false cognate?",
+    "answer": "A word that looks similar in two languages but has different meanings",
+    "explanation": "Example: Embarrassed (English) vs. embarazada (Spanish), which means pregnant.",
+    "difficulty": 2,
+    "tags": ["cognates", "false cognates", "word relationships"]
   }]
