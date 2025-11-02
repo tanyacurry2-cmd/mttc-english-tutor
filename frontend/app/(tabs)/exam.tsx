@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
     marginBottom: theme.spacing.sm,
   },
   title: {
-    fontSize: theme.fontSize.xxl,
+    fontSize: theme.fontSize.lg,
     fontWeight: theme.fontWeight.bold,
     color: theme.colors.text,
     marginLeft: theme.spacing.md,
