@@ -105,7 +105,7 @@ function Separator() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#0b1526" },
-  content: { padding: 20, paddingBottom: 40 },
+  content: { padding: 20, paddingTop: 60, paddingBottom: 40 },
   title: {
     color: "white",
     fontSize: 18,
