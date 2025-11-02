@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
     marginBottom: theme.spacing.md,
   },
   cardTitle: {
-    fontSize: theme.fontSize.lg,
+    fontSize: theme.fontSize.md,
     fontWeight: theme.fontWeight.bold,
     color: theme.colors.text,
     marginTop: theme.spacing.sm,
