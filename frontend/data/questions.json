@@ -11724,5 +11724,205 @@
     "difficulty": 2,
     "mode": "Drill",
     "type": "mcq"
+  },
+  {
+    "id": "Q689",
+    "subarea": "Literature & Understanding",
+    "subareaId": "SA-2",
+    "objective": "Theme Analysis",
+    "question": "Identity — \"Names\"\n\nThey gave me names before I spoke—\nChild, student, daughter, friend.\nEach name fit once, then cracked with time,\nUntil I shaped my own again.\n\nWhich theme is best reflected in the poem?",
+    "stem": "Identity — \"Names\"\n\nThey gave me names before I spoke—\nChild, student, daughter, friend.\nEach name fit once, then cracked with time,\nUntil I shaped my own again.\n\nWhich theme is best reflected in the poem?",
+    "options": [
+      "Identity changes as individuals grow and define themselves.",
+      "Family and community determine who a person becomes.",
+      "Social titles are meaningless labels.",
+      "Childhood is the truest stage of selfhood."
+    ],
+    "answer": "Identity changes as individuals grow and define themselves.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The imagery of names 'cracking with time' shows self-definition through personal evolution.",
+      "The poem emphasizes personal agency over external determination.",
+      "The poem acknowledges the significance of names, not their meaninglessness.",
+      "The poem suggests growth beyond childhood, not that childhood is truest."
+    ],
+    "difficulty": 3,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q690",
+    "subarea": "Literature & Understanding",
+    "subareaId": "SA-2",
+    "objective": "Theme Analysis",
+    "question": "Religious Differences — \"Two Altars\"\n\nIn one small town, two altars stand,\nEach built from hope and stone.\nThe hymns rise up in different tongues,\nBut reach one God alone.\n\nWhat message does the poem most clearly convey?",
+    "stem": "Religious Differences — \"Two Altars\"\n\nIn one small town, two altars stand,\nEach built from hope and stone.\nThe hymns rise up in different tongues,\nBut reach one God alone.\n\nWhat message does the poem most clearly convey?",
+    "options": [
+      "Religious devotion requires shared language.",
+      "True worship unites believers despite differences.",
+      "One religion must replace another for peace.",
+      "Separate rituals lead to separate gods."
+    ],
+    "answer": "True worship unites believers despite differences.",
+    "correctIndex": 1,
+    "rationales": [
+      "The poem emphasizes unity, not the necessity of shared language.",
+      "Correct! Parallel imagery of 'two altars' and 'one God' highlights unity through faith diversity.",
+      "The poem celebrates coexistence, not replacement.",
+      "The poem explicitly states they reach 'one God alone,' contradicting this option."
+    ],
+    "difficulty": 3,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q691",
+    "subarea": "Literature & Understanding",
+    "subareaId": "SA-2",
+    "objective": "Theme Analysis",
+    "question": "Spiritual Enlightenment — \"The Lantern\"\n\nI carried lanterns through the night,\nEach promised me the way.\nTheir flames grew dim, their wicks burned out—\nThen dawn became my day.\n\nWhich interpretation best fits the poem's central theme?",
+    "stem": "Spiritual Enlightenment — \"The Lantern\"\n\nI carried lanterns through the night,\nEach promised me the way.\nTheir flames grew dim, their wicks burned out—\nThen dawn became my day.\n\nWhich interpretation best fits the poem's central theme?",
+    "options": [
+      "Spiritual understanding often appears after false pursuits fade.",
+      "Knowledge is found only through external study.",
+      "Faith depends on tradition and ritual.",
+      "The search for truth leads mostly to disappointment."
+    ],
+    "answer": "Spiritual understanding often appears after false pursuits fade.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The extinguished lanterns represent misguided searches; dawn symbolizes internal awakening.",
+      "The poem suggests internal discovery (dawn) rather than external study (lanterns).",
+      "The poem focuses on personal enlightenment, not tradition.",
+      "The poem ends with enlightenment (dawn), not disappointment."
+    ],
+    "difficulty": 3,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q692",
+    "subarea": "Literature & Understanding",
+    "subareaId": "SA-2",
+    "objective": "Theme Analysis",
+    "question": "Romantic Love — \"After the Storm\"\n\nThe storm has passed, the branches bend,\nThe air is sharp and clean.\nYour laughter drifts across the yard—\nA quiet proof of what love means.\n\nWhat theme does the imagery in this poem suggest?",
+    "stem": "Romantic Love — \"After the Storm\"\n\nThe storm has passed, the branches bend,\nThe air is sharp and clean.\nYour laughter drifts across the yard—\nA quiet proof of what love means.\n\nWhat theme does the imagery in this poem suggest?",
+    "options": [
+      "Love endures through hardship and renewal.",
+      "Nature reflects the destruction caused by love.",
+      "Passion fades when calm returns.",
+      "Love exists only in peaceful moments."
+    ],
+    "answer": "Love endures through hardship and renewal.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The storm symbolizes conflict; the calm and laughter show resilience and restoration.",
+      "The poem shows renewal, not destruction.",
+      "The laughter after the storm shows love continuing, not fading.",
+      "The poem explicitly mentions a storm, showing love exists through challenges."
+    ],
+    "difficulty": 3,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q693",
+    "subarea": "Literature & Understanding",
+    "subareaId": "SA-2",
+    "objective": "Theme Analysis",
+    "question": "Theme: Identity — \"Mirror\"\n\nI look into the mirror's face,\nBut see my mother's eyes.\nHer voice still echoes in my thoughts,\nYet now my own replies.\n\nWhich statement best expresses the theme of the poem?",
+    "stem": "Theme: Identity — \"Mirror\"\n\nI look into the mirror's face,\nBut see my mother's eyes.\nHer voice still echoes in my thoughts,\nYet now my own replies.\n\nWhich statement best expresses the theme of the poem?",
+    "options": [
+      "Family traits shape but do not define personal identity.",
+      "Parents always influence their children's choices.",
+      "People never escape the past.",
+      "Mirrors can reveal hidden truths."
+    ],
+    "answer": "Family traits shape but do not define personal identity.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The speaker sees resemblance to her mother but also hears her own emerging voice — independence within connection.",
+      "The poem shows influence but also personal agency ('my own replies').",
+      "The poem shows evolution beyond the past, not entrapment.",
+      "This is too literal; the theme is about identity, not mirrors."
+    ],
+    "difficulty": 3,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q694",
+    "subarea": "Literature & Understanding",
+    "subareaId": "SA-2",
+    "objective": "Theme Analysis",
+    "question": "Theme: Religious Differences — \"Two Doors\"\n\nHe prays at dawn; I pray at noon.\nOur songs rise up the same.\nDifferent doors, the same bright sky—\nWe call one light by name.\n\nWhat is the main idea of the poem?",
+    "stem": "Theme: Religious Differences — \"Two Doors\"\n\nHe prays at dawn; I pray at noon.\nOur songs rise up the same.\nDifferent doors, the same bright sky—\nWe call one light by name.\n\nWhat is the main idea of the poem?",
+    "options": [
+      "Religious differences prevent unity.",
+      "True faith is found through strict ritual.",
+      "People of different faiths can share spiritual connection.",
+      "Worship should occur at the same time for everyone."
+    ],
+    "answer": "People of different faiths can share spiritual connection.",
+    "correctIndex": 2,
+    "rationales": [
+      "The poem emphasizes unity ('same bright sky'), not division.",
+      "The poem celebrates flexibility in practice, not strict ritual.",
+      "Correct! Both worshippers use different forms but reach toward the same spiritual truth.",
+      "The poem explicitly shows different times (dawn vs. noon) as acceptable."
+    ],
+    "difficulty": 3,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q695",
+    "subarea": "Literature & Understanding",
+    "subareaId": "SA-2",
+    "objective": "Theme Analysis",
+    "question": "Theme: Spiritual Enlightenment — \"The Quiet Answer\"\n\nI asked the stars for meaning,\nBut silence filled the air.\nThen, in that hush, my heart replied—\nThe truth was always there.\n\nWhich theme best fits this poem?",
+    "stem": "Theme: Spiritual Enlightenment — \"The Quiet Answer\"\n\nI asked the stars for meaning,\nBut silence filled the air.\nThen, in that hush, my heart replied—\nThe truth was always there.\n\nWhich theme best fits this poem?",
+    "options": [
+      "Enlightenment comes through quiet inner reflection.",
+      "Wisdom is gained only from teachers.",
+      "Life's mysteries are impossible to solve.",
+      "The universe answers all human questions."
+    ],
+    "answer": "Enlightenment comes through quiet inner reflection.",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The speaker finds insight not from the outside world, but from inner awareness.",
+      "The poem emphasizes self-discovery, not external teaching.",
+      "The poem shows answers are found, not that mysteries are impossible to solve.",
+      "The stars are silent; the answer comes from within, not the universe."
+    ],
+    "difficulty": 3,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q696",
+    "subarea": "Literature & Understanding",
+    "subareaId": "SA-2",
+    "objective": "Theme Analysis",
+    "question": "Theme: Romantic Love — \"Hands\"\n\nYour hand found mine in crowded streets,\nNo word, no grand display—\nJust quiet proof that love can bloom\nIn ordinary day.\n\nWhat central idea is expressed in the poem?",
+    "stem": "Theme: Romantic Love — \"Hands\"\n\nYour hand found mine in crowded streets,\nNo word, no grand display—\nJust quiet proof that love can bloom\nIn ordinary day.\n\nWhat central idea is expressed in the poem?",
+    "options": [
+      "True love is dramatic and public.",
+      "Love reveals itself through small, gentle acts.",
+      "Romance must always defy the ordinary.",
+      "Words are the strongest sign of love."
+    ],
+    "answer": "Love reveals itself through small, gentle acts.",
+    "correctIndex": 1,
+    "rationales": [
+      "The poem explicitly rejects grand display, emphasizing quiet gestures.",
+      "Correct! Love is shown through quiet gestures, not spectacle.",
+      "The poem celebrates the ordinary, not defiance of it.",
+      "The poem states 'No word,' showing actions over words."
+    ],
+    "difficulty": 3,
+    "mode": "Drill",
+    "type": "mcq"
   }
 ]
