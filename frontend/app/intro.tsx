@@ -13,12 +13,6 @@ export default function IntroScreen() {
         How Will This MTTC English Coach Resource Help You?
       </Text>
 
-      {/* Subtitle */}
-      <Text style={styles.subtitle}>
-        Your personal exam coach for mastering every objective of the MTTC English 002.
-        This app keeps your study focused, efficient, and progress-driven.
-      </Text>
-
       {/* Feature List */}
       <View style={styles.card}>
         <Feature
