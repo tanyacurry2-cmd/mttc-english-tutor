@@ -2844,4 +2844,34 @@
     "explanation": "Example: Embarrassed (English) vs. embarazada (Spanish), which means pregnant.",
     "difficulty": 2,
     "tags": ["cognates", "false cognates", "word relationships"]
+  },
+  {
+    "id": "F714",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and Archaic Words",
+    "question": "What is an archaic English word?",
+    "answer": "A word once common in English but no longer in everyday use",
+    "explanation": "Examples include thee, thou, and wherefore.",
+    "difficulty": 2,
+    "tags": ["archaic words", "language history", "vocabulary"]
+  },
+  {
+    "id": "F715",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and Phonetic Spelling",
+    "question": "What is a phonetic spelling of a word?",
+    "answer": "A spelling that reflects pronunciation rather than traditional form",
+    "explanation": "Examples: writing nite for night or thru for through.",
+    "difficulty": 2,
+    "tags": ["phonetic spelling", "language evolution", "spelling"]
+  },
+  {
+    "id": "F716",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and New Words",
+    "question": "What types of new words are most likely to join Standard American English?",
+    "answer": "Useful blends or compounds that fill communication needs",
+    "explanation": "Examples: brunch, smog, and podcast.",
+    "difficulty": 2,
+    "tags": ["neologisms", "language evolution", "compound words"]
   }]
