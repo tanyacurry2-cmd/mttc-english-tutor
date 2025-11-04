@@ -5527,5 +5527,65 @@
       "Syntax transfer involves applying sentence structure rules from one language to another, not vocabulary confusion."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q716",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and Archaic Words",
+    "stem": "Which of the following best defines an archaic English word?",
+    "options": [
+      "A slang term newly added to the dictionary",
+      "A word that has fallen out of common use but appears in older texts",
+      "A word used mainly in technology fields",
+      "A misspelled modern word"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Slang terms are contemporary, not archaic. Archaic words are from the past.",
+      "Correct! Archaic words are those that were once common but are no longer in everyday use, like thee, thou, and wherefore.",
+      "Technical terms are specialized modern vocabulary, not archaic words.",
+      "Archaic words are legitimate historical terms, not spelling errors."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q717",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and Phonetic Spelling",
+    "stem": "Which example shows a phonetic spelling of an archaic English word?",
+    "options": [
+      "Knight → nite",
+      "Thou → you",
+      "Ye olde shoppe → shop",
+      "Brunch → breakfast + lunch"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Nite' represents a phonetic modernization of 'knight' — same sound, modernized spelling form.",
+      "This is word replacement/evolution, not phonetic spelling of the same word.",
+      "This is a stylized archaic spelling, not a phonetic modernization.",
+      "This is a blend/portmanteau, not phonetic spelling of an archaic word."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q718",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and New Words",
+    "stem": "Which factor most increases the likelihood that a new word will enter Standard American English?",
+    "options": [
+      "It expresses a widely needed concept or object",
+      "It is used only by teenagers online",
+      "It has complicated spelling and no clear meaning",
+      "It originates as a private joke on TV"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Words that fill communication needs (like brunch, smog, podcast) are most likely to be adopted into standard usage.",
+      "Limited demographic use reduces the likelihood of mainstream adoption.",
+      "Complexity and unclear meaning hinder adoption, not help it.",
+      "Limited context and audience reduce the chances of widespread acceptance."
+    ],
+    "difficulty": 2
   }
 ]
