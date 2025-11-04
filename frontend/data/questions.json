@@ -5205,6 +5205,60 @@
     "options": []
   },
   {
+    "id": "F714",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language Evolution and Archaic Words",
+    "question": "What is an archaic English word?",
+    "answer": "A word once common in English but no longer in everyday use",
+    "explanation": "Examples include thee, thou, and wherefore.",
+    "difficulty": 2,
+    "tags": [
+      "archaic words",
+      "language history",
+      "vocabulary"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F715",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language Evolution and Phonetic Spelling",
+    "question": "What is a phonetic spelling of a word?",
+    "answer": "A spelling that reflects pronunciation rather than traditional form",
+    "explanation": "Examples: writing nite for night or thru for through.",
+    "difficulty": 2,
+    "tags": [
+      "phonetic spelling",
+      "language evolution",
+      "spelling"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
+    "id": "F716",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language Evolution and New Words",
+    "question": "What types of new words are most likely to join Standard American English?",
+    "answer": "Useful blends or compounds that fill communication needs",
+    "explanation": "Examples: brunch, smog, and podcast.",
+    "difficulty": 2,
+    "tags": [
+      "neologisms",
+      "language evolution",
+      "compound words"
+    ],
+    "mode": "Learn",
+    "type": "flashcard",
+    "options": []
+  },
+  {
     "id": "Q101",
     "subarea": "Genre & Craft",
     "subareaId": "SA-3",
@@ -12449,6 +12503,81 @@
       "Correct! False cognates are words that look similar in two languages but have different meanings. Sensible (English) means reasonable, while sensible (Spanish) means sensitive.",
       "Semantic drift refers to how word meanings change over time within a language, not cross-language confusion.",
       "Syntax transfer involves applying sentence structure rules from one language to another, not vocabulary confusion."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q716",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language Evolution and Archaic Words",
+    "question": "Which of the following best defines an archaic English word?",
+    "stem": "Which of the following best defines an archaic English word?",
+    "options": [
+      "A slang term newly added to the dictionary",
+      "A word that has fallen out of common use but appears in older texts",
+      "A word used mainly in technology fields",
+      "A misspelled modern word"
+    ],
+    "answer": "A word that has fallen out of common use but appears in older texts",
+    "correctIndex": 1,
+    "rationales": [
+      "Slang terms are contemporary, not archaic. Archaic words are from the past.",
+      "Correct! Archaic words are those that were once common but are no longer in everyday use, like thee, thou, and wherefore.",
+      "Technical terms are specialized modern vocabulary, not archaic words.",
+      "Archaic words are legitimate historical terms, not spelling errors."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q717",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language Evolution and Phonetic Spelling",
+    "question": "Which example shows a phonetic spelling of an archaic English word?",
+    "stem": "Which example shows a phonetic spelling of an archaic English word?",
+    "options": [
+      "Knight → nite",
+      "Thou → you",
+      "Ye olde shoppe → shop",
+      "Brunch → breakfast + lunch"
+    ],
+    "answer": "Knight → nite",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! 'Nite' represents a phonetic modernization of 'knight' — same sound, modernized spelling form.",
+      "This is word replacement/evolution, not phonetic spelling of the same word.",
+      "This is a stylized archaic spelling, not a phonetic modernization.",
+      "This is a blend/portmanteau, not phonetic spelling of an archaic word."
+    ],
+    "difficulty": 2,
+    "mode": "Drill",
+    "type": "mcq"
+  },
+  {
+    "id": "Q718",
+    "subarea": "Meaning & Communication",
+    "subareaId": "SA-1",
+    "objective": "Language Evolution and New Words",
+    "question": "Which factor most increases the likelihood that a new word will enter Standard American English?",
+    "stem": "Which factor most increases the likelihood that a new word will enter Standard American English?",
+    "options": [
+      "It expresses a widely needed concept or object",
+      "It is used only by teenagers online",
+      "It has complicated spelling and no clear meaning",
+      "It originates as a private joke on TV"
+    ],
+    "answer": "It expresses a widely needed concept or object",
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Words that fill communication needs (like brunch, smog, podcast) are most likely to be adopted into standard usage.",
+      "Limited demographic use reduces the likelihood of mainstream adoption.",
+      "Complexity and unclear meaning hinder adoption, not help it.",
+      "Limited context and audience reduce the chances of widespread acceptance."
     ],
     "difficulty": 2,
     "mode": "Drill",
