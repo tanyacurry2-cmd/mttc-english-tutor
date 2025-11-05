@@ -5587,5 +5587,85 @@
       "Limited context and audience reduce the chances of widespread acceptance."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q719",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "stem": "A small group within a larger society that shares common values, behaviors, or language patterns is known as a:",
+    "options": [
+      "ethnic group",
+      "speech community",
+      "microculture",
+      "acculturated group"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Ethnic groups are connected by shared ancestry and heritage, not necessarily small subgroups.",
+      "Speech communities share language and communication rules, but may not be small groups within a larger society.",
+      "Correct! A microculture is any small social group—such as bilingual students—bound by shared traits within a dominant culture.",
+      "Acculturated groups adopt traits from dominant culture while maintaining their own identity, not necessarily small subgroups."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q720",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "stem": "A group of people connected by shared ancestry, history, or cultural heritage is referred to as a:",
+    "options": [
+      "ethnic group",
+      "microculture",
+      "acculturated group",
+      "speech community"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! An ethnic group is defined by shared ancestry, history, and cultural heritage.",
+      "Microculture refers to small subgroups within a larger society, not necessarily based on ancestry.",
+      "Acculturated groups adopt traits from another culture while maintaining their own, not primarily defined by ancestry.",
+      "Speech communities are defined by shared language use, not ancestry or heritage."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q721",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "stem": "Individuals who share a common language and rules for its use within a broader society are known as a:",
+    "options": [
+      "microculture",
+      "speech community",
+      "acculturated group",
+      "ethnic group"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Microculture refers to small groups with shared values/behaviors, not specifically language-based.",
+      "Correct! A speech community is defined by shared language and linguistic norms within a broader society.",
+      "Acculturated groups adopt cultural traits, not necessarily defined by shared language rules.",
+      "Ethnic groups are defined by ancestry and heritage, not specifically by shared language use."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q722",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "stem": "When a group adopts traits from a dominant culture while maintaining aspects of its own identity, it is considered an:",
+    "options": [
+      "ethnic group",
+      "speech community",
+      "acculturated group",
+      "microculture"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Ethnic groups are defined by shared heritage, not necessarily by cultural adaptation.",
+      "Speech communities are defined by shared language use, not cultural adaptation.",
+      "Correct! An acculturated group adopts traits from a dominant culture while maintaining aspects of its own identity. This involves cultural adaptation without complete assimilation.",
+      "Microculture refers to small subgroups within a larger society, not specifically about cultural adaptation."
+    ],
+    "difficulty": 2
   }
 ]
