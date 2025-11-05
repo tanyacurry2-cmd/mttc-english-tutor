@@ -5667,5 +5667,105 @@
       "Microculture refers to small subgroups within a larger society, not specifically about cultural adaptation."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q723",
+    "subarea": "Literature & Understanding",
+    "objective": "Contrastive Intonation and Stress",
+    "stem": "Use the sentence fragment below to answer the question that follows.\n\nI didn't finish grading the essays, but I certainly can _______.",
+    "options": [
+      "throw them away and start over",
+      "finish them tomorrow morning",
+      "ask a student to grade for me",
+      "tell the class I'm done anyway"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "This doesn't solve the original task and abandons the goal.",
+      "Correct! The stress on 'can' signals capability after limitation — can't finish now, but can soon.",
+      "This avoids the responsibility rather than addressing the capability.",
+      "This is dishonest and doesn't reflect the 'can' capability being emphasized."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q724",
+    "subarea": "Literature & Understanding",
+    "objective": "Contrastive Intonation and Stress",
+    "stem": "Use the sentence fragment below to answer the question that follows.\n\nI couldn't join the meeting in person, but I certainly can _______.",
+    "options": [
+      "write the minutes afterward",
+      "log in remotely to participate",
+      "skip the meeting next week",
+      "apologize to the organizer"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "This is a different task, not maintaining the goal of participation.",
+      "Correct! Keeps the same goal (participation) while solving the limitation.",
+      "This abandons the goal rather than finding an alternative.",
+      "This doesn't solve the participation problem."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q725",
+    "subarea": "Literature & Understanding",
+    "objective": "Contrastive Intonation and Stress",
+    "stem": "Use the sentence fragment below to answer the question that follows.\n\nI didn't bring lunch today, but I certainly can _______.",
+    "options": [
+      "grab something from the cafeteria",
+      "skip lunch altogether",
+      "borrow someone's meal",
+      "wait until dinner"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The contrastive intonation highlights a quick, realistic solution.",
+      "This avoids solving the problem rather than addressing it.",
+      "This is unrealistic and doesn't reflect self-efficacy.",
+      "This delays rather than solves the immediate need."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q726",
+    "subarea": "Literature & Understanding",
+    "objective": "Contrastive Intonation and Stress",
+    "stem": "Use the sentence fragment below to answer the question that follows.\n\nI can't afford a new car right now, but I certainly can _______.",
+    "options": [
+      "complain about gas prices",
+      "save up and budget each month",
+      "ignore my old car's problems",
+      "borrow a luxury car for fun"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Complaining doesn't solve the affordability issue.",
+      "Correct! Fits the 'can't X but can Y to fix X' rhythm of confident contrast.",
+      "Ignoring problems doesn't address the capability being emphasized.",
+      "This is unrealistic and doesn't work toward the goal."
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "Q727",
+    "subarea": "Literature & Understanding",
+    "objective": "Contrastive Intonation and Stress",
+    "stem": "Use the sentence fragment below to answer the question that follows.\n\nI didn't understand the lesson at first, but I certainly can _______.",
+    "options": [
+      "review the notes and ask questions",
+      "pretend I already knew it",
+      "complain about the teacher",
+      "drop the class altogether"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The falling intonation after 'can' emphasizes self-efficacy — a positive alternative action.",
+      "This avoids addressing the understanding gap.",
+      "This doesn't solve the comprehension issue.",
+      "This abandons the learning goal rather than pursuing it."
+    ],
+    "difficulty": 2
   }
 ]
