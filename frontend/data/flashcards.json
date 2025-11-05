@@ -2874,4 +2874,44 @@
     "explanation": "Examples: brunch, smog, and podcast.",
     "difficulty": 2,
     "tags": ["neologisms", "language evolution", "compound words"]
+  },
+  {
+    "id": "F717",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "question": "What is a microculture?",
+    "answer": "A small group within a larger society that shares common values, behaviors, or language patterns",
+    "explanation": "Example: bilingual students within a dominant culture.",
+    "difficulty": 2,
+    "tags": ["microculture", "social groups", "cultural context"]
+  },
+  {
+    "id": "F718",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "question": "What is an ethnic group?",
+    "answer": "A group of people connected by shared ancestry, history, or cultural heritage",
+    "explanation": "Ethnic groups maintain distinct cultural identities and traditions.",
+    "difficulty": 2,
+    "tags": ["ethnic group", "cultural heritage", "identity"]
+  },
+  {
+    "id": "F719",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "question": "What is a speech community?",
+    "answer": "Individuals who share a common language and rules for its use within a broader society",
+    "explanation": "Members of a speech community follow shared linguistic norms and communication patterns.",
+    "difficulty": 2,
+    "tags": ["speech community", "language use", "sociolinguistics"]
+  },
+  {
+    "id": "F720",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "question": "What is an acculturated group?",
+    "answer": "A group that adopts traits from a dominant culture while maintaining aspects of its own identity",
+    "explanation": "Acculturation involves cultural adaptation without complete assimilation.",
+    "difficulty": 2,
+    "tags": ["acculturation", "cultural adaptation", "identity"]
   }]
