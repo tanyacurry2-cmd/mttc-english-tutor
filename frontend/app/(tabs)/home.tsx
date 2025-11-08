@@ -172,6 +172,17 @@ export default function HomeScreen() {
 
         <Text style={styles.sectionTitle}>Study Modes</Text>
         <View style={styles.featuresGrid}>
+          {/* Writing Lab Button */}
+          <TouchableOpacity
+            style={[styles.featureTile, styles.writingLabTile]}
+            onPress={() => router.push('/writing-lab')}
+            activeOpacity={0.7}
+          >
+            <MaterialCommunityIcons name="pencil-box-outline" size={32} color={theme.colors.primary} />
+            <Text style={styles.featureTitle}>Writing Lab</Text>
+            <Text style={styles.featureDescription}>AI-Scored Practice</Text>
+          </TouchableOpacity>
+
           {features.map((feature) => (
             <TouchableOpacity
               key={feature.id}
