@@ -47,7 +47,8 @@ export default function WritingLabScreen() {
     try {
       setIsSubmitting(true);
 
-      const backendUrl = Constants.expoConfig?.extra?.EXPO_PUBLIC_BACKEND_URL || '';
+      // Use process.env for EXPO_PUBLIC_ variables
+      const backendUrl = process.env.EXPO_PUBLIC_BACKEND_URL || '';
       
       const res = await fetch(`${backendUrl}/api/grade-writing`, {
         method: 'POST',
@@ -60,14 +61,15 @@ export default function WritingLabScreen() {
       });
 
       if (!res.ok) {
-        throw new Error('Server error while grading response.');
+        const errorText = await res.text();
+        throw new Error(`Server error: ${errorText}`);
       }
 
       const data = await res.json();
       setFeedback(data);
-    } catch (e) {
-      console.error(e);
-      setError('There was a problem getting feedback. Try again.');
+    } catch (e: any) {
+      console.error('Writing Lab Error:', e);
+      setError(e.message || 'There was a problem getting feedback. Try again.');
     } finally {
       setIsSubmitting(false);
     }
