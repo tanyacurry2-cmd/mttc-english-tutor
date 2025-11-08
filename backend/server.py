@@ -100,6 +100,71 @@ async def get_all_questions(
     questions = await db.questions.find(query, {"_id": 0}).to_list(10000)
     return questions
 
+# Writing Lab API Endpoint
+class WritingRequest(BaseModel):
+    promptId: str
+    promptText: str
+    userResponse: str
+
+@api_router.post("/grade-writing")
+async def grade_writing(request: WritingRequest):
+    """Grade a constructed response using OpenAI"""
+    try:
+        from openai import OpenAI
+        
+        # Initialize OpenAI client with Emergent LLM key
+        api_key = os.getenv("EMERGENT_LLM_KEY") or os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            return {"error": "API key not configured"}
+        
+        client_openai = OpenAI(api_key=api_key)
+        
+        system_message = """You are an experienced MTTC English (002) scorer.
+Score the response using this rubric, from 1 (weak) to 4 (strong):
+
+1. Focus & Purpose: Does the response address the prompt clearly and stay on topic?
+2. Organization & Coherence: Is there a logical structure with clear connections between ideas?
+3. Evidence & Analysis: Does the writer explain, analyze, or support points effectively?
+4. Language & Conventions: Are grammar, mechanics, and word choice appropriate for a teacher candidate?
+
+Return ONLY a valid JSON object with this shape:
+{
+  "overall_score": number,
+  "focus_purpose": { "score": number, "comment": string },
+  "organization": { "score": number, "comment": string },
+  "evidence_analysis": { "score": number, "comment": string },
+  "language_conventions": { "score": number, "comment": string },
+  "next_steps": string
+}
+Do not include any extra text or explanation."""
+
+        user_message = f"""PROMPT:
+{request.promptText}
+
+CANDIDATE RESPONSE:
+{request.userResponse}"""
+
+        completion = client_openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": system_message},
+                {"role": "user", "content": user_message}
+            ],
+            temperature=0.7,
+            response_format={"type": "json_object"}
+        )
+        
+        # Parse the AI response
+        import json
+        raw_response = completion.choices[0].message.content
+        feedback = json.loads(raw_response)
+        
+        return feedback
+        
+    except Exception as e:
+        logger.error(f"Error in grade_writing: {str(e)}")
+        return {"error": f"Failed to grade response: {str(e)}"}
+
 # Include the router in the main app
 app.include_router(api_router)
 
