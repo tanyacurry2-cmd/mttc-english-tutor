@@ -14,7 +14,6 @@ import { Picker } from '@react-native-picker/picker';
 import { useRouter } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { WRITING_PROMPTS } from '../data/writingPrompts';
-import Constants from 'expo-constants';
 
 interface Feedback {
   overall_score?: number;
