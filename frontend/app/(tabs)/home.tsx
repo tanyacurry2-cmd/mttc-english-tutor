@@ -340,6 +340,10 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 3,
   },
+  writingLabTile: {
+    borderWidth: 2,
+    borderColor: theme.colors.primary,
+  },
   iconContainer: {
     width: 64,
     height: 64,
