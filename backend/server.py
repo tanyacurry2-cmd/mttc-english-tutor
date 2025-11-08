@@ -108,17 +108,16 @@ class WritingRequest(BaseModel):
 
 @api_router.post("/grade-writing")
 async def grade_writing(request: WritingRequest):
-    """Grade a constructed response using OpenAI"""
+    """Grade a constructed response using OpenAI via Emergent Integrations"""
     try:
-        from openai import OpenAI
+        from emergentintegrations.llm.chat import LlmChat, UserMessage
         
-        # Initialize OpenAI client with Emergent LLM key
-        api_key = os.getenv("EMERGENT_LLM_KEY") or os.getenv("OPENAI_API_KEY")
+        # Get API key from environment
+        api_key = os.getenv("EMERGENT_LLM_KEY")
         if not api_key:
             return {"error": "API key not configured"}
         
-        client_openai = OpenAI(api_key=api_key)
-        
+        # Create system message for rubric scoring
         system_message = """You are an experienced MTTC English (002) scorer.
 Score the response using this rubric, from 1 (weak) to 4 (strong):
 
@@ -138,26 +137,28 @@ Return ONLY a valid JSON object with this shape:
 }
 Do not include any extra text or explanation."""
 
-        user_message = f"""PROMPT:
+        # Initialize LlmChat
+        chat = LlmChat(
+            api_key=api_key,
+            session_id=f"writing-{request.promptId}",
+            system_message=system_message
+        ).with_model("openai", "gpt-4o-mini")
+        
+        # Create user message with prompt and response
+        user_content = f"""PROMPT:
 {request.promptText}
 
 CANDIDATE RESPONSE:
 {request.userResponse}"""
-
-        completion = client_openai.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": system_message},
-                {"role": "user", "content": user_message}
-            ],
-            temperature=0.7,
-            response_format={"type": "json_object"}
-        )
         
-        # Parse the AI response
+        user_message = UserMessage(text=user_content)
+        
+        # Get AI response
+        response = await chat.send_message(user_message)
+        
+        # Parse JSON response
         import json
-        raw_response = completion.choices[0].message.content
-        feedback = json.loads(raw_response)
+        feedback = json.loads(response)
         
         return feedback
         
