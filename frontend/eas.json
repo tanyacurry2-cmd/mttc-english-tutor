@@ -6,18 +6,24 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
+      "node": "22.12.0",
+      "yarn": "1.22.22",
       "ios": {
         "simulator": true
       }
     },
     "preview": {
       "distribution": "internal",
+      "node": "22.12.0",
+      "yarn": "1.22.22",
       "ios": {
         "simulator": false
       }
     },
     "production": {
       "distribution": "store",
+      "node": "22.12.0",
+      "yarn": "1.22.22",
       "ios": {
         "simulator": false
       }
