@@ -1,0 +1,338 @@
+<analysis>
+The previous AI engineer successfully launched the MTTC English Tutor app from scratch to a production-ready state, focusing on content delivery, user engagement, and a robust backend. Initial efforts established the core Expo/React Native framework, navigation, and a diagnostic assessment. Content was dynamically expanded via content generation scripts, ensuring smart content prioritization and mastery tracking. A significant architectural shift involved migrating all content from local JSON to a FastAPI backend with MongoDB, enabling dynamic updates.
+
+The current trajectory details the work handed over to me, starting with ongoing content additions (literature, genre & craft, skills & processes, word relationships, cultural context) and UI refinements (font size adjustments, intro screen layout fixes). A major feature, the AI-powered Writing Lab, was integrated, involving frontend (React Native), backend (FastAPI with  for LLM calls), and data (writing prompts). The final phase, which encountered significant issues, involved preparing for TestFlight deployment. This involved configuring Apple Developer credentials, troubleshooting EAS command line tool
+
+VERSION
+  eas-cli/16.26.0 linux-arm64 node-v20.19.5
+
+USAGE
+  $ eas [COMMAND]
+
+TOPICS
+  account      manage account
+  branch       manage update branches
+  build        build app binaries
+  channel      manage update channels
+  credentials  manage credentials
+  deploy       deploy your Expo Router web build and API Routes
+  device       manage Apple devices for Internal Distribution
+  env          manage project and account environment variables
+  fingerprint  compare fingerprints of the current project, builds, and updates
+  metadata     manage store configuration
+  project      manage project
+  update       manage individual updates
+  webhook      manage webhooks
+  workflow     manage workflows
+
+COMMANDS
+  analytics     display or change analytics settings
+  autocomplete  display autocomplete installation instructions
+  build         start a build
+  config        display project configuration (app.json + eas.json)
+  credentials   manage credentials
+  deploy        deploy your Expo Router web build and API Routes
+  diagnostics   display environment info
+  help          Display help for eas.
+  init          create or link an EAS project
+  login         log in with your Expo account
+  logout        log out
+  new           Create a new project configured with Expo Application Services
+                (EAS)
+  onboarding    continue onboarding process started on the https://expo.new
+                website.
+  open          open the project page in a web browser
+  submit        submit app binary to App Store and/or Play Store
+  update        publish an update group
+  upload        upload a local build and generate a sharable link
+  whoami        show the username you are logged in as CLI commands, fixing  and  syntax, and resolving a critical React Native version incompatibility during the iOS build process.
+</analysis>
+
+<product_requirements>
+The MTTC English Tutor is an iOS app for MTTC English 002 exam preparation using Expo/React Native. Its core purpose is to provide comprehensive study tools. Features include:
+- A 20-question diagnostic assessment with timer, session history, and readiness score.
+- Study modes: Learn for flashcards, Drill for MCQs.
+- Practice screen for subarea performance.
+- Progress heatmap for tracking.
+- Firebase Auth (placeholders present) and Apple Sign-In (planned).
+- In-App Purchases (IAP) for premium features.
+Content, initially local JSON, is now migrated to a FastAPI backend with MongoDB for dynamic updates. The app prioritizes smart content for unseen/least-seen questions, features confetti for mastery/perfect scores, and includes a mastery tracking system with reinstate options. The home screen provides quick access to unmastered content. Recently, an AI-powered Writing Lab for rubric-style feedback on constructed responses was added. The app aims for a professional, calm UI/UX, seamless offline functionality via caching, and is currently being prepared for TestFlight deployment.
+</product_requirements>
+
+<key_technical_concepts>
+- **Expo/React Native**: Cross-platform mobile development framework with file-based routing ().
+- **FastAPI**: Python web framework for backend API.
+- **MongoDB**: NoSQL database for dynamic content.
+- **AsyncStorage**: Persistent local data storage for caching and mastery tracking.
+- ****: UI library for animations.
+- ****: UI component for dropdowns.
+- ****: Displays web content within the app.
+- ****: Custom library for LLM API calls with .
+- **EAS CLI**: Expo Application Services Command Line Interface for building and deploying apps.
+</key_technical_concepts>
+
+<code_architecture>
+The application is structured into  (Expo React Native) and  (FastAPI with MongoDB) directories.
+
+
+
+-   : Expo configuration. Modified to update bundle ID to , remove invalid , and correct JSON syntax ( section to ).
+-   : EAS Build configuration. Modified to include , ,  for TestFlight submission. It was initially missing and then created.
+-   : Home screen. Modified repeatedly to adjust font sizes on Learn and Drill buttons (text, counts). A new Writing Lab button and an Info button (linking to IntroScreen) were added.
+-   : Tab navigator layout. Modified to reduce subarea titles font size on the Practice screen.
+-    (New): Intro/Onboarding screen. Provides app overview, features, and calls to action. It was created, had its subtitle and tagline removed, font sizes reduced, and padded to adjust vertical position.
+-    (New): Screen to display legal documents. Created to use  to render .
+-    (New): AI-powered writing feedback screen. Created from user-provided React component, adapted to React Native, and configured to fetch feedback from the backend. Fixed to correctly use .
+-    (New): HTML file containing Terms of Service and Privacy Policy. Created to be displayed via WebView.
+-   : Local content for flashcards. New flashcards on Cognates (F711-F713), Archaic Words (F714-F716), and Cultural Concepts (F717-F720) were added.
+-   : Local content for multiple-choice questions. Numerous new MCQs (Q689-Q727) across Literature, Genre & Craft, Skills & Processes, Meaning & Communication were added.
+-   : Unified content source, generated by . Regenerated after every addition to  or . Now contains 593 total questions.
+-    (New): Stores constructed response writing prompts for the Writing Lab.
+-   : Script to combine  and  into . Executed repeatedly to update content.
+-   : Environment variables for the backend.  was added to enable AI functionality.
+-   : FastAPI server. Modified to include a new  endpoint that uses  for AI scoring.
+-   : Backend dependencies. usage: openai [-h] [-v] [-b API_BASE] [-k API_KEY] [-p PROXY [PROXY ...]]
+              [-o ORGANIZATION] [-t {openai,azure}]
+              [--api-version API_VERSION] [--azure-endpoint AZURE_ENDPOINT]
+              [--azure-ad-token AZURE_AD_TOKEN] [-V]
+              {api,tools,migrate,grit} ...
+
+positional arguments:
+  {api,tools,migrate,grit}
+    api                 Direct API calls
+    tools               Client side tools for convenience
+
+options:
+  -h, --help            show this help message and exit
+  -v, --verbose         Set verbosity.
+  -b API_BASE, --api-base API_BASE
+                        What API base url to use.
+  -k API_KEY, --api-key API_KEY
+                        What API key to use.
+  -p PROXY [PROXY ...], --proxy PROXY [PROXY ...]
+                        What proxy to use.
+  -o ORGANIZATION, --organization ORGANIZATION
+                        Which organization to run as (will use your default
+                        organization if not specified)
+  -t {openai,azure}, --api-type {openai,azure}
+                        The backend API to call, must be `openai` or `azure`
+  --api-version API_VERSION
+                        The Azure API version, e.g.
+                        'https://learn.microsoft.com/en-us/azure/ai-
+                        services/openai/reference#rest-api-versioning'
+  --azure-endpoint AZURE_ENDPOINT
+                        The Azure endpoint, e.g.
+                        'https://endpoint.openai.azure.com'
+  --azure-ad-token AZURE_AD_TOKEN
+                        A token from Azure Active Directory,
+                        https://www.microsoft.com/en-
+                        us/security/business/identity-access/microsoft-entra-
+                        id
+  -V, --version         show program's version number and exit and  were installed.
+</code_architecture>
+
+<pending_tasks>
+-   Fully integrate Pick Up Where You Left Off logic into Learn/Drill UI.
+-   Replace placeholder Firebase credentials.
+-   Add Apple Sign-In functionality.
+-   Implement push notifications (deferred to v1.1 update).
+-   Apply the ombre dark blue/teal gradient background to all remaining screens (Assessment, Progress, Exam/Practice).
+-   Successfully build and deploy the app to TestFlight.
+</pending_tasks>
+
+<current_work>
+Immediately before this summary request, the AI engineer was engaged in troubleshooting the TestFlight deployment process. The user, operating from their local HP laptop, was attempting to follow the EAS command line tool
+
+VERSION
+  eas-cli/16.26.0 linux-arm64 node-v20.19.5
+
+USAGE
+  $ eas [COMMAND]
+
+TOPICS
+  account      manage account
+  branch       manage update branches
+  build        build app binaries
+  channel      manage update channels
+  credentials  manage credentials
+  deploy       deploy your Expo Router web build and API Routes
+  device       manage Apple devices for Internal Distribution
+  env          manage project and account environment variables
+  fingerprint  compare fingerprints of the current project, builds, and updates
+  metadata     manage store configuration
+  project      manage project
+  update       manage individual updates
+  webhook      manage webhooks
+  workflow     manage workflows
+
+COMMANDS
+  analytics     display or change analytics settings
+  autocomplete  display autocomplete installation instructions
+  build         start a build
+  config        display project configuration (app.json + eas.json)
+  credentials   manage credentials
+  deploy        deploy your Expo Router web build and API Routes
+  diagnostics   display environment info
+  help          Display help for eas.
+  init          create or link an EAS project
+  login         log in with your Expo account
+  logout        log out
+  new           Create a new project configured with Expo Application Services
+                (EAS)
+  onboarding    continue onboarding process started on the https://expo.new
+                website.
+  open          open the project page in a web browser
+  submit        submit app binary to App Store and/or Play Store
+  update        publish an update group
+  upload        upload a local build and generate a sharable link
+  whoami        show the username you are logged in as CLI commands provided by the AI.
+
+The main challenge was a persistent build failure during the iOS prebuild phase. Initial attempts to clone the GitHub repository () locally were met with path and repository not found errors, eventually resolved by correcting the repository name and using a Personal Access Token for private repository access.
+
+Subsequently, issues arose with EAS command line tool
+
+VERSION
+  eas-cli/16.26.0 linux-arm64 node-v20.19.5
+
+USAGE
+  $ eas [COMMAND]
+
+TOPICS
+  account      manage account
+  branch       manage update branches
+  build        build app binaries
+  channel      manage update channels
+  credentials  manage credentials
+  deploy       deploy your Expo Router web build and API Routes
+  device       manage Apple devices for Internal Distribution
+  env          manage project and account environment variables
+  fingerprint  compare fingerprints of the current project, builds, and updates
+  metadata     manage store configuration
+  project      manage project
+  update       manage individual updates
+  webhook      manage webhooks
+  workflow     manage workflows
+
+COMMANDS
+  analytics     display or change analytics settings
+  autocomplete  display autocomplete installation instructions
+  build         start a build
+  config        display project configuration (app.json + eas.json)
+  credentials   manage credentials
+  deploy        deploy your Expo Router web build and API Routes
+  diagnostics   display environment info
+  help          Display help for eas.
+  init          create or link an EAS project
+  login         log in with your Expo account
+  logout        log out
+  new           Create a new project configured with Expo Application Services
+                (EAS)
+  onboarding    continue onboarding process started on the https://expo.new
+                website.
+  open          open the project page in a web browser
+  submit        submit app binary to App Store and/or Play Store
+  update        publish an update group
+  upload        upload a local build and generate a sharable link
+  whoami        show the username you are logged in as CLI commands:
+1.  **An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username Failure**: Due to an invalid  in . This was fixed by manually editing  via Notepad to remove the problematic  section and correcting missing closing braces ().
+2.  **An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username Failure**: Initially due to a missing  file. This was resolved by creating the  file with the correct structure and required Apple Developer credentials (, , ). A subsequent error related to JSON formatting in  was fixed by overwriting the file with a correctly formatted JSON block. The process then progressed to Apple login and 2FA.
+3.  **An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username Failure**: The build failed multiple times.
+    *   Initially, an  error was encountered, traced to a missing splash screen image. The user decided to remove the splash screen plugin from . This involved identifying and deleting the  plugin block and correcting trailing commas in the  array.
+    *   The most recent build failure () generated a detailed log indicating:  and  in . This points to a React Native version incompatibility issue, where the project uses  but Expo expects .
+</current_work>
+
+<optional_next_step>
+Run env: load .env
+env: export EXPO_TUNNEL_SUBDOMAIN EXPO_PACKAGER_HOSTNAME EXPO_PUBLIC_BACKEND_URL EXPO_USE_FAST_RESOLVER METRO_CACHE_ROOT EXPO_PUBLIC_FIREBASE_API_KEY EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN EXPO_PUBLIC_FIREBASE_PROJECT_ID EXPO_PUBLIC_FIREBASE_APP_ID
+› Installing 27 SDK 54.0.0 compatible native modules using yarn
+> yarn add @expo/vector-icons@^15.0.3 @react-native-picker/picker@2.11.1 expo-blur@~15.0.7 expo-constants@~18.0.10 expo-font@~14.0.9 expo-image@~3.0.10 expo-linking@~8.0.8 expo-router@~6.0.14 expo-splash-screen@~31.0.10 expo-status-bar@~3.0.8 expo-symbols@~1.0.7 expo-system-ui@~6.0.8 expo-web-browser@~15.0.9 react@19.1.0 react-dom@19.1.0 react-native@0.81.5 react-native-gesture-handler@~2.28.0 react-native-get-random-values@~1.11.0 react-native-reanimated@~4.1.1 react-native-safe-area-context@~5.6.0 react-native-screens@~4.16.0 react-native-svg@15.12.1 react-native-web@^0.21.0 react-native-webview@13.15.0
+yarn add v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 49 new dependencies.
+info Direct dependencies
+├─ @react-native-picker/picker@2.11.1
+├─ expo-blur@15.0.7
+├─ expo-image@3.0.10
+├─ expo-linking@8.0.8
+├─ expo-router@6.0.14
+├─ expo-splash-screen@31.0.10
+├─ expo-status-bar@3.0.8
+├─ expo-symbols@1.0.7
+├─ expo-system-ui@6.0.8
+├─ expo-web-browser@15.0.9
+├─ react-dom@19.1.0
+├─ react-native-gesture-handler@2.28.0
+├─ react-native-get-random-values@1.11.0
+├─ react-native-reanimated@4.1.3
+├─ react-native-safe-area-context@5.6.2
+├─ react-native-screens@4.16.0
+├─ react-native-svg@15.12.1
+├─ react-native-web@0.21.2
+├─ react-native-webview@13.15.0
+├─ react-native@0.81.5
+└─ react@19.1.0
+info All dependencies
+├─ @expo/metro-runtime@6.1.2
+├─ @radix-ui/react-collection@1.1.7
+├─ @radix-ui/react-dialog@1.1.15
+├─ @radix-ui/react-dismissable-layer@1.1.11
+├─ @radix-ui/react-focus-guards@1.1.3
+├─ @radix-ui/react-focus-scope@1.1.7
+├─ @radix-ui/react-portal@1.1.9
+├─ @radix-ui/react-roving-focus@1.1.11
+├─ @radix-ui/react-tabs@1.1.13
+├─ @radix-ui/react-use-effect-event@0.0.2
+├─ @radix-ui/react-use-escape-keydown@1.1.1
+├─ @react-native-picker/picker@2.11.1
+├─ @react-native/assets-registry@0.81.5
+├─ @react-native/community-cli-plugin@0.81.5
+├─ @react-native/gradle-plugin@0.81.5
+├─ @react-native/js-polyfills@0.81.5
+├─ @react-native/virtualized-lists@0.81.5
+├─ @react-navigation/native-stack@7.6.2
+├─ aria-hidden@1.2.6
+├─ detect-node-es@1.1.0
+├─ expo-blur@15.0.7
+├─ expo-image@3.0.10
+├─ expo-linking@8.0.8
+├─ expo-router@6.0.14
+├─ expo-splash-screen@31.0.10
+├─ expo-status-bar@3.0.8
+├─ expo-symbols@1.0.7
+├─ expo-system-ui@6.0.8
+├─ expo-web-browser@15.0.9
+├─ get-nonce@1.0.1
+├─ react-devtools-core@6.1.5
+├─ react-dom@19.1.0
+├─ react-native-gesture-handler@2.28.0
+├─ react-native-get-random-values@1.11.0
+├─ react-native-reanimated@4.1.3
+├─ react-native-safe-area-context@5.6.2
+├─ react-native-screens@4.16.0
+├─ react-native-svg@15.12.1
+├─ react-native-web@0.21.2
+├─ react-native-webview@13.15.0
+├─ react-native@0.81.5
+├─ react-remove-scroll-bar@2.3.8
+├─ react-remove-scroll@2.7.1
+├─ react-style-singleton@2.2.3
+├─ react@19.1.0
+├─ scheduler@0.26.0
+├─ use-callback-ref@1.3.3
+├─ use-sidecar@1.1.3
+└─ vaul@1.1.2
+Done in 17.97s. to resolve React Native version incompatibility and other dependency issues.
+</optional_next_step>
