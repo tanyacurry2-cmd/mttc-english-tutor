@@ -41,7 +41,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#FAFAF7"
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
