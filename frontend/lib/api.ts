@@ -57,7 +57,17 @@ export const questionApi = {
 
   // Get question statistics
   async getStats(): Promise<any> {
-    const response = await fetch(`${BACKEND_URL}/api/questions/stats`);
-    return response.json();
+    const stats = {
+      total: allQuestions.length,
+      byType: {
+        mcq: allQuestions.filter(q => q.type === 'mcq').length,
+        flashcard: allQuestions.filter(q => q.type === 'flashcard').length
+      },
+      bySubarea: allQuestions.reduce((acc, q) => {
+        acc[q.subareaId] = (acc[q.subareaId] || 0) + 1;
+        return acc;
+      }, {} as Record<string, number>)
+    };
+    return Promise.resolve(stats);
   }
 };
