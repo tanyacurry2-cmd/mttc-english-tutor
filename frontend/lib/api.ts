@@ -1,6 +1,4 @@
-import Constants from 'expo-constants';
-
-const BACKEND_URL = Constants.expoConfig?.extra?.EXPO_BACKEND_URL || 'http://localhost:8001';
+import questionsData from '../data/questions.json';
 
 export interface Question {
   id: string;
@@ -28,23 +26,33 @@ export interface QuestionFilters {
   mode?: 'Learn' | 'Drill';
 }
 
+const allQuestions: Question[] = questionsData as Question[];
+
 export const questionApi = {
   // Get all questions with optional filters
   async getQuestions(filters?: QuestionFilters): Promise<Question[]> {
-    const params = new URLSearchParams();
-    if (filters?.type) params.append('type', filters.type);
-    if (filters?.subareaId) params.append('subareaId', filters.subareaId);
-    if (filters?.mode) params.append('mode', filters.mode);
+    let filtered = allQuestions;
     
-    const url = `${BACKEND_URL}/api/questions${params.toString() ? `?${params.toString()}` : ''}`;
-    const response = await fetch(url);
-    return response.json();
+    if (filters?.type) {
+      filtered = filtered.filter(q => q.type === filters.type);
+    }
+    if (filters?.subareaId) {
+      filtered = filtered.filter(q => q.subareaId === filters.subareaId);
+    }
+    if (filters?.mode) {
+      filtered = filtered.filter(q => q.mode === filters.mode);
+    }
+    
+    return Promise.resolve(filtered);
   },
 
   // Get a single question by ID
   async getQuestion(id: string): Promise<Question> {
-    const response = await fetch(`${BACKEND_URL}/api/questions/${id}`);
-    return response.json();
+    const question = allQuestions.find(q => q.id === id);
+    if (!question) {
+      throw new Error(`Question ${id} not found`);
+    }
+    return Promise.resolve(question);
   },
 
   // Get question statistics
