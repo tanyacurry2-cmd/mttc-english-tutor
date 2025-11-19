@@ -26,8 +26,7 @@ import {
   MasteredFlashcard,
   isFlashcardMastered
 } from '../../storage/mastery';
-import questionsData from '../../data/questions.json';
-import flashcardsData from '../../data/flashcards.json';
+import { DataLoader } from '../../lib/data-loader';
 import { Question } from '../../utils/selection';
 import { Card } from '../../types/content';
 

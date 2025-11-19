@@ -11,8 +11,7 @@ import { useRouter, useLocalSearchParams } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { theme } from '../lib/theme';
 import { Subarea } from '../types/content';
-import flashcardsData from '../data/flashcards.json';
-import mcqData from '../data/mcq.json';
+import { DataLoader } from '../lib/data-loader';
 
 export default function ObjectiveStudyScreen() {
   const router = useRouter();
