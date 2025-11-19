@@ -14,7 +14,7 @@ import { useRouter, useLocalSearchParams } from 'expo-router';
 import { TrialBanner } from '../../components/TrialBanner';
 import { StarryBackground } from '../../components/StarryBackground';
 import { theme } from '../../lib/theme';
-import flashcardsData from '../../data/flashcards.json';
+import { DataLoader } from '../../lib/data-loader';
 import { Card } from '../../types/content';
 import { calculateNextReview, ReviewQuality, isDueForReview, sortCardsByPriority, DEFAULT_SRS_CARD } from '../../lib/srs';
 import { Button } from '../../components/Button';
