@@ -79,8 +79,8 @@ export default function HomeScreen() {
       const masteredFlashcardIds = await getMasteredFlashcardIds();
       const masteredQuestionIds = await getMasteredQuestionIds();
       
-      const totalFlashcards = flashcardsData.length;
-      const totalQuestions = mcqData.length;
+      const totalFlashcards = DataLoader.getAllFlashcards().length;
+      const totalQuestions = DataLoader.getAllMCQs().length;
       
       setUnmasteredFlashcards(totalFlashcards - masteredFlashcardIds.length);
       setUnmasteredQuestions(totalQuestions - masteredQuestionIds.length);
