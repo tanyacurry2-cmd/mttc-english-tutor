@@ -15,8 +15,7 @@ import { StarryBackground } from '../../components/StarryBackground';
 import { theme } from '../../lib/theme';
 import { signOut } from 'firebase/auth';
 import { auth } from '../../lib/firebase';
-import flashcardsData from '../../data/flashcards.json';
-import mcqData from '../../data/mcq.json';
+import { DataLoader } from '../../lib/data-loader';
 import { Subarea } from '../../types/content';
 import { getMasteredFlashcardIds, getMasteredQuestionIds } from '../../storage/mastery';
 
