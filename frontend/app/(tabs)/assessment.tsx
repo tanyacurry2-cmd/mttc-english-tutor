@@ -31,7 +31,7 @@ export default function DiagnosticScreen() {
   // Build a fresh pool on mount, excluding mastered questions
   const pool: Question[] = useMemo(() => {
     try {
-      const mcqs = (questionsData as Question[]).filter(
+      const mcqs = (DataLoader.getAllQuestions() as Question[]).filter(
         q => q.type === "mcq" && 
         q.mode === "Drill" && 
         !masteredIds.includes(q.id) // Filter out mastered questions
