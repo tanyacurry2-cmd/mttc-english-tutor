@@ -4,25 +4,21 @@ import {
   Text,
   StyleSheet,
   SafeAreaView,
-  ScrollView,
   TouchableOpacity,
   Animated,
-  Modal,
+  ScrollView,
 } from 'react-native';
-import { useRouter, useLocalSearchParams } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import ConfettiCannon from 'react-native-confetti-cannon';
 import { useAppStore } from '../../lib/store';
+import { useRouter, useLocalSearchParams } from 'expo-router';
 import { TrialBanner } from '../../components/TrialBanner';
 import { StarryBackground } from '../../components/StarryBackground';
-import { Button } from '../../components/Button';
 import { theme } from '../../lib/theme';
-import mcqData from '../../data/mcq.json';
-import { MCQ } from '../../types/content';
-import { playSuccessSound, playErrorSound, initializeAudio } from '../../lib/soundUtils';
-import { loadStats, bumpAttempt } from '../../storage/stats';
-import { prioritizedPool, shuffle } from '../../utils/selection';
-import { getConsecutiveCorrect, incrementConsecutive, resetConsecutive } from '../../storage/mastery';
+import { DataLoader } from '../../lib/data-loader';
+import { Button } from '../../components/Button';
+import { loadStats, bumpSeen } from '../../storage/stats';
+import { prioritizedPool } from '../../utils/selection';
+import { getMasteredQuestionIds, updateMasteredQuestion } from '../../storage/mastery';
 
 // Map subarea names to IDs
 const subareaNameToId: { [key: string]: string } = {
@@ -32,42 +28,45 @@ const subareaNameToId: { [key: string]: string } = {
   'Skills & Processes': 'SA-4',
 };
 
+type Question = {
+  id: string;
+  subarea: string;
+  objective: string;
+  stem: string;
+  options: string[];
+  correctIndex: number;
+  rationales: string[];
+  [key: string]: any;
+};
+
 export default function DrillScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
-  const { mcqHistory, updateMCQHistory } = useAppStore();
+  const { mcqHistory, updateMCQHistory, checkTrialStatus, lastQuestionID, lastMode, setLastStudied } = useAppStore();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
-  const [showRationale, setShowRationale] = useState(false);
-  const [questions, setQuestions] = useState<MCQ[]>([]);
-  const [consecutiveCorrect, setConsecutiveCorrect] = useState(0);
-  const [showStreakModal, setShowStreakModal] = useState(false);
-  
-  // Confetti ref
-  const confettiRef = useRef<any>(null);
+  const [selectedOption, setSelectedOption] = useState<number | null>(null);
+  const [showResult, setShowResult] = useState(false);
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [showResumePrompt, setShowResumePrompt] = useState(false);
+  const [masteredIds, setMasteredIds] = useState<string[]>([]);
+  const hasAccess = checkTrialStatus();
+  const slideAnim = useRef(new Animated.Value(0)).current;
 
-  // Animation values
-  const bounceAnim = useRef(new Animated.Value(1)).current;
-  const shakeAnim = useRef(new Animated.Value(0)).current;
-
-  // Load consecutive count on mount
+  // Load mastered IDs on mount
   useEffect(() => {
     (async () => {
-      const count = await getConsecutiveCorrect();
-      setConsecutiveCorrect(count);
+      const mastered = await getMasteredQuestionIds();
+      setMasteredIds(mastered);
     })();
   }, []);
 
-  // Initialize audio on mount
-  useEffect(() => {
-    initializeAudio();
-  }, []);
-
-  // Filter and initialize questions with prioritized selection
+  // Filter questions based on subarea param
   useEffect(() => {
     (async () => {
       const stats = await loadStats();
-      let allQuestions = mcqData as MCQ[];
+      let allQuestions = (DataLoader.getAllMCQs() as Question[]).filter(
+        q => !masteredIds.includes(q.id) // Filter out mastered questions
+      );
       
       // Filter by subarea if param is provided
       if (params.subareaId) {
@@ -76,83 +75,134 @@ export default function DrillScreen() {
           return qSubareaId === params.subareaId;
         });
       }
-      
+
       // Convert to Question type for prioritizedPool
-      const questionsFormat = allQuestions.map(q => ({
-        id: q.id,
-        type: "mcq" as const,
-        mode: "Drill" as const,
-        subareaId: (subareaNameToId[q.subarea] || 'SA-1') as any,
-        question: q.stem,
-        options: q.options,
-        answer: q.options[q.correctIndex],
-        rationales: q.rationales,
-        correctIndex: q.correctIndex
+      const questionsWithMode = allQuestions.map((q: any) => ({
+        ...q,
+        mode: 'Drill',
+        type: 'mcq'
       }));
-      
-      // Get prioritized pool and shuffle
-      const prioritized = prioritizedPool(questionsFormat, stats, {
-        subareaId: params.subareaId as any,
-        preferUnseen: true,
-        freshnessMs: 1000 * 60 * 60 * 8 // 8 hours
-      });
-      
-      const shuffled = shuffle(prioritized);
-      
-      // Convert back to MCQ format
-      const prioritizedMCQs = shuffled.map(q => 
-        allQuestions.find(mcq => mcq.id === q.id)
-      ).filter(q => q !== undefined) as MCQ[];
-      
-      setQuestions(prioritizedMCQs);
-      setCurrentQuestionIndex(0);
-      setSelectedAnswer(null);
-      setShowRationale(false);
+
+      // Use prioritizedPool to select questions
+      const selectedQuestions = prioritizedPool(
+        questionsWithMode,
+        stats,
+        30 // Select 30 questions
+      );
+
+      setQuestions(selectedQuestions as Question[]);
+
+      // Check if we should resume
+      if (lastQuestionID && lastMode === 'Drill' && selectedQuestions.length > 0) {
+        const lastIndex = selectedQuestions.findIndex((q: Question) => q.id === lastQuestionID);
+        if (lastIndex >= 0) {
+          setShowResumePrompt(true);
+        }
+      }
     })();
-  }, [params.subareaId]);
+  }, [params.subareaId, masteredIds]);
 
-  // Shuffle questions
-  const handleShuffle = async () => {
-    const stats = await loadStats();
-    const questionsFormat = questions.map(q => ({
-      id: q.id,
-      type: "mcq" as const,
-      mode: "Drill" as const,
-      subareaId: (subareaNameToId[q.subarea] || 'SA-1') as any,
-      question: q.stem,
-      options: q.options,
-      answer: q.options[q.correctIndex],
-      rationales: q.rationales,
-      correctIndex: q.correctIndex
-    }));
-    const shuffled = shuffle(questionsFormat);
-    const shuffledMCQs = shuffled.map(q => 
-      questions.find(mcq => mcq.id === q.id)
-    ).filter(q => q !== undefined) as MCQ[];
+  const handleResume = (resume: boolean) => {
+    if (resume) {
+      const lastIndex = questions.findIndex(q => q.id === lastQuestionID);
+      if (lastIndex >= 0) {
+        setCurrentQuestionIndex(lastIndex);
+      }
+    }
+    setShowResumePrompt(false);
+  };
+
+  const handleNext = async () => {
+    const currentQuestion = questions[currentQuestionIndex];
     
-    setQuestions(shuffledMCQs);
-    setCurrentQuestionIndex(0);
-    setSelectedAnswer(null);
-    setShowRationale(false);
+    // Bump seen counter
+    await bumpSeen(currentQuestion.id);
+
+    // Save last studied position
+    if (currentQuestionIndex < questions.length - 1) {
+      setLastStudied(questions[currentQuestionIndex + 1].id, 'Drill');
+    }
+
+    if (currentQuestionIndex < questions.length - 1) {
+      // Animate out
+      Animated.timing(slideAnim, {
+        toValue: -300,
+        duration: 200,
+        useNativeDriver: true,
+      }).start(() => {
+        setCurrentQuestionIndex(currentQuestionIndex + 1);
+        setSelectedOption(null);
+        setShowResult(false);
+        slideAnim.setValue(300);
+        // Animate in
+        Animated.timing(slideAnim, {
+          toValue: 0,
+          duration: 200,
+          useNativeDriver: true,
+        }).start();
+      });
+    } else {
+      // All questions completed
+      router.back();
+    }
   };
 
-  const playBounceAnimation = () => {
-    Animated.sequence([
-      Animated.spring(bounceAnim, { toValue: 1.2, useNativeDriver: true }),
-      Animated.spring(bounceAnim, { toValue: 1, useNativeDriver: true }),
-    ]).start();
+  const handleSubmit = () => {
+    if (selectedOption === null) return;
+    setShowResult(true);
+    const currentQuestion = questions[currentQuestionIndex];
+    const isCorrect = selectedOption === currentQuestion.correctIndex;
+    updateMCQHistory(currentQuestion.id, isCorrect);
   };
 
-  const playShakeAnimation = () => {
-    Animated.sequence([
-      Animated.timing(shakeAnim, { toValue: 10, duration: 50, useNativeDriver: true }),
-      Animated.timing(shakeAnim, { toValue: -10, duration: 50, useNativeDriver: true }),
-      Animated.timing(shakeAnim, { toValue: 10, duration: 50, useNativeDriver: true }),
-      Animated.timing(shakeAnim, { toValue: 0, duration: 50, useNativeDriver: true }),
-    ]).start();
+  const handleMastery = async () => {
+    const currentQuestion = questions[currentQuestionIndex];
+    await updateMasteredQuestion(currentQuestion.id);
+    setMasteredIds([...masteredIds, currentQuestion.id]);
+    // Move to next question
+    handleNext();
   };
 
-  const displayLimit = questions.length;
+  if (!hasAccess) {
+    return (
+      <StarryBackground>
+        <SafeAreaView style={styles.container}>
+          <TrialBanner />
+          <View style={styles.emptyState}>
+            <MaterialCommunityIcons name="lock" size={64} color={theme.colors.textSecondary} />
+            <Text style={styles.emptyText}>Unlock Drill Mode with Premium</Text>
+          </View>
+        </SafeAreaView>
+      </StarryBackground>
+    );
+  }
+
+  if (showResumePrompt) {
+    return (
+      <StarryBackground>
+        <SafeAreaView style={styles.container}>
+          <TrialBanner />
+          <View style={styles.resumePrompt}>
+            <Text style={styles.resumeTitle}>Resume Your Practice?</Text>
+            <Text style={styles.resumeText}>You have an unfinished drill session. Would you like to continue where you left off?</Text>
+            <View style={styles.resumeButtons}>
+              <Button
+                title="Start Fresh"
+                onPress={() => handleResume(false)}
+                variant="outline"
+                style={styles.resumeButton}
+              />
+              <Button
+                title="Resume"
+                onPress={() => handleResume(true)}
+                style={styles.resumeButton}
+              />
+            </View>
+          </View>
+        </SafeAreaView>
+      </StarryBackground>
+    );
+  }
 
   if (questions.length === 0) {
     return (
@@ -160,9 +210,9 @@ export default function DrillScreen() {
         <SafeAreaView style={styles.container}>
           <TrialBanner />
           <View style={styles.emptyState}>
-            <MaterialCommunityIcons name="clipboard-text" size={64} color={theme.colors.textSecondary} />
-            <Text style={styles.emptyTitle}>No questions available</Text>
-            <Text style={styles.emptyText}>Check back later or try a different subarea</Text>
+            <MaterialCommunityIcons name="check-circle" size={64} color={theme.colors.success} />
+            <Text style={styles.emptyText}>All questions mastered!</Text>
+            <Text style={styles.emptySubtext}>Come back later for more practice</Text>
           </View>
         </SafeAreaView>
       </StarryBackground>
@@ -170,186 +220,109 @@ export default function DrillScreen() {
   }
 
   const currentQuestion = questions[currentQuestionIndex];
-
-  const handleSelectAnswer = (index: number) => {
-    if (showRationale) return;
-    setSelectedAnswer(index);
-  };
-
-  const handleSubmit = async () => {
-    if (selectedAnswer === null) return;
-    const isCorrect = selectedAnswer === currentQuestion.correctIndex;
-    updateMCQHistory(currentQuestion.id, isCorrect);
-    
-    // Track attempt in stats
-    await bumpAttempt(currentQuestion.id, isCorrect);
-    
-    setShowRationale(true);
-    
-    // Handle consecutive tracking
-    if (isCorrect) {
-      const newCount = await incrementConsecutive();
-      setConsecutiveCorrect(newCount);
-      
-      // Show confetti celebration at 10 consecutive
-      if (newCount === 10) {
-        setShowStreakModal(true);
-        confettiRef.current?.start();
-      }
-      
-      playSuccessSound();
-      playBounceAnimation();
-    } else {
-      await resetConsecutive();
-      setConsecutiveCorrect(0);
-      playErrorSound();
-      playShakeAnimation();
-    }
-  };
-
-  const handleNext = () => {
-    if (currentQuestionIndex < displayLimit - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setSelectedAnswer(null);
-      setShowRationale(false);
-    } else {
-      // Restart or show completion
-      setCurrentQuestionIndex(0);
-      setSelectedAnswer(null);
-      setShowRationale(false);
-    }
-  };
+  const isCorrect = selectedOption === currentQuestion.correctIndex;
 
   return (
     <StarryBackground>
       <SafeAreaView style={styles.container}>
         <TrialBanner />
         <View style={styles.header}>
-          {params.subareaName && (
-            <Text style={styles.subareaName}>{params.subareaName}</Text>
-          )}
-          <TouchableOpacity onPress={handleShuffle} style={styles.shuffleButton}>
-            <MaterialCommunityIcons name="shuffle-variant" size={24} color={theme.colors.accent} />
-            <Text style={styles.shuffleText}>Shuffle</Text>
+          <Text style={styles.progress}>
+            Question {currentQuestionIndex + 1} of {questions.length}
+          </Text>
+          <TouchableOpacity onPress={() => router.back()} style={styles.closeButton}>
+            <MaterialCommunityIcons name="close" size={24} color={theme.colors.text} />
           </TouchableOpacity>
         </View>
 
-        <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
-          <View style={styles.questionCard}>
-            <Text style={styles.questionStem}>{currentQuestion.stem}</Text>
+        <Animated.View style={[styles.content, { transform: [{ translateX: slideAnim }] }]}>
+          <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
+            <Text style={styles.stem}>{currentQuestion.stem}</Text>
 
             <View style={styles.optionsContainer}>
               {currentQuestion.options.map((option, index) => {
-                const isSelected = selectedAnswer === index;
-                const isCorrect = index === currentQuestion.correctIndex;
-                const showIncorrect = showRationale && isSelected && !isCorrect;
+                const isSelected = selectedOption === index;
+                const isThisCorrect = index === currentQuestion.correctIndex;
+                let optionStyle = [styles.option];
+                if (showResult) {
+                  if (isThisCorrect) {
+                    optionStyle.push(styles.correctOption);
+                  } else if (isSelected) {
+                    optionStyle.push(styles.incorrectOption);
+                  }
+                } else if (isSelected) {
+                  optionStyle.push(styles.selectedOption);
+                }
 
                 return (
-                  <Animated.View
+                  <TouchableOpacity
                     key={index}
-                    style={{
-                      transform: [
-                        { scale: isSelected ? bounceAnim : 1 },
-                        { translateX: showIncorrect ? shakeAnim : 0 },
-                      ],
-                    }}
+                    style={optionStyle}
+                    onPress={() => !showResult && setSelectedOption(index)}
+                    disabled={showResult}
                   >
-                    <TouchableOpacity
-                      style={[
-                        styles.optionButton,
-                        isSelected && styles.selectedOption,
-                        showRationale && isCorrect && styles.correctOption,
-                        showIncorrect && styles.incorrectOption,
-                      ]}
-                      onPress={() => handleSelectAnswer(index)}
-                      disabled={showRationale}
-                    >
-                      <View style={styles.optionContent}>
-                        {showRationale && isCorrect && (
-                          <MaterialCommunityIcons name="check" size={16} color="#FFFFFF" />
-                        )}
-                        {showIncorrect && (
-                          <MaterialCommunityIcons name="close" size={16} color="#FFFFFF" />
-                        )}
-                        <Text
-                          style={[
-                            styles.optionText,
-                            isSelected && styles.selectedOptionText,
-                            showIncorrect && styles.incorrectOptionText,
-                          ]}
-                        >
-                          {option}
-                        </Text>
+                    <View style={styles.optionContent}>
+                      <View style={styles.optionNumber}>
+                        <Text style={styles.optionNumberText}>{String.fromCharCode(65 + index)}</Text>
                       </View>
-
-                      {showRationale && (
-                        <Text style={styles.rationaleText}>
-                          {currentQuestion.rationales[index]}
-                        </Text>
+                      <Text style={styles.optionText}>{option}</Text>
+                      {showResult && isThisCorrect && (
+                        <MaterialCommunityIcons name="check-circle" size={24} color={theme.colors.success} />
                       )}
-                    </TouchableOpacity>
-                  </Animated.View>
+                      {showResult && isSelected && !isThisCorrect && (
+                        <MaterialCommunityIcons name="close-circle" size={24} color={theme.colors.error} />
+                      )}
+                    </View>
+                  </TouchableOpacity>
                 );
               })}
             </View>
 
-            {showRationale ? (
-              <Button
-                title="Next"
-                onPress={handleNext}
-                style={styles.nextButton}
-              />
-            ) : (
-              <Button
-                title="Submit Answer"
-                onPress={handleSubmit}
-                disabled={selectedAnswer === null}
-                style={styles.submitButton}
-              />
+            {showResult && (
+              <View style={styles.resultContainer}>
+                <View style={[styles.resultBanner, isCorrect ? styles.correctBanner : styles.incorrectBanner]}>
+                  <MaterialCommunityIcons 
+                    name={isCorrect ? "check-circle" : "close-circle"} 
+                    size={24} 
+                    color="#fff" 
+                  />
+                  <Text style={styles.resultText}>
+                    {isCorrect ? 'Correct!' : 'Incorrect'}
+                  </Text>
+                </View>
+                <Text style={styles.rationaleTitle}>Explanation:</Text>
+                <Text style={styles.rationaleText}>{currentQuestion.rationales[currentQuestion.correctIndex]}</Text>
+                
+                {isCorrect && (
+                  <TouchableOpacity 
+                    style={styles.masteryButton}
+                    onPress={handleMastery}
+                  >
+                    <MaterialCommunityIcons name="star" size={20} color={theme.colors.accent} />
+                    <Text style={styles.masteryButtonText}>Mark as Mastered</Text>
+                  </TouchableOpacity>
+                )}
+              </View>
             )}
-          </View>
-        </ScrollView>
-        
-        {/* Confetti Cannon */}
-        <ConfettiCannon
-          ref={confettiRef}
-          count={200}
-          origin={{x: -10, y: 0}}
-          colors={['#00CED1', '#FFD700']} // Bright teal and gold
-          fadeOut
-          autoStart={false}
-        />
-        
-        {/* 10 Consecutive Streak Modal */}
-        <Modal
-          visible={showStreakModal}
-          transparent
-          animationType="fade"
-          onRequestClose={() => setShowStreakModal(false)}
-        >
-          <View style={styles.modalOverlay}>
-            <View style={styles.modalContent}>
-              <MaterialCommunityIcons 
-                name="trophy" 
-                size={64} 
-                color="#FFD700" 
-              />
-              <Text style={styles.modalTitle}>🎉 Amazing Streak!</Text>
-              <Text style={styles.modalText}>
-                10 consecutive answers correct!
-              </Text>
-              <Text style={styles.modalSubtext}>
-                Keep up the excellent work!
-              </Text>
-              <TouchableOpacity
-                style={styles.modalButton}
-                onPress={() => setShowStreakModal(false)}
-              >
-                <Text style={styles.modalButtonText}>Continue</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        </Modal>
+          </ScrollView>
+        </Animated.View>
+
+        <View style={styles.footer}>
+          {!showResult ? (
+            <Button
+              title="Submit"
+              onPress={handleSubmit}
+              disabled={selectedOption === null}
+              style={styles.submitButton}
+            />
+          ) : (
+            <Button
+              title={currentQuestionIndex < questions.length - 1 ? 'Next Question' : 'Complete'}
+              onPress={handleNext}
+              style={styles.submitButton}
+            />
+          )}
+        </View>
       </SafeAreaView>
     </StarryBackground>
   );
@@ -358,57 +331,45 @@ export default function DrillScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'transparent',
   },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: theme.spacing.md,
-    paddingVertical: theme.spacing.sm,
+    padding: 16,
     borderBottomWidth: 1,
     borderBottomColor: theme.colors.border,
   },
-  subareaName: {
-    fontSize: theme.fontSize.md,
-    fontWeight: theme.fontWeight.semibold,
+  progress: {
+    fontSize: 16,
+    fontWeight: '600',
     color: theme.colors.text,
   },
-  shuffleButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    padding: theme.spacing.sm,
-    backgroundColor: theme.colors.surface,
-    borderRadius: theme.borderRadius.md,
-  },
-  shuffleText: {
-    marginLeft: theme.spacing.xs,
-    color: theme.colors.accent,
-    fontWeight: theme.fontWeight.semibold,
+  closeButton: {
+    padding: 4,
   },
   content: {
     flex: 1,
   },
-  questionCard: {
-    padding: theme.spacing.md,
-    marginBottom: theme.spacing.md,
+  scrollContent: {
+    padding: 16,
   },
-  questionStem: {
-    fontSize: theme.fontSize.md,
+  stem: {
+    fontSize: 18,
+    lineHeight: 26,
     color: theme.colors.text,
-    lineHeight: 22,
-    marginBottom: theme.spacing.md,
+    marginBottom: 24,
+    fontWeight: '500',
   },
   optionsContainer: {
-    marginBottom: theme.spacing.md,
+    gap: 12,
   },
-  optionButton: {
+  option: {
     backgroundColor: theme.colors.surface,
-    padding: theme.spacing.md,
-    borderRadius: theme.borderRadius.md,
-    marginBottom: theme.spacing.sm,
+    borderRadius: 12,
     borderWidth: 2,
     borderColor: theme.colors.border,
+    overflow: 'hidden',
   },
   selectedOption: {
     borderColor: theme.colors.accent,
@@ -420,103 +381,132 @@ const styles = StyleSheet.create({
   },
   incorrectOption: {
     borderColor: theme.colors.error,
-    backgroundColor: `${theme.colors.error}10`,
-  },
-  incorrectOptionText: {
-    color: theme.colors.error,
-    fontWeight: theme.fontWeight.semibold,
+    backgroundColor: `${theme.colors.error}15`,
   },
   optionContent: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: theme.spacing.sm,
+    padding: 16,
+    gap: 12,
   },
-  optionText: {
-    fontSize: theme.fontSize.md,
-    color: theme.colors.text,
-    flex: 1,
+  optionNumber: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: theme.colors.accent + '20',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-  selectedOptionText: {
-    fontWeight: theme.fontWeight.semibold,
+  optionNumberText: {
+    fontSize: 16,
+    fontWeight: '700',
     color: theme.colors.accent,
   },
+  optionText: {
+    flex: 1,
+    fontSize: 16,
+    lineHeight: 22,
+    color: theme.colors.text,
+  },
+  resultContainer: {
+    marginTop: 24,
+    gap: 16,
+  },
+  resultBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    padding: 16,
+    borderRadius: 12,
+  },
+  correctBanner: {
+    backgroundColor: theme.colors.success,
+  },
+  incorrectBanner: {
+    backgroundColor: theme.colors.error,
+  },
+  resultText: {
+    fontSize: 18,
+    fontWeight: '700',
+    color: '#fff',
+  },
+  rationaleTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: theme.colors.text,
+  },
   rationaleText: {
-    marginTop: theme.spacing.xs,
-    fontSize: theme.fontSize.sm,
+    fontSize: 15,
+    lineHeight: 22,
     color: theme.colors.textSecondary,
-    fontStyle: 'italic',
+  },
+  masteryButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    padding: 12,
+    backgroundColor: theme.colors.surface,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: theme.colors.accent,
+  },
+  masteryButtonText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: theme.colors.accent,
+  },
+  footer: {
+    padding: 16,
+    borderTopWidth: 1,
+    borderTopColor: theme.colors.border,
   },
   submitButton: {
-    marginTop: theme.spacing.md,
-  },
-  nextButton: {
-    marginTop: theme.spacing.md,
-    backgroundColor: theme.colors.success,
+    width: '100%',
   },
   emptyState: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
-    padding: theme.spacing.xl,
-  },
-  emptyTitle: {
-    fontSize: theme.fontSize.xl,
-    fontWeight: theme.fontWeight.bold,
-    color: theme.colors.text,
-    marginTop: theme.spacing.lg,
+    justifyContent: 'center',
+    padding: 32,
   },
   emptyText: {
-    fontSize: theme.fontSize.md,
-    color: theme.colors.textSecondary,
-    marginTop: theme.spacing.sm,
+    fontSize: 18,
+    fontWeight: '600',
+    color: theme.colors.text,
+    marginTop: 16,
     textAlign: 'center',
   },
-  modalOverlay: {
+  emptySubtext: {
+    fontSize: 14,
+    color: theme.colors.textSecondary,
+    marginTop: 8,
+    textAlign: 'center',
+  },
+  resumePrompt: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.7)',
     justifyContent: 'center',
-    alignItems: 'center',
+    padding: 24,
   },
-  modalContent: {
-    backgroundColor: theme.colors.background,
-    borderRadius: theme.borderRadius.lg,
-    padding: theme.spacing.xl,
-    alignItems: 'center',
-    width: '80%',
-    maxWidth: 400,
-    borderWidth: 2,
-    borderColor: '#FFD700',
-  },
-  modalTitle: {
-    fontSize: theme.fontSize.xxl,
-    fontWeight: theme.fontWeight.bold,
+  resumeTitle: {
+    fontSize: 24,
+    fontWeight: '700',
     color: theme.colors.text,
-    marginTop: theme.spacing.md,
+    marginBottom: 16,
     textAlign: 'center',
   },
-  modalText: {
-    fontSize: theme.fontSize.lg,
-    color: theme.colors.accent,
-    marginTop: theme.spacing.sm,
-    textAlign: 'center',
-    fontWeight: theme.fontWeight.semibold,
-  },
-  modalSubtext: {
-    fontSize: theme.fontSize.md,
+  resumeText: {
+    fontSize: 16,
+    lineHeight: 24,
     color: theme.colors.textSecondary,
-    marginTop: theme.spacing.xs,
+    marginBottom: 32,
     textAlign: 'center',
   },
-  modalButton: {
-    backgroundColor: theme.colors.accent,
-    paddingVertical: theme.spacing.md,
-    paddingHorizontal: theme.spacing.xl,
-    borderRadius: theme.borderRadius.md,
-    marginTop: theme.spacing.lg,
+  resumeButtons: {
+    flexDirection: 'row',
+    gap: 12,
   },
-  modalButtonText: {
-    color: theme.colors.text,
-    fontSize: theme.fontSize.md,
-    fontWeight: theme.fontWeight.semibold,
+  resumeButton: {
+    flex: 1,
   },
 });
