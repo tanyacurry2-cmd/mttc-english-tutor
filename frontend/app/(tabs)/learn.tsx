@@ -55,7 +55,7 @@ export default function LearnScreen() {
   useEffect(() => {
     (async () => {
       const stats = await loadStats();
-      let allCards = (flashcardsData as Card[]).filter(
+      let allCards = (DataLoader.getAllFlashcards() as Card[]).filter(
         card => !masteredIds.includes(card.id) // Filter out mastered flashcards
       );
       
