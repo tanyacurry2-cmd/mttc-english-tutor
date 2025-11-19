@@ -1,5 +1,3 @@
-import questionsData from '../data/questions.json';
-
 export interface Question {
   id: string;
   subarea: string;
@@ -26,6 +24,8 @@ export interface QuestionFilters {
   mode?: 'Learn' | 'Drill';
 }
 
+// Use require() instead of import for large JSON files in React Native
+const questionsData = require('../data/questions.json');
 const allQuestions: Question[] = questionsData as Question[];
 
 export const questionApi = {
