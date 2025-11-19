@@ -8,9 +8,7 @@ import { saveSession, updateReadinessEma } from "../../storage/sessions";
 import { getMasteredQuestionIds, updateMasteredQuestion } from "../../storage/mastery";
 import { v4 as uuid } from "uuid";
 import { theme } from "../../lib/theme";
-
-// Load questions
-import questionsData from "../../data/questions.json";
+import { DataLoader } from "../../lib/data-loader";
 
 const PER_SUBAREA = { "SA-1": 5, "SA-2": 5, "SA-3": 5, "SA-4": 5 } as const;
 const TOTAL = 20;
