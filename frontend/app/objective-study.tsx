@@ -18,8 +18,8 @@ export default function ObjectiveStudyScreen() {
   const { subarea } = useLocalSearchParams<{ subarea: Subarea }>();
   const [activeTab, setActiveTab] = useState<'learn' | 'drill'>('learn');
 
-  const flashcards = flashcardsData.filter((card) => card.subarea === subarea);
-  const questions = mcqData.filter((q) => q.subarea === subarea);
+  const flashcards = DataLoader.getAllFlashcards().filter((card) => card.subarea === subarea);
+  const questions = DataLoader.getAllMCQs().filter((q) => q.subarea === subarea);
 
   const goToLearn = () => {
     router.push({

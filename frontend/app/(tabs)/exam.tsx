@@ -67,19 +67,19 @@ export default function ExamScreen() {
       const subareaId = subarea.id;
       
       // Count flashcards for this subarea
-      const flashcardCount = flashcardsData.filter((card: any) => {
+      const flashcardCount = DataLoader.getAllFlashcards().filter((card: any) => {
         const cardSubareaId = subareaNameToId[card.subarea] || '';
         return cardSubareaId === subareaId;
       }).length;
 
       // Count drill questions for this subarea
-      const drillCount = mcqData.filter((q: any) => {
+      const drillCount = DataLoader.getAllMCQs().filter((q: any) => {
         const qSubareaId = subareaNameToId[q.subarea] || '';
         return qSubareaId === subareaId;
       }).length;
 
       // Calculate accuracy for this subarea
-      const subareaQuestions = mcqData.filter((q: any) => {
+      const subareaQuestions = DataLoader.getAllMCQs().filter((q: any) => {
         const qSubareaId = subareaNameToId[q.subarea] || '';
         return qSubareaId === subareaId;
       });
