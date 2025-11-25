@@ -50,12 +50,12 @@ interface AppState {
 
 export const useAppStore = create<AppState>((set, get) => ({
   user: {
-    email: null,
-    uid: null,
-    trialStart: null,
-    trialEnd: null,
-    isPaid: false,
-    purchaseType: null,
+    email: "local@test.com",
+    uid: "LOCALUSER",
+    trialStart: new Date(),
+    trialEnd: new Date("2099-01-01"),
+    isPaid: true,
+    purchaseType: "lifetime",
   },
   cardReviews: {},
   mcqHistory: {},
