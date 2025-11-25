@@ -1,17 +1,20 @@
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
-import Constants from 'expo-constants';
+// NO-OP Firebase module for TestFlight builds
+// App treats user as always authenticated without Firebase dependency
 
-const firebaseConfig = {
-  apiKey: Constants.expoConfig?.extra?.EXPO_PUBLIC_FIREBASE_API_KEY || process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
-  authDomain: Constants.expoConfig?.extra?.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN || process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: Constants.expoConfig?.extra?.EXPO_PUBLIC_FIREBASE_PROJECT_ID || process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
-  appId: Constants.expoConfig?.extra?.EXPO_PUBLIC_FIREBASE_APP_ID || process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
-};
-
-const app = initializeApp(firebaseConfig);
-
-// Use default auth for web/expo
-const auth = getAuth(app);
-
-export { auth };
+// Mock auth object that satisfies Firebase Auth interface
+export const auth = {
+  currentUser: {
+    uid: 'test-user-12345',
+    email: 'testuser@mttc.app',
+    emailVerified: true,
+  },
+  onAuthStateChanged: (callback: any) => {
+    // Immediately call callback with mock user
+    setTimeout(() => callback({
+      uid: 'test-user-12345',
+      email: 'testuser@mttc.app',
+      emailVerified: true,
+    }), 0);
+    return () => {}; // Return unsubscribe function
+  },
+} as any;
