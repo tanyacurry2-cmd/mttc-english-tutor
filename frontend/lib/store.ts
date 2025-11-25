@@ -50,12 +50,12 @@ interface AppState {
 
 export const useAppStore = create<AppState>((set, get) => ({
   user: {
-    email: "local@test.com",
-    uid: "LOCALUSER",
+    email: 'testuser@mttc.app',
+    uid: 'test-user-12345',
     trialStart: new Date(),
-    trialEnd: new Date("2099-01-01"),
-    isPaid: true,
-    purchaseType: "lifetime",
+    trialEnd: new Date('2099-12-31'), // Far future date
+    isPaid: true, // Always paid for TestFlight
+    purchaseType: 'lifetime',
   },
   cardReviews: {},
   mcqHistory: {},
@@ -185,10 +185,8 @@ export const useAppStore = create<AppState>((set, get) => ({
   },
 
   checkTrialStatus: () => {
-    const { user } = get();
-    if (user.isPaid) return true;
-    if (!user.trialEnd) return false;
-    return new Date() <= new Date(user.trialEnd);
+    // Always return true for TestFlight builds - user is always premium
+    return true;
   },
 
   loadFromStorage: async () => {
