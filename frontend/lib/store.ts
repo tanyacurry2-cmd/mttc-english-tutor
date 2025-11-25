@@ -185,10 +185,8 @@ export const useAppStore = create<AppState>((set, get) => ({
   },
 
   checkTrialStatus: () => {
-    const { user } = get();
-    if (user.isPaid) return true;
-    if (!user.trialEnd) return false;
-    return new Date() <= new Date(user.trialEnd);
+    // Always return true for TestFlight builds - user is always premium
+    return true;
   },
 
   loadFromStorage: async () => {
