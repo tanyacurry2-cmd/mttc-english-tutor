@@ -121,13 +121,16 @@ export default function DiagnosticScreen() {
         <Countdown seconds={SECONDS} onExpire={timeUp} style={styles.timer} />
       </View>
 
-      <Text style={styles.questionText}>{q.question}</Text>
+      <ScrollView 
+        style={styles.scrollContainer}
+        contentContainerStyle={styles.scrollContent}
+        showsVerticalScrollIndicator={true}
+      >
+        <Text style={styles.questionText}>{q.question}</Text>
 
-      <FlatList
-        data={q.options}
-        keyExtractor={(opt) => opt}
-        renderItem={({ item }) => (
+        {q.options.map((item, index) => (
           <Pressable
+            key={`${item}-${index}`}
             onPress={() => setSelected(item)}
             style={[
               styles.optionButton,
@@ -138,20 +141,20 @@ export default function DiagnosticScreen() {
               selected === item && styles.optionTextSelected
             ]}>{item}</Text>
           </Pressable>
-        )}
-      />
+        ))}
 
-      <Pressable
-        onPress={submit}
-        disabled={!selected}
-        style={[
-          styles.submitButton,
-          !selected && styles.submitButtonDisabled
-        ]}>
-        <Text style={styles.submitButtonText}>
-          {idx + 1 >= pool.length ? "Submit" : "Next"}
-        </Text>
-      </Pressable>
+        <Pressable
+          onPress={submit}
+          disabled={!selected}
+          style={[
+            styles.submitButton,
+            !selected && styles.submitButtonDisabled
+          ]}>
+          <Text style={styles.submitButtonText}>
+            {idx + 1 >= pool.length ? "Submit" : "Next"}
+          </Text>
+        </Pressable>
+      </ScrollView>
     </View>
   );
 }
