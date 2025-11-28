@@ -1,6 +1,6 @@
 import 'react-native-get-random-values';
 import React, { useMemo, useState, useEffect } from "react";
-import { View, Text, Pressable, FlatList, Alert, StyleSheet } from "react-native";
+import { View, Text, Pressable, FlatList, Alert, StyleSheet, ScrollView } from "react-native";
 import { router } from "expo-router";
 import { balancedPickBySubarea, Question } from "../../utils/selection";
 import Countdown from "../../components/Countdown";
