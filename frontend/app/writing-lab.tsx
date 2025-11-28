@@ -258,7 +258,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   picker: {
-    color: '#cfe0ff',
+    color: '#FFFFFF', // Pure white for readability
     height: Platform.OS === 'ios' ? 150 : 50,
   },
   promptBox: {
