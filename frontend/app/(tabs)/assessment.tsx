@@ -162,17 +162,23 @@ export default function DiagnosticScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 16,
     backgroundColor: theme.colors.background,
   },
   header: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginBottom: 16,
+    padding: 16,
     paddingBottom: 12,
     borderBottomWidth: 1,
     borderBottomColor: theme.colors.border,
+  },
+  scrollContainer: {
+    flex: 1,
+  },
+  scrollContent: {
+    padding: 16,
+    paddingBottom: 100, // Extra padding at bottom for submit button
   },
   headerText: {
     fontSize: 16,
