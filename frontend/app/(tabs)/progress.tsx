@@ -267,7 +267,8 @@ export default function ProgressScreen() {
                   </TouchableOpacity>
                   
                   {masteredFlashcardsList.map((item) => {
-                    const flashcard = (flashcardsData as Card[]).find(f => f.id === item.id);
+                    // Use DataLoader to safely get flashcard data
+                    const flashcard = DataLoader.getAllFlashcards().find(f => f.id === item.id);
                     return (
                       <TouchableOpacity
                         key={item.id}
