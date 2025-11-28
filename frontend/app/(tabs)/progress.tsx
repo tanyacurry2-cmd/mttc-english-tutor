@@ -198,7 +198,8 @@ export default function ProgressScreen() {
                   </TouchableOpacity>
                   
                   {masteredList.map((item) => {
-                    const question = (questionsData as Question[]).find(q => q.id === item.id);
+                    // Use DataLoader to safely get question data
+                    const question = DataLoader.getAllQuestions().find(q => q.id === item.id);
                     return (
                       <TouchableOpacity
                         key={item.id}
@@ -208,7 +209,7 @@ export default function ProgressScreen() {
                         <View style={styles.masteredItemContent}>
                           <Text style={styles.masteredItemId}>{item.id}</Text>
                           <Text style={styles.masteredItemText} numberOfLines={2}>
-                            {question?.question || 'Unknown question'}
+                            {question?.question || question?.stem || 'Unknown question'}
                           </Text>
                           <Text style={styles.masteredItemCount}>
                             Correct: {item.correctCount} times
