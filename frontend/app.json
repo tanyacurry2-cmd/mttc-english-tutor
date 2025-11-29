@@ -25,7 +25,8 @@
         "backgroundColor": "#FAFAF7"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.curryapps.mttcenglishtutor"
+      "package": "com.curryapps.mttcenglishtutor",
+      "versionCode": 7
     },
     "web": {
       "bundler": "metro",
