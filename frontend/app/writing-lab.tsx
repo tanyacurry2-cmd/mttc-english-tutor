@@ -99,10 +99,11 @@ export default function WritingLabScreen() {
             selectedValue={selectedPromptId}
             onValueChange={(value) => setSelectedPromptId(value)}
             style={styles.picker}
-            dropdownIconColor="#cfe0ff"
+            dropdownIconColor="#FFFFFF"
+            itemStyle={{ color: '#FFFFFF' }}
           >
             {WRITING_PROMPTS.map((p) => (
-              <Picker.Item key={p.id} label={p.label} value={p.id} />
+              <Picker.Item key={p.id} label={p.label} value={p.id} color="#FFFFFF" />
             ))}
           </Picker>
         </View>
