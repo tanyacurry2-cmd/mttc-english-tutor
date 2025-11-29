@@ -142,8 +142,18 @@ export default function DrillScreen() {
         }).start();
       });
     } else {
-      // All questions completed
-      router.back();
+      // All questions completed - clear state and navigate safely
+      try {
+        setLastStudied('', ''); // Clear last studied
+        setSelectedOption(null);
+        setShowResult(false);
+        // Use replace instead of back to avoid navigation issues
+        router.replace('/(tabs)/home');
+      } catch (error) {
+        console.error('Navigation error:', error);
+        // Fallback to back if replace fails
+        router.back();
+      }
     }
   };
 
