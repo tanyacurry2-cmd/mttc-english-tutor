@@ -100,15 +100,17 @@ export default function WritingLabScreen() {
             onValueChange={(value) => setSelectedPromptId(value)}
             style={styles.picker}
             dropdownIconColor="#FFFFFF"
-            itemStyle={{ color: '#FFFFFF' }}
+            itemStyle={Platform.OS === 'ios' ? { 
+              color: '#FFFFFF',
+              backgroundColor: '#111c33'
+            } : undefined}
           >
             {WRITING_PROMPTS.map((p) => (
               <Picker.Item 
                 key={p.id} 
                 label={p.label} 
                 value={p.id} 
-                color={Platform.OS === 'android' ? '#FFFFFF' : '#000000'}
-                style={{ backgroundColor: Platform.OS === 'android' ? '#111c33' : undefined }}
+                color="#FFFFFF"
               />
             ))}
           </Picker>
