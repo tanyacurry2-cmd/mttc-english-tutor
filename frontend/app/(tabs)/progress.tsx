@@ -159,74 +159,80 @@ export default function ProgressScreen() {
       <TrialBanner />
       <ScrollView style={styles.scrollView}>
         <View style={styles.content}>
-          {/* Mastered Questions Section */}
-          {masteredCount > 0 && (
-            <View style={styles.masteredCard}>
-              <TouchableOpacity 
-                style={styles.masteredHeader}
-                onPress={() => setShowMastered(!showMastered)}
-              >
-                <View style={styles.masteredTitleRow}>
-                  <MaterialCommunityIcons 
-                    name="trophy-variant" 
-                    size={24} 
-                    color={theme.colors.success} 
-                  />
-                  <Text style={styles.masteredTitle}>
-                    Questions Mastered ({masteredCount})
-                  </Text>
-                </View>
+          {/* Mastered Questions Section - Always show */}
+          <View style={styles.masteredCard}>
+            <TouchableOpacity 
+              style={styles.masteredHeader}
+              onPress={() => setShowMastered(!showMastered)}
+            >
+              <View style={styles.masteredTitleRow}>
                 <MaterialCommunityIcons 
-                  name={showMastered ? "chevron-up" : "chevron-down"} 
+                  name="trophy-variant" 
                   size={24} 
-                  color={theme.colors.textSecondary} 
+                  color={theme.colors.success} 
                 />
-              </TouchableOpacity>
-              
-              {showMastered && (
-                <View style={styles.masteredContent}>
+                <Text style={styles.masteredTitle}>
+                  Questions Mastered ({masteredCount})
+                </Text>
+              </View>
+              <MaterialCommunityIcons 
+                name={showMastered ? "chevron-up" : "chevron-down"} 
+                size={24} 
+                color={theme.colors.textSecondary} 
+              />
+            </TouchableOpacity>
+            
+            {showMastered && (
+              <View style={styles.masteredContent}>
+                {masteredCount > 0 ? (
+                  <>
+                    <Text style={styles.masteredDescription}>
+                      These questions won't appear in future assessments. Tap to reinstate them.
+                    </Text>
+                    
+                    <TouchableOpacity 
+                      style={styles.reinstateAllButton}
+                      onPress={handleReinstateAll}
+                    >
+                      <MaterialCommunityIcons name="refresh" size={18} color={theme.colors.accent} />
+                      <Text style={styles.reinstateAllText}>Reinstate All</Text>
+                    </TouchableOpacity>
+                    
+                    {masteredList.map((item) => {
+                      // Use DataLoader to safely get question data
+                      const question = DataLoader.getAllQuestions().find(q => q.id === item.id);
+                      return (
+                        <TouchableOpacity
+                          key={item.id}
+                          style={styles.masteredItem}
+                          onPress={() => handleReinstate(item.id)}
+                        >
+                          <View style={styles.masteredItemContent}>
+                            <Text style={styles.masteredItemId}>{item.id}</Text>
+                            <Text style={styles.masteredItemText} numberOfLines={2}>
+                              {question?.question || question?.stem || 'Unknown question'}
+                            </Text>
+                            <Text style={styles.masteredItemCount}>
+                              Correct: {item.correctCount} times
+                            </Text>
+                          </View>
+                          <MaterialCommunityIcons 
+                            name="restore" 
+                            size={20} 
+                            color={theme.colors.accent} 
+                          />
+                        </TouchableOpacity>
+                      );
+                    })}
+                  </>
+                ) : (
                   <Text style={styles.masteredDescription}>
-                    These questions won't appear in future assessments. Tap to reinstate them.
+                    No questions mastered yet. Keep practicing to see your progress here!
                   </Text>
-                  
-                  <TouchableOpacity 
-                    style={styles.reinstateAllButton}
-                    onPress={handleReinstateAll}
-                  >
-                    <MaterialCommunityIcons name="refresh" size={18} color={theme.colors.accent} />
-                    <Text style={styles.reinstateAllText}>Reinstate All</Text>
-                  </TouchableOpacity>
-                  
-                  {masteredList.map((item) => {
-                    // Use DataLoader to safely get question data
-                    const question = DataLoader.getAllQuestions().find(q => q.id === item.id);
-                    return (
-                      <TouchableOpacity
-                        key={item.id}
-                        style={styles.masteredItem}
-                        onPress={() => handleReinstate(item.id)}
-                      >
-                        <View style={styles.masteredItemContent}>
-                          <Text style={styles.masteredItemId}>{item.id}</Text>
-                          <Text style={styles.masteredItemText} numberOfLines={2}>
-                            {question?.question || question?.stem || 'Unknown question'}
-                          </Text>
-                          <Text style={styles.masteredItemCount}>
-                            Correct: {item.correctCount} times
-                          </Text>
-                        </View>
-                        <MaterialCommunityIcons 
-                          name="restore" 
-                          size={20} 
-                          color={theme.colors.accent} 
-                        />
-                      </TouchableOpacity>
-                    );
-                  })}
-                </View>
-              )}
-            </View>
-          )}
+                )}
+              </View>
+            )}
+          </View>
           
           {/* Mastered Flashcards Section - Always show */}
           <View style={styles.masteredCard}>
