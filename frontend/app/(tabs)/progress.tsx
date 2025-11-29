@@ -268,35 +268,40 @@ export default function ProgressScreen() {
                     </TouchableOpacity>
                     
                     {masteredFlashcardsList.map((item) => {
-                    // Use DataLoader to safely get flashcard data
-                    const flashcard = DataLoader.getAllFlashcards().find(f => f.id === item.id);
-                    return (
-                      <TouchableOpacity
-                        key={item.id}
-                        style={styles.masteredItem}
-                        onPress={() => handleReinstateFlashcard(item.id)}
-                      >
-                        <View style={styles.masteredItemContent}>
-                          <Text style={styles.masteredItemId}>{item.id}</Text>
-                          <Text style={styles.masteredItemText} numberOfLines={2}>
-                            {flashcard?.question || 'Unknown flashcard'}
-                          </Text>
-                          <Text style={styles.masteredItemCount}>
-                            Correct: {item.correctCount} times
-                          </Text>
-                        </View>
-                        <MaterialCommunityIcons 
-                          name="restore" 
-                          size={20} 
-                          color={theme.colors.accent} 
-                        />
-                      </TouchableOpacity>
-                    );
-                  })}
-                </View>
-              )}
-            </View>
-          )}
+                      // Use DataLoader to safely get flashcard data
+                      const flashcard = DataLoader.getAllFlashcards().find(f => f.id === item.id);
+                      return (
+                        <TouchableOpacity
+                          key={item.id}
+                          style={styles.masteredItem}
+                          onPress={() => handleReinstateFlashcard(item.id)}
+                        >
+                          <View style={styles.masteredItemContent}>
+                            <Text style={styles.masteredItemId}>{item.id}</Text>
+                            <Text style={styles.masteredItemText} numberOfLines={2}>
+                              {flashcard?.question || 'Unknown flashcard'}
+                            </Text>
+                            <Text style={styles.masteredItemCount}>
+                              Correct: {item.correctCount} times
+                            </Text>
+                          </View>
+                          <MaterialCommunityIcons 
+                            name="restore" 
+                            size={20} 
+                            color={theme.colors.accent} 
+                          />
+                        </TouchableOpacity>
+                      );
+                    })}
+                  </>
+                ) : (
+                  <Text style={styles.masteredDescription}>
+                    No flashcards mastered yet. Keep studying to see your progress here!
+                  </Text>
+                )}
+              </View>
+            )}
+          </View>
           
           {diagnosticReadiness > 0 && (
             <View style={styles.readinessCard}>
