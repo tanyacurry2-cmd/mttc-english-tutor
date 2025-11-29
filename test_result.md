@@ -184,4 +184,4 @@ agent_communication:
   - agent: "main"
     message: "Fixed critical React Native version incompatibility (0.79.5 → 0.81.5). Installed missing peer dependency react-native-worklets. Resolved duplicate dependency issues. Expo-doctor now passing 16/17 checks (only 1 minor image dimension warning remaining). Both frontend and backend services restarted and running. Ready for TestFlight build retry or app testing."
   - agent: "main"
-    message: "RESOLVED: Ngrok tunnel conflict fixed by installing @expo/ngrok globally and changing EXPO_TUNNEL_SUBDOMAIN from 'teacherprep' to 'mttctutor2024'. App is now fully functional and accessible at https://teacherprep.preview.emergentagent.com. Screenshot verification shows app loading correctly with Objectives screen displaying all subareas."
+    message: "RESOLVED: Ngrok tunnel conflict fixed by installing @expo/ngrok globally and changing EXPO_TUNNEL_SUBDOMAIN from 'teacherprep' to 'mttctutor2024'. App is now fully functional and accessible at https://mttc-tutor.preview.emergentagent.com. Screenshot verification shows app loading correctly with Objectives screen displaying all subareas."
