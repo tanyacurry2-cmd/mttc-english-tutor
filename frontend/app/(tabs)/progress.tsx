@@ -228,45 +228,46 @@ export default function ProgressScreen() {
             </View>
           )}
           
-          {/* Mastered Flashcards Section */}
-          {masteredFlashcardsCount > 0 && (
-            <View style={styles.masteredCard}>
-              <TouchableOpacity 
-                style={styles.masteredHeader}
-                onPress={() => setShowMasteredFlashcards(!showMasteredFlashcards)}
-              >
-                <View style={styles.masteredTitleRow}>
-                  <MaterialCommunityIcons 
-                    name="cards" 
-                    size={24} 
-                    color={theme.colors.accent} 
-                  />
-                  <Text style={styles.masteredTitle}>
-                    Flashcards Mastered ({masteredFlashcardsCount})
-                  </Text>
-                </View>
+          {/* Mastered Flashcards Section - Always show */}
+          <View style={styles.masteredCard}>
+            <TouchableOpacity 
+              style={styles.masteredHeader}
+              onPress={() => setShowMasteredFlashcards(!showMasteredFlashcards)}
+            >
+              <View style={styles.masteredTitleRow}>
                 <MaterialCommunityIcons 
-                  name={showMasteredFlashcards ? "chevron-up" : "chevron-down"} 
+                  name="cards" 
                   size={24} 
-                  color={theme.colors.textSecondary} 
+                  color={theme.colors.accent} 
                 />
-              </TouchableOpacity>
-              
-              {showMasteredFlashcards && (
-                <View style={styles.masteredContent}>
-                  <Text style={styles.masteredDescription}>
-                    These flashcards won't appear in Learn mode. Tap to reinstate them.
-                  </Text>
-                  
-                  <TouchableOpacity 
-                    style={styles.reinstateAllButton}
-                    onPress={handleReinstateAllFlashcards}
-                  >
-                    <MaterialCommunityIcons name="refresh" size={18} color={theme.colors.accent} />
-                    <Text style={styles.reinstateAllText}>Reinstate All</Text>
-                  </TouchableOpacity>
-                  
-                  {masteredFlashcardsList.map((item) => {
+                <Text style={styles.masteredTitle}>
+                  Flashcards Mastered ({masteredFlashcardsCount})
+                </Text>
+              </View>
+              <MaterialCommunityIcons 
+                name={showMasteredFlashcards ? "chevron-up" : "chevron-down"} 
+                size={24} 
+                color={theme.colors.textSecondary} 
+              />
+            </TouchableOpacity>
+            
+            {showMasteredFlashcards && (
+              <View style={styles.masteredContent}>
+                {masteredFlashcardsCount > 0 ? (
+                  <>
+                    <Text style={styles.masteredDescription}>
+                      These flashcards won't appear in Learn mode. Tap to reinstate them.
+                    </Text>
+                    
+                    <TouchableOpacity 
+                      style={styles.reinstateAllButton}
+                      onPress={handleReinstateAllFlashcards}
+                    >
+                      <MaterialCommunityIcons name="refresh" size={18} color={theme.colors.accent} />
+                      <Text style={styles.reinstateAllText}>Reinstate All</Text>
+                    </TouchableOpacity>
+                    
+                    {masteredFlashcardsList.map((item) => {
                     // Use DataLoader to safely get flashcard data
                     const flashcard = DataLoader.getAllFlashcards().find(f => f.id === item.id);
                     return (
