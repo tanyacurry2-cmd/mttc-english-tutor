@@ -30,19 +30,21 @@ interface AppState {
   lastSubarea: Subarea | null;
   
   // Actions
-  setUser: (user: Partial<AppState['user']>) => void;
-  initializeTrial: (uid: string, email: string) => void;
-  setPurchase: (purchaseType: 'monthly' | 'lifetime') => void;
+  setPurchase: (purchaseType: 'lifetime') => void;
+  incrementAssessments: () => void;
+  canAccessPremium: () => boolean;
+  canAccessFlashcard: (index: number) => boolean;
+  canAccessDrillQuestion: (index: number) => boolean;
+  canTakeAssessment: () => boolean;
   updateCardReview: (cardId: string, srsData: SRSCard) => void;
   updateMCQHistory: (mcqId: string, correct: boolean) => void;
   updateReadiness: (subarea: Subarea, score: number) => void;
   updateStreak: () => void;
   setLastStudied: (questionId: string, mode: 'learn' | 'drill', subarea: Subarea) => void;
   clearLastStudied: () => void;
-  checkTrialStatus: () => boolean;
   loadFromStorage: () => Promise<void>;
   saveToStorage: () => Promise<void>;
-  logout: () => void;
+  resetToFree: () => void;
 }
 
 export const useAppStore = create<AppState>((set, get) => ({
