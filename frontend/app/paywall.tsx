@@ -125,36 +125,23 @@ export default function PaywallScreen() {
           <View style={styles.pricingContainer}>
             <TouchableOpacity
               style={styles.pricingCard}
-              onPress={() => handlePurchase(IAP_PRODUCTS.LIFETIME)}
+              onPress={handlePurchase}
               disabled={loading}
               activeOpacity={0.7}
             >
               <View style={styles.bestValueBadge}>
-                <Text style={styles.bestValueText}>BEST VALUE</Text>
+                <Text style={styles.bestValueText}>ONE-TIME PURCHASE</Text>
               </View>
-              <Text style={styles.pricingTitle}>Lifetime Access</Text>
-              <Text style={styles.pricingPrice}>$29.99</Text>
-              <Text style={styles.pricingDescription}>One-time payment, forever</Text>
+              <Text style={styles.pricingTitle}>Lifetime Premium Access</Text>
+              <Text style={styles.pricingPrice}>${product?.price || '29.99'}</Text>
+              <Text style={styles.pricingDescription}>One-time payment, yours forever</Text>
               <View style={styles.pricingFeatures}>
-                <Text style={styles.pricingFeature}>✓ All features unlocked</Text>
+                <Text style={styles.pricingFeature}>✓ All 291 flashcards</Text>
+                <Text style={styles.pricingFeature}>✓ All 302 practice questions</Text>
+                <Text style={styles.pricingFeature}>✓ Unlimited assessments</Text>
+                <Text style={styles.pricingFeature}>✓ AI Writing Lab</Text>
                 <Text style={styles.pricingFeature}>✓ No recurring charges</Text>
                 <Text style={styles.pricingFeature}>✓ Future updates included</Text>
-              </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              style={[styles.pricingCard, styles.secondaryPricingCard]}
-              onPress={() => handlePurchase(IAP_PRODUCTS.MONTHLY)}
-              disabled={loading}
-              activeOpacity={0.7}
-            >
-              <Text style={styles.pricingTitle}>Monthly Subscription</Text>
-              <Text style={styles.pricingPrice}>$8.99/mo</Text>
-              <Text style={styles.pricingDescription}>3-day free trial, then $8.99/month</Text>
-              <View style={styles.pricingFeatures}>
-                <Text style={styles.pricingFeature}>✓ All features unlocked</Text>
-                <Text style={styles.pricingFeature}>✓ Cancel anytime</Text>
-                <Text style={styles.pricingFeature}>✓ Free trial included</Text>
               </View>
             </TouchableOpacity>
           </View>
