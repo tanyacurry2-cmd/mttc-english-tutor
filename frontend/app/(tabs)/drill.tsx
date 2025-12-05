@@ -172,19 +172,8 @@ export default function DrillScreen() {
     handleNext();
   };
 
-  if (!hasAccess) {
-    return (
-      <StarryBackground>
-        <SafeAreaView style={styles.container}>
-          <TrialBanner />
-          <View style={styles.emptyState}>
-            <MaterialCommunityIcons name="lock" size={64} color={theme.colors.textSecondary} />
-            <Text style={styles.emptyText}>Unlock Drill Mode with Premium</Text>
-          </View>
-        </SafeAreaView>
-      </StarryBackground>
-    );
-  }
+  // Premium enforcement will be added per-question, not blocking entire mode
+  // TODO: Add check using canAccessDrillQuestion(index)
 
   if (showResumePrompt) {
     return (
