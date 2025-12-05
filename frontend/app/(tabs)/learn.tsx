@@ -33,7 +33,7 @@ const subareaNameToId: { [key: string]: string } = {
 export default function LearnScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
-  const { cardReviews, updateCardReview, isPaid, lastQuestionID, lastMode, setLastStudied } = useAppStore();
+  const { cardReviews, updateCardReview, isPaid, canAccessFlashcard, lastQuestionID, lastMode, setLastStudied } = useAppStore();
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [cards, setCards] = useState<Card[]>([]);
@@ -41,6 +41,7 @@ export default function LearnScreen() {
   const [showResumePrompt, setShowResumePrompt] = useState(false);
   const [masteredIds, setMasteredIds] = useState<string[]>([]);
   const flipAnim = useState(new Animated.Value(0))[0];
+  const [showPaywall, setShowPaywall] = useState(false);
 
   // Load mastered flashcard IDs
   useEffect(() => {
