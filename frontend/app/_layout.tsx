@@ -8,9 +8,8 @@ export default function RootLayout() {
       <Stack.Screen name="index" />
       <Stack.Screen name="welcome" />
       <Stack.Screen name="objective-study" />
-      <Stack.Screen name="signup" />
-      <Stack.Screen name="login" />
       <Stack.Screen name="paywall" />
+      <Stack.Screen name="writing-lab" />
       <Stack.Screen name="(tabs)" />
     </Stack>
   );
