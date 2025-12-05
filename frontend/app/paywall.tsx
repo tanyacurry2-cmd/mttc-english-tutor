@@ -13,41 +13,45 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useAppStore } from '../lib/store';
 import { Button } from '../components/Button';
 import { theme } from '../lib/theme';
-import { iapManager, IAP_PRODUCTS } from '../lib/iap';
+import { iapManager, IAP_PRODUCT_ID } from '../lib/iap';
 
 export default function PaywallScreen() {
   const router = useRouter();
   const setPurchase = useAppStore((state) => state.setPurchase);
   const [loading, setLoading] = useState(false);
-  const [products, setProducts] = useState<any[]>([]);
+  const [product, setProduct] = useState<any>(null);
 
   useEffect(() => {
-    loadProducts();
+    loadProduct();
   }, []);
 
-  const loadProducts = async () => {
-    await iapManager.initialize();
-    const availableProducts = await iapManager.getProducts();
-    setProducts(availableProducts);
+  const loadProduct = async () => {
+    const initialized = await iapManager.initialize();
+    if (initialized) {
+      const products = await iapManager.getProducts();
+      if (products.length > 0) {
+        setProduct(products[0]);
+      }
+    }
   };
 
-  const handlePurchase = async (productId: string) => {
+  const handlePurchase = async () => {
     setLoading(true);
     try {
-      const purchase = await iapManager.purchaseProduct(productId);
+      const purchase = await iapManager.purchaseProduct(IAP_PRODUCT_ID);
       if (purchase) {
-        // Validate receipt (stub for now)
-        const isValid = await iapManager.validateReceipt(purchase.transactionReceipt || '');
-        if (isValid) {
-          const purchaseType = productId === IAP_PRODUCTS.MONTHLY ? 'monthly' : 'lifetime';
-          setPurchase(purchaseType);
-          Alert.alert('Success', 'Purchase completed successfully!', [
-            { text: 'OK', onPress: () => router.replace('/(tabs)/home') },
-          ]);
-        }
+        // Finish the transaction (required for iOS)
+        await iapManager.finishTransaction(purchase);
+        
+        // Update store - user is now premium
+        setPurchase('lifetime');
+        
+        Alert.alert('Success', 'Welcome to Premium! 🎉', [
+          { text: 'OK', onPress: () => router.replace('/(tabs)/home') },
+        ]);
       }
     } catch (error: any) {
-      Alert.alert('Purchase Error', error.message);
+      Alert.alert('Purchase Error', error.message || 'Unable to complete purchase');
     } finally {
       setLoading(false);
     }
@@ -58,19 +62,16 @@ export default function PaywallScreen() {
     try {
       const purchases = await iapManager.restorePurchases();
       if (purchases.length > 0) {
-        // Find the most recent purchase
-        const latestPurchase = purchases[0];
-        const productId = latestPurchase.productId;
-        const purchaseType = productId === IAP_PRODUCTS.MONTHLY ? 'monthly' : 'lifetime';
-        setPurchase(purchaseType);
-        Alert.alert('Success', 'Purchases restored successfully!', [
+        // User has purchased - restore premium access
+        setPurchase('lifetime');
+        Alert.alert('Success', 'Premium access restored! 🎉', [
           { text: 'OK', onPress: () => router.replace('/(tabs)/home') },
         ]);
       } else {
-        Alert.alert('No Purchases', 'No previous purchases found');
+        Alert.alert('No Purchases Found', 'No previous purchases were found for this account.');
       }
     } catch (error: any) {
-      Alert.alert('Restore Error', error.message);
+      Alert.alert('Restore Error', error.message || 'Unable to restore purchases');
     } finally {
       setLoading(false);
     }
