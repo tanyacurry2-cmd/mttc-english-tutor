@@ -185,19 +185,11 @@ export const useAppStore = create<AppState>((set, get) => ({
     get().saveToStorage();
   },
 
-  checkTrialStatus: () => {
-    // Always return true for TestFlight builds - user is always premium
-    return true;
-  },
-
   loadFromStorage: async () => {
     try {
       const stored = await AsyncStorage.getItem('appState');
       if (stored) {
         const parsed = JSON.parse(stored);
-        // Convert date strings back to Date objects
-        if (parsed.user.trialStart) parsed.user.trialStart = new Date(parsed.user.trialStart);
-        if (parsed.user.trialEnd) parsed.user.trialEnd = new Date(parsed.user.trialEnd);
         set(parsed);
       }
     } catch (error) {
@@ -214,16 +206,11 @@ export const useAppStore = create<AppState>((set, get) => ({
     }
   },
 
-  logout: () => {
+  resetToFree: () => {
     set({
-      user: {
-        email: null,
-        uid: null,
-        trialStart: null,
-        trialEnd: null,
-        isPaid: false,
-        purchaseType: null,
-      },
+      isPaid: false,
+      purchaseType: null,
+      assessmentsCompleted: 0,
       cardReviews: {},
       mcqHistory: {},
       streakDays: 0,
@@ -234,6 +221,9 @@ export const useAppStore = create<AppState>((set, get) => ({
         'Genre & Craft': 0,
         'Skills & Processes': 0,
       },
+      lastQuestionID: null,
+      lastMode: null,
+      lastSubarea: null,
     });
     AsyncStorage.removeItem('appState');
   },
