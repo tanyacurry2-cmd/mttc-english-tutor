@@ -1,18 +1,31 @@
-import * as InAppPurchases from 'expo-in-app-purchases';
 import { Platform } from 'react-native';
 
 // Apple IAP Product ID
 export const IAP_PRODUCT_ID = 'com.tanyacode.mttcenglish.premium';
 
+// Check if IAP module is available (not in Expo Go)
+let InAppPurchases: any = null;
+try {
+  InAppPurchases = require('expo-in-app-purchases');
+} catch (error) {
+  console.log('IAP module not available (Expo Go) - using mock');
+}
+
 // IAP Manager for handling in-app purchases
 class IAPManager {
   private connected = false;
-  private products: InAppPurchases.IAPItemDetails[] = [];
+  private products: any[] = [];
+  private isAvailable = InAppPurchases !== null;
 
   /**
    * Initialize IAP connection
    */
   async initialize(): Promise<boolean> {
+    if (!this.isAvailable) {
+      console.log('IAP not available in Expo Go - skipping initialization');
+      return false;
+    }
+
     try {
       await InAppPurchases.connectAsync();
       this.connected = true;
