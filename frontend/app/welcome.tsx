@@ -167,11 +167,11 @@ export default function WelcomeScreen() {
           </TouchableOpacity>
           
           <TouchableOpacity style={styles.getStartedButton} onPress={handleGetStarted}>
-            <Text style={styles.getStartedText}>Get Started with Full Access</Text>
+            <Text style={styles.getStartedText}>Start Studying</Text>
             <MaterialCommunityIcons name="arrow-right" size={20} color="#FFFFFF" />
           </TouchableOpacity>
           <Text style={styles.footerText}>
-            Sign up for a 3-day free trial to unlock all features
+            Try 5 flashcards and 5 questions free, then unlock everything for $29.99
           </Text>
         </View>
       </ScrollView>
