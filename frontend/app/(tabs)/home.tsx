@@ -85,18 +85,12 @@ export default function HomeScreen() {
     })();
   }, []);
 
-  const handleLogout = async () => {
-    await signOut(auth);
-    logout();
-    router.replace('/signup');
-  };
-
   const overallReadiness = Math.round(
     Object.values(readinessBySubarea).reduce((sum, val) => sum + val, 0) / 4
   );
 
   const handleFeaturePress = (feature: FeatureTile) => {
-    if (feature.requiresPaid && !hasAccess) {
+    if (feature.requiresPaid && !isPaid) {
       router.push('/paywall');
     } else {
       router.push(feature.route as any);
