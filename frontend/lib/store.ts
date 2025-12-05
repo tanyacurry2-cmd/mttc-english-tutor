@@ -10,15 +10,12 @@ interface MCQHistory {
 }
 
 interface AppState {
-  // Auth & Trial State
-  user: {
-    email: string | null;
-    uid: string | null;
-    trialStart: Date | null;
-    trialEnd: Date | null;
-    isPaid: boolean;
-    purchaseType: 'monthly' | 'lifetime' | null;
-  };
+  // Premium State (no auth needed)
+  isPaid: boolean;
+  purchaseType: 'lifetime' | null;
+  
+  // Free tier tracking
+  assessmentsCompleted: number;
   
   // Progress tracking
   cardReviews: Record<string, SRSCard>;
