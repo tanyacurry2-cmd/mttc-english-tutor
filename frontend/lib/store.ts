@@ -48,14 +48,11 @@ interface AppState {
 }
 
 export const useAppStore = create<AppState>((set, get) => ({
-  user: {
-    email: 'testuser@mttc.app',
-    uid: 'test-user-12345',
-    trialStart: new Date(),
-    trialEnd: new Date('2099-12-31'), // Far future date
-    isPaid: true, // Always paid for TestFlight
-    purchaseType: 'lifetime',
-  },
+  // Start as free user
+  isPaid: false,
+  purchaseType: null,
+  assessmentsCompleted: 0,
+  
   cardReviews: {},
   mcqHistory: {},
   streakDays: 0,
@@ -72,39 +69,44 @@ export const useAppStore = create<AppState>((set, get) => ({
   lastMode: null,
   lastSubarea: null,
 
-  setUser: (userData) => {
-    set((state) => ({
-      user: { ...state.user, ...userData }
-    }));
-    get().saveToStorage();
-  },
-
-  initializeTrial: (uid: string, email: string) => {
-    const trialStart = new Date();
-    const trialEnd = new Date();
-    trialEnd.setDate(trialEnd.getDate() + 3);
-    
-    set((state) => ({
-      user: {
-        ...state.user,
-        uid,
-        email,
-        trialStart,
-        trialEnd,
-      }
-    }));
-    get().saveToStorage();
-  },
-
   setPurchase: (purchaseType) => {
+    set({
+      isPaid: true,
+      purchaseType,
+    });
+    get().saveToStorage();
+  },
+
+  incrementAssessments: () => {
     set((state) => ({
-      user: {
-        ...state.user,
-        isPaid: true,
-        purchaseType,
-      }
+      assessmentsCompleted: state.assessmentsCompleted + 1,
     }));
     get().saveToStorage();
+  },
+
+  canAccessPremium: () => {
+    return get().isPaid;
+  },
+
+  canAccessFlashcard: (index: number) => {
+    const { isPaid } = get();
+    // Free users: first 5 flashcards (index 0-4)
+    // Premium: all flashcards
+    return isPaid || index < 5;
+  },
+
+  canAccessDrillQuestion: (index: number) => {
+    const { isPaid } = get();
+    // Free users: first 5 questions (index 0-4)
+    // Premium: all questions
+    return isPaid || index < 5;
+  },
+
+  canTakeAssessment: () => {
+    const { isPaid, assessmentsCompleted } = get();
+    // Free users: 1 assessment
+    // Premium: unlimited
+    return isPaid || assessmentsCompleted < 1;
   },
 
   updateCardReview: (cardId, srsData) => {
