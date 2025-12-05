@@ -49,7 +49,6 @@ export default function DrillScreen() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [showResumePrompt, setShowResumePrompt] = useState(false);
   const [masteredIds, setMasteredIds] = useState<string[]>([]);
-  const hasAccess = checkTrialStatus();
   const slideAnim = useRef(new Animated.Value(0)).current;
 
   // Load mastered IDs on mount
