@@ -1,27 +1,26 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useAppStore } from '../lib/store';
 import { theme } from '../lib/theme';
-import { differenceInDays, differenceInHours } from 'date-fns';
+import { useRouter } from 'expo-router';
 
 export const TrialBanner: React.FC = () => {
-  const { user } = useAppStore();
+  const { isPaid } = useAppStore();
+  const router = useRouter();
 
-  if (user.isPaid || !user.trialEnd) return null;
-
-  const now = new Date();
-  const trialEnd = new Date(user.trialEnd);
-  const daysLeft = differenceInDays(trialEnd, now);
-  const hoursLeft = differenceInHours(trialEnd, now) % 24;
-
-  if (daysLeft < 0) return null;
+  // Don't show banner if user has premium
+  if (isPaid) return null;
 
   return (
-    <View style={styles.banner}>
+    <TouchableOpacity 
+      style={styles.banner}
+      onPress={() => router.push('/paywall')}
+      activeOpacity={0.8}
+    >
       <Text style={styles.bannerText}>
-        Trial: {daysLeft > 0 ? `${daysLeft} day${daysLeft > 1 ? 's' : ''}` : `${hoursLeft}h`} left
+        🎁 Free: 5 flashcards + 5 questions + 1 assessment • Tap to unlock all
       </Text>
-    </View>
+    </TouchableOpacity>
   );
 };
 
