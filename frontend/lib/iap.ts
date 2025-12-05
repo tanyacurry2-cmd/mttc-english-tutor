@@ -41,7 +41,17 @@ class IAPManager {
   /**
    * Get available products from the store
    */
-  async getProducts(): Promise<InAppPurchases.IAPItemDetails[]> {
+  async getProducts(): Promise<any[]> {
+    if (!this.isAvailable) {
+      console.log('IAP not available - returning mock product');
+      return [{
+        productId: IAP_PRODUCT_ID,
+        price: '29.99',
+        title: 'Premium Access',
+        description: 'Unlock all features'
+      }];
+    }
+
     if (!this.connected) {
       await this.initialize();
     }
@@ -66,14 +76,18 @@ class IAPManager {
   /**
    * Purchase a product
    */
-  async purchaseProduct(productId: string): Promise<InAppPurchases.InAppPurchase | null> {
+  async purchaseProduct(productId: string): Promise<any | null> {
+    if (!this.isAvailable) {
+      throw new Error('In-app purchases are only available in production builds. Please build with EAS to test purchases.');
+    }
+
     if (!this.connected) {
       await this.initialize();
     }
 
     try {
       // Set purchase listener
-      InAppPurchases.setPurchaseListener(({ responseCode, results, errorCode }) => {
+      InAppPurchases.setPurchaseListener(({ responseCode, results, errorCode }: any) => {
         console.log('Purchase response:', { responseCode, results, errorCode });
       });
 
@@ -96,7 +110,11 @@ class IAPManager {
   /**
    * Restore previous purchases
    */
-  async restorePurchases(): Promise<InAppPurchases.InAppPurchase[]> {
+  async restorePurchases(): Promise<any[]> {
+    if (!this.isAvailable) {
+      throw new Error('In-app purchases are only available in production builds. Please build with EAS to test purchases.');
+    }
+
     if (!this.connected) {
       await this.initialize();
     }
@@ -109,7 +127,7 @@ class IAPManager {
         
         // Filter for our specific product
         const relevantPurchases = results.filter(
-          (purchase) => purchase.productId === IAP_PRODUCT_ID
+          (purchase: any) => purchase.productId === IAP_PRODUCT_ID
         );
         
         return relevantPurchases;
@@ -126,7 +144,11 @@ class IAPManager {
   /**
    * Finish a transaction (iOS requirement)
    */
-  async finishTransaction(purchase: InAppPurchases.InAppPurchase): Promise<void> {
+  async finishTransaction(purchase: any): Promise<void> {
+    if (!this.isAvailable) {
+      return;
+    }
+
     try {
       if (Platform.OS === 'ios' && purchase.transactionIdentifier) {
         await InAppPurchases.finishTransactionAsync(purchase, false);
@@ -141,6 +163,10 @@ class IAPManager {
    * Disconnect from IAP
    */
   async disconnect(): Promise<void> {
+    if (!this.isAvailable) {
+      return;
+    }
+
     try {
       await InAppPurchases.disconnectAsync();
       this.connected = false;
@@ -154,8 +180,8 @@ class IAPManager {
    * Check if IAP is supported on this device
    */
   isSupported(): boolean {
-    // IAP is supported on iOS and Android (not web)
-    return Platform.OS === 'ios' || Platform.OS === 'android';
+    // IAP is supported on iOS and Android (not web) AND module is available
+    return this.isAvailable && (Platform.OS === 'ios' || Platform.OS === 'android');
   }
 }
 
