@@ -175,6 +175,13 @@ export default function LearnScreen() {
     
     if (currentCardIndex < cards.length - 1) {
       const nextIndex = currentCardIndex + 1;
+      
+      // Check if user can access the next flashcard (premium enforcement)
+      if (!canAccessFlashcard(nextIndex)) {
+        setShowPaywall(true);
+        return;
+      }
+      
       setCurrentCardIndex(nextIndex);
       // Mark next card as seen
       if (cards[nextIndex]) {
