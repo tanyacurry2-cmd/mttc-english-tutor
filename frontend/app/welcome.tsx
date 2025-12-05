@@ -112,7 +112,7 @@ export default function WelcomeScreen() {
   };
 
   const handleGetStarted = () => {
-    router.push('/signup');
+    router.push('/(tabs)/home');
   };
 
   return (
