@@ -281,4 +281,53 @@ const styles = StyleSheet.create({
     color: theme.colors.textSecondary,
     textAlign: "center",
   },
+  paywallOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.85)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  paywallModal: {
+    backgroundColor: theme.colors.card,
+    borderRadius: 16,
+    padding: theme.spacing.xl,
+    width: '85%',
+    maxWidth: 400,
+    alignItems: 'center',
+  },
+  paywallTitle: {
+    fontSize: theme.fontSize.xxl,
+    fontWeight: theme.fontWeight.bold,
+    color: theme.colors.text,
+    marginTop: theme.spacing.lg,
+    textAlign: 'center',
+  },
+  paywallText: {
+    fontSize: theme.fontSize.md,
+    color: theme.colors.textSecondary,
+    marginTop: theme.spacing.md,
+    textAlign: 'center',
+    lineHeight: 22,
+  },
+  paywallButton: {
+    backgroundColor: theme.colors.accent,
+    paddingVertical: 16,
+    paddingHorizontal: 32,
+    borderRadius: 12,
+    marginTop: theme.spacing.xl,
+    width: '100%',
+  },
+  paywallButtonText: {
+    color: '#FFFFFF',
+    fontSize: theme.fontSize.lg,
+    fontWeight: theme.fontWeight.bold,
+    textAlign: 'center',
+  },
+  paywallCloseButton: {
+    marginTop: theme.spacing.md,
+  },
+  paywallCloseText: {
+    color: theme.colors.textSecondary,
+    fontSize: theme.fontSize.md,
+  },
 });
