@@ -42,13 +42,14 @@ type Question = {
 export default function DrillScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
-  const { mcqHistory, updateMCQHistory, isPaid, lastQuestionID, lastMode, setLastStudied } = useAppStore();
+  const { mcqHistory, updateMCQHistory, isPaid, canAccessDrillQuestion, lastQuestionID, lastMode, setLastStudied } = useAppStore();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [showResumePrompt, setShowResumePrompt] = useState(false);
   const [masteredIds, setMasteredIds] = useState<string[]>([]);
+  const [showPaywall, setShowPaywall] = useState(false);
   const slideAnim = useRef(new Animated.Value(0)).current;
 
   // Load mastered IDs on mount
