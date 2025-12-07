@@ -1,6 +1,6 @@
 import 'react-native-get-random-values';
 import React, { useMemo, useState, useEffect } from "react";
-import { View, Text, Pressable, FlatList, Alert, StyleSheet, ScrollView } from "react-native";
+import { View, Text, Pressable, FlatList, Alert, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
 import { router } from "expo-router";
 import { balancedPickBySubarea, Question } from "../../utils/selection";
 import Countdown from "../../components/Countdown";
@@ -9,6 +9,8 @@ import { getMasteredQuestionIds, updateMasteredQuestion } from "../../storage/ma
 import { v4 as uuid } from "uuid";
 import { theme } from "../../lib/theme";
 import { DataLoader } from "../../lib/data-loader";
+import { useAppStore } from "../../lib/store";
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const PER_SUBAREA = { "SA-1": 5, "SA-2": 5, "SA-3": 5, "SA-4": 5 } as const;
 const TOTAL = 20;
