@@ -20,7 +20,16 @@ const SECONDS = 20 * 60; // 20 minutes
 const generateSessionId = () => `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 
 export default function DiagnosticScreen() {
+  const { canTakeAssessment, incrementAssessments } = useAppStore();
   const [masteredIds, setMasteredIds] = useState<string[]>([]);
+  const [showPaywall, setShowPaywall] = useState(false);
+  
+  // Check if user can take assessment on mount
+  useEffect(() => {
+    if (!canTakeAssessment()) {
+      setShowPaywall(true);
+    }
+  }, []);
   
   // Load mastered question IDs on mount
   useEffect(() => {
