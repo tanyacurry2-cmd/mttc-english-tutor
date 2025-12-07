@@ -255,7 +255,7 @@ export default function DrillScreen() {
                 style={styles.paywallCloseButton}
                 onPress={() => {
                   setShowPaywall(false);
-                  router.back();
+                  router.replace('/(tabs)/home');
                 }}
               >
                 <Text style={styles.paywallCloseText}>Go Back</Text>
