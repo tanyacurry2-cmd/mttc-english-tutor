@@ -28,11 +28,24 @@ interface Feedback {
 
 export default function WritingLabScreen() {
   const router = useRouter();
+  const { canAccessPremium } = useAppStore();
   const [selectedPromptId, setSelectedPromptId] = useState(WRITING_PROMPTS[0].id);
   const [responseText, setResponseText] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [error, setError] = useState('');
+
+  // Check premium access on mount
+  useEffect(() => {
+    if (!canAccessPremium()) {
+      router.replace('/paywall');
+    }
+  }, [canAccessPremium]);
+
+  // If not premium, show nothing (will redirect)
+  if (!canAccessPremium()) {
+    return null;
+  }
 
   const selectedPrompt = WRITING_PROMPTS.find((p) => p.id === selectedPromptId);
 
