@@ -128,6 +128,36 @@ export default function DiagnosticScreen() {
     </View>;
   }
 
+  // Show paywall modal if user can't take assessment
+  if (showPaywall) {
+    return (
+      <View style={styles.container}>
+        <View style={styles.paywallOverlay}>
+          <View style={styles.paywallModal}>
+            <MaterialCommunityIcons name="lock" size={64} color={theme.colors.accent} />
+            <Text style={styles.paywallTitle}>Unlock Unlimited Assessments</Text>
+            <Text style={styles.paywallText}>
+              You've used your free assessment.{'\n\n'}
+              Upgrade to Premium for unlimited practice exams and more!
+            </Text>
+            <TouchableOpacity
+              style={styles.paywallButton}
+              onPress={() => router.push('/paywall')}
+            >
+              <Text style={styles.paywallButtonText}>Upgrade to Premium</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.paywallCloseButton}
+              onPress={() => router.back()}
+            >
+              <Text style={styles.paywallCloseText}>Go Back</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </View>
+    );
+  }
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>
