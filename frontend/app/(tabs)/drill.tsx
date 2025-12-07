@@ -124,13 +124,21 @@ export default function DrillScreen() {
     }
 
     if (currentQuestionIndex < questions.length - 1) {
+      const nextIndex = currentQuestionIndex + 1;
+      
+      // Check if user can access the next question (premium enforcement)
+      if (!canAccessDrillQuestion(nextIndex)) {
+        setShowPaywall(true);
+        return;
+      }
+      
       // Animate out
       Animated.timing(slideAnim, {
         toValue: -300,
         duration: 200,
         useNativeDriver: true,
       }).start(() => {
-        setCurrentQuestionIndex(currentQuestionIndex + 1);
+        setCurrentQuestionIndex(nextIndex);
         setSelectedOption(null);
         setShowResult(false);
         slideAnim.setValue(300);
