@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -14,6 +14,8 @@ import { Picker } from '@react-native-picker/picker';
 import { useRouter } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { WRITING_PROMPTS } from '../data/writingPrompts';
+import { useAppStore } from '../lib/store';
+import { theme } from '../lib/theme';
 
 interface Feedback {
   overall_score?: number;
