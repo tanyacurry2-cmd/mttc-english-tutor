@@ -13,7 +13,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.curryapps.mttcenglishtutor",
-      "buildNumber": "11",
+      "buildNumber": "12",
       "infoPlist": {
         "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you.",
         "ITSAppUsesNonExemptEncryption": false
@@ -26,7 +26,7 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.curryapps.mttcenglishtutor",
-      "versionCode": 11
+      "versionCode": 12
     },
     "web": {
       "bundler": "metro",
