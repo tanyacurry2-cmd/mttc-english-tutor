@@ -97,6 +97,9 @@ export default function DiagnosticScreen() {
 
     const ema = await updateReadinessEma(adjScore01);
     
+    // Increment assessment count (premium enforcement)
+    incrementAssessments();
+    
     // Prepare wrong questions with details
     const wrongQuestions = pool.filter(question => wrongIds.includes(question.id));
     
