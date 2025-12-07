@@ -118,19 +118,20 @@ export default function DrillScreen() {
     // Bump seen counter
     await bumpSeen(currentQuestion.id);
 
-    // Save last studied position
-    if (currentQuestionIndex < questions.length - 1) {
-      setLastStudied(questions[currentQuestionIndex + 1].id, 'Drill');
-    }
-
     if (currentQuestionIndex < questions.length - 1) {
       const nextIndex = currentQuestionIndex + 1;
       
       // Check if user can access the next question (premium enforcement)
       if (!canAccessDrillQuestion(nextIndex)) {
+        // Reset animation state before showing paywall
+        setSelectedOption(null);
+        setShowResult(false);
         setShowPaywall(true);
         return;
       }
+      
+      // Save last studied position
+      setLastStudied(questions[nextIndex].id, 'drill', 'Skills & Processes');
       
       // Animate out
       Animated.timing(slideAnim, {
