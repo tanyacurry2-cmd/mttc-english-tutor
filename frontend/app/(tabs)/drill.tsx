@@ -233,6 +233,35 @@ export default function DrillScreen() {
     <StarryBackground>
       <SafeAreaView style={styles.container}>
         <TrialBanner />
+        
+        {/* Premium Paywall Modal */}
+        {showPaywall && (
+          <View style={styles.paywallOverlay}>
+            <View style={styles.paywallModal}>
+              <MaterialCommunityIcons name="lock" size={64} color={theme.colors.accent} />
+              <Text style={styles.paywallTitle}>Unlock All Practice Questions</Text>
+              <Text style={styles.paywallText}>
+                You've reached your free limit of 5 questions.{'\n\n'}
+                Upgrade to Premium to access all 302 practice questions and more!
+              </Text>
+              <TouchableOpacity
+                style={styles.paywallButton}
+                onPress={() => router.push('/paywall')}
+              >
+                <Text style={styles.paywallButtonText}>Upgrade to Premium</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={styles.paywallCloseButton}
+                onPress={() => {
+                  setShowPaywall(false);
+                  router.back();
+                }}
+              >
+                <Text style={styles.paywallCloseText}>Go Back</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        )}
         <View style={styles.header}>
           <Text style={styles.progress}>
             Question {currentQuestionIndex + 1} of {questions.length}
