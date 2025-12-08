@@ -156,8 +156,8 @@ export default function PaywallScreen() {
 
           <View style={styles.legalContainer}>
             <Text style={styles.legalText}>
-              Payment will be charged to your Apple ID account. Subscription automatically renews
-              unless it is canceled at least 24 hours before the end of the current period.
+              One-time purchase. Payment will be charged to your Apple ID account. 
+              No subscription or recurring charges. Purchase once, own forever.
             </Text>
             <View style={styles.legalLinks}>
               <TouchableOpacity>
