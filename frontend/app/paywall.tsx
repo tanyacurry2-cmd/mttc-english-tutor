@@ -133,7 +133,7 @@ export default function PaywallScreen() {
                 <Text style={styles.bestValueText}>ONE-TIME PURCHASE</Text>
               </View>
               <Text style={styles.pricingTitle}>Lifetime Premium Access</Text>
-              <Text style={styles.pricingPrice}>${product?.price || '29.99'}</Text>
+              <Text style={styles.pricingPrice}>{product?.price ? `$${product.price}` : '$29.99'}</Text>
               <Text style={styles.pricingDescription}>One-time payment, yours forever</Text>
               <View style={styles.pricingFeatures}>
                 <Text style={styles.pricingFeature}>✓ All 291 flashcards</Text>
