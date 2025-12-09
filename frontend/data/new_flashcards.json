@@ -1,0 +1,202 @@
+[
+  {
+    "id": "F721",
+    "subarea": "Skills & Processes",
+    "objective": "Identifying Learning Goals",
+    "question": "What makes a learning goal effective for theme analysis?",
+    "answer": "It should focus on how authors convey and develop thematic ideas across texts",
+    "explanation": "Effective learning goals for theme analysis require students to identify, analyze, and compare how themes are developed through author's choices.",
+    "difficulty": 3,
+    "tags": ["learning goals", "theme", "standards"]
+  },
+  {
+    "id": "F722",
+    "subarea": "Skills & Processes",
+    "objective": "Diagnosing Misconceptions",
+    "question": "What is the most common student misconception about theme?",
+    "answer": "Confusing plot details or topics with thematic inference",
+    "explanation": "Students often state plot events (what happens) rather than the underlying message or universal truth the text conveys.",
+    "difficulty": 2,
+    "tags": ["misconceptions", "theme", "assessment"]
+  },
+  {
+    "id": "F723",
+    "subarea": "Skills & Processes",
+    "objective": "Argument Evaluation",
+    "question": "What three criteria should students use to evaluate argument evidence?",
+    "answer": "Strength, relevance, and sufficiency of evidence",
+    "explanation": "Effective argument evaluation requires assessing whether evidence is strong (credible), relevant (related to the claim), and sufficient (adequate amount).",
+    "difficulty": 3,
+    "tags": ["argument", "evaluation", "evidence"]
+  },
+  {
+    "id": "F724",
+    "subarea": "Skills & Processes",
+    "objective": "Supporting English Learners",
+    "question": "What is the most effective scaffold for teaching figurative language to ELLs?",
+    "answer": "Visual anchors that represent metaphors and similes concretely",
+    "explanation": "Visual representations make abstract figurative meanings concrete and accessible, bridging language barriers.",
+    "difficulty": 2,
+    "tags": ["ELL", "scaffolding", "figurative language"]
+  },
+  {
+    "id": "F725",
+    "subarea": "Skills & Processes",
+    "objective": "Comprehension Strategies",
+    "question": "What are comprehension-monitoring strategies?",
+    "answer": "Metacognitive techniques like self-questioning and think-alouds that help readers track understanding",
+    "explanation": "These strategies help students become aware of their comprehension and take action when meaning breaks down.",
+    "difficulty": 3,
+    "tags": ["comprehension", "metacognition", "strategies"]
+  },
+  {
+    "id": "F726",
+    "subarea": "Skills & Processes",
+    "objective": "Text Structure",
+    "question": "What signal words indicate cause-and-effect relationships?",
+    "answer": "Therefore, as a result, consequently, because, due to, leads to",
+    "explanation": "These transitional phrases explicitly signal causal relationships between ideas in informational texts.",
+    "difficulty": 2,
+    "tags": ["text structure", "cause-effect", "signal words"]
+  },
+  {
+    "id": "F727",
+    "subarea": "Skills & Processes",
+    "objective": "Writing Instruction",
+    "question": "Why is analyzing exemplar texts effective for teaching argumentative writing?",
+    "answer": "It helps students see models of logical progression and evidence-based reasoning in practice",
+    "explanation": "Exemplars provide concrete models of effective argument structure, helping students internalize quality standards.",
+    "difficulty": 3,
+    "tags": ["writing", "argument", "exemplars"]
+  },
+  {
+    "id": "F728",
+    "subarea": "Skills & Processes",
+    "objective": "Formative Assessment",
+    "question": "What defines effective formative assessment?",
+    "answer": "Assessment that informs immediate instructional adjustments based on student understanding",
+    "explanation": "Formative assessment is ongoing, provides real-time feedback, and directly shapes next instructional steps.",
+    "difficulty": 2,
+    "tags": ["formative assessment", "instruction", "feedback"]
+  },
+  {
+    "id": "F729",
+    "subarea": "Skills & Processes",
+    "objective": "Differentiated Instruction",
+    "question": "How can teachers provide equitable access to complex texts for diverse readers?",
+    "answer": "Provide audio support or read-alouds while maintaining the shared text",
+    "explanation": "Audio support scaffolds comprehension without segregating students or reducing text complexity.",
+    "difficulty": 3,
+    "tags": ["differentiation", "access", "scaffolding"]
+  },
+  {
+    "id": "F730",
+    "subarea": "Skills & Processes",
+    "objective": "Discussion Strategies",
+    "question": "What are discussion stems and why are they effective?",
+    "answer": "Sentence starters that guide students toward analysis and evaluation in discussions",
+    "explanation": "Discussion stems like 'The evidence suggests...' or 'This contrasts with...' scaffold higher-order thinking.",
+    "difficulty": 2,
+    "tags": ["discussion", "stems", "scaffolding"]
+  },
+  {
+    "id": "F731",
+    "subarea": "Skills & Processes",
+    "objective": "Point of View",
+    "question": "What strategy best teaches how point of view shapes meaning?",
+    "answer": "Having students rewrite a scene from a different character's perspective",
+    "explanation": "Rewriting from another viewpoint makes students directly experience how perspective influences interpretation.",
+    "difficulty": 2,
+    "tags": ["point of view", "perspective", "writing"]
+  },
+  {
+    "id": "F732",
+    "subarea": "Skills & Processes",
+    "objective": "Vocabulary Instruction",
+    "question": "What builds the most durable vocabulary knowledge?",
+    "answer": "Embedding new vocabulary in authentic writing and discussion tasks",
+    "explanation": "Active use in meaningful contexts creates deeper word knowledge than memorization alone.",
+    "difficulty": 3,
+    "tags": ["vocabulary", "authentic application", "retention"]
+  },
+  {
+    "id": "F733",
+    "subarea": "Skills & Processes",
+    "objective": "Scaffolding",
+    "question": "What is the purpose of guiding questions for complex texts?",
+    "answer": "To scaffold comprehension while maintaining text integrity and complexity",
+    "explanation": "Guiding questions break down comprehension demands without removing challenging content.",
+    "difficulty": 2,
+    "tags": ["scaffolding", "guiding questions", "complex texts"]
+  },
+  {
+    "id": "F734",
+    "subarea": "Skills & Processes",
+    "objective": "Writing Feedback",
+    "question": "What makes feedback actionable for student writers?",
+    "answer": "Specific identification of location and concrete steps for improvement",
+    "explanation": "Effective feedback is precise, targeted, and provides clear guidance rather than general comments.",
+    "difficulty": 2,
+    "tags": ["feedback", "writing", "revision"]
+  },
+  {
+    "id": "F735",
+    "subarea": "Skills & Processes",
+    "objective": "Assessment Alignment",
+    "question": "Why must learning goals align with assessments?",
+    "answer": "To ensure assessments measure what was actually taught and intended to be learned",
+    "explanation": "Alignment ensures validity—that assessments accurately measure the targeted learning outcomes.",
+    "difficulty": 3,
+    "tags": ["alignment", "assessment", "validity"]
+  },
+  {
+    "id": "F736",
+    "subarea": "Skills & Processes",
+    "objective": "Bias Analysis",
+    "question": "How do students identify bias in persuasive texts?",
+    "answer": "By evaluating how emotionally charged language influences the reader",
+    "explanation": "Biased language uses emotional appeals and loaded words to sway readers beyond logical reasoning.",
+    "difficulty": 3,
+    "tags": ["bias", "persuasion", "critical reading"]
+  },
+  {
+    "id": "F737",
+    "subarea": "Skills & Processes",
+    "objective": "Writing Organization",
+    "question": "What tool best supports students struggling with paragraph organization?",
+    "answer": "Graphic organizers that visually model logical sequencing",
+    "explanation": "Visual organizers make abstract organizational structures concrete and help students plan coherent writing.",
+    "difficulty": 2,
+    "tags": ["organization", "graphic organizers", "writing support"]
+  },
+  {
+    "id": "F738",
+    "subarea": "Skills & Processes",
+    "objective": "Theme Analysis",
+    "question": "How should students analyze theme development?",
+    "answer": "Track how a central idea evolves across key interactions and conflicts",
+    "explanation": "Effective theme analysis examines how themes are introduced, developed, and refined throughout a text.",
+    "difficulty": 3,
+    "tags": ["theme", "analysis", "close reading"]
+  },
+  {
+    "id": "F739",
+    "subarea": "Skills & Processes",
+    "objective": "Logical Reasoning",
+    "question": "What is the difference between sound and flawed reasoning?",
+    "answer": "Sound reasoning uses valid logic and sufficient evidence; flawed reasoning contains logical fallacies or weak support",
+    "explanation": "Evaluating argument validity requires identifying logical fallacies like false cause, hasty generalization, or ad hominem.",
+    "difficulty": 3,
+    "tags": ["logical reasoning", "fallacies", "argument"]
+  },
+  {
+    "id": "F740",
+    "subarea": "Skills & Processes",
+    "objective": "Text Selection",
+    "question": "What should drive complex text selection for instruction?",
+    "answer": "Alignment between the text's complexity features and the instructional purpose",
+    "explanation": "Text selection should match specific learning goals, considering both quantitative and qualitative complexity measures.",
+    "difficulty": 3,
+    "tags": ["text selection", "complexity", "instructional design"]
+  }
+]
