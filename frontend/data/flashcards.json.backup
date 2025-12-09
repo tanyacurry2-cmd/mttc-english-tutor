@@ -629,4 +629,2289 @@
     "difficulty": 2,
     "tags": ["instruction", "differentiation", "teaching"]
   }
-]
+  ,
+  {
+    "id": "F301",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Alliteration?",
+    "answer": "Repetition of initial consonant sounds",
+    "explanation": "Alliteration is the repetition of initial consonant sounds in neighboring words. Example: 'Peter Piper picked a peck of pickled peppers.' It creates rhythm and emphasizes certain words.",
+    "difficulty": 1,
+    "tags": ["rhetoric", "sound", "alliteration"]
+  },
+  {
+    "id": "F302",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Assonance?",
+    "answer": "Repetition of vowel sounds within words",
+    "explanation": "Assonance is the repetition of vowel sounds within words. Example: 'The rain in Spain falls mainly on the plain.' It creates internal rhyme and musicality.",
+    "difficulty": 1,
+    "tags": ["rhetoric", "sound", "assonance"]
+  },
+  {
+    "id": "F303",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Consonance?",
+    "answer": "Repetition of consonant sounds at the end or middle of words",
+    "explanation": "Consonance is the repetition of consonant sounds at the end or middle of words, creating a pleasing auditory effect. Example: 'blank and think.'",
+    "difficulty": 1,
+    "tags": ["rhetoric", "sound", "consonance"]
+  },
+  {
+    "id": "F304",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Anaphora?",
+    "answer": "Repetition of a word or phrase at the beginning of successive clauses",
+    "explanation": "Anaphora is a rhetorical device where words are repeated at the beginning of successive clauses for emphasis. Example: MLK's 'I have a dream' speech repeatedly uses this phrase.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "repetition", "anaphora"]
+  },
+  {
+    "id": "F305",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Epistrophe?",
+    "answer": "Repetition of words at the end of successive clauses",
+    "explanation": "Epistrophe repeats words at the end of successive clauses or sentences for rhetorical effect. Example: 'government of the people, by the people, for the people.'",
+    "difficulty": 2,
+    "tags": ["rhetoric", "repetition", "epistrophe"]
+  },
+  {
+    "id": "F306",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Parallelism?",
+    "answer": "Using similar grammatical structures in a series for rhythm and balance",
+    "explanation": "Parallelism uses similar grammatical structures to create balance, rhythm, and emphasis. Example: 'I came, I saw, I conquered.' It makes writing more memorable and persuasive.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "structure", "parallelism"]
+  },
+  {
+    "id": "F307",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Antithesis?",
+    "answer": "Juxtaposition of contrasting ideas in balanced phrases",
+    "explanation": "Antithesis places contrasting ideas in parallel structures to emphasize opposition. Example: 'It was the best of times, it was the worst of times.' Creates dramatic contrast.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "contrast", "antithesis"]
+  },
+  {
+    "id": "F308",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Chiasmus?",
+    "answer": "Inverted parallelism",
+    "explanation": "Chiasmus reverses the structure of parallel phrases for memorable effect. Example: JFK's 'Ask not what your country can do for you—ask what you can do for your country.'",
+    "difficulty": 3,
+    "tags": ["rhetoric", "structure", "chiasmus"]
+  },
+  {
+    "id": "F309",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is a Metaphor?",
+    "answer": "Direct comparison between two unlike things without 'like' or 'as'",
+    "explanation": "A metaphor makes a direct comparison between two unlike things to create vivid imagery. Example: 'Time is a thief.' It implies shared qualities without explicit comparison words.",
+    "difficulty": 1,
+    "tags": ["figurative", "metaphor", "comparison"]
+  },
+  {
+    "id": "F310",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is a Simile?",
+    "answer": "Comparison using 'like' or 'as'",
+    "explanation": "A simile explicitly compares two unlike things using 'like' or 'as.' Example: 'Her eyes sparkled like diamonds.' Creates vivid imagery through direct comparison.",
+    "difficulty": 1,
+    "tags": ["figurative", "simile", "comparison"]
+  },
+  {
+    "id": "F311",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Personification?",
+    "answer": "Giving human qualities to non-human things",
+    "explanation": "Personification attributes human characteristics to animals, objects, or abstract concepts. Example: 'The wind whispered through the trees.' Makes writing more relatable and vivid.",
+    "difficulty": 1,
+    "tags": ["figurative", "personification"]
+  },
+  {
+    "id": "F312",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Hyperbole?",
+    "answer": "Deliberate exaggeration for emphasis or humor",
+    "explanation": "Hyperbole uses extreme exaggeration to emphasize a point or create humor. Example: 'I've told you a million times!' Not meant to be taken literally.",
+    "difficulty": 1,
+    "tags": ["figurative", "hyperbole", "exaggeration"]
+  },
+  {
+    "id": "F313",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Understatement?",
+    "answer": "Deliberately downplaying significance for irony",
+    "explanation": "Understatement minimizes the importance of something, often for ironic or humorous effect. Example: Calling a hurricane 'a bit of bad weather.' Creates subtle emphasis through minimization.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "understatement", "irony"]
+  },
+  {
+    "id": "F314",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is an Oxymoron?",
+    "answer": "Two contradictory words combined",
+    "explanation": "An oxymoron combines contradictory terms for rhetorical effect. Examples: 'bittersweet,' 'jumbo shrimp,' 'deafening silence.' Creates tension and emphasizes complexity.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "oxymoron", "contradiction"]
+  },
+  {
+    "id": "F315",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is a Paradox?",
+    "answer": "A statement that seems contradictory yet reveals truth",
+    "explanation": "A paradox presents an apparent contradiction that reveals deeper truth upon reflection. Example: 'The more you learn, the less you know.' Encourages critical thinking.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "paradox", "logic"]
+  },
+  {
+    "id": "F316",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is a Euphemism?",
+    "answer": "Mild term replacing a harsh one",
+    "explanation": "A euphemism substitutes a mild or indirect expression for something unpleasant or embarrassing. Example: 'passed away' instead of 'died.' Softens harsh realities.",
+    "difficulty": 1,
+    "tags": ["rhetoric", "euphemism", "diction"]
+  },
+  {
+    "id": "F317",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Litotes?",
+    "answer": "Affirmation through negation",
+    "explanation": "Litotes affirms something by denying its opposite. Example: 'not bad' means 'good.' Creates emphasis through understatement and irony.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "litotes", "irony"]
+  },
+  {
+    "id": "F318",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is a Rhetorical Question?",
+    "answer": "Question asked for effect, not an answer",
+    "explanation": "A rhetorical question is posed for persuasive effect rather than to elicit an answer. Example: 'Is the Pope Catholic?' Engages audience and emphasizes a point.",
+    "difficulty": 1,
+    "tags": ["rhetoric", "question", "persuasion"]
+  },
+  {
+    "id": "F319",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Apostrophe?",
+    "answer": "Addressing an absent person or abstract idea directly",
+    "explanation": "Apostrophe directly addresses someone absent or something non-human as if present. Example: 'O Death, where is thy sting?' Creates dramatic intensity.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "apostrophe", "address"]
+  },
+  {
+    "id": "F320",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Synecdoche?",
+    "answer": "Using a part to represent the whole",
+    "explanation": "Synecdoche uses a part to represent the whole or vice versa. Example: 'All hands on deck' (hands = sailors). Creates compact, vivid language.",
+    "difficulty": 2,
+    "tags": ["figurative", "synecdoche", "substitution"]
+  },
+  {
+    "id": "F321",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Metonymy?",
+    "answer": "Substituting an associated word for the thing itself",
+    "explanation": "Metonymy replaces something with a word closely associated with it. Example: 'The crown' for monarchy, 'The White House' for the President. Creates efficient reference.",
+    "difficulty": 2,
+    "tags": ["figurative", "metonymy", "substitution"]
+  },
+  {
+    "id": "F322",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Irony?",
+    "answer": "Contrast between expectation and reality",
+    "explanation": "Irony occurs when there's a discrepancy between appearance and reality, expectation and outcome. Types include verbal, situational, and dramatic irony. Creates layers of meaning.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "irony", "contrast"]
+  },
+  {
+    "id": "F323",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Juxtaposition?",
+    "answer": "Placing two elements side by side to emphasize contrast",
+    "explanation": "Juxtaposition places contrasting elements near each other to highlight differences. Example: placing love and hate scenes adjacent. Emphasizes through contrast.",
+    "difficulty": 2,
+    "tags": ["rhetoric", "juxtaposition", "contrast"]
+  },
+  {
+    "id": "F324",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Tone?",
+    "answer": "Author's attitude toward the subject or audience",
+    "explanation": "Tone reflects the author's attitude, revealed through word choice, sentence structure, and details. Examples: formal, informal, ironic, optimistic. Shapes reader's response.",
+    "difficulty": 1,
+    "tags": ["craft", "tone", "style"]
+  },
+  {
+    "id": "F325",
+    "subarea": "Genre & Craft",
+    "objective": "Rhetorical Devices and Craft Techniques",
+    "question": "What is Diction?",
+    "answer": "Writer's choice of words to create tone and meaning",
+    "explanation": "Diction refers to word choice and vocabulary level. It can be formal, informal, colloquial, or technical. Diction directly shapes tone, mood, and clarity.",
+    "difficulty": 1,
+    "tags": ["craft", "diction", "style"]
+  }
+  ,
+  {
+    "id": "F101",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Second Language Acquisition (SLA)?",
+    "answer": "The process by which individuals learn a language other than their native one",
+    "explanation": "Second Language Acquisition (SLA) refers to the systematic process through which people learn a language beyond their first/native language. It involves cognitive, social, and educational factors.",
+    "difficulty": 2,
+    "tags": ["SLA", "language", "acquisition"]
+  },
+  {
+    "id": "F102",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is the Input Hypothesis?",
+    "answer": "Krashen's idea that learners acquire language best when exposed to comprehensible input slightly above their current level (i+1)",
+    "explanation": "Stephen Krashen's Input Hypothesis suggests learners progress by receiving 'comprehensible input' that is just beyond their current competence level (i+1). This challenges them without overwhelming them.",
+    "difficulty": 3,
+    "tags": ["Krashen", "input", "hypothesis", "SLA"]
+  },
+  {
+    "id": "F103",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is the Affective Filter?",
+    "answer": "Krashen's concept that anxiety or low motivation can block language input from being acquired",
+    "explanation": "The Affective Filter is a metaphorical barrier: when learners are anxious, unmotivated, or lack confidence, they cannot process language input effectively. Lowering this filter enhances acquisition.",
+    "difficulty": 2,
+    "tags": ["Krashen", "affective filter", "motivation", "anxiety"]
+  },
+  {
+    "id": "F104",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is the Natural Order Hypothesis?",
+    "answer": "Language structures are learned in a predictable sequence, not necessarily through formal instruction",
+    "explanation": "This hypothesis states that grammatical structures are acquired in a natural, predictable order regardless of explicit teaching. Learners follow similar developmental sequences.",
+    "difficulty": 2,
+    "tags": ["natural order", "grammar", "acquisition", "Krashen"]
+  },
+  {
+    "id": "F105",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Communicative Competence?",
+    "answer": "The ability to use language appropriately in social contexts, not just knowing grammar",
+    "explanation": "Communicative Competence goes beyond grammatical knowledge to include sociolinguistic, discourse, and strategic competence—knowing when, how, and why to use language in real situations.",
+    "difficulty": 2,
+    "tags": ["communicative competence", "pragmatics", "social language"]
+  },
+  {
+    "id": "F106",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Scaffolding in language learning?",
+    "answer": "Temporary instructional support helping students reach higher levels of understanding",
+    "explanation": "Scaffolding provides structured support (e.g., sentence frames, graphic organizers, modeling) that helps learners perform tasks they couldn't do independently, gradually removing support as competence grows.",
+    "difficulty": 1,
+    "tags": ["scaffolding", "support", "instruction", "Vygotsky"]
+  },
+  {
+    "id": "F107",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Modeling in language instruction?",
+    "answer": "Demonstrating correct language use before expecting students to use it independently",
+    "explanation": "Modeling involves the teacher showing students how to perform a language task (e.g., pronouncing words, structuring sentences) so students have a clear example to follow.",
+    "difficulty": 1,
+    "tags": ["modeling", "demonstration", "instruction"]
+  },
+  {
+    "id": "F108",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Total Physical Response (TPR)?",
+    "answer": "Teaching method pairing language input with physical movement to aid comprehension",
+    "explanation": "TPR, developed by James Asher, uses physical actions to reinforce language meaning. For example, students perform actions (stand, sit, jump) as the teacher gives commands, enhancing comprehension through kinesthetic learning.",
+    "difficulty": 2,
+    "tags": ["TPR", "movement", "comprehension", "teaching method"]
+  },
+  {
+    "id": "F109",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Wait Time in language teaching?",
+    "answer": "Pausing after asking a question so language learners can process and formulate a response",
+    "explanation": "Wait Time (typically 3-5 seconds) gives ELLs and all students time to think, translate internally if needed, and construct responses, leading to more thoughtful and accurate answers.",
+    "difficulty": 1,
+    "tags": ["wait time", "questioning", "ELL", "strategy"]
+  },
+  {
+    "id": "F110",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What are BICS and CALP?",
+    "answer": "Basic Interpersonal Communication Skills (social) vs. Cognitive Academic Language Proficiency (academic)",
+    "explanation": "BICS refers to everyday conversational language (1-2 years to develop), while CALP is the academic language needed for school success (5-7 years). Teachers must support both.",
+    "difficulty": 2,
+    "tags": ["BICS", "CALP", "Cummins", "academic language"]
+  },
+  {
+    "id": "F111",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Code-Switching?",
+    "answer": "Alternating between languages or dialects depending on context or audience",
+    "explanation": "Code-Switching is a natural linguistic practice where bilingual speakers shift between languages within conversations, often to express identity, clarify meaning, or match social contexts.",
+    "difficulty": 2,
+    "tags": ["code-switching", "bilingualism", "sociolinguistics"]
+  },
+  {
+    "id": "F112",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Language Transfer?",
+    "answer": "Influence of a learner's first language on learning a second language",
+    "explanation": "Language Transfer occurs when features of a learner's native language (phonology, syntax, vocabulary) affect how they produce or understand the target language. It can be positive or negative.",
+    "difficulty": 2,
+    "tags": ["transfer", "L1", "L2", "interference"]
+  },
+  {
+    "id": "F113",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What are Cognates?",
+    "answer": "Words in two languages with similar meaning and form",
+    "explanation": "Cognates are words that share common etymological roots across languages, like 'information' (English) and 'información' (Spanish). They help ELLs make connections and build vocabulary.",
+    "difficulty": 1,
+    "tags": ["cognates", "vocabulary", "Spanish", "transfer"]
+  },
+  {
+    "id": "F114",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What are False Cognates?",
+    "answer": "Words that look similar across languages but differ in meaning",
+    "explanation": "False Cognates (or 'false friends') can mislead learners. Example: 'actual' means 'real' in English but 'actualmente' means 'currently' in Spanish. Teachers should explicitly address these.",
+    "difficulty": 2,
+    "tags": ["false cognates", "vocabulary", "confusion"]
+  },
+  {
+    "id": "F115",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is an Affix?",
+    "answer": "A morpheme attached to a word stem to change meaning or function",
+    "explanation": "Affixes include prefixes (added before the root) and suffixes (added after). They modify word meaning (happy → unhappy) or grammatical function (teach → teacher).",
+    "difficulty": 1,
+    "tags": ["affix", "morphology", "prefix", "suffix"]
+  },
+  {
+    "id": "F116",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is a Suffix?",
+    "answer": "An affix added at the end of a root word to change its form or function",
+    "explanation": "Suffixes modify word class or meaning: '-ness' creates nouns (happiness), '-ed' indicates past tense (walked). Understanding suffixes aids decoding and vocabulary growth.",
+    "difficulty": 1,
+    "tags": ["suffix", "morphology", "word formation"]
+  },
+  {
+    "id": "F117",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is a Noun Suffix?",
+    "answer": "Turns verbs or adjectives into nouns",
+    "explanation": "Common noun suffixes include -ness (kindness), -tion (action), -ment (development). They allow students to derive meanings and expand vocabulary from known roots.",
+    "difficulty": 1,
+    "tags": ["noun suffix", "morphology", "word class"]
+  },
+  {
+    "id": "F118",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is a Verb Suffix?",
+    "answer": "Turns nouns or adjectives into verbs",
+    "explanation": "Verb suffixes like -ize (modernize), -en (strengthen), -ify (clarify) create verbs from other parts of speech, helping students understand word relationships.",
+    "difficulty": 1,
+    "tags": ["verb suffix", "morphology", "word formation"]
+  },
+  {
+    "id": "F119",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is an Adjectival Suffix?",
+    "answer": "Creates adjectives from nouns or verbs",
+    "explanation": "Adjectival suffixes include -ful (beautiful), -ous (dangerous), -able (readable). They enable students to describe and modify nouns, enriching expression.",
+    "difficulty": 1,
+    "tags": ["adjectival suffix", "adjective", "morphology"]
+  },
+  {
+    "id": "F120",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is a Derivational Morpheme?",
+    "answer": "Morpheme that changes a word's part of speech or meaning",
+    "explanation": "Derivational morphemes create new words: 'happy' (adjective) + '-ness' = 'happiness' (noun). They alter core meaning or grammatical category.",
+    "difficulty": 2,
+    "tags": ["derivational", "morpheme", "word class", "morphology"]
+  },
+  {
+    "id": "F121",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is an Inflectional Morpheme?",
+    "answer": "Morpheme that indicates grammatical change without altering meaning",
+    "explanation": "Inflectional morphemes signal tense (-ed), number (-s), or comparison (-er, -est) without changing word class: 'walk' vs. 'walked' are both verbs.",
+    "difficulty": 2,
+    "tags": ["inflectional", "morpheme", "grammar", "morphology"]
+  },
+  {
+    "id": "F122",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Language Immersion?",
+    "answer": "An approach where learners are surrounded by and use the target language for all communication",
+    "explanation": "Immersion programs teach content subjects in the target language, creating authentic contexts for acquisition. Students learn language through meaningful use rather than isolated drills.",
+    "difficulty": 2,
+    "tags": ["immersion", "bilingual", "acquisition", "pedagogy"]
+  },
+  {
+    "id": "F123",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Translanguaging?",
+    "answer": "Using multiple languages fluidly to make meaning and communicate effectively",
+    "explanation": "Translanguaging views bilingualism as a dynamic resource: students draw on all their linguistic repertoires to learn, think, and express themselves, rather than keeping languages separate.",
+    "difficulty": 2,
+    "tags": ["translanguaging", "bilingualism", "multilingualism"]
+  },
+  {
+    "id": "F124",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What is Metalinguistic Awareness?",
+    "answer": "The ability to think about and manipulate language structures consciously",
+    "explanation": "Metalinguistic Awareness allows learners to analyze language as an object—recognizing rhyme, syllables, word parts, and grammatical patterns. It's crucial for reading and writing development.",
+    "difficulty": 3,
+    "tags": ["metalinguistic", "awareness", "language analysis"]
+  },
+  {
+    "id": "F125",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Development, Second Language Acquisition, and Word Formation",
+    "question": "What are Language Development Strategies?",
+    "answer": "Teacher techniques such as modeling, sentence frames, visuals, and collaborative talk to strengthen student language skills",
+    "explanation": "Effective strategies include modeling, wait time, scaffolding, visual aids, collaborative discussions, and explicit vocabulary instruction. These support both BICS and CALP development.",
+    "difficulty": 2,
+    "tags": ["strategies", "instruction", "ELL", "pedagogy"]
+  }
+  ,
+  {
+    "id": "F126",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is Old English (450–1100 CE)?",
+    "answer": "The earliest form of English, heavily influenced by Germanic tribes",
+    "explanation": "Old English was spoken by the Angles, Saxons, and Jutes who settled in Britain. It's very different from Modern English, with complex inflections and Germanic vocabulary. Example text: Beowulf.",
+    "difficulty": 2,
+    "tags": ["Old English", "history", "Germanic"]
+  },
+  {
+    "id": "F127",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is Middle English (1100–1500 CE)?",
+    "answer": "English after the Norman Conquest with French and Latin influences",
+    "explanation": "The Norman Conquest (1066) brought French-speaking rulers to England. Thousands of French words entered English, especially in law, government, and cuisine. Example: Chaucer's Canterbury Tales.",
+    "difficulty": 2,
+    "tags": ["Middle English", "Norman Conquest", "French influence"]
+  },
+  {
+    "id": "F128",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is Early Modern English (1500–1800 CE)?",
+    "answer": "English during the Renaissance and Shakespeare era with emerging standardization",
+    "explanation": "This period saw the printing press, increased literacy, and Shakespeare's contributions. Grammar and spelling began to standardize. The King James Bible (1611) also influenced the language significantly.",
+    "difficulty": 2,
+    "tags": ["Early Modern English", "Shakespeare", "Renaissance"]
+  },
+  {
+    "id": "F129",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is The Great Vowel Shift?",
+    "answer": "A major phonological change between 1400–1600 that altered vowel pronunciation",
+    "explanation": "The Great Vowel Shift changed how long vowels were pronounced, creating differences between spelling and pronunciation. This explains why English spelling often doesn't match pronunciation (e.g., 'meat' vs. 'great').",
+    "difficulty": 3,
+    "tags": ["Great Vowel Shift", "phonology", "pronunciation"]
+  },
+  {
+    "id": "F130",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is a Loanword?",
+    "answer": "A word adopted from another language without translation",
+    "explanation": "English has borrowed extensively from other languages. Examples: 'piano' (Italian), 'café' (French), 'kindergarten' (German), 'safari' (Swahili). Loanwords enrich vocabulary.",
+    "difficulty": 1,
+    "tags": ["loanword", "borrowing", "vocabulary"]
+  },
+  {
+    "id": "F131",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is a Calque?",
+    "answer": "A word or phrase borrowed by literal translation",
+    "explanation": "Calques translate elements from another language. Examples: 'skyscraper' (from French 'gratte-ciel'), 'flea market' (from French 'marché aux puces'). The structure is borrowed, not the words themselves.",
+    "difficulty": 2,
+    "tags": ["calque", "translation", "borrowing"]
+  },
+  {
+    "id": "F132",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is Etymology?",
+    "answer": "The study of word origins and how meanings have changed over time",
+    "explanation": "Etymology traces words back to their roots, revealing historical connections and semantic shifts. For example, 'nice' originally meant 'foolish' (from Latin 'nescius' = ignorant), but meanings evolved over centuries.",
+    "difficulty": 1,
+    "tags": ["etymology", "word origins", "history"]
+  },
+  {
+    "id": "F133",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is a Pidgin?",
+    "answer": "A simplified blend of languages used for communication between groups",
+    "explanation": "Pidgins develop when groups need to communicate but don't share a language. They have simplified grammar and limited vocabulary. Example: Tok Pisin in Papua New Guinea. No native speakers—it's learned as a second language.",
+    "difficulty": 2,
+    "tags": ["pidgin", "contact language", "sociolinguistics"]
+  },
+  {
+    "id": "F134",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is a Creole?",
+    "answer": "A stable, fully developed language that evolves from a pidgin",
+    "explanation": "When a pidgin gains native speakers (usually children), it expands in complexity and becomes a creole. Example: Haitian Creole, Gullah. Creoles have full grammatical systems and can express any meaning.",
+    "difficulty": 2,
+    "tags": ["creole", "language development", "sociolinguistics"]
+  },
+  {
+    "id": "F135",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is a Dialect?",
+    "answer": "A regional or social variety of a language with distinct features",
+    "explanation": "Dialects vary in pronunciation, grammar, and vocabulary. Examples: Southern American English, British Received Pronunciation, African American Vernacular English (AAVE). All dialects are linguistically valid and rule-governed.",
+    "difficulty": 1,
+    "tags": ["dialect", "variation", "regional language"]
+  },
+  {
+    "id": "F136",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is an Idiolect?",
+    "answer": "An individual's unique pattern of speech and language use",
+    "explanation": "Everyone has an idiolect shaped by region, social group, age, experiences, and personal preferences. Your idiolect includes your vocabulary choices, pronunciation patterns, and favorite expressions.",
+    "difficulty": 2,
+    "tags": ["idiolect", "individual speech", "variation"]
+  },
+  {
+    "id": "F137",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is a Sociolect?",
+    "answer": "A language variety associated with a particular social group or class",
+    "explanation": "Sociolects reflect social identity, class, education, or profession. Examples include academic language, legal jargon, or working-class speech patterns. Like dialects, sociolects are systematic and meaningful.",
+    "difficulty": 2,
+    "tags": ["sociolect", "social variation", "class"]
+  },
+  {
+    "id": "F138",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is Slang?",
+    "answer": "Informal language used to establish identity or express novelty",
+    "explanation": "Slang is often generational, regional, or group-specific. It evolves rapidly and may not be understood outside the group. Examples: 'cool' (good), 'ghosting' (ignoring someone). Slang reflects cultural trends.",
+    "difficulty": 1,
+    "tags": ["slang", "informal language", "identity"]
+  },
+  {
+    "id": "F139",
+    "subarea": "Meaning & Communication",
+    "objective": "Development of English Language, Borrowings, and Regional Variation",
+    "question": "What is Standard American English (SAE)?",
+    "answer": "The form of English considered most acceptable in formal contexts",
+    "explanation": "SAE is the variety taught in schools and used in formal writing, news media, and professional settings. It's not inherently 'better' than other dialects, but it carries social prestige and institutional power.",
+    "difficulty": 2,
+    "tags": ["Standard English", "formal language", "prestige"]
+  }
+  ,
+  {
+    "id": "F201",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Language Acquisition?",
+    "answer": "The unconscious process by which humans naturally acquire language through interaction and exposure",
+    "explanation": "Language Acquisition happens naturally as children interact with caregivers and their environment. Unlike learning (conscious study), acquisition is implicit and automatic. Example: Babies acquiring their first language without formal instruction.",
+    "difficulty": 1,
+    "tags": ["language acquisition", "natural learning", "development"]
+  },
+  {
+    "id": "F202",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Language Learning?",
+    "answer": "The conscious study of language rules and structure, often in formal classroom settings",
+    "explanation": "Language Learning involves explicit instruction, memorization, and conscious attention to rules. Example: Studying grammar or vocabulary lists. Krashen distinguishes this from natural acquisition.",
+    "difficulty": 1,
+    "tags": ["language learning", "formal instruction", "conscious study"]
+  },
+  {
+    "id": "F203",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is the Critical Period Hypothesis?",
+    "answer": "Proposes that language acquisition is most efficient during early childhood before neural plasticity declines",
+    "explanation": "This hypothesis suggests there's a biological window (roughly birth to puberty) when language acquisition is easiest. After this period, learning new languages becomes more difficult due to decreased brain plasticity.",
+    "difficulty": 2,
+    "tags": ["critical period", "brain development", "age factors"]
+  },
+  {
+    "id": "F204",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Overgeneralization?",
+    "answer": "A developmental stage when children apply a learned rule too broadly",
+    "explanation": "Overgeneralization shows children are learning language rules, not just memorizing. Example: 'goed' instead of 'went' applies the regular past tense rule (-ed) to an irregular verb. This is a normal, productive stage of acquisition.",
+    "difficulty": 2,
+    "tags": ["overgeneralization", "child development", "grammar rules"]
+  },
+  {
+    "id": "F205",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Telegraphic Speech?",
+    "answer": "Early child speech using essential words only",
+    "explanation": "Telegraphic Speech omits function words (articles, prepositions) and uses content words: 'Want cookie,' 'Daddy go.' Named after telegrams which charged per word. Typical around 18-24 months.",
+    "difficulty": 1,
+    "tags": ["telegraphic speech", "early language", "child development"]
+  },
+  {
+    "id": "F206",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Interactionist Theory?",
+    "answer": "Emphasizes that language develops through social interaction and communication with caregivers",
+    "explanation": "Interactionist Theory combines biological readiness with social necessity. Language emerges through meaningful interaction, not just exposure. Caregivers' responsive communication supports language growth.",
+    "difficulty": 2,
+    "tags": ["interactionist", "social learning", "interaction"]
+  },
+  {
+    "id": "F207",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Behaviorist Theory?",
+    "answer": "Proposes that language is learned through imitation, reinforcement, and conditioning",
+    "explanation": "Behaviorist Theory (Skinner) views language as learned behavior shaped by rewards and punishments. Children imitate adults and are reinforced for correct forms. However, this doesn't fully explain creative language use.",
+    "difficulty": 2,
+    "tags": ["behaviorism", "Skinner", "imitation"]
+  },
+  {
+    "id": "F208",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Nativist Theory?",
+    "answer": "Chomsky's view that humans are born with an innate capacity for language (Language Acquisition Device)",
+    "explanation": "Nativist Theory (Chomsky) proposes a universal grammar hardwired in the brain. The Language Acquisition Device (LAD) allows children to acquire any language with minimal input. Explains rapid, universal language development.",
+    "difficulty": 2,
+    "tags": ["nativist", "Chomsky", "LAD", "innate"]
+  },
+  {
+    "id": "F209",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Cognitive Theory (Piaget)?",
+    "answer": "Suggests that language development is linked to overall cognitive growth and concept formation",
+    "explanation": "Piaget argued language depends on cognitive development. Children can't use words for concepts they haven't mentally grasped. Language reflects thinking, not vice versa. Symbolic thought enables language.",
+    "difficulty": 2,
+    "tags": ["cognitive theory", "Piaget", "thinking"]
+  },
+  {
+    "id": "F210",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Zone of Proximal Development (ZPD)?",
+    "answer": "Vygotsky's concept: learners progress when supported slightly beyond their current ability",
+    "explanation": "ZPD is the gap between what learners can do independently and what they can do with guidance. Effective teaching targets this zone, providing scaffolding to reach new levels. Social interaction is key to learning.",
+    "difficulty": 2,
+    "tags": ["ZPD", "Vygotsky", "scaffolding", "development"]
+  },
+  {
+    "id": "F211",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Interlanguage?",
+    "answer": "A temporary linguistic system formed by second language learners blending features of both languages",
+    "explanation": "Interlanguage is the learner's evolving language system between L1 and L2. It's systematic but contains errors from L1 influence, overgeneralization, and incomplete L2 knowledge. Example: 'She no like' (Spanish influence on English).",
+    "difficulty": 2,
+    "tags": ["interlanguage", "L2 learning", "developmental"]
+  },
+  {
+    "id": "F212",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Language Transfer?",
+    "answer": "The influence of a learner's first language on the acquisition of a second",
+    "explanation": "Language Transfer occurs when L1 patterns affect L2 production. Can be positive (helpful similarities) or negative (interference from differences). Example: Spanish speakers omitting 'it' in 'It's raining' (not required in Spanish).",
+    "difficulty": 2,
+    "tags": ["transfer", "L1 influence", "L2 acquisition"]
+  },
+  {
+    "id": "F213",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Positive Transfer?",
+    "answer": "When L1 and L2 share similar structures, facilitating learning",
+    "explanation": "Positive Transfer helps learners by applying L1 knowledge to L2. Examples: cognates (information/información), similar grammar patterns, shared phonemes. Bilingual students can leverage these similarities.",
+    "difficulty": 1,
+    "tags": ["positive transfer", "cognates", "facilitation"]
+  },
+  {
+    "id": "F214",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Negative Transfer (Interference)?",
+    "answer": "When differences between L1 and L2 cause learning difficulties or errors",
+    "explanation": "Negative Transfer creates errors when L1 patterns conflict with L2. Examples: Spanish speakers saying 'is raining' (omitting subject), Japanese speakers confusing 'r' and 'l'. Teachers should address these predictable errors.",
+    "difficulty": 2,
+    "tags": ["negative transfer", "interference", "errors"]
+  },
+  {
+    "id": "F215",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Code-Mixing?",
+    "answer": "The blending of words or phrases from two languages within a single discourse",
+    "explanation": "Code-Mixing combines languages within sentences or conversations. Different from code-switching (alternating between languages). Example: 'Vamos al store' (Spanish + English). Common among bilinguals, reflects linguistic flexibility.",
+    "difficulty": 2,
+    "tags": ["code-mixing", "bilingualism", "language contact"]
+  },
+  {
+    "id": "F216",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Academic Language?",
+    "answer": "Language used in formal education settings; includes specialized vocabulary, syntax, and discourse structures",
+    "explanation": "Academic Language is more abstract, complex, and context-reduced than social language. Requires explicit instruction. Examples: technical vocabulary, passive voice, complex sentences. Essential for school success.",
+    "difficulty": 2,
+    "tags": ["academic language", "CALP", "formal language"]
+  },
+  {
+    "id": "F217",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Disciplinary Literacy?",
+    "answer": "Understanding how language and communication differ across academic subjects",
+    "explanation": "Disciplinary Literacy recognizes that reading/writing in history differs from science or math. Each discipline has unique texts, vocabulary, arguments, and ways of constructing knowledge. Students need subject-specific literacy strategies.",
+    "difficulty": 2,
+    "tags": ["disciplinary literacy", "content areas", "subject-specific"]
+  },
+  {
+    "id": "F218",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Language Across the Curriculum?",
+    "answer": "Teaching approach that integrates reading, writing, and speaking skills into all subject areas",
+    "explanation": "Language Across the Curriculum makes all teachers language teachers. Students read, write, and discuss in math, science, social studies—not just English class. Reinforces literacy while deepening content understanding.",
+    "difficulty": 2,
+    "tags": ["language across curriculum", "integration", "content literacy"]
+  },
+  {
+    "id": "F219",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Collaborative Dialogue?",
+    "answer": "Conversation among learners that promotes language acquisition through peer interaction",
+    "explanation": "Collaborative Dialogue involves students negotiating meaning, clarifying ideas, and co-constructing knowledge through talk. Promotes active language use, critical thinking, and social learning. Example: partner discussions, group projects.",
+    "difficulty": 1,
+    "tags": ["collaborative dialogue", "peer interaction", "discussion"]
+  },
+  {
+    "id": "F220",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Cultural Schema?",
+    "answer": "Background knowledge from one's culture that influences language comprehension and use",
+    "explanation": "Cultural Schema includes shared experiences, values, and knowledge that aid comprehension. Example: American students understanding baseball metaphors in text. ELLs may lack cultural schema, hindering comprehension despite language proficiency.",
+    "difficulty": 2,
+    "tags": ["cultural schema", "background knowledge", "comprehension"]
+  },
+  {
+    "id": "F221",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Academic Vocabulary Tier 2?",
+    "answer": "High-utility words used across disciplines",
+    "explanation": "Tier 2 vocabulary appears across subjects: analyze, infer, evaluate, synthesize. More sophisticated than everyday words (Tier 1: happy, run) but less specialized than technical terms (Tier 3: photosynthesis). Priority for explicit instruction.",
+    "difficulty": 1,
+    "tags": ["Tier 2 vocabulary", "academic words", "cross-disciplinary"]
+  },
+  {
+    "id": "F222",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Metacognition in Reading?",
+    "answer": "Students' awareness and control of their comprehension processes",
+    "explanation": "Metacognition means thinking about thinking. In reading, students monitor comprehension, notice confusion, and apply fix-up strategies. Example: re-reading, asking questions, visualizing. Explicit instruction improves metacognitive skills.",
+    "difficulty": 2,
+    "tags": ["metacognition", "comprehension monitoring", "self-awareness"]
+  },
+  {
+    "id": "F223",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Scaffolded Reading Instruction?",
+    "answer": "Teacher gradually releases responsibility by modeling strategies, guiding practice, then independent work",
+    "explanation": "Scaffolded Instruction follows the gradual release model: I do (modeling), We do (guided practice), You do (independent practice). Supports learners in ZPD, building autonomy. Example: teacher thinks aloud, then students practice with support.",
+    "difficulty": 1,
+    "tags": ["scaffolding", "gradual release", "instruction"]
+  },
+  {
+    "id": "F224",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What are Cross-Linguistic Connections?",
+    "answer": "Recognizing relationships between languages to strengthen vocabulary and comprehension",
+    "explanation": "Cross-Linguistic Connections leverage bilingual students' L1 knowledge. Examples: comparing cognates, discussing idioms, analyzing grammar differences. Validates home language while building English proficiency.",
+    "difficulty": 2,
+    "tags": ["cross-linguistic", "bilingual education", "transfer"]
+  },
+  {
+    "id": "F225",
+    "subarea": "Literature & Understanding",
+    "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
+    "question": "What is Integrative Language Teaching?",
+    "answer": "Combining listening, speaking, reading, and writing in content-rich lessons to promote holistic competence",
+    "explanation": "Integrative Language Teaching connects all four skills in meaningful contexts rather than isolating them. Example: students read about ecosystems, discuss findings, write reports, present orally. Reflects authentic language use.",
+    "difficulty": 2,
+    "tags": ["integrative teaching", "four skills", "holistic"]
+  }
+  ,
+  {
+    "id": "F401",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Phonology?",
+    "answer": "The sound system of a language, including phonemes, stress, and intonation patterns",
+    "explanation": "Phonology studies how sounds function in a language. It includes phonemes (smallest sound units), stress patterns (syllable emphasis), and intonation (pitch changes). Example: English distinguishes /p/ and /b/ as separate phonemes (pin vs. bin).",
+    "difficulty": 2,
+    "tags": ["phonology", "linguistics", "sound system"]
+  },
+  {
+    "id": "F402",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Morphology?",
+    "answer": "The structure of words and the formation of words from morphemes",
+    "explanation": "Morphology analyzes how words are built from morphemes (roots, prefixes, suffixes). Example: 'unhappiness' = un- (prefix) + happy (root) + -ness (suffix). Understanding morphology aids vocabulary development and spelling.",
+    "difficulty": 2,
+    "tags": ["morphology", "word structure", "morphemes"]
+  },
+  {
+    "id": "F403",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Syntax?",
+    "answer": "Rules governing phrase and sentence structure; how words combine into clauses",
+    "explanation": "Syntax determines word order and grammatical relationships. Example: 'The cat chased the mouse' vs. 'The mouse chased the cat' show how syntax creates different meanings. English uses subject-verb-object order.",
+    "difficulty": 2,
+    "tags": ["syntax", "sentence structure", "grammar"]
+  },
+  {
+    "id": "F404",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Semantics?",
+    "answer": "Meaning in language; relationships among words, phrases, and sentences",
+    "explanation": "Semantics studies how meaning is constructed and interpreted. Includes word meanings, sentence meanings, and how context affects interpretation. Example: 'bank' can mean financial institution or river edge—context determines meaning.",
+    "difficulty": 2,
+    "tags": ["semantics", "meaning", "linguistics"]
+  },
+  {
+    "id": "F405",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Pragmatics?",
+    "answer": "Language use in context; implied meaning, speaker intent, and social norms",
+    "explanation": "Pragmatics examines how context shapes meaning beyond literal words. Includes indirect speech acts, implicature, and social conventions. Example: 'Can you pass the salt?' is a request, not a question about ability.",
+    "difficulty": 3,
+    "tags": ["pragmatics", "context", "implied meaning"]
+  },
+  {
+    "id": "F406",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Descriptive vs. Prescriptive grammar?",
+    "answer": "Descriptive grammar explains how people actually use language; prescriptive grammar dictates how they should use it",
+    "explanation": "Descriptive grammar observes and documents real language use without judgment (linguists' approach). Prescriptive grammar enforces rules about 'correct' usage (traditional school approach). Example: Descriptive accepts 'they' as singular pronoun; prescriptive may reject it.",
+    "difficulty": 1,
+    "tags": ["grammar", "descriptive", "prescriptive", "linguistics"]
+  },
+  {
+    "id": "F407",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Ambiguity?",
+    "answer": "A word, phrase, or passage with multiple possible meanings; can be intentional for effect",
+    "explanation": "Ambiguity allows multiple interpretations. Can be lexical (word level), syntactic (sentence structure), or semantic (meaning). Authors may use it deliberately for complexity. Example: 'Flying planes can be dangerous' (piloting vs. airborne planes).",
+    "difficulty": 3,
+    "tags": ["ambiguity", "multiple meanings", "interpretation"]
+  },
+  {
+    "id": "F408",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Connotation?",
+    "answer": "Associated or suggested meaning of a word beyond its denotation",
+    "explanation": "Connotation is the emotional or cultural associations a word carries. Example: 'home' (denotation: residence) has positive connotations of warmth and belonging. Word choice affects tone through connotation.",
+    "difficulty": 1,
+    "tags": ["connotation", "word meaning", "associations"]
+  },
+  {
+    "id": "F409",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Figurative Language?",
+    "answer": "Nonliteral language (metaphor, simile, personification, hyperbole) to create effects",
+    "explanation": "Figurative Language uses words beyond their literal meanings to create imagery, emphasis, or emotional impact. Includes metaphor, simile, personification, hyperbole, and more. Example: 'Time is a thief' (metaphor).",
+    "difficulty": 1,
+    "tags": ["figurative language", "literary devices", "metaphor"]
+  },
+  {
+    "id": "F410",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Irony?",
+    "answer": "Discrepancy between expectation and reality",
+    "explanation": "Irony creates contrast between what's expected and what occurs. Types: verbal (saying opposite of meaning), situational (outcome opposite of expected), dramatic (audience knows more than characters). Example: Fire station burns down (situational irony).",
+    "difficulty": 2,
+    "tags": ["irony", "verbal", "situational", "dramatic"]
+  },
+  {
+    "id": "F411",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Imagery?",
+    "answer": "Language appealing to the senses to evoke responses in readers",
+    "explanation": "Imagery uses sensory details (sight, sound, smell, taste, touch) to create vivid mental pictures. Helps readers experience the text emotionally and physically. Example: 'The crisp, golden leaves crunched beneath her feet.'",
+    "difficulty": 1,
+    "tags": ["imagery", "sensory details", "description"]
+  },
+  {
+    "id": "F412",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Rhythm & Meter?",
+    "answer": "Pattern of stressed/unstressed syllables in verse; meter types like iambic pentameter",
+    "explanation": "Rhythm is the pattern of beats in poetry. Meter is systematic rhythm measured in feet. Example: Iambic pentameter (Shakespeare's favorite) has 5 iambs per line (unstressed-STRESSED). Creates musicality and emphasis.",
+    "difficulty": 3,
+    "tags": ["rhythm", "meter", "poetry", "iambic pentameter"]
+  },
+  {
+    "id": "F413",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Rhyme?",
+    "answer": "Repetition of similar sounds, especially at line ends; includes slant rhyme and internal rhyme",
+    "explanation": "Rhyme repeats similar sounds for musicality and emphasis. Types: end rhyme (line ends), internal rhyme (within lines), slant/near rhyme (similar but not exact sounds). Example: 'cat/hat' (perfect rhyme), 'cat/cot' (slant rhyme).",
+    "difficulty": 2,
+    "tags": ["rhyme", "sound patterns", "poetry"]
+  },
+  {
+    "id": "F414",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Characterization?",
+    "answer": "Methods an author uses to portray character",
+    "explanation": "Characterization reveals characters through direct description, actions, dialogue, thoughts, and others' reactions. Can be direct (author tells) or indirect (reader infers). Example: Actions revealing bravery show character without stating it directly.",
+    "difficulty": 2,
+    "tags": ["characterization", "character development", "literary analysis"]
+  },
+  {
+    "id": "F415",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Plot & Setting?",
+    "answer": "Plot: sequence of events; Setting: time/place/context framing events and mood",
+    "explanation": "Plot is the story structure (exposition, rising action, climax, falling action, resolution). Setting establishes when and where events occur, influencing mood and conflict. Example: A story set during war creates tension and limits character choices.",
+    "difficulty": 1,
+    "tags": ["plot", "setting", "story structure"]
+  },
+  {
+    "id": "F416",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Tone & Mood?",
+    "answer": "Tone: author's attitude; Mood: emotional atmosphere experienced by readers",
+    "explanation": "Tone reflects the author's perspective (humorous, serious, sarcastic). Mood is the feeling evoked in readers (tense, peaceful, melancholy). Word choice, imagery, and syntax create both. Example: Dark imagery creates ominous mood.",
+    "difficulty": 1,
+    "tags": ["tone", "mood", "atmosphere", "style"]
+  },
+  {
+    "id": "F417",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is a Universal Theme?",
+    "answer": "Idea of broad human significance recurring across cultures and eras",
+    "explanation": "Universal Themes address fundamental human experiences: identity, justice, love, mortality, power. They transcend specific contexts and resonate across time and cultures. Example: The hero's journey appears in myths worldwide.",
+    "difficulty": 2,
+    "tags": ["theme", "universal", "literary analysis"]
+  },
+  {
+    "id": "F418",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What is Thesis & Support?",
+    "answer": "A clear, arguable central claim with logically organized, relevant evidence and reasoning",
+    "explanation": "A thesis states the essay's main argument. Support includes evidence (facts, examples, quotations) and reasoning connecting evidence to the claim. Strong essays have unified paragraphs, transitions, and logical progression.",
+    "difficulty": 2,
+    "tags": ["thesis", "argumentation", "essay structure"]
+  },
+  {
+    "id": "F419",
+    "subarea": "Genre & Craft",
+    "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
+    "question": "What are Expository Structures?",
+    "answer": "Common patterns: definition, classification, cause–effect, compare–contrast, problem–solution; formats like business letter, news article, formal essay",
+    "explanation": "Expository writing informs or explains using organizational patterns suited to purpose. Definition explains terms; compare-contrast shows similarities/differences; cause-effect shows relationships. Format matches audience and purpose (business letter for professional communication).",
+    "difficulty": 2,
+    "tags": ["expository writing", "organization", "text structures"]
+  }
+  ,
+  {
+    "id": "F601",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What are Context Clues?",
+    "answer": "Hints within a text that help determine the meaning of unfamiliar words",
+    "explanation": "Context Clues are surrounding words, phrases, or sentences that help readers infer unknown word meanings. Types include definition, example, synonym, antonym, and inference clues. Essential for vocabulary development.",
+    "difficulty": 1,
+    "tags": ["context clues", "vocabulary", "reading strategies"]
+  },
+  {
+    "id": "F602",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Word Structure analysis?",
+    "answer": "Analysis of prefixes, roots, and suffixes to determine word meaning",
+    "explanation": "Word Structure analysis breaks words into morphemes (meaningful parts) to understand meanings. Example: 'unhappiness' = un- (not) + happy + -ness (state). Supports vocabulary growth and spelling.",
+    "difficulty": 1,
+    "tags": ["word structure", "morphology", "vocabulary"]
+  },
+  {
+    "id": "F603",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Skimming?",
+    "answer": "A reading technique used to quickly identify main ideas or general meaning",
+    "explanation": "Skimming involves reading headings, first sentences, and key words to grasp the gist without reading every word. Used for previewing, reviewing, or determining relevance. Improves reading efficiency.",
+    "difficulty": 1,
+    "tags": ["skimming", "reading strategies", "efficiency"]
+  },
+  {
+    "id": "F604",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Scanning?",
+    "answer": "A reading strategy used to locate specific facts or details quickly",
+    "explanation": "Scanning involves moving eyes rapidly over text to find particular information (names, dates, statistics). Like using Find/Search. Different from skimming (which seeks main ideas). Essential research skill.",
+    "difficulty": 1,
+    "tags": ["scanning", "reading strategies", "research"]
+  },
+  {
+    "id": "F605",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Inference?",
+    "answer": "A logical conclusion drawn from evidence and reasoning rather than explicit statements",
+    "explanation": "Inference combines textual evidence with prior knowledge to understand implied meanings. Example: 'Her hands trembled' infers nervousness. Critical for comprehension beyond literal level.",
+    "difficulty": 2,
+    "tags": ["inference", "critical thinking", "comprehension"]
+  },
+  {
+    "id": "F606",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Summarizing?",
+    "answer": "Condensing a text to its essential ideas while maintaining its meaning",
+    "explanation": "Summarizing identifies main ideas and key supporting details, omitting examples and redundancy. Requires distinguishing important from unimportant information. Tests and builds comprehension.",
+    "difficulty": 2,
+    "tags": ["summarizing", "main idea", "comprehension"]
+  },
+  {
+    "id": "F607",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What are General vs. Specific Statements?",
+    "answer": "General statements express broad ideas; specific statements provide supporting details",
+    "explanation": "General statements make broad claims (topic sentences); specific statements offer examples, facts, or details supporting them. Recognizing this hierarchy aids comprehension and summarization.",
+    "difficulty": 1,
+    "tags": ["text structure", "main idea", "details"]
+  },
+  {
+    "id": "F608",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Metacognition?",
+    "answer": "Thinking about one's own thinking; awareness of comprehension strategies and monitoring understanding",
+    "explanation": "Metacognition includes planning (setting purpose), monitoring (noticing confusion), and evaluating (checking understanding). Effective readers use metacognitive strategies to regulate comprehension.",
+    "difficulty": 2,
+    "tags": ["metacognition", "self-monitoring", "strategies"]
+  },
+  {
+    "id": "F609",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Denotative Meaning?",
+    "answer": "The literal, dictionary definition of a word",
+    "explanation": "Denotative Meaning is objective and universal—what a word literally means. Example: 'home' denotes a dwelling place. Contrasts with connotation (emotional associations).",
+    "difficulty": 1,
+    "tags": ["denotation", "meaning", "vocabulary"]
+  },
+  {
+    "id": "F610",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Connotative Meaning?",
+    "answer": "The emotional or associative meaning attached to a word beyond its definition",
+    "explanation": "Connotative Meaning includes feelings and associations. Example: 'home' connotes warmth, safety, belonging. Understanding connotation is critical for interpreting tone and author's purpose.",
+    "difficulty": 1,
+    "tags": ["connotation", "meaning", "tone"]
+  },
+  {
+    "id": "F611",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Prior Knowledge Activation?",
+    "answer": "Connecting what a reader already knows to new text information to improve comprehension",
+    "explanation": "Prior Knowledge Activation uses existing knowledge to make sense of new information. Example: KWL charts (Know, Want to know, Learned). Essential for building schema and deepening understanding.",
+    "difficulty": 2,
+    "tags": ["prior knowledge", "schema", "comprehension"]
+  },
+  {
+    "id": "F612",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Prediction Strategy?",
+    "answer": "Anticipating what will happen next in a text to maintain engagement and comprehension",
+    "explanation": "Prediction Strategy uses textual clues and prior knowledge to forecast outcomes. Keeps readers engaged, aids comprehension monitoring. Predictions should be confirmed or revised as reading continues.",
+    "difficulty": 2,
+    "tags": ["prediction", "engagement", "comprehension"]
+  },
+  {
+    "id": "F613",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Audience and Purpose?",
+    "answer": "Understanding whom a text targets and why it was written, key to critical reading",
+    "explanation": "Audience (intended readers) and Purpose (inform, persuade, entertain) shape every writing choice. Identifying these helps readers evaluate effectiveness and detect bias.",
+    "difficulty": 2,
+    "tags": ["audience", "purpose", "critical reading"]
+  },
+  {
+    "id": "F614",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Persuasive Strategy?",
+    "answer": "A rhetorical method used to influence audience beliefs or actions",
+    "explanation": "Persuasive Strategies include ethos (credibility), pathos (emotion), and logos (logic). Also includes rhetorical questions, repetition, and appeals to values. Critical for analyzing arguments.",
+    "difficulty": 2,
+    "tags": ["persuasion", "rhetoric", "argumentation"]
+  },
+  {
+    "id": "F615",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Fact vs. Opinion?",
+    "answer": "Facts are verifiable; opinions reflect beliefs or interpretations",
+    "explanation": "Facts can be proven true or false (Earth orbits Sun). Opinions express judgments (Summer is the best season). Critical readers distinguish between them to evaluate claims.",
+    "difficulty": 1,
+    "tags": ["fact", "opinion", "critical thinking"]
+  },
+  {
+    "id": "F616",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Source Credibility?",
+    "answer": "Evaluation of an author's expertise, evidence quality, and objectivity",
+    "explanation": "Source Credibility considers author qualifications, evidence (research, data), objectivity, and publisher reputation. Essential for evaluating information reliability, especially online.",
+    "difficulty": 2,
+    "tags": ["credibility", "evaluation", "sources"]
+  },
+  {
+    "id": "F617",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Bias?",
+    "answer": "A predisposition or prejudice that influences perspective or presentation of information",
+    "explanation": "Bias is favoritism toward one side, often unconscious. Detected through word choice, omitted information, and source selection. All texts have some bias—critical readers recognize and account for it.",
+    "difficulty": 2,
+    "tags": ["bias", "critical reading", "perspective"]
+  },
+  {
+    "id": "F618",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Tone and Style?",
+    "answer": "Tone reflects the author's attitude; style refers to the author's language choices and structure",
+    "explanation": "Tone (formal, humorous, sarcastic) reveals author's attitude. Style includes diction, syntax, imagery, and structure. Both shape meaning and reader response.",
+    "difficulty": 2,
+    "tags": ["tone", "style", "author's craft"]
+  },
+  {
+    "id": "F619",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Reader Response Theory?",
+    "answer": "Meaning arises from the reader's interpretation and personal engagement with a text",
+    "explanation": "Reader Response Theory emphasizes readers' active role in creating meaning. Personal experiences, beliefs, and contexts shape interpretation. Validates diverse readings and encourages reflection.",
+    "difficulty": 2,
+    "tags": ["reader response", "interpretation", "theory"]
+  },
+  {
+    "id": "F620",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is a Reading Journal?",
+    "answer": "A tool for recording personal responses, reflections, and interpretations of texts",
+    "explanation": "Reading Journals capture thoughts, questions, connections, and reactions during/after reading. Supports metacognition, deepens comprehension, and documents intellectual growth.",
+    "difficulty": 1,
+    "tags": ["reading journal", "reflection", "response"]
+  },
+  {
+    "id": "F621",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Writing to Learn?",
+    "answer": "Using writing (journals, logs, essays) to clarify thinking and connect ideas across disciplines",
+    "explanation": "Writing to Learn uses informal writing to process information, not just demonstrate knowledge. Includes quick writes, reflective journals, concept maps. Deepens understanding in all subjects.",
+    "difficulty": 2,
+    "tags": ["writing to learn", "reflection", "cross-curricular"]
+  },
+  {
+    "id": "F622",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Inquiry Writing?",
+    "answer": "Writing that generates authentic questions, explores problems, and reflects on learning",
+    "explanation": "Inquiry Writing begins with genuine curiosity, not prescribed topics. Students pose questions, research, analyze findings, and reflect. Promotes critical thinking and authentic engagement.",
+    "difficulty": 2,
+    "tags": ["inquiry", "research", "critical thinking"]
+  },
+  {
+    "id": "F623",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Visual Communication?",
+    "answer": "Conveying information through images, charts, graphs, videos, or performance",
+    "explanation": "Visual Communication uses non-textual modes to convey meaning. Includes infographics, diagrams, photos, videos. Often more immediate and accessible than text alone. Essential 21st century literacy.",
+    "difficulty": 2,
+    "tags": ["visual communication", "multimodal", "media"]
+  },
+  {
+    "id": "F624",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Media Literacy?",
+    "answer": "The ability to analyze, evaluate, and create media messages in various forms",
+    "explanation": "Media Literacy includes understanding how media is constructed, purposes, techniques, and effects. Enables critical consumption and ethical production of media. Essential for navigating information age.",
+    "difficulty": 2,
+    "tags": ["media literacy", "critical thinking", "evaluation"]
+  },
+  {
+    "id": "F625",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What are Propaganda Techniques?",
+    "answer": "Methods used to manipulate opinion—bandwagon, testimonial, glittering generalities, fear appeal",
+    "explanation": "Propaganda Techniques influence without full information or critical thought. Bandwagon (everyone's doing it), testimonial (celebrity endorsement), fear appeal (threats). Recognizing these protects against manipulation.",
+    "difficulty": 2,
+    "tags": ["propaganda", "manipulation", "critical thinking"]
+  },
+  {
+    "id": "F626",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Multimodal Communication?",
+    "answer": "Using combinations of text, sound, and visuals to communicate meaning",
+    "explanation": "Multimodal Communication integrates multiple modes (linguistic, visual, audio, gestural, spatial) simultaneously. Example: Video combines narration, images, music. Richer than single-mode communication.",
+    "difficulty": 2,
+    "tags": ["multimodal", "communication", "integration"]
+  },
+  {
+    "id": "F627",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Critical Evaluation of Media?",
+    "answer": "Assessing media messages for accuracy, bias, purpose, and effect on public perception",
+    "explanation": "Critical Evaluation of Media questions who created it, why, what techniques are used, what's included/omitted, and whose interests are served. Essential for informed citizenship in media-saturated world.",
+    "difficulty": 2,
+    "tags": ["critical evaluation", "media", "analysis"]
+  },
+  {
+    "id": "F628",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Charts and Graphs Interpretation?",
+    "answer": "Extracting and analyzing meaning from visual data representations",
+    "explanation": "Charts and Graphs Interpretation requires understanding axes, scales, labels, and data relationships. Skills include identifying trends, comparing values, and drawing conclusions. Critical for informational literacy.",
+    "difficulty": 2,
+    "tags": ["data interpretation", "graphs", "visual literacy"]
+  },
+  {
+    "id": "F629",
+    "subarea": "Skills & Processes",
+    "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
+    "question": "What is Synergy in Media?",
+    "answer": "Combined media elements (image + text + sound) that reinforce one another's message",
+    "explanation": "Synergy in Media occurs when multiple modes work together to create meaning greater than the sum of parts. Example: Documentary using interview (audio), archival photos (visual), captions (text) together for powerful effect.",
+    "difficulty": 3,
+    "tags": ["synergy", "media", "integration"]
+  },
+  {
+    "id": "F630",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What was the primary influence on Old English vocabulary?",
+    "answer": "Norse vocabulary introduced through Viking contact",
+    "explanation": "The Viking invasions infused Old English with Norse loanwords like 'sky,' 'egg,' and 'window,' shaping northern dialects. These words became permanent features of English.",
+    "difficulty": 2,
+    "tags": ["Old English", "Norse", "Viking", "language history"]
+  },
+  {
+    "id": "F631",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What event most contributed to standardizing English spelling and grammar?",
+    "answer": "The introduction of the printing press by William Caxton in 1476",
+    "explanation": "The printing press made written English more uniform and spread London's dialect as a standard. Mass production of texts required consistent spelling conventions.",
+    "difficulty": 2,
+    "tags": ["printing press", "standardization", "Caxton"]
+  },
+  {
+    "id": "F632",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "How did global expansion influence English vocabulary?",
+    "answer": "Colonial contact introduced loanwords from Hindi, Arabic, Swahili, and other languages",
+    "explanation": "Global expansion gave English words like 'bungalow' (Hindi), 'algebra' (Arabic), and 'safari' (Swahili), demonstrating English's ability to absorb vocabulary from worldwide contact.",
+    "difficulty": 2,
+    "tags": ["colonialism", "loanwords", "global English"]
+  },
+  {
+    "id": "F633",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What caused the divergence of British and American English spelling?",
+    "answer": "Noah Webster's dictionary reforms",
+    "explanation": "Webster intentionally simplified spellings—'color' vs. 'colour,' 'center' vs. 'centre'—to promote linguistic independence in the new American nation.",
+    "difficulty": 2,
+    "tags": ["American English", "Webster", "spelling reform"]
+  },
+  {
+    "id": "F634",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What caused rapid vocabulary expansion in the 20th century?",
+    "answer": "Technological and scientific innovation",
+    "explanation": "Modern inventions created terms like 'television,' 'internet,' 'genetic code,' and 'smartphone.' Science and technology drive the most rapid vocabulary growth in contemporary English.",
+    "difficulty": 2,
+    "tags": ["20th century", "technology", "vocabulary"]
+  },
+  {
+    "id": "F635",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "How do social movements shape language?",
+    "answer": "They influence evolving norms like gender-inclusive pronouns (singular 'they')",
+    "explanation": "Contemporary social awareness drives language change. The acceptance of singular 'they' for non-binary individuals shows how identity and expression movements reshape usage norms.",
+    "difficulty": 2,
+    "tags": ["social movements", "pronouns", "language change"]
+  },
+  {
+    "id": "F636",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What demonstrates English as a living, evolving language?",
+    "answer": "The emergence of internet slang and new verb forms like 'to google'",
+    "explanation": "Digital communication continuously produces new vocabulary and usage patterns. Words like 'google,' 'tweet,' and 'selfie' show language adapting to technological change.",
+    "difficulty": 2,
+    "tags": ["living language", "internet", "neologisms"]
+  },
+  {
+    "id": "F637",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "How do regional dialects develop?",
+    "answer": "Through isolation and distinct cultural contact patterns",
+    "explanation": "Geography, migration, and community interaction create region-specific pronunciations and idioms. Dialects reflect local history, settlement patterns, and cultural influences.",
+    "difficulty": 2,
+    "tags": ["dialects", "regional variation", "language geography"]
+  },
+  {
+    "id": "F638",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What does Harlem Renaissance writing demonstrate about language?",
+    "answer": "Creative adaptation of vernacular speech to convey cultural identity",
+    "explanation": "Writers like Langston Hughes and Zora Neale Hurston blended African American vernacular with literary English to express cultural voice and authenticity, showing language as identity.",
+    "difficulty": 2,
+    "tags": ["Harlem Renaissance", "vernacular", "cultural identity"]
+  },
+  {
+    "id": "F639",
+    "subarea": "Meaning & Communication",
+    "objective": "History and development of the English language",
+    "question": "What are 'World Englishes'?",
+    "answer": "Localized varieties of English shaped by regional and cultural factors",
+    "explanation": "'World Englishes' recognizes that British, Indian, Nigerian, and Singaporean English are all legitimate, evolving varieties. Each reflects local linguistic and cultural influences.",
+    "difficulty": 2,
+    "tags": ["World Englishes", "linguistic diversity", "varieties"]
+  },
+  {
+    "id": "F640",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "What is the primary educational purpose of pairing multicultural novels like The Joy Luck Club, Bless Me, Ultima, and The Namesake?",
+    "answer": "To explore the experiences of cultural identity and assimilation in the United States",
+    "explanation": "Each novel portrays generational and cultural negotiation, making them ideal for discussing themes of identity and assimilation. This pairing helps students understand diverse cultural perspectives and experiences.",
+    "difficulty": 2,
+    "tags": ["multicultural literature", "cultural identity", "assimilation", "teaching literature"]
+  },
+  {
+    "id": "F641",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "Why would a teacher pair The Diary of Anne Frank with Night by Elie Wiesel?",
+    "answer": "To examine personal and historical perspectives on human rights and moral courage",
+    "explanation": "Pairing survivor accounts helps students connect literature to ethical and historical understanding. These texts provide different viewpoints on the Holocaust, fostering empathy and critical thinking about human rights.",
+    "difficulty": 2,
+    "tags": ["Holocaust literature", "human rights", "moral courage", "teaching literature"]
+  },
+  {
+    "id": "F642",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "What is the main instructional benefit of comparing Their Eyes Were Watching God with modern spoken-word poetry?",
+    "answer": "To identify social commentary on gender and voice across time periods",
+    "explanation": "This comparison links historical and contemporary expressions of autonomy and voice, illustrating literature's social purpose. Students can see how themes of empowerment and self-expression evolve across different forms and eras.",
+    "difficulty": 2,
+    "tags": ["thematic comparison", "gender", "voice", "literary purpose"]
+  },
+  {
+    "id": "F643",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "What is the main purpose of a 'Literature of Place' unit featuring environmental writers like Mary Oliver and Wendell Berry?",
+    "answer": "To connect students' reading to ecological awareness and personal reflection",
+    "explanation": "This thematic unit integrates literature with environmental ethics and reflective thinking. It helps students develop awareness of humanity's relationship with nature while encouraging personal connections to place.",
+    "difficulty": 2,
+    "tags": ["environmental literature", "place-based learning", "ecological awareness", "teaching literature"]
+  },
+  {
+    "id": "F644",
+    "subarea": "Literature & Understanding",
+    "objective": "Understanding the purposes and values of teaching literature",
+    "question": "Why would a teacher compare Things Fall Apart by Chinua Achebe with early British colonial novels?",
+    "answer": "To expose students to non-Western viewpoints and post-colonial themes",
+    "explanation": "Achebe's work reclaims narrative authority, showing literature's power to challenge dominant cultural perspectives. This comparison helps students understand colonialism from multiple viewpoints and recognize how literature shapes historical narratives.",
+    "difficulty": 2,
+    "tags": ["post-colonial literature", "cultural perspectives", "narrative authority", "teaching literature"]
+  },
+  {
+    "id": "F645",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "What is the primary purpose of Emily Brontë's use of multiple narrators and non-linear structure in Wuthering Heights?",
+    "answer": "To present differing psychological perspectives that complicate moral judgment",
+    "explanation": "Brontë's framing devices (Lockwood and Nelly) invite readers to weigh conflicting viewpoints, deepening the novel's moral ambiguity. This narrative technique creates layers of interpretation and challenges readers to form their own moral conclusions.",
+    "difficulty": 2,
+    "tags": ["Wuthering Heights", "Emily Brontë", "narrative structure", "multiple narrators", "moral ambiguity"]
+  },
+  {
+    "id": "F646",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "How does Elizabeth Gaskell's North and South address industrialization and class conflict?",
+    "answer": "It integrates social realism with moral sympathy to critique economic inequality",
+    "explanation": "Gaskell's realist approach humanizes labor issues and bridges moral and social commentary—an early example of industrial fiction. She combines detailed observation of working-class life with empathetic storytelling to awaken social conscience.",
+    "difficulty": 2,
+    "tags": ["Elizabeth Gaskell", "North and South", "industrialization", "social realism", "Victorian literature"]
+  },
+  {
+    "id": "F647",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "Why was Charlotte Brontë's Jane Eyre considered groundbreaking among nineteenth-century novels?",
+    "answer": "It depicted a female protagonist whose moral and emotional autonomy challenge Victorian gender norms",
+    "explanation": "Jane's insistence on self-respect and conscience makes the novel an early feminist and psychological narrative. She refuses to compromise her values for love or social status, asserting her right to independence and moral agency.",
+    "difficulty": 2,
+    "tags": ["Charlotte Brontë", "Jane Eyre", "feminism", "Victorian gender norms", "female autonomy"]
+  },
+  {
+    "id": "F648",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "How does Emily Brontë's depiction of nature in Wuthering Heights differ from typical Romantic literature?",
+    "answer": "It presents the natural world as indifferent or violent rather than purely inspiring",
+    "explanation": "Her wild moorland setting mirrors the intensity of human passion and cruelty—nature as emotional landscape, not idyllic refuge. Unlike Romantic idealization of nature as a source of transcendence, Brontë's nature reflects raw human emotion and conflict.",
+    "difficulty": 2,
+    "tags": ["Wuthering Heights", "Emily Brontë", "nature imagery", "Romanticism", "Gothic literature"]
+  },
+  {
+    "id": "F649",
+    "subarea": "Literature & Understanding",
+    "objective": "World Literature in English, exclusive of North America",
+    "question": "Why does Elizabeth Gaskell combine sentimental narrative techniques with journalistic observation in Mary Barton?",
+    "answer": "To appeal to middle-class readers' empathy for working-class suffering",
+    "explanation": "Gaskell uses empathy and realism to awaken social conscience among her readership—hallmarks of early social-problem fiction. This blend makes the industrial struggles accessible and emotionally resonant to readers unfamiliar with factory life.",
+    "difficulty": 2,
+    "tags": ["Elizabeth Gaskell", "Mary Barton", "social conscience", "social-problem fiction", "Victorian literature"]
+  },
+  {
+    "id": "F650",
+    "subarea": "Genre & Craft",
+    "objective": "English syntax and sentence structure",
+    "question": "What makes the sentence 'They the park quickly across ran' incorrect?",
+    "answer": "It violates English syntax by scrambling normal word order (subject–verb–object)",
+    "explanation": "Standard English syntax follows subject–verb–object order. The correct version would be 'They ran quickly across the park.' Scrambling word order creates ungrammatical sentences that violate English conventions.",
+    "difficulty": 1,
+    "tags": ["syntax", "word order", "sentence structure", "grammar"]
+  },
+  {
+    "id": "F651",
+    "subarea": "Genre & Craft",
+    "objective": "Parallel structure and sentence coherence",
+    "question": "What is faulty parallel structure and why is 'She enjoys dancing, to swim, and playing tennis' incorrect?",
+    "answer": "Parallel structure requires consistent grammatical forms; this mixes gerunds with an infinitive",
+    "explanation": "Parallel structure means using the same grammatical pattern for items in a series. The correct version would be 'She enjoys dancing, swimming, and playing tennis' (all gerunds) or 'She likes to dance, to swim, and to play tennis' (all infinitives).",
+    "difficulty": 2,
+    "tags": ["parallel structure", "grammar", "consistency", "sentence structure"]
+  },
+  {
+    "id": "F652",
+    "subarea": "Genre & Craft",
+    "objective": "Sentence fragments and complete sentences",
+    "question": "What is a sentence fragment and why is 'Because she was late to the meeting' incomplete?",
+    "answer": "A fragment is a dependent clause without a main clause; this needs an independent clause to be complete",
+    "explanation": "A sentence fragment lacks a complete thought. 'Because she was late to the meeting' is a dependent clause that needs a main clause, like 'Because she was late to the meeting, she missed the announcement.' Dependent clauses cannot stand alone.",
+    "difficulty": 2,
+    "tags": ["sentence fragments", "dependent clauses", "complete sentences", "grammar"]
+  },
+  {
+    "id": "F653",
+    "subarea": "Genre & Craft",
+    "objective": "Modifiers and clarity",
+    "question": "What is a misplaced modifier and what's wrong with 'The teacher handed the papers to the students on the desk'?",
+    "answer": "'On the desk' incorrectly modifies 'students' instead of 'papers', creating confusion about what's on the desk",
+    "explanation": "A misplaced modifier is positioned incorrectly, causing ambiguity or illogical meaning. The sentence suggests students are on the desk. The correct version would be 'The teacher handed the papers on the desk to the students' or 'The teacher handed to the students the papers on the desk.'",
+    "difficulty": 2,
+    "tags": ["misplaced modifiers", "clarity", "grammar", "sentence structure"]
+  },
+  {
+    "id": "F654",
+    "subarea": "Genre & Craft",
+    "objective": "Structural ambiguity and coordination",
+    "question": "What makes 'She told him she loved her cat and so did he' structurally ambiguous?",
+    "answer": "The coordination creates ambiguity: did he also tell her, or did he also love her cat?",
+    "explanation": "Structural ambiguity occurs when sentence structure allows multiple interpretations. 'So did he' could mean 'he also told her' or 'he also loved her cat.' Clear writing avoids such ambiguity through careful coordination and punctuation.",
+    "difficulty": 2,
+    "tags": ["structural ambiguity", "coordination", "clarity", "sentence structure"]
+  },
+  {
+    "id": "F655",
+    "subarea": "Genre & Craft",
+    "objective": "Morphology and word structure",
+    "question": "What are bound morphemes and why does 'unbelievable' contain two of them?",
+    "answer": "'Un-' and '-able' are both bound morphemes that cannot stand alone; they attach to the free base 'believe'",
+    "explanation": "Bound morphemes are meaningful units that must attach to other morphemes. In 'unbelievable,' 'un-' (negation prefix) and '-able' (adjective-forming suffix) are bound to the free morpheme 'believe.' Neither can function independently as words.",
+    "difficulty": 2,
+    "tags": ["morphology", "bound morphemes", "word structure", "linguistics"]
+  },
+  {
+    "id": "F656",
+    "subarea": "Genre & Craft",
+    "objective": "Inflectional vs. derivational morphology",
+    "question": "What is inflectional morphology and why is 'walk → walked' an example?",
+    "answer": "Inflectional morphology changes grammatical function without changing core meaning; '-ed' marks past tense",
+    "explanation": "Inflectional morphemes modify grammatical features (tense, number, case) without creating new words or changing word class. 'Walked' is still a verb meaning 'to walk,' just in past tense. This differs from derivational morphology, which creates new words.",
+    "difficulty": 2,
+    "tags": ["inflectional morphology", "grammar", "tense", "linguistics"]
+  },
+  {
+    "id": "F657",
+    "subarea": "Genre & Craft",
+    "objective": "Syntactic ambiguity",
+    "question": "Why is 'Visiting relatives can be exhausting' syntactically ambiguous?",
+    "answer": "'Visiting relatives' can be a noun phrase (the act of visiting) or a participial phrase (relatives who visit)",
+    "explanation": "Syntactic ambiguity occurs when phrase structure allows multiple interpretations. This sentence could mean: (1) the act of visiting relatives is exhausting, or (2) relatives who are visiting you are exhausting. The phrase structure permits both readings.",
+    "difficulty": 2,
+    "tags": ["syntactic ambiguity", "phrase structure", "linguistics", "grammar"]
+  },
+  {
+    "id": "F658",
+    "subarea": "Genre & Craft",
+    "objective": "Derivational morphology",
+    "question": "What is derivational morphology and why is 'happy → unhappy' an example?",
+    "answer": "Derivational morphology creates new words with changed meanings; 'un-' transforms the meaning of 'happy'",
+    "explanation": "Derivational morphemes create new words by changing meaning or word class. Adding 'un-' to 'happy' creates a word with opposite meaning. Unlike inflectional morphemes (which only add grammatical information), derivational changes are more fundamental and create distinct lexical items.",
+    "difficulty": 2,
+    "tags": ["derivational morphology", "word formation", "prefixes", "linguistics"]
+  },
+  {
+    "id": "F659",
+    "subarea": "Genre & Craft",
+    "objective": "Semantic agreement",
+    "question": "What is semantic agreement and why does 'The thunder laughed across the sky' violate it?",
+    "answer": "Semantic agreement requires logical relationships between subject and predicate; thunder cannot literally laugh",
+    "explanation": "Semantic agreement ensures that predicates are logically compatible with their subjects. Thunder (an atmospheric sound) cannot perform the human action of laughing—this is a semantic mismatch. While acceptable as figurative language (personification), it violates literal semantic agreement.",
+    "difficulty": 2,
+    "tags": ["semantic agreement", "subject-predicate", "personification", "linguistics"]
+  },
+  {
+    "id": "F660",
+    "subarea": "Genre & Craft",
+    "objective": "Phonological concepts",
+    "question": "What is a phoneme?",
+    "answer": "Smallest sound unit that changes meaning",
+    "explanation": "Minimal sound unit that distinguishes words. Example: /k/ in 'cat' vs. /b/ in 'bat'.",
+    "difficulty": 1,
+    "tags": ["phoneme", "phonology", "sound", "linguistics"]
+  },
+  {
+    "id": "F661",
+    "subarea": "Genre & Craft",
+    "objective": "Phonological concepts",
+    "question": "What is a grapheme?",
+    "answer": "Written letter(s) representing a sound",
+    "explanation": "Written symbol for a phoneme. Example: 'ph' in 'phone' = /f/ sound.",
+    "difficulty": 1,
+    "tags": ["grapheme", "phonology", "writing system", "linguistics"]
+  },
+  {
+    "id": "F662",
+    "subarea": "Genre & Craft",
+    "objective": "Phonological concepts",
+    "question": "What is a digraph?",
+    "answer": "Two letters making one sound",
+    "explanation": "Letter pair representing single phoneme. Examples: 'sh' (ship), 'ch' (chair), 'th' (think).",
+    "difficulty": 1,
+    "tags": ["digraph", "phonology", "spelling", "literacy"]
+  },
+  {
+    "id": "F663",
+    "subarea": "Genre & Craft",
+    "objective": "Phonological concepts",
+    "question": "What is an allophone?",
+    "answer": "Variant pronunciation of same phoneme",
+    "explanation": "Different sounds of one phoneme based on context. Example: /p/ in 'spin' vs. 'pin' (aspirated).",
+    "difficulty": 2,
+    "tags": ["allophone", "phonology", "pronunciation", "linguistics"]
+  },
+  {
+    "id": "F664",
+    "subarea": "Genre & Craft",
+    "objective": "Phonological concepts",
+    "question": "What is prosody?",
+    "answer": "Rhythm, stress, and intonation in speech",
+    "explanation": "How pitch, rhythm, and stress convey meaning. Example: 'You're going?' (rising = question).",
+    "difficulty": 2,
+    "tags": ["prosody", "intonation", "stress", "phonology"]
+  },
+  {
+    "id": "F665",
+    "subarea": "Genre & Craft",
+    "objective": "Morphological concepts",
+    "question": "What is a morpheme?",
+    "answer": "Smallest unit of meaning",
+    "explanation": "Minimal meaningful unit. Example: 'unkindly' = un- (not) + kind + -ly (manner) = 3 morphemes.",
+    "difficulty": 1,
+    "tags": ["morpheme", "morphology", "meaning", "linguistics"]
+  },
+  {
+    "id": "F666",
+    "subarea": "Genre & Craft",
+    "objective": "Morphological concepts",
+    "question": "What is a free morpheme?",
+    "answer": "Morpheme that stands alone as a word",
+    "explanation": "Independent unit functioning as complete word. Examples: book, run, blue.",
+    "difficulty": 1,
+    "tags": ["free morpheme", "morphology", "word formation", "linguistics"]
+  },
+  {
+    "id": "F667",
+    "subarea": "Genre & Craft",
+    "objective": "Morphological concepts",
+    "question": "What is a bound morpheme?",
+    "answer": "Morpheme that must attach to another",
+    "explanation": "Cannot stand alone. Must attach to roots. Examples: -ed, un-, -s.",
+    "difficulty": 1,
+    "tags": ["bound morpheme", "morphology", "affixes", "linguistics"]
+  },
+  {
+    "id": "F668",
+    "subarea": "Genre & Craft",
+    "objective": "Morphological concepts",
+    "question": "What is a root or base?",
+    "answer": "Main meaning carrier of a word",
+    "explanation": "Core morpheme with primary meaning. Example: 'struct' in construct, structure, destruction.",
+    "difficulty": 1,
+    "tags": ["root", "base", "morphology", "word formation"]
+  },
+  {
+    "id": "F669",
+    "subarea": "Genre & Craft",
+    "objective": "Morphological concepts",
+    "question": "What is a prefix?",
+    "answer": "Morpheme added to word beginning",
+    "explanation": "Bound morpheme before root. Examples: un- (unhappy), re- (rewrite), pre- (preview).",
+    "difficulty": 1,
+    "tags": ["prefix", "morphology", "affixes", "word formation"]
+  },
+  {
+    "id": "F670",
+    "subarea": "Genre & Craft",
+    "objective": "Morphological concepts",
+    "question": "What is a suffix?",
+    "answer": "Morpheme added to word end",
+    "explanation": "Bound morpheme after root. Examples: -ness (happiness), -ed (walked), -ly (quickly).",
+    "difficulty": 1,
+    "tags": ["suffix", "morphology", "affixes", "word formation"]
+  },
+  {
+    "id": "F671",
+    "subarea": "Genre & Craft",
+    "objective": "Morphological concepts",
+    "question": "What is inflection?",
+    "answer": "Grammatical change without new word",
+    "explanation": "Marks tense, number, comparison. Examples: talk→talked, cat→cats, big→bigger.",
+    "difficulty": 2,
+    "tags": ["inflection", "morphology", "grammar", "linguistics"]
+  },
+  {
+    "id": "F672",
+    "subarea": "Genre & Craft",
+    "objective": "Morphological concepts",
+    "question": "What is derivation?",
+    "answer": "Creating new word or word class",
+    "explanation": "Changes meaning or part of speech. Example: happy (adj) → happiness (noun).",
+    "difficulty": 2,
+    "tags": ["derivation", "morphology", "word formation", "linguistics"]
+  },
+  {
+    "id": "F673",
+    "subarea": "Genre & Craft",
+    "objective": "Lexical and semantic concepts",
+    "question": "What is a lexicon?",
+    "answer": "Total vocabulary of language or speaker",
+    "explanation": "Complete word inventory. Example: engineer's lexicon includes torque, gear ratio, voltage.",
+    "difficulty": 1,
+    "tags": ["lexicon", "vocabulary", "semantics", "linguistics"]
+  },
+  {
+    "id": "F674",
+    "subarea": "Genre & Craft",
+    "objective": "Lexical and semantic concepts",
+    "question": "What is semantics?",
+    "answer": "Study of meaning in language",
+    "explanation": "Examines how words convey meaning. Example: 'child' and 'offspring' have similar denotations but different connotations.",
+    "difficulty": 1,
+    "tags": ["semantics", "meaning", "linguistics"]
+  },
+  {
+    "id": "F675",
+    "subarea": "Genre & Craft",
+    "objective": "Lexical and semantic concepts",
+    "question": "What is denotation?",
+    "answer": "Literal dictionary meaning",
+    "explanation": "Objective definition without emotion. Example: 'snake' = limbless reptile.",
+    "difficulty": 1,
+    "tags": ["denotation", "semantics", "meaning", "linguistics"]
+  },
+  {
+    "id": "F676",
+    "subarea": "Genre & Craft",
+    "objective": "Lexical and semantic concepts",
+    "question": "What is connotation?",
+    "answer": "Emotional or cultural associations",
+    "explanation": "Feelings beyond literal meaning. Example: 'snake' can connote danger or deceit.",
+    "difficulty": 1,
+    "tags": ["connotation", "semantics", "meaning", "linguistics"]
+  },
+  {
+    "id": "F677",
+    "subarea": "Genre & Craft",
+    "objective": "Lexical and semantic concepts",
+    "question": "What is polysemy?",
+    "answer": "One word with multiple related meanings",
+    "explanation": "Single word, several related senses. Example: 'light' (illumination or not heavy).",
+    "difficulty": 2,
+    "tags": ["polysemy", "semantics", "multiple meanings", "linguistics"]
+  },
+  {
+    "id": "F678",
+    "subarea": "Genre & Craft",
+    "objective": "Lexical and semantic concepts",
+    "question": "What is a homophone?",
+    "answer": "Words sounding alike, different meaning",
+    "explanation": "Same sound, different spelling/meaning. Examples: flour/flower, there/their/they're.",
+    "difficulty": 1,
+    "tags": ["homophone", "semantics", "spelling", "linguistics"]
+  },
+  {
+    "id": "F679",
+    "subarea": "Genre & Craft",
+    "objective": "Lexical and semantic concepts",
+    "question": "What is collocation?",
+    "answer": "Words commonly occurring together",
+    "explanation": "Habitual word pairs. Example: 'make a decision' (not 'do a decision'), 'heavy rain'.",
+    "difficulty": 2,
+    "tags": ["collocation", "semantics", "word combinations", "linguistics"]
+  },
+  {
+    "id": "F680",
+    "subarea": "Genre & Craft",
+    "objective": "Syntactic concepts",
+    "question": "What is syntax?",
+    "answer": "Rules for word order and sentence structure",
+    "explanation": "Governs word arrangement. English uses Subject–Verb–Object: 'The cat chased the mouse.'",
+    "difficulty": 1,
+    "tags": ["syntax", "sentence structure", "grammar", "linguistics"]
+  },
+  {
+    "id": "F681",
+    "subarea": "Genre & Craft",
+    "objective": "Syntactic concepts",
+    "question": "What is a clause?",
+    "answer": "Group with subject and verb",
+    "explanation": "Contains subject and predicate. Can be independent or dependent. Example: 'Because it rained.'",
+    "difficulty": 1,
+    "tags": ["clause", "syntax", "grammar", "linguistics"]
+  },
+  {
+    "id": "F682",
+    "subarea": "Genre & Craft",
+    "objective": "Syntactic concepts",
+    "question": "What is a phrase?",
+    "answer": "Group lacking subject and verb",
+    "explanation": "Meaningful word group without subject-verb. Examples: 'in the morning,' 'the old house.'",
+    "difficulty": 1,
+    "tags": ["phrase", "syntax", "grammar", "linguistics"]
+  },
+  {
+    "id": "F683",
+    "subarea": "Genre & Craft",
+    "objective": "Syntactic concepts",
+    "question": "What is parallelism?",
+    "answer": "Repeated grammatical structures",
+    "explanation": "Same form in series. Example: 'She likes hiking, swimming, biking' (all gerunds).",
+    "difficulty": 2,
+    "tags": ["parallelism", "syntax", "grammar", "style"]
+  },
+  {
+    "id": "F684",
+    "subarea": "Genre & Craft",
+    "objective": "Syntactic concepts",
+    "question": "What is syntactic ambiguity?",
+    "answer": "Structure allows multiple interpretations",
+    "explanation": "Sentence permits two+ meanings. Example: 'Visiting relatives can be exhausting.'",
+    "difficulty": 2,
+    "tags": ["ambiguity", "syntax", "multiple meanings", "linguistics"]
+  },
+  {
+    "id": "F685",
+    "subarea": "Genre & Craft",
+    "objective": "Pragmatic concepts",
+    "question": "What is pragmatics?",
+    "answer": "How context affects meaning",
+    "explanation": "Context influences interpretation. Example: 'Can you open the window?' = polite request.",
+    "difficulty": 2,
+    "tags": ["pragmatics", "context", "meaning", "linguistics"]
+  },
+  {
+    "id": "F686",
+    "subarea": "Genre & Craft",
+    "objective": "Pragmatic concepts",
+    "question": "What is register?",
+    "answer": "Level of formality or style",
+    "explanation": "Language variety by context. Examples: 'What's up?' (informal), 'How do you do?' (formal).",
+    "difficulty": 1,
+    "tags": ["register", "formality", "pragmatics", "linguistics"]
+  },
+  {
+    "id": "F687",
+    "subarea": "Genre & Craft",
+    "objective": "Pragmatic concepts",
+    "question": "What is code-switching?",
+    "answer": "Shifting language by audience/context",
+    "explanation": "Alternating dialects or registers. Example: slang with friends, formal in class.",
+    "difficulty": 2,
+    "tags": ["code-switching", "pragmatics", "sociolinguistics", "linguistics"]
+  },
+  {
+    "id": "F688",
+    "subarea": "Genre & Craft",
+    "objective": "Pragmatic concepts",
+    "question": "What is discourse?",
+    "answer": "Connected language beyond single sentence",
+    "explanation": "Extended communication: conversations, essays, speeches.",
+    "difficulty": 1,
+    "tags": ["discourse", "pragmatics", "communication", "linguistics"]
+  },
+  {
+    "id": "F689",
+    "subarea": "Genre & Craft",
+    "objective": "Pragmatic concepts",
+    "question": "What is a speech act?",
+    "answer": "Utterance performing communicative function",
+    "explanation": "Words that do something. Examples: promising ('I promise'), apologizing ('I'm sorry').",
+    "difficulty": 2,
+    "tags": ["speech act", "pragmatics", "communication", "linguistics"]
+  },
+  {
+    "id": "F690",
+    "subarea": "Genre & Craft",
+    "objective": "Pragmatic concepts",
+    "question": "What is implicature?",
+    "answer": "Implied meaning beyond literal words",
+    "explanation": "What's meant vs. said. Example: 'It's cold' implies 'Close the window.'",
+    "difficulty": 2,
+    "tags": ["implicature", "pragmatics", "implied meaning", "linguistics"]
+  },
+  {
+    "id": "F691",
+    "subarea": "Genre & Craft",
+    "objective": "Social and historical concepts",
+    "question": "What is etymology?",
+    "answer": "Study of word origins and history",
+    "explanation": "Traces word development. Example: 'television' = Greek tele (far) + Latin visio (seeing).",
+    "difficulty": 1,
+    "tags": ["etymology", "word origins", "history", "linguistics"]
+  },
+  {
+    "id": "F692",
+    "subarea": "Genre & Craft",
+    "objective": "Social and historical concepts",
+    "question": "What is a dialect?",
+    "answer": "Regional or social language variety",
+    "explanation": "Variety by region/group. Examples: 'y'all' (Southern), 'you guys' (Midwest).",
+    "difficulty": 1,
+    "tags": ["dialect", "variation", "sociolinguistics", "linguistics"]
+  },
+  {
+    "id": "F693",
+    "subarea": "Genre & Craft",
+    "objective": "Social and historical concepts",
+    "question": "What is an idiolect?",
+    "answer": "Individual's personal speech style",
+    "explanation": "Unique speaker patterns. Example: always saying 'you know?' after statements.",
+    "difficulty": 2,
+    "tags": ["idiolect", "individual speech", "sociolinguistics", "linguistics"]
+  },
+  {
+    "id": "F694",
+    "subarea": "Genre & Craft",
+    "objective": "Social and historical concepts",
+    "question": "What is a loanword?",
+    "answer": "Word borrowed from another language",
+    "explanation": "Adopted without translation. Examples: ballet (French), piano (Italian), algebra (Arabic).",
+    "difficulty": 1,
+    "tags": ["loanword", "borrowing", "etymology", "linguistics"]
+  },
+  {
+    "id": "F695",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language contributed piano, balcony, and opera to English?",
+    "answer": "Italian",
+    "explanation": "Italian borrowings from Renaissance era, reflecting Italy's art and music influence.",
+    "difficulty": 1,
+    "tags": ["loanwords", "Italian", "borrowing", "Renaissance"]
+  },
+  {
+    "id": "F696",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language gave English the words cookie, boss, and yacht?",
+    "answer": "Dutch",
+    "explanation": "Dutch traders and settlers contributed everyday and nautical terms in the 17th century.",
+    "difficulty": 1,
+    "tags": ["loanwords", "Dutch", "borrowing", "nautical"]
+  },
+  {
+    "id": "F697",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language is the source of canyon, patio, and rodeo in English?",
+    "answer": "Spanish",
+    "explanation": "Spanish colonists in North America left lasting vocabulary imprints on English.",
+    "difficulty": 1,
+    "tags": ["loanwords", "Spanish", "borrowing", "Americas"]
+  },
+  {
+    "id": "F698",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language contributed bungalow, pyjamas, and shampoo to English?",
+    "answer": "Hindi",
+    "explanation": "Borrowings from Hindi during British colonial contact with India.",
+    "difficulty": 1,
+    "tags": ["loanwords", "Hindi", "borrowing", "colonial"]
+  },
+  {
+    "id": "F699",
+    "subarea": "Meaning & Communication",
+    "objective": "Language borrowing and etymology",
+    "question": "Which language gave English kindergarten, doppelgänger, and waltz?",
+    "answer": "German",
+    "explanation": "Germany contributed educational, philosophical, and cultural terms in the 19th century.",
+    "difficulty": 1,
+    "tags": ["loanwords", "German", "borrowing", "education"]
+  },
+  {
+    "id": "F700",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What's wrong with: 'While driving to school, the fog made it difficult to see'?",
+    "answer": "Misplaced modifier - the fog wasn't driving",
+    "explanation": "The modifier 'While driving to school' should modify the student/driver, not the fog.",
+    "difficulty": 2,
+    "tags": ["misplaced modifier", "grammar", "clarity", "syntax"]
+  },
+  {
+    "id": "F701",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "Which correctly places modifiers: 'Covered in sauce, the waiter served the pasta' or 'The waiter covered the pasta in sauce before serving it'?",
+    "answer": "Second version - clearly shows pasta was covered in sauce",
+    "explanation": "First version wrongly suggests the waiter (not pasta) was covered in sauce. Clear placement avoids confusion.",
+    "difficulty": 2,
+    "tags": ["misplaced modifier", "grammar", "clarity", "syntax"]
+  },
+  {
+    "id": "F702",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What is a dangling modifier?",
+    "answer": "Modifier with missing or illogical subject",
+    "explanation": "Example: 'Walking to the store, the rain began' - 'walking' illogically modifies 'rain'. The walker is missing.",
+    "difficulty": 2,
+    "tags": ["dangling modifier", "grammar", "syntax", "clarity"]
+  },
+  {
+    "id": "F703",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "How to fix: 'She nearly watched the movie for three hours'?",
+    "answer": "'She watched the movie for nearly three hours'",
+    "explanation": "'Nearly' should modify the time (three hours), not the act of watching. Proper placement clarifies meaning.",
+    "difficulty": 2,
+    "tags": ["misplaced modifier", "adverb placement", "grammar", "clarity"]
+  },
+  {
+    "id": "F704",
+    "subarea": "Genre & Craft",
+    "objective": "Misplaced and dangling modifiers",
+    "question": "What's the clearest way to modify 'test': 'a test to students that was difficult' or 'a difficult test to students'?",
+    "answer": "'A difficult test to students' - modifier before noun",
+    "explanation": "Placing 'difficult' right before 'test' avoids ambiguity. First version could mean students were difficult.",
+    "difficulty": 1,
+    "tags": ["modifier placement", "grammar", "clarity", "syntax"]
+  },
+  {
+    "id": "F705",
+    "subarea": "Skills & Processes",
+    "objective": "Visual literacy and symbolic interpretation",
+    "question": "A photo shows a cracked mirror with a gavel. What cause-and-effect does this symbolize?",
+    "answer": "Flawed justice system causing breakdown of public trust",
+    "explanation": "Gavel = law/justice (cause). Cracked mirror = shattered integrity/reflection (effect: lost public faith). Visual symbolism conveys social commentary.",
+    "difficulty": 2,
+    "tags": ["visual literacy", "symbolism", "media analysis", "interpretation"]
+  },
+  {
+    "id": "F706",
+    "subarea": "Skills & Processes",
+    "objective": "Visual literacy and symbolic interpretation",
+    "question": "An illustration shows a melted pocket watch over a tree branch with a submerged city. What does this symbolize?",
+    "answer": "Rapid time passage and climate change effects",
+    "explanation": "Melting watch = time running out/accelerating change (cause: time/inaction). Submerged city = flooding/climate catastrophe (effect). Urgency of environmental action.",
+    "difficulty": 2,
+    "tags": ["visual literacy", "symbolism", "climate change", "interpretation"]
+  },
+  {
+    "id": "F707",
+    "subarea": "Skills & Processes",
+    "objective": "Content-area literacy and instructional strategies",
+    "question": "What's the best purpose for a reading journal in a science ecology unit?",
+    "answer": "Connect new vocabulary to familiar terms and summarize key concepts",
+    "explanation": "Directly addresses content learning (vocabulary, concepts, summarization) and active processing of informational text. Most effective for instructional goals.",
+    "difficulty": 2,
+    "tags": ["reading journal", "content literacy", "vocabulary", "comprehension"]
+  },
+  {
+    "id": "F708",
+    "subarea": "Skills & Processes",
+    "objective": "Metacognition and comprehension monitoring",
+    "question": "Best reading journal prompt for promoting metacognition in informational text?",
+    "answer": "What confused you, and what steps did you take to clarify its meaning?",
+    "explanation": "Forces students to monitor comprehension, identify breakdowns, and reflect on problem-solving strategies—core metacognition for content learning.",
+    "difficulty": 2,
+    "tags": ["metacognition", "reading journal", "comprehension monitoring", "problem-solving"]
+  },
+  {
+    "id": "F709",
+    "subarea": "Skills & Processes",
+    "objective": "Assessment of content comprehension through journals",
+    "question": "How should a history teacher assess journal entries for content comprehension?",
+    "answer": "Prioritize entries showing questions connecting new events to prior concepts",
+    "explanation": "Demonstrates higher-order thinking (analysis/synthesis) by integrating new content with prior knowledge—strong indicator of deep content learning.",
+    "difficulty": 2,
+    "tags": ["assessment", "reading journal", "content comprehension", "synthesis"]
+  },
+  {
+    "id": "F710",
+    "subarea": "Skills & Processes",
+    "objective": "Historical context and literary analysis",
+    "question": "Students confused why 19th-century protagonist won't leave despite inheritance. Best activity?",
+    "answer": "Analyze Married Women's Property Acts to understand legal restrictions on single women",
+    "explanation": "Primary source analysis directly addresses historical/legal constraints (no loans, property, credit without male relative). Builds historical empathy for character's predicament.",
+    "difficulty": 2,
+    "tags": ["historical context", "primary sources", "literature analysis", "social constraints"]
+  },
+  {
+    "id": "F711",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a cognate?",
+    "answer": "A word in two languages that shares the same origin and a similar meaning",
+    "explanation": "Example: Family (English) and familia (Spanish) both come from Latin familia.",
+    "difficulty": 2,
+    "tags": ["cognates", "word relationships", "etymology"]
+  },
+  {
+    "id": "F712",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a true cognate?",
+    "answer": "A cognate that looks alike, sounds similar, and has the same meaning in both languages",
+    "explanation": "Example: Hospital (English) and hospital (Spanish).",
+    "difficulty": 2,
+    "tags": ["cognates", "true cognates", "word relationships"]
+  },
+  {
+    "id": "F713",
+    "subarea": "Meaning & Communication",
+    "objective": "Word Relationships - Cognates",
+    "question": "What is a false cognate?",
+    "answer": "A word that looks similar in two languages but has different meanings",
+    "explanation": "Example: Embarrassed (English) vs. embarazada (Spanish), which means pregnant.",
+    "difficulty": 2,
+    "tags": ["cognates", "false cognates", "word relationships"]
+  },
+  {
+    "id": "F714",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and Archaic Words",
+    "question": "What is an archaic English word?",
+    "answer": "A word once common in English but no longer in everyday use",
+    "explanation": "Examples include thee, thou, and wherefore.",
+    "difficulty": 2,
+    "tags": ["archaic words", "language history", "vocabulary"]
+  },
+  {
+    "id": "F715",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and Phonetic Spelling",
+    "question": "What is a phonetic spelling of a word?",
+    "answer": "A spelling that reflects pronunciation rather than traditional form",
+    "explanation": "Examples: writing nite for night or thru for through.",
+    "difficulty": 2,
+    "tags": ["phonetic spelling", "language evolution", "spelling"]
+  },
+  {
+    "id": "F716",
+    "subarea": "Meaning & Communication",
+    "objective": "Language Evolution and New Words",
+    "question": "What types of new words are most likely to join Standard American English?",
+    "answer": "Useful blends or compounds that fill communication needs",
+    "explanation": "Examples: brunch, smog, and podcast.",
+    "difficulty": 2,
+    "tags": ["neologisms", "language evolution", "compound words"]
+  },
+  {
+    "id": "F717",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "question": "What is a microculture?",
+    "answer": "A small group within a larger society that shares common values, behaviors, or language patterns",
+    "explanation": "Example: bilingual students within a dominant culture.",
+    "difficulty": 2,
+    "tags": ["microculture", "social groups", "cultural context"]
+  },
+  {
+    "id": "F718",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "question": "What is an ethnic group?",
+    "answer": "A group of people connected by shared ancestry, history, or cultural heritage",
+    "explanation": "Ethnic groups maintain distinct cultural identities and traditions.",
+    "difficulty": 2,
+    "tags": ["ethnic group", "cultural heritage", "identity"]
+  },
+  {
+    "id": "F719",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "question": "What is a speech community?",
+    "answer": "Individuals who share a common language and rules for its use within a broader society",
+    "explanation": "Members of a speech community follow shared linguistic norms and communication patterns.",
+    "difficulty": 2,
+    "tags": ["speech community", "language use", "sociolinguistics"]
+  },
+  {
+    "id": "F720",
+    "subarea": "Literature & Understanding",
+    "objective": "Cultural and Social Contexts",
+    "question": "What is an acculturated group?",
+    "answer": "A group that adopts traits from a dominant culture while maintaining aspects of its own identity",
+    "explanation": "Acculturation involves cultural adaptation without complete assimilation.",
+    "difficulty": 2,
+    "tags": ["acculturation", "cultural adaptation", "identity"]
+  }]
