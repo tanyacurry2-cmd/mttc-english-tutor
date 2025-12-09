@@ -1426,8 +1426,7 @@
     ],
     "difficulty": 2,
     "assessment": true
-  }
-  ,
+  },
   {
     "id": "Q301",
     "subarea": "Genre & Craft",
@@ -1927,8 +1926,7 @@
       "Conflict is the struggle, not directly determined by diction."
     ],
     "difficulty": 1
-  }
-  ,
+  },
   {
     "id": "Q301",
     "subarea": "Meaning & Communication",
@@ -2428,8 +2426,7 @@
       "Talk time is essential for language development."
     ],
     "difficulty": 2
-  }
-  ,
+  },
   {
     "id": "Q326",
     "subarea": "Meaning & Communication",
@@ -2729,14 +2726,18 @@
       "Idiolect is individual, not regional."
     ],
     "difficulty": 2
-  }
-  ,
+  },
   {
     "id": "Q201",
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Which theory emphasizes imitation and reinforcement in language learning?",
-    "options": ["Behaviorist", "Nativist", "Interactionist", "Cognitive"],
+    "options": [
+      "Behaviorist",
+      "Nativist",
+      "Interactionist",
+      "Cognitive"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Behaviorist theory (Skinner) views language as learned through imitation, practice, and reinforcement.",
@@ -2751,7 +2752,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "A child says 'I goed to the park.' This shows:",
-    "options": ["Telegraphic speech", "Overgeneralization", "Interlanguage", "Code-switching"],
+    "options": [
+      "Telegraphic speech",
+      "Overgeneralization",
+      "Interlanguage",
+      "Code-switching"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Telegraphic speech omits function words, not applies rules incorrectly.",
@@ -2766,7 +2772,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Which theory claims humans are born with a Language Acquisition Device?",
-    "options": ["Interactionist", "Behaviorist", "Nativist", "Sociocultural"],
+    "options": [
+      "Interactionist",
+      "Behaviorist",
+      "Nativist",
+      "Sociocultural"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Interactionist emphasizes social interaction, not innate devices.",
@@ -2781,7 +2792,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Language learning occurring through social interaction reflects:",
-    "options": ["Interactionist Theory", "Behaviorist Theory", "Cognitive Theory", "Innate Hypothesis"],
+    "options": [
+      "Interactionist Theory",
+      "Behaviorist Theory",
+      "Cognitive Theory",
+      "Innate Hypothesis"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Interactionist theory emphasizes that language develops through meaningful social interaction.",
@@ -2796,7 +2812,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "The belief that early childhood is the most effective period for language learning supports the:",
-    "options": ["Critical Period Hypothesis", "Monitor Model", "Input Hypothesis", "Communicative Approach"],
+    "options": [
+      "Critical Period Hypothesis",
+      "Monitor Model",
+      "Input Hypothesis",
+      "Communicative Approach"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! The Critical Period Hypothesis states language acquisition is easiest during childhood before brain plasticity declines.",
@@ -2811,7 +2832,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "An English learner using Spanish grammar patterns in English speech demonstrates:",
-    "options": ["Positive transfer", "Negative transfer", "Fossilization", "Code-mixing"],
+    "options": [
+      "Positive transfer",
+      "Negative transfer",
+      "Fossilization",
+      "Code-mixing"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Positive transfer helps learning through similarities, not creates errors.",
@@ -2826,7 +2852,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "When similarities between two languages aid learning, this is:",
-    "options": ["Positive transfer", "Negative transfer", "Interlanguage", "Code-switching"],
+    "options": [
+      "Positive transfer",
+      "Negative transfer",
+      "Interlanguage",
+      "Code-switching"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Positive transfer occurs when L1-L2 similarities facilitate learning (e.g., cognates).",
@@ -2841,7 +2872,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "The transitional system combining elements of L1 and L2 is called:",
-    "options": ["Code-switching", "Interlanguage", "Pidgin", "Register"],
+    "options": [
+      "Code-switching",
+      "Interlanguage",
+      "Pidgin",
+      "Register"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Code-switching alternates between complete languages.",
@@ -2856,7 +2892,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Which approach emphasizes all four language domains in lessons?",
-    "options": ["Integrative Language Teaching", "Grammar-Translation", "Audio-Lingual", "Direct Method"],
+    "options": [
+      "Integrative Language Teaching",
+      "Grammar-Translation",
+      "Audio-Lingual",
+      "Direct Method"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Integrative Language Teaching combines listening, speaking, reading, and writing in meaningful contexts.",
@@ -2871,7 +2912,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Students discussing solutions collaboratively to construct meaning exhibit:",
-    "options": ["Collaborative Dialogue", "Direct Instruction", "Behavioral Conditioning", "Drill and Practice"],
+    "options": [
+      "Collaborative Dialogue",
+      "Direct Instruction",
+      "Behavioral Conditioning",
+      "Drill and Practice"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Collaborative dialogue involves students negotiating meaning through peer interaction.",
@@ -2886,7 +2932,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Which best describes the link between language arts and other subjects?",
-    "options": ["They are unrelated", "Language arts reinforce cognitive skills across subjects", "Math and science develop separately", "Reading skills hinder science vocabulary"],
+    "options": [
+      "They are unrelated",
+      "Language arts reinforce cognitive skills across subjects",
+      "Math and science develop separately",
+      "Reading skills hinder science vocabulary"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Language and content are deeply interconnected.",
@@ -2901,7 +2952,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Teachers promoting 'language across the curriculum' encourage:",
-    "options": ["Grammar worksheets", "Writing and discussion in all content areas", "Oral reading only in English", "Reducing subject vocabulary"],
+    "options": [
+      "Grammar worksheets",
+      "Writing and discussion in all content areas",
+      "Oral reading only in English",
+      "Reducing subject vocabulary"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Grammar worksheets are isolated skill practice, not curriculum integration.",
@@ -2916,7 +2972,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Vygotsky's concept describing the range where learning occurs with support is:",
-    "options": ["Critical Period", "Zone of Proximal Development", "Behavioral Conditioning", "Interlanguage Stage"],
+    "options": [
+      "Critical Period",
+      "Zone of Proximal Development",
+      "Behavioral Conditioning",
+      "Interlanguage Stage"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Critical Period refers to optimal age for language acquisition.",
@@ -2931,7 +2992,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "When students apply reading comprehension strategies in history class, they demonstrate:",
-    "options": ["Interlanguage", "Disciplinary literacy", "Negative transfer", "Code-switching"],
+    "options": [
+      "Interlanguage",
+      "Disciplinary literacy",
+      "Negative transfer",
+      "Code-switching"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Interlanguage relates to L2 learning, not content literacy.",
@@ -2946,7 +3012,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Which supports language acquisition through peer modeling and feedback?",
-    "options": ["Silent reading", "Collaborative dialogue", "Dictation", "Grammar translation"],
+    "options": [
+      "Silent reading",
+      "Collaborative dialogue",
+      "Dictation",
+      "Grammar translation"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Silent reading lacks peer interaction.",
@@ -2961,7 +3032,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "A teacher emphasizing content vocabulary like 'hypothesis' and 'variable' supports:",
-    "options": ["Academic language", "Informal language", "Dialect variation", "Interlanguage"],
+    "options": [
+      "Academic language",
+      "Informal language",
+      "Dialect variation",
+      "Interlanguage"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Academic language includes subject-specific vocabulary and formal discourse structures.",
@@ -2976,7 +3052,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Students comparing English idioms with ones in their native language practice:",
-    "options": ["Syntax transfer", "Cross-linguistic connections", "Phonemic decoding", "Rote learning"],
+    "options": [
+      "Syntax transfer",
+      "Cross-linguistic connections",
+      "Phonemic decoding",
+      "Rote learning"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Syntax transfer relates to sentence structure, not vocabulary comparison.",
@@ -2991,7 +3072,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Which instructional practice best develops metacognitive reading skills?",
-    "options": ["Silent reading logs", "Think-aloud modeling", "Dictation practice", "Listening tests"],
+    "options": [
+      "Silent reading logs",
+      "Think-aloud modeling",
+      "Dictation practice",
+      "Listening tests"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Silent reading logs track reading but don't model metacognition.",
@@ -3006,7 +3092,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "A student writes 'She no like apples.' This shows:",
-    "options": ["Code-switching", "Negative transfer", "Fossilization", "Overgeneralization"],
+    "options": [
+      "Code-switching",
+      "Negative transfer",
+      "Fossilization",
+      "Overgeneralization"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Code-switching alternates complete languages, not creates errors.",
@@ -3021,7 +3112,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Integrating reading, writing, speaking, and listening into science lessons supports:",
-    "options": ["Language across the curriculum", "Grammar immersion", "Phonemic awareness", "Spelling transfer"],
+    "options": [
+      "Language across the curriculum",
+      "Grammar immersion",
+      "Phonemic awareness",
+      "Spelling transfer"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Language across the curriculum integrates literacy skills into all subject areas.",
@@ -3036,7 +3132,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Which describes students using both Spanish and English within a conversation?",
-    "options": ["Interlanguage", "Code-mixing", "Negative transfer", "Pidgin"],
+    "options": [
+      "Interlanguage",
+      "Code-mixing",
+      "Negative transfer",
+      "Pidgin"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Interlanguage is a learner's evolving system, not mixing languages in speech.",
@@ -3051,7 +3152,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "The teacher gradually removing supports as students gain independence is:",
-    "options": ["Direct instruction", "Scaffolding", "Translation", "Immersion"],
+    "options": [
+      "Direct instruction",
+      "Scaffolding",
+      "Translation",
+      "Immersion"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Direct instruction is explicit teaching, not gradual release.",
@@ -3066,7 +3172,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "When students use known spelling patterns to decode new words, they demonstrate:",
-    "options": ["Phonemic awareness", "Morphological transfer", "Metacognition", "Positive transfer"],
+    "options": [
+      "Phonemic awareness",
+      "Morphological transfer",
+      "Metacognition",
+      "Positive transfer"
+    ],
     "correctIndex": 3,
     "rationales": [
       "Phonemic awareness is sound manipulation, not pattern application.",
@@ -3081,7 +3192,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Academic words such as 'compare' or 'analyze' are considered:",
-    "options": ["Tier 1 vocabulary", "Tier 2 vocabulary", "Tier 3 vocabulary", "Dialect terms"],
+    "options": [
+      "Tier 1 vocabulary",
+      "Tier 2 vocabulary",
+      "Tier 3 vocabulary",
+      "Dialect terms"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Tier 1 is basic, everyday vocabulary (happy, run).",
@@ -3096,7 +3212,12 @@
     "subarea": "Literature & Understanding",
     "objective": "Language Acquisition, Transfer, and Cross-Curricular Language Development",
     "stem": "Which method best supports both language and content learning simultaneously?",
-    "options": ["Content-based instruction", "Grammar drills", "Audiolingual method", "Phonics-focused lessons"],
+    "options": [
+      "Content-based instruction",
+      "Grammar drills",
+      "Audiolingual method",
+      "Phonics-focused lessons"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Content-based instruction teaches language through meaningful subject matter, integrating both goals.",
@@ -3105,14 +3226,18 @@
       "Phonics focuses on decoding, not content learning."
     ],
     "difficulty": 2
-  }
-  ,
+  },
   {
     "id": "Q401",
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Which level of language focuses on the arrangement of words into phrases and clauses?",
-    "options": ["Phonology", "Morphology", "Syntax", "Semantics"],
+    "options": [
+      "Phonology",
+      "Morphology",
+      "Syntax",
+      "Semantics"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Phonology studies sound systems, not word arrangement.",
@@ -3127,7 +3252,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Identifying prefixes and suffixes to determine word formation is primarily a task in:",
-    "options": ["Phonology", "Morphology", "Semantics", "Pragmatics"],
+    "options": [
+      "Phonology",
+      "Morphology",
+      "Semantics",
+      "Pragmatics"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Phonology deals with sounds, not word parts.",
@@ -3142,7 +3272,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "A descriptive grammar statement would MOST likely say:",
-    "options": ["'Never split infinitives.'", "'People often end sentences with prepositions in casual speech.'", "'Don't use double negatives.'", "'Always use whom as the object.'"],
+    "options": [
+      "'Never split infinitives.'",
+      "'People often end sentences with prepositions in casual speech.'",
+      "'Don't use double negatives.'",
+      "'Always use whom as the object.'"
+    ],
     "correctIndex": 1,
     "rationales": [
       "This is prescriptive—dictating what not to do.",
@@ -3157,7 +3292,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "A line that can be interpreted in multiple ways demonstrates:",
-    "options": ["Denotation", "Ambiguity", "Oxymoron", "Cliché"],
+    "options": [
+      "Denotation",
+      "Ambiguity",
+      "Oxymoron",
+      "Cliché"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Denotation is literal meaning, not multiple interpretations.",
@@ -3172,7 +3312,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Which device best creates sensory impressions in readers?",
-    "options": ["Allusion", "Imagery", "Synecdoche", "Apostrophe"],
+    "options": [
+      "Allusion",
+      "Imagery",
+      "Synecdoche",
+      "Apostrophe"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Allusion references other texts, not sensory details.",
@@ -3187,7 +3332,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Connotation refers to:",
-    "options": ["Dictionary meaning", "Spelling variants", "Associated meanings and feelings", "Syntactic function"],
+    "options": [
+      "Dictionary meaning",
+      "Spelling variants",
+      "Associated meanings and feelings",
+      "Syntactic function"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Dictionary meaning is denotation, not connotation.",
@@ -3202,7 +3352,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "A poet uses slant rhyme and irregular meter. The most likely effect is to:",
-    "options": ["Create a monotonous rhythm", "Heighten tension or unease", "Ensure strict symmetry", "Eliminate ambiguity"],
+    "options": [
+      "Create a monotonous rhythm",
+      "Heighten tension or unease",
+      "Ensure strict symmetry",
+      "Eliminate ambiguity"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Irregular meter disrupts monotony rather than creates it.",
@@ -3217,7 +3372,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Which choice best signals a shift in tone that creates ironic undertones?",
-    "options": ["Literal description only", "Exaggerated praise of a clearly flawed subject", "Chronological exposition", "Objective reporting"],
+    "options": [
+      "Literal description only",
+      "Exaggerated praise of a clearly flawed subject",
+      "Chronological exposition",
+      "Objective reporting"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Literal description lacks the contrast needed for irony.",
@@ -3232,7 +3392,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Dialogue that reveals a character's values is primarily an example of:",
-    "options": ["Plot structure", "Characterization", "Setting detail", "Foreshadowing"],
+    "options": [
+      "Plot structure",
+      "Characterization",
+      "Setting detail",
+      "Foreshadowing"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Plot is sequence of events, not character revelation.",
@@ -3247,7 +3412,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "A passage describing storm clouds gathering over a quiet town most directly develops:",
-    "options": ["Setting and mood", "Tone and theme", "Character arc", "Point of view"],
+    "options": [
+      "Setting and mood",
+      "Tone and theme",
+      "Character arc",
+      "Point of view"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Setting (weather, location) and mood (ominous atmosphere) are developed through environmental description.",
@@ -3262,7 +3432,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Which is the BEST indicator of a universal theme?",
-    "options": ["A proper noun repeated throughout", "A moral relevant only to one era", "A concept resonating across cultures and time", "A specific regional dialect"],
+    "options": [
+      "A proper noun repeated throughout",
+      "A moral relevant only to one era",
+      "A concept resonating across cultures and time",
+      "A specific regional dialect"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Repeated names don't indicate universal significance.",
@@ -3277,7 +3452,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "The strongest thesis statement is typically:",
-    "options": ["Vague and broad", "A factual statement", "A clear, arguable claim with scope", "A rhetorical question"],
+    "options": [
+      "Vague and broad",
+      "A factual statement",
+      "A clear, arguable claim with scope",
+      "A rhetorical question"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Vague, broad statements lack focus and arguability.",
@@ -3292,7 +3472,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Which organizational pattern is best for evaluating two pedagogical models?",
-    "options": ["Chronological", "Definition", "Compare–contrast", "Process analysis"],
+    "options": [
+      "Chronological",
+      "Definition",
+      "Compare–contrast",
+      "Process analysis"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Chronological shows time sequence, not evaluation.",
@@ -3307,7 +3492,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "A news article most appropriately uses which structure?",
-    "options": ["Inverted pyramid with most important info first", "Circular structure with motif return", "Five-act dramatic arc", "Stream-of-consciousness"],
+    "options": [
+      "Inverted pyramid with most important info first",
+      "Circular structure with motif return",
+      "Five-act dramatic arc",
+      "Stream-of-consciousness"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! News articles use inverted pyramid—crucial information first, details following in decreasing importance.",
@@ -3322,7 +3512,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "Which revision MOST improves coherence in a formal essay?",
-    "options": ["Adding varied fonts", "Replacing academic terms with slang", "Adding transitional phrases that clarify logic", "Removing topic sentences"],
+    "options": [
+      "Adding varied fonts",
+      "Replacing academic terms with slang",
+      "Adding transitional phrases that clarify logic",
+      "Removing topic sentences"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Font variation is visual, not logical coherence.",
@@ -3337,7 +3532,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "A business letter should prioritize:",
-    "options": ["Personal storytelling and figurative language", "Casual tone and slang", "Clear purpose, concise paragraphs, formal register", "Second-person commands throughout"],
+    "options": [
+      "Personal storytelling and figurative language",
+      "Casual tone and slang",
+      "Clear purpose, concise paragraphs, formal register",
+      "Second-person commands throughout"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Business letters should be professional, not personal or figurative.",
@@ -3352,7 +3552,12 @@
     "subarea": "Genre & Craft",
     "objective": "Language Structure, Literary Response, and Expository Writing Techniques",
     "stem": "In an expository essay, which evidence is MOST appropriate to support a data-heavy claim?",
-    "options": ["Vivid sensory description", "Peer-reviewed research and credible statistics", "Personal anecdote only", "Fictional dialogue"],
+    "options": [
+      "Vivid sensory description",
+      "Peer-reviewed research and credible statistics",
+      "Personal anecdote only",
+      "Fictional dialogue"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Sensory description is literary, not analytical evidence.",
@@ -3361,14 +3566,18 @@
       "Fictional dialogue is creative, not factual evidence."
     ],
     "difficulty": 2
-  }
-  ,
+  },
   {
     "id": "Q601",
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Using surrounding sentences to infer an unfamiliar word's meaning demonstrates:",
-    "options": ["Phonetic decoding", "Context clue analysis", "Syntax identification", "Summarizing"],
+    "options": [
+      "Phonetic decoding",
+      "Context clue analysis",
+      "Syntax identification",
+      "Summarizing"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Phonetic decoding uses sound-letter relationships, not context.",
@@ -3383,7 +3592,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Which reading technique would best locate a specific statistic in a long article?",
-    "options": ["Skimming", "Scanning", "Predicting", "Annotating"],
+    "options": [
+      "Skimming",
+      "Scanning",
+      "Predicting",
+      "Annotating"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Skimming finds main ideas, not specific details.",
@@ -3398,7 +3612,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "A reader slowing down for complex sections and speeding through easier ones demonstrates:",
-    "options": ["Skimming", "Variable reading rate", "Metacognitive regulation", "Contextual inference"],
+    "options": [
+      "Skimming",
+      "Variable reading rate",
+      "Metacognitive regulation",
+      "Contextual inference"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Skimming is always fast, not variable based on difficulty.",
@@ -3413,7 +3632,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Identifying whether a statement expresses a general idea or a supporting detail aids:",
-    "options": ["Summarization", "Inference", "Fact-checking", "Syntax analysis"],
+    "options": [
+      "Summarization",
+      "Inference",
+      "Fact-checking",
+      "Syntax analysis"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Distinguishing main ideas from details is essential for effective summarization.",
@@ -3428,7 +3652,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "A reader connecting new material to personal experience is applying:",
-    "options": ["Phonemic awareness", "Prior knowledge activation", "Context clue analysis", "Morphological decoding"],
+    "options": [
+      "Phonemic awareness",
+      "Prior knowledge activation",
+      "Context clue analysis",
+      "Morphological decoding"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Phonemic awareness is sound manipulation, not personal connections.",
@@ -3443,7 +3672,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Which question best promotes critical analysis of a persuasive text?",
-    "options": ["Who wrote this and why?", "What is the spelling pattern?", "How many pages is it?", "What font is used?"],
+    "options": [
+      "Who wrote this and why?",
+      "What is the spelling pattern?",
+      "How many pages is it?",
+      "What font is used?"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Identifying author and purpose is fundamental to critical analysis of persuasive texts.",
@@ -3458,7 +3692,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "When a text appeals to emotions to influence readers, it primarily uses:",
-    "options": ["Logos", "Ethos", "Pathos", "Syntax"],
+    "options": [
+      "Logos",
+      "Ethos",
+      "Pathos",
+      "Syntax"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Logos appeals to logic and reason, not emotions.",
@@ -3473,7 +3712,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Determining if an author's evidence sufficiently supports a claim evaluates:",
-    "options": ["Relevance and sufficiency", "Tone and style", "Syntax and diction", "Word choice and connotation"],
+    "options": [
+      "Relevance and sufficiency",
+      "Tone and style",
+      "Syntax and diction",
+      "Word choice and connotation"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Evaluating evidence requires assessing if it's relevant (related) and sufficient (adequate amount).",
@@ -3488,7 +3732,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Recognizing the difference between 'Scientists discovered' and 'Scientists believe' shows awareness of:",
-    "options": ["Bias", "Syntax", "Imagery", "Metaphor"],
+    "options": [
+      "Bias",
+      "Syntax",
+      "Imagery",
+      "Metaphor"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Word choice revealing certainty vs. interpretation indicates bias or objectivity.",
@@ -3503,7 +3752,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "A consumer comparing ingredient lists and company claims practices:",
-    "options": ["Critical reading of informational texts", "Predictive inference", "Summative reasoning", "Literal comprehension"],
+    "options": [
+      "Critical reading of informational texts",
+      "Predictive inference",
+      "Summative reasoning",
+      "Literal comprehension"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Critical reading evaluates information for accuracy, bias, and purpose—essential for consumer literacy.",
@@ -3518,7 +3772,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "A workplace memo should be evaluated for:",
-    "options": ["Figurative language", "Organization and accuracy", "Rhythm and meter", "Bias and irony"],
+    "options": [
+      "Figurative language",
+      "Organization and accuracy",
+      "Rhythm and meter",
+      "Bias and irony"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Memos use literal, not figurative language.",
@@ -3533,7 +3792,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Recording emotional reactions to a poem in a reading journal reflects:",
-    "options": ["Critical evaluation", "Reader response", "Contextual decoding", "Summarization"],
+    "options": [
+      "Critical evaluation",
+      "Reader response",
+      "Contextual decoding",
+      "Summarization"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Critical evaluation analyzes objectively; emotional reactions are subjective.",
@@ -3548,7 +3812,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Writing across content areas enhances learning because it:",
-    "options": ["Reduces comprehension load", "Forces rote memorization", "Deepens understanding through reflection", "Eliminates the need for reading"],
+    "options": [
+      "Reduces comprehension load",
+      "Forces rote memorization",
+      "Deepens understanding through reflection",
+      "Eliminates the need for reading"
+    ],
     "correctIndex": 2,
     "rationales": [
       "Writing increases cognitive engagement, not reduces it.",
@@ -3563,7 +3832,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "A diagram illustrating relationships between ideas supports which communication mode?",
-    "options": ["Visual", "Auditory", "Kinesthetic", "Narrative"],
+    "options": [
+      "Visual",
+      "Auditory",
+      "Kinesthetic",
+      "Narrative"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Diagrams are visual representations showing relationships spatially.",
@@ -3578,7 +3852,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "An advertisement saying 'Everyone is switching to this phone!' demonstrates:",
-    "options": ["Testimonial", "Bandwagon", "Card-stacking", "Transfer"],
+    "options": [
+      "Testimonial",
+      "Bandwagon",
+      "Card-stacking",
+      "Transfer"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Testimonial uses individual endorsements, not claims about 'everyone.'",
@@ -3593,7 +3872,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Selecting a graphic organizer for comparing two concepts represents:",
-    "options": ["Visual literacy", "Propaganda analysis", "Bias detection", "Phonemic awareness"],
+    "options": [
+      "Visual literacy",
+      "Propaganda analysis",
+      "Bias detection",
+      "Phonemic awareness"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Visual literacy includes creating and interpreting visual representations like graphic organizers.",
@@ -3608,7 +3892,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "A documentary using both interviews and background music to persuade demonstrates:",
-    "options": ["Synergy in media", "Ethos appeal", "Negative bias", "Descriptive narrative"],
+    "options": [
+      "Synergy in media",
+      "Ethos appeal",
+      "Negative bias",
+      "Descriptive narrative"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Synergy occurs when multiple media elements (audio + visual) work together for combined effect.",
@@ -3623,7 +3912,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Evaluating whether an online article is objective involves checking:",
-    "options": ["Hyperlinks", "Author credentials and tone", "Font style", "Sentence length"],
+    "options": [
+      "Hyperlinks",
+      "Author credentials and tone",
+      "Font style",
+      "Sentence length"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Hyperlinks indicate sources but don't determine objectivity alone.",
@@ -3638,7 +3932,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Which activity best builds metacognitive reading awareness?",
-    "options": ["Timed silent reading", "Think-aloud modeling", "Multiple-choice quizzes", "Copying vocabulary"],
+    "options": [
+      "Timed silent reading",
+      "Think-aloud modeling",
+      "Multiple-choice quizzes",
+      "Copying vocabulary"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Silent reading doesn't explicitly demonstrate thinking processes.",
@@ -3653,7 +3952,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Comparing multiple interpretations of the same poem teaches students to:",
-    "options": ["Discredit authorial intent", "Appreciate diversity of meaning", "Memorize definitions", "Focus on grammar"],
+    "options": [
+      "Discredit authorial intent",
+      "Appreciate diversity of meaning",
+      "Memorize definitions",
+      "Focus on grammar"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Multiple interpretations complement, not discredit, authorial intent.",
@@ -3668,7 +3972,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "A student writing reflective journal entries about lab experiments is:",
-    "options": ["Practicing writing to learn", "Summarizing literature", "Composing persuasive essays", "Practicing syntax drills"],
+    "options": [
+      "Practicing writing to learn",
+      "Summarizing literature",
+      "Composing persuasive essays",
+      "Practicing syntax drills"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Writing to learn uses informal writing to process and reflect on content learning.",
@@ -3683,7 +3992,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Analyzing how a chart supports textual information demonstrates:",
-    "options": ["Visual interpretation", "Metaphorical reading", "Syntax comprehension", "Summative reasoning"],
+    "options": [
+      "Visual interpretation",
+      "Metaphorical reading",
+      "Syntax comprehension",
+      "Summative reasoning"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Visual interpretation extracts meaning from visual data representations like charts.",
@@ -3698,7 +4012,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "When evaluating a website, which criterion is LEAST useful?",
-    "options": ["Design aesthetics", "Author's credentials", "Date of publication", "Evidence citations"],
+    "options": [
+      "Design aesthetics",
+      "Author's credentials",
+      "Date of publication",
+      "Evidence citations"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! While design matters for usability, aesthetics don't determine credibility or accuracy.",
@@ -3713,7 +4032,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "The purpose of a public service announcement is primarily to:",
-    "options": ["Entertain", "Inform or persuade", "Amuse", "Narrate"],
+    "options": [
+      "Entertain",
+      "Inform or persuade",
+      "Amuse",
+      "Narrate"
+    ],
     "correctIndex": 1,
     "rationales": [
       "PSAs can engage but entertainment isn't the primary purpose.",
@@ -3728,7 +4052,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "A speaker using celebrity endorsements to influence an audience uses which propaganda technique?",
-    "options": ["Transfer", "Testimonial", "Plain folks", "Fear appeal"],
+    "options": [
+      "Transfer",
+      "Testimonial",
+      "Plain folks",
+      "Fear appeal"
+    ],
     "correctIndex": 1,
     "rationales": [
       "Transfer associates with symbols/concepts, not specific endorsers.",
@@ -3743,7 +4072,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Recognizing that film uses close-up shots to create empathy demonstrates:",
-    "options": ["Critical media analysis", "Visual confusion", "Phonemic awareness", "Literal comprehension"],
+    "options": [
+      "Critical media analysis",
+      "Visual confusion",
+      "Phonemic awareness",
+      "Literal comprehension"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Critical media analysis examines how technical choices (like shot selection) shape meaning and emotion.",
@@ -3758,7 +4092,12 @@
     "subarea": "Skills & Processes",
     "objective": "Reading Strategies, Critical Analysis, Reader Response, Cross-Curricular Writing, and Media Literacy",
     "stem": "Identifying how background music intensifies a news segment's emotional tone analyzes:",
-    "options": ["Nonverbal cues in media", "Logical appeals", "Morphological structure", "Syntax"],
+    "options": [
+      "Nonverbal cues in media",
+      "Logical appeals",
+      "Morphological structure",
+      "Syntax"
+    ],
     "correctIndex": 0,
     "rationales": [
       "Correct! Nonverbal cues in media include music, sound effects, and visuals that shape emotional response.",
@@ -5767,5 +6106,425 @@
       "This abandons the learning goal rather than pursuing it."
     ],
     "difficulty": 2
+  },
+  {
+    "id": "Q728",
+    "subarea": "Skills & Processes",
+    "objective": "Identifying Learning Goals",
+    "stem": "A teacher asks students to compare how two poets develop the theme of resilience across different historical contexts. Which learning goal is MOST appropriate?",
+    "options": [
+      "Students will examine how figurative language contributes to tone in each poem.",
+      "Students will determine how authors convey thematic ideas and evaluate similarities or differences in development across texts.",
+      "Students will identify structural elements such as stanzas and line breaks.",
+      "Students will analyze how point of view shapes each poem's narrative perspective."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Too narrow—focuses only on figurative language, not theme development.",
+      "Correct! This goal directly addresses comparing thematic development across texts.",
+      "Structural analysis doesn't address thematic comparison.",
+      "Point of view analysis is not the same as theme comparison."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q729",
+    "subarea": "Skills & Processes",
+    "objective": "Diagnosing Misconceptions",
+    "stem": "A student states that the theme of a story is 'dogs and cats fighting.' What misconception is the teacher seeing?",
+    "options": [
+      "Confusing plot details with thematic inference",
+      "Assuming theme must be explicitly stated by the narrator",
+      "Misidentifying figurative language as literal events",
+      "Confusing genre conventions with character conflict"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The student is describing plot events rather than the underlying theme or message.",
+      "This would apply if the student looked for a statement, but they're describing events.",
+      "There's no evidence of figurative language confusion here.",
+      "The issue is plot vs. theme, not genre conventions."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q730",
+    "subarea": "Skills & Processes",
+    "objective": "Instructional Strategies",
+    "stem": "To strengthen students' ability to evaluate the effectiveness of an author's argument, the teacher should prioritize:",
+    "options": [
+      "Guiding students through paragraph-by-paragraph summaries to ensure baseline comprehension",
+      "Having students locate the author's main claims and assess the strength, relevance, and sufficiency of supporting evidence",
+      "Analyzing the author's syntactic choices to determine how structure influences engagement",
+      "Identifying rhetorical devices and categorizing each according to purpose"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Summarizing builds comprehension but doesn't evaluate argument effectiveness.",
+      "Correct! This directly addresses evaluating argument quality through evidence assessment.",
+      "Syntax analysis doesn't address argument evaluation.",
+      "Identifying devices doesn't evaluate argument effectiveness—tempting but wrong!"
+    ],
+    "difficulty": 4,
+    "assessment": true
+  },
+  {
+    "id": "Q731",
+    "subarea": "Skills & Processes",
+    "objective": "Supporting English Learners",
+    "stem": "To support English learners in analyzing figurative language, the MOST effective scaffolding is:",
+    "options": [
+      "Pre-teaching figurative language definitions before reading",
+      "Offering bilingual glossaries for unfamiliar vocabulary",
+      "Providing visual anchors that represent the meaning behind metaphors and similes",
+      "Asking students to identify figurative language independently before discussing meaning"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Definitions help but don't provide concrete understanding of abstract concepts.",
+      "Glossaries support vocabulary but not figurative interpretation.",
+      "Correct! Visual anchors make abstract figurative meanings concrete and accessible.",
+      "Independent work without support doesn't provide scaffolding."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q732",
+    "subarea": "Skills & Processes",
+    "objective": "Addressing Struggling Readers",
+    "stem": "A student reads fluently but cannot articulate deeper meaning. What should the teacher do NEXT?",
+    "options": [
+      "Provide alternative texts at a simpler complexity level",
+      "Model comprehension-monitoring strategies such as self-questioning and think-alouds",
+      "Assign additional independent reading minutes",
+      "Introduce a vocabulary intervention to build background knowledge"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "The issue isn't text complexity—the student reads fluently.",
+      "Correct! Modeling metacognitive strategies helps students monitor and deepen comprehension.",
+      "More reading won't help if the student lacks comprehension strategies.",
+      "Vocabulary isn't the core issue if fluency is strong."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q733",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching Text Structure",
+    "stem": "To help students recognize cause-and-effect in nonfiction, the MOST effective strategy is:",
+    "options": [
+      "Engaging students in identifying signal words ('therefore,' 'as a result') within complex sentences",
+      "Asking students to rewrite paragraphs in chronological order",
+      "Having students label main ideas and key details",
+      "Teaching students to annotate claims and counterclaims"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Signal words directly cue cause-and-effect relationships.",
+      "Chronological order is about sequence, not cause-and-effect.",
+      "Main ideas don't specifically target cause-and-effect structure.",
+      "Claims and counterclaims relate to argument structure, not cause-and-effect."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q734",
+    "subarea": "Skills & Processes",
+    "objective": "Writing Instruction",
+    "stem": "A teacher wants students to strengthen argumentative writing. Which approach is MOST effective?",
+    "options": [
+      "Providing sentence frames to support struggling writers",
+      "Analyzing exemplar texts that demonstrate logical progression and evidence-based reasoning",
+      "Increasing the length requirements for each essay",
+      "Beginning with narrative writing to build general fluency"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Sentence frames support structure but don't teach argument quality.",
+      "Correct! Analyzing exemplars helps students understand effective argument construction.",
+      "Length doesn't improve argument quality.",
+      "Narrative writing develops different skills than argumentation."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q735",
+    "subarea": "Skills & Processes",
+    "objective": "Formative Assessment",
+    "stem": "Which action BEST reflects effective formative assessment?",
+    "options": [
+      "Returning graded essays midway through a unit to help students track progress",
+      "Giving students an ungraded diagnostic at the start of the semester",
+      "Using daily exit tickets to adjust the next day's lesson",
+      "Having students complete self-assessments at the end of a major project"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Graded essays are summative; formative should inform instruction immediately.",
+      "Initial diagnostics are useful but not ongoing formative practice.",
+      "Correct! Daily exit tickets inform immediate instructional adjustments—true formative assessment.",
+      "End-of-project self-assessments come too late to inform instruction."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q736",
+    "subarea": "Skills & Processes",
+    "objective": "Differentiated Instruction",
+    "stem": "A class includes readers at widely different proficiency levels. What strategy MOST ensures equitable access to a shared text?",
+    "options": [
+      "Assigning leveled texts that align to each student's reading level",
+      "Providing an audio version or teacher read-aloud to support comprehension",
+      "Offering shorter excerpts to lower-performing students",
+      "Replacing complex texts with summaries to build confidence"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Leveled texts separate students rather than providing shared access.",
+      "Correct! Audio support maintains shared text while scaffolding comprehension.",
+      "Shorter excerpts limit access rather than support full engagement.",
+      "Summaries deny access to the original text's complexity."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q737",
+    "subarea": "Skills & Processes",
+    "objective": "Student-Centered Discussion",
+    "stem": "To increase depth in student discussions, the MOST effective teacher move is:",
+    "options": [
+      "Providing discipline-specific discussion stems that prompt analysis and evaluation",
+      "Asking exclusively open-ended questions to increase student talk",
+      "Allowing students to choose their own discussion topics each day",
+      "Having students write responses before discussion to reduce off-task behavior"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Discussion stems guide students toward higher-order thinking and deep analysis.",
+      "Open-ended questions alone don't guarantee depth without structure.",
+      "Choice doesn't ensure depth—structure and scaffolds do.",
+      "Pre-writing helps but doesn't structure depth during discussion."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q738",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching Literary Elements",
+    "stem": "A teacher wants students to understand how point of view shapes meaning. Which strategy is MOST effective?",
+    "options": [
+      "Having students rewrite a critical scene from a contrasting character's perspective",
+      "Having students identify which characters appear most often",
+      "Asking students to track mood shifts across the text",
+      "Teaching students to analyze sentence length and syntax for tone"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Rewriting from another perspective directly illustrates how point of view shapes meaning.",
+      "Character frequency doesn't address perspective's effect on meaning.",
+      "Mood tracking doesn't directly target point of view.",
+      "Syntax analysis is about style, not point of view's impact."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q739",
+    "subarea": "Skills & Processes",
+    "objective": "Vocabulary Instruction",
+    "stem": "Which practice MOST effectively builds durable vocabulary knowledge?",
+    "options": [
+      "Memorizing lists followed by matching quizzes",
+      "Copying dictionary entries for unfamiliar words",
+      "Embedding new vocabulary into authentic writing and discussion tasks",
+      "Using online flashcards for spaced repetition"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Memorization builds short-term recall, not deep understanding.",
+      "Copying definitions is passive and doesn't build usage skills.",
+      "Correct! Authentic application in writing and discussion deepens vocabulary knowledge.",
+      "Flashcards help retention but lack authentic application context."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q740",
+    "subarea": "Skills & Processes",
+    "objective": "Scaffolding Complex Texts",
+    "stem": "To support students with a challenging informational article, the teacher should:",
+    "options": [
+      "Provide guiding questions aligned to section-level comprehension demands",
+      "Assign the reading as homework to increase uninterrupted focus time",
+      "Chunk the text by removing dense paragraphs",
+      "Begin with vocabulary instruction only, delaying the reading"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Guiding questions scaffold comprehension while maintaining text integrity.",
+      "Homework without support doesn't scaffold—students may struggle alone.",
+      "Removing content reduces complexity rather than scaffolding it.",
+      "Delaying reading limits engagement with the full text."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q741",
+    "subarea": "Skills & Processes",
+    "objective": "Writing Feedback",
+    "stem": "Which feedback will MOST improve the student's revision?",
+    "options": [
+      "You need to clarify your thesis sooner.",
+      "Your ideas are strong, but your organization needs work.",
+      "Enhance paragraph 3 by adding evidence that directly supports your claim about the author's tone.",
+      "This writing is vague; try again."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Too vague—doesn't specify how to clarify or where.",
+      "General praise and critique without actionable steps.",
+      "Correct! Specific, actionable feedback that identifies location and improvement needed.",
+      "No guidance for revision—unhelpful and discouraging."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q742",
+    "subarea": "Skills & Processes",
+    "objective": "Assessment Alignment",
+    "stem": "An assessment asks students to compare rhetorical strategies across two speeches. Which learning goal aligns BEST?",
+    "options": [
+      "Students will identify each speech's main ideas.",
+      "Students will categorize rhetorical devices within each speech.",
+      "Students will analyze how authors use rhetorical choices to persuade in multiple texts.",
+      "Students will summarize similarities and differences in speaker backgrounds."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Identifying main ideas doesn't address comparing rhetorical strategies.",
+      "Categorizing devices alone doesn't require comparison or analysis of persuasion.",
+      "Correct! This goal matches the assessment's focus on comparing rhetorical analysis.",
+      "Speaker backgrounds don't align with rhetorical strategy comparison."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q743",
+    "subarea": "Skills & Processes",
+    "objective": "Addressing Bias in Texts",
+    "stem": "To help students identify bias in persuasive writing, the MOST effective instructional move is:",
+    "options": [
+      "Teaching students to summarize arguments before analyzing tone",
+      "Asking students to evaluate how emotionally charged language influences the reader",
+      "Having students identify all adjectives in the passage",
+      "Using peer review to compare students' interpretations"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Summarizing doesn't directly address bias identification.",
+      "Correct! Evaluating emotionally charged language directly reveals bias and persuasive intent.",
+      "Identifying adjectives doesn't teach bias analysis.",
+      "Peer review is useful but doesn't directly teach bias identification."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q744",
+    "subarea": "Skills & Processes",
+    "objective": "Supporting Struggling Writers",
+    "stem": "A student struggles to organize paragraphs coherently. The MOST effective support is:",
+    "options": [
+      "Reducing the paragraph requirement to avoid cognitive overload",
+      "Using a graphic organizer that visually models logical sequencing",
+      "Encouraging students to draft more quickly without overthinking",
+      "Increasing grammar instruction to support clarity"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Reducing requirements doesn't teach organization skills.",
+      "Correct! Graphic organizers provide visual scaffolding for logical structure.",
+      "Speed doesn't improve organization—structure does.",
+      "Grammar doesn't address paragraph-level organization."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q745",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching Theme",
+    "stem": "Which instructional practice MOST effectively develops theme analysis?",
+    "options": [
+      "Asking students to list the text's major events",
+      "Tracking how a central idea evolves across key interactions and conflicts",
+      "Having students choose a theme from a teacher-generated list",
+      "Asking students to identify the character with the most dialogue"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Listing events focuses on plot, not theme.",
+      "Correct! Tracking theme evolution across the text develops deep thematic analysis.",
+      "Choosing from a list doesn't develop analysis skills.",
+      "Character dialogue frequency doesn't relate to theme."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q746",
+    "subarea": "Skills & Processes",
+    "objective": "Argument Evaluation",
+    "stem": "To help students judge the validity of an argument, the teacher should:",
+    "options": [
+      "Have students annotate rhetorical devices that build tone",
+      "Focus discussion on emotional impact rather than logical structure",
+      "Teach students to distinguish between sound reasoning and flawed reasoning",
+      "Model paraphrasing each paragraph to check for understanding"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Tone analysis doesn't address argument validity.",
+      "Emotional impact doesn't determine validity—logic does.",
+      "Correct! Distinguishing sound from flawed reasoning is central to evaluating argument validity.",
+      "Paraphrasing checks comprehension but not argument quality."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q747",
+    "subarea": "Skills & Processes",
+    "objective": "Selecting Complex Texts",
+    "stem": "When choosing a complex text for instruction, the teacher should prioritize:",
+    "options": [
+      "The text's quantitative readability score above all other metrics",
+      "The teacher's level of enthusiasm for the text",
+      "Alignment between the text's complexity features and the instructional purpose",
+      "Student preference data gathered from surveys"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Quantitative scores matter but shouldn't override instructional alignment.",
+      "Teacher enthusiasm is valuable but not the primary criterion.",
+      "Correct! Text selection should align complexity with instructional goals.",
+      "Student preference matters but doesn't ensure instructional effectiveness."
+    ],
+    "difficulty": 3,
+    "assessment": true
   }
 ]
