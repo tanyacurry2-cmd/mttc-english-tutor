@@ -1,0 +1,422 @@
+[
+  {
+    "id": "Q728",
+    "subarea": "Skills & Processes",
+    "objective": "Identifying Learning Goals",
+    "stem": "A teacher asks students to compare how two poets develop the theme of resilience across different historical contexts. Which learning goal is MOST appropriate?",
+    "options": [
+      "Students will examine how figurative language contributes to tone in each poem.",
+      "Students will determine how authors convey thematic ideas and evaluate similarities or differences in development across texts.",
+      "Students will identify structural elements such as stanzas and line breaks.",
+      "Students will analyze how point of view shapes each poem's narrative perspective."
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Too narrow—focuses only on figurative language, not theme development.",
+      "Correct! This goal directly addresses comparing thematic development across texts.",
+      "Structural analysis doesn't address thematic comparison.",
+      "Point of view analysis is not the same as theme comparison."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q729",
+    "subarea": "Skills & Processes",
+    "objective": "Diagnosing Misconceptions",
+    "stem": "A student states that the theme of a story is 'dogs and cats fighting.' What misconception is the teacher seeing?",
+    "options": [
+      "Confusing plot details with thematic inference",
+      "Assuming theme must be explicitly stated by the narrator",
+      "Misidentifying figurative language as literal events",
+      "Confusing genre conventions with character conflict"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! The student is describing plot events rather than the underlying theme or message.",
+      "This would apply if the student looked for a statement, but they're describing events.",
+      "There's no evidence of figurative language confusion here.",
+      "The issue is plot vs. theme, not genre conventions."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q730",
+    "subarea": "Skills & Processes",
+    "objective": "Instructional Strategies",
+    "stem": "To strengthen students' ability to evaluate the effectiveness of an author's argument, the teacher should prioritize:",
+    "options": [
+      "Guiding students through paragraph-by-paragraph summaries to ensure baseline comprehension",
+      "Having students locate the author's main claims and assess the strength, relevance, and sufficiency of supporting evidence",
+      "Analyzing the author's syntactic choices to determine how structure influences engagement",
+      "Identifying rhetorical devices and categorizing each according to purpose"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Summarizing builds comprehension but doesn't evaluate argument effectiveness.",
+      "Correct! This directly addresses evaluating argument quality through evidence assessment.",
+      "Syntax analysis doesn't address argument evaluation.",
+      "Identifying devices doesn't evaluate argument effectiveness—tempting but wrong!"
+    ],
+    "difficulty": 4,
+    "assessment": true
+  },
+  {
+    "id": "Q731",
+    "subarea": "Skills & Processes",
+    "objective": "Supporting English Learners",
+    "stem": "To support English learners in analyzing figurative language, the MOST effective scaffolding is:",
+    "options": [
+      "Pre-teaching figurative language definitions before reading",
+      "Offering bilingual glossaries for unfamiliar vocabulary",
+      "Providing visual anchors that represent the meaning behind metaphors and similes",
+      "Asking students to identify figurative language independently before discussing meaning"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Definitions help but don't provide concrete understanding of abstract concepts.",
+      "Glossaries support vocabulary but not figurative interpretation.",
+      "Correct! Visual anchors make abstract figurative meanings concrete and accessible.",
+      "Independent work without support doesn't provide scaffolding."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q732",
+    "subarea": "Skills & Processes",
+    "objective": "Addressing Struggling Readers",
+    "stem": "A student reads fluently but cannot articulate deeper meaning. What should the teacher do NEXT?",
+    "options": [
+      "Provide alternative texts at a simpler complexity level",
+      "Model comprehension-monitoring strategies such as self-questioning and think-alouds",
+      "Assign additional independent reading minutes",
+      "Introduce a vocabulary intervention to build background knowledge"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "The issue isn't text complexity—the student reads fluently.",
+      "Correct! Modeling metacognitive strategies helps students monitor and deepen comprehension.",
+      "More reading won't help if the student lacks comprehension strategies.",
+      "Vocabulary isn't the core issue if fluency is strong."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q733",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching Text Structure",
+    "stem": "To help students recognize cause-and-effect in nonfiction, the MOST effective strategy is:",
+    "options": [
+      "Engaging students in identifying signal words ('therefore,' 'as a result') within complex sentences",
+      "Asking students to rewrite paragraphs in chronological order",
+      "Having students label main ideas and key details",
+      "Teaching students to annotate claims and counterclaims"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Signal words directly cue cause-and-effect relationships.",
+      "Chronological order is about sequence, not cause-and-effect.",
+      "Main ideas don't specifically target cause-and-effect structure.",
+      "Claims and counterclaims relate to argument structure, not cause-and-effect."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q734",
+    "subarea": "Skills & Processes",
+    "objective": "Writing Instruction",
+    "stem": "A teacher wants students to strengthen argumentative writing. Which approach is MOST effective?",
+    "options": [
+      "Providing sentence frames to support struggling writers",
+      "Analyzing exemplar texts that demonstrate logical progression and evidence-based reasoning",
+      "Increasing the length requirements for each essay",
+      "Beginning with narrative writing to build general fluency"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Sentence frames support structure but don't teach argument quality.",
+      "Correct! Analyzing exemplars helps students understand effective argument construction.",
+      "Length doesn't improve argument quality.",
+      "Narrative writing develops different skills than argumentation."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q735",
+    "subarea": "Skills & Processes",
+    "objective": "Formative Assessment",
+    "stem": "Which action BEST reflects effective formative assessment?",
+    "options": [
+      "Returning graded essays midway through a unit to help students track progress",
+      "Giving students an ungraded diagnostic at the start of the semester",
+      "Using daily exit tickets to adjust the next day's lesson",
+      "Having students complete self-assessments at the end of a major project"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Graded essays are summative; formative should inform instruction immediately.",
+      "Initial diagnostics are useful but not ongoing formative practice.",
+      "Correct! Daily exit tickets inform immediate instructional adjustments—true formative assessment.",
+      "End-of-project self-assessments come too late to inform instruction."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q736",
+    "subarea": "Skills & Processes",
+    "objective": "Differentiated Instruction",
+    "stem": "A class includes readers at widely different proficiency levels. What strategy MOST ensures equitable access to a shared text?",
+    "options": [
+      "Assigning leveled texts that align to each student's reading level",
+      "Providing an audio version or teacher read-aloud to support comprehension",
+      "Offering shorter excerpts to lower-performing students",
+      "Replacing complex texts with summaries to build confidence"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Leveled texts separate students rather than providing shared access.",
+      "Correct! Audio support maintains shared text while scaffolding comprehension.",
+      "Shorter excerpts limit access rather than support full engagement.",
+      "Summaries deny access to the original text's complexity."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q737",
+    "subarea": "Skills & Processes",
+    "objective": "Student-Centered Discussion",
+    "stem": "To increase depth in student discussions, the MOST effective teacher move is:",
+    "options": [
+      "Providing discipline-specific discussion stems that prompt analysis and evaluation",
+      "Asking exclusively open-ended questions to increase student talk",
+      "Allowing students to choose their own discussion topics each day",
+      "Having students write responses before discussion to reduce off-task behavior"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Discussion stems guide students toward higher-order thinking and deep analysis.",
+      "Open-ended questions alone don't guarantee depth without structure.",
+      "Choice doesn't ensure depth—structure and scaffolds do.",
+      "Pre-writing helps but doesn't structure depth during discussion."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q738",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching Literary Elements",
+    "stem": "A teacher wants students to understand how point of view shapes meaning. Which strategy is MOST effective?",
+    "options": [
+      "Having students rewrite a critical scene from a contrasting character's perspective",
+      "Having students identify which characters appear most often",
+      "Asking students to track mood shifts across the text",
+      "Teaching students to analyze sentence length and syntax for tone"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Rewriting from another perspective directly illustrates how point of view shapes meaning.",
+      "Character frequency doesn't address perspective's effect on meaning.",
+      "Mood tracking doesn't directly target point of view.",
+      "Syntax analysis is about style, not point of view's impact."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q739",
+    "subarea": "Skills & Processes",
+    "objective": "Vocabulary Instruction",
+    "stem": "Which practice MOST effectively builds durable vocabulary knowledge?",
+    "options": [
+      "Memorizing lists followed by matching quizzes",
+      "Copying dictionary entries for unfamiliar words",
+      "Embedding new vocabulary into authentic writing and discussion tasks",
+      "Using online flashcards for spaced repetition"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Memorization builds short-term recall, not deep understanding.",
+      "Copying definitions is passive and doesn't build usage skills.",
+      "Correct! Authentic application in writing and discussion deepens vocabulary knowledge.",
+      "Flashcards help retention but lack authentic application context."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q740",
+    "subarea": "Skills & Processes",
+    "objective": "Scaffolding Complex Texts",
+    "stem": "To support students with a challenging informational article, the teacher should:",
+    "options": [
+      "Provide guiding questions aligned to section-level comprehension demands",
+      "Assign the reading as homework to increase uninterrupted focus time",
+      "Chunk the text by removing dense paragraphs",
+      "Begin with vocabulary instruction only, delaying the reading"
+    ],
+    "correctIndex": 0,
+    "rationales": [
+      "Correct! Guiding questions scaffold comprehension while maintaining text integrity.",
+      "Homework without support doesn't scaffold—students may struggle alone.",
+      "Removing content reduces complexity rather than scaffolding it.",
+      "Delaying reading limits engagement with the full text."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q741",
+    "subarea": "Skills & Processes",
+    "objective": "Writing Feedback",
+    "stem": "Which feedback will MOST improve the student's revision?",
+    "options": [
+      "You need to clarify your thesis sooner.",
+      "Your ideas are strong, but your organization needs work.",
+      "Enhance paragraph 3 by adding evidence that directly supports your claim about the author's tone.",
+      "This writing is vague; try again."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Too vague—doesn't specify how to clarify or where.",
+      "General praise and critique without actionable steps.",
+      "Correct! Specific, actionable feedback that identifies location and improvement needed.",
+      "No guidance for revision—unhelpful and discouraging."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q742",
+    "subarea": "Skills & Processes",
+    "objective": "Assessment Alignment",
+    "stem": "An assessment asks students to compare rhetorical strategies across two speeches. Which learning goal aligns BEST?",
+    "options": [
+      "Students will identify each speech's main ideas.",
+      "Students will categorize rhetorical devices within each speech.",
+      "Students will analyze how authors use rhetorical choices to persuade in multiple texts.",
+      "Students will summarize similarities and differences in speaker backgrounds."
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Identifying main ideas doesn't address comparing rhetorical strategies.",
+      "Categorizing devices alone doesn't require comparison or analysis of persuasion.",
+      "Correct! This goal matches the assessment's focus on comparing rhetorical analysis.",
+      "Speaker backgrounds don't align with rhetorical strategy comparison."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q743",
+    "subarea": "Skills & Processes",
+    "objective": "Addressing Bias in Texts",
+    "stem": "To help students identify bias in persuasive writing, the MOST effective instructional move is:",
+    "options": [
+      "Teaching students to summarize arguments before analyzing tone",
+      "Asking students to evaluate how emotionally charged language influences the reader",
+      "Having students identify all adjectives in the passage",
+      "Using peer review to compare students' interpretations"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Summarizing doesn't directly address bias identification.",
+      "Correct! Evaluating emotionally charged language directly reveals bias and persuasive intent.",
+      "Identifying adjectives doesn't teach bias analysis.",
+      "Peer review is useful but doesn't directly teach bias identification."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q744",
+    "subarea": "Skills & Processes",
+    "objective": "Supporting Struggling Writers",
+    "stem": "A student struggles to organize paragraphs coherently. The MOST effective support is:",
+    "options": [
+      "Reducing the paragraph requirement to avoid cognitive overload",
+      "Using a graphic organizer that visually models logical sequencing",
+      "Encouraging students to draft more quickly without overthinking",
+      "Increasing grammar instruction to support clarity"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Reducing requirements doesn't teach organization skills.",
+      "Correct! Graphic organizers provide visual scaffolding for logical structure.",
+      "Speed doesn't improve organization—structure does.",
+      "Grammar doesn't address paragraph-level organization."
+    ],
+    "difficulty": 2,
+    "assessment": true
+  },
+  {
+    "id": "Q745",
+    "subarea": "Skills & Processes",
+    "objective": "Teaching Theme",
+    "stem": "Which instructional practice MOST effectively develops theme analysis?",
+    "options": [
+      "Asking students to list the text's major events",
+      "Tracking how a central idea evolves across key interactions and conflicts",
+      "Having students choose a theme from a teacher-generated list",
+      "Asking students to identify the character with the most dialogue"
+    ],
+    "correctIndex": 1,
+    "rationales": [
+      "Listing events focuses on plot, not theme.",
+      "Correct! Tracking theme evolution across the text develops deep thematic analysis.",
+      "Choosing from a list doesn't develop analysis skills.",
+      "Character dialogue frequency doesn't relate to theme."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q746",
+    "subarea": "Skills & Processes",
+    "objective": "Argument Evaluation",
+    "stem": "To help students judge the validity of an argument, the teacher should:",
+    "options": [
+      "Have students annotate rhetorical devices that build tone",
+      "Focus discussion on emotional impact rather than logical structure",
+      "Teach students to distinguish between sound reasoning and flawed reasoning",
+      "Model paraphrasing each paragraph to check for understanding"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Tone analysis doesn't address argument validity.",
+      "Emotional impact doesn't determine validity—logic does.",
+      "Correct! Distinguishing sound from flawed reasoning is central to evaluating argument validity.",
+      "Paraphrasing checks comprehension but not argument quality."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  },
+  {
+    "id": "Q747",
+    "subarea": "Skills & Processes",
+    "objective": "Selecting Complex Texts",
+    "stem": "When choosing a complex text for instruction, the teacher should prioritize:",
+    "options": [
+      "The text's quantitative readability score above all other metrics",
+      "The teacher's level of enthusiasm for the text",
+      "Alignment between the text's complexity features and the instructional purpose",
+      "Student preference data gathered from surveys"
+    ],
+    "correctIndex": 2,
+    "rationales": [
+      "Quantitative scores matter but shouldn't override instructional alignment.",
+      "Teacher enthusiasm is valuable but not the primary criterion.",
+      "Correct! Text selection should align complexity with instructional goals.",
+      "Student preference matters but doesn't ensure instructional effectiveness."
+    ],
+    "difficulty": 3,
+    "assessment": true
+  }
+]
