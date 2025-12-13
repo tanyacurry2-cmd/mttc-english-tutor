@@ -1,10 +1,199 @@
 <analysis>
-The previous AI engineer successfully launched the MTTC English Tutor app from scratch to a production-ready state, focusing on content delivery, user engagement, and a robust backend. Initial efforts established the core Expo/React Native framework, navigation, and a diagnostic assessment. Content was dynamically expanded via content generation scripts, ensuring smart content prioritization and mastery tracking. A significant architectural shift involved migrating all content from local JSON to a FastAPI backend with MongoDB, enabling dynamic updates.
 
-The current trajectory details the work handed over to me, starting with ongoing content additions (literature, genre & craft, skills & processes, word relationships, cultural context) and UI refinements (font size adjustments, intro screen layout fixes). A major feature, the AI-powered Writing Lab, was integrated, involving frontend (React Native), backend (FastAPI with  for LLM calls), and data (writing prompts). The final phase, which encountered significant issues, involved preparing for TestFlight deployment. This involved configuring Apple Developer credentials, troubleshooting EAS command line tool
+**original_problem_statement**: The user initially wanted to prepare the MTTC English Tutor app for TestFlight and fix bugs. Over the session, this evolved into multiple feature requests and urgent fixes. The most recent and active request is to:
+1.  Add a sound system for user interactions (e.g., correct/incorrect answers).
+2.  Implement a micro wins celebration system in Drill Mode for streaks of 5, 10, and 20 correct answers, complete with sounds and confetti.
+3.  Ensure the 'performance by subarea' progress bars on the Progress page are working correctly.
+
+This followed a series of other tasks including re-enabling the IAP paywall, removing login, adding new questions/flashcards, and fixing several critical bugs for Apple App Store submission.
+
+**User's preferred language**: English
+
+**what currently exists?**
+The MTTC English Tutor is a React Native/Expo mobile app designed for exam preparation. It features flashcards (Learn mode), multiple-choice questions (Drill mode), timed assessments, a progress tracking screen, and an AI Writing Lab. All content is bundled locally within the app. The app has recently been refactored to remove user authentication and re-introduce a premium paywall using Apple's In-App Purchase (IAP) system.
+
+**Last working item**:
+-   Last item agent was working: The agent was implementing the user's request for a sound system, a streak-based celebration feature in Drill mode, and verifying the functionality of the progress bars. The implementation involved creating a , a  component, and integrating the logic into . For testing purposes, the agent temporarily hardcoded the app to be in a premium unlocked state in .
+-   Status: **USER VERIFICATION PENDING**
+-   Agent Testing Done: N (Cannot be tested in the dev environment; requires a native build)
+-   Which testing method agent to use? **Manual testing by user on TestFlight**. The user needs to build the app with An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username and submit it to TestFlight to test the new native features (sound) and the celebration logic on a real device.
+-   User Testing Done: N
+
+**All Pending/In progress Issue list**:
+-   Issue 1: (P0) User is unable to build and submit the latest version to TestFlight.
+-   Issue 2: (P1) The application is currently hardcoded to have premium features unlocked for testing.
+
+Issues Detail:
+-   **Issue 1: User is blocked from building and submitting to TestFlight**
+    -   **Description**: The user has repeatedly faced issues when trying to build and submit new versions (Builds 10, 17, 18). They either see build already exists errors or report that the latest build doesn't appear in TestFlight, with an older version (Build 16) being the last one visible. This is a recurring workflow problem that stalls all testing and progress.
+    -   **Attempted fixes**: The agent's only fix has been to repeatedly increment the build number in  and ask the user to try again. This is a temporary workaround, not a solution to the user's workflow problem.
+    -   **Next debug checklist**:
+        1.  Instruct the user to run On branch working-expo-go-version
+nothing to commit, working tree clean and  to ensure their local code is clean and up-to-date.
+        2.  Guide the user to check the build number in their local  file *before* building.
+        3.  Guide the user to run An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username to see a history of all builds on the Expo servers and their statuses (finished, failed, etc.). This will confirm if Build #18 was actually completed.
+        4.  Guide the user to check the **App Store Connect > TestFlight** tab on the web to see if Build #18 is Processing or has an error.
+    -   **Why fix this issue and what will be achieved with the fix?**: This is the highest priority issue. Fixing it will unblock the user, allowing them to test all the newly implemented features (sound, celebrations) and bug fixes on a real device.
+    -   **Status**: BLOCKED
+    -   **Is recurring issue?**: Y
+    -   **Should Test frontend/backend/both after fix?**: Frontend (the build process itself).
+
+-   **Issue 2: Premium is temporarily unlocked for testing**
+    -   **Description**: In , the  state is hardcoded to  to facilitate testing of the new sound and celebration features without requiring an IAP purchase. This was done at the user's request.
+    -   **Attempted fixes**: None, this is intentional.
+    -   **Next debug checklist**: After the user successfully tests the current build (#18) and confirms all features work, the agent must revert the changes in  to re-enable the real paywall logic before the final production submission.
+    -   **Why fix this issue and what will be achieved with the fix?**: To ensure the app's monetization works correctly in the final version submitted to the App Store.
+    -   **Status**: NOT STARTED (pending successful testing of the current features)
+    -   **Is recurring issue?**: N
+    -   **Should Test frontend/backend/both after fix?**: Frontend (the full IAP purchase and restore flow).
+
+**In progress Task List**:
+-   **Task 1: Sound and Celebration Features**
+    -   **Where to resume**: The code for the sound system and celebration logic is complete and has been pushed to the  branch. The task is currently blocked by the user's inability to get the latest build into TestFlight. The next step is for the user to successfully build and test Build #18.
+    -   **What will be achieved with this?**: A more engaging and rewarding user experience in the app's Drill Mode, as requested by the user.
+    -   **Status**: USER VERIFICATION PENDING
+    -   **Should Test frontend/backend/both after fix?**: Frontend (on a real device via TestFlight).
+    -   **Blocked on something**: Issue 1: User is unable to build and submit the latest version to TestFlight.
+
+**Upcoming and Future Tasks**
+-   **Task 1 (P0)**: Re-enable the paywall. After testing of Build #18 is complete, revert the changes in  to make  depend on a real IAP purchase. This will be for the final production build (e.g., Build #19).
+
+**Completed work in this session**
+-   List of all completed tasks with file and method name:
+    -   **IAP and Paywall Overhaul**:
+        -   Removed authentication: Deleted  and removed all related logic from  and other screens.
+        -   Restored IAP: Re-wrote  to use  and restored premium state logic in .
+        -   Defined Free Tier: Implemented limits of 5 flashcards, 5 questions, and 1 assessment attempt.
+    -   **Bug Fixes for App Store Submission**:
+        -   Removed  from  to fix an Apple rejection.
+        -   Fixed incorrect subscription text on .
+        -   Fixed a double dollar sign () price display on .
+        -   Fixed crashes in  and  when the paywall was triggered.
+        -   Fixed multiple crashes related to the removal of old authentication logic (e.g.,  function calls).
+    -   **Content Addition**:
+        -   Added 20 new MCQs and 20 corresponding flashcards for Subarea IV to  and .
+    -   **UX Improvements**:
+        -   Fixed unreadable (black) picker text in  for production builds.
+        -   Restored the Drill Questions Mastered section on .
+
+-   Recently completed:
+    -   New Content (MCQs & Flashcards) (DONE)
+    -   Apple Submission Bug Fixes (Tracking, Paywall Text) (DONE)
+    -   IAP Paywall Re-implementation (DONE)
+    -   Paywall Crash Fixes (DONE)
+
+**Earlier issues found/mentioned but not fixed**
+-   None. The agent addressed all issues raised by the user during this session, though the core build pipeline issue remains a persistent obstacle for the user.
+
+**Known issue recurrence from previous fork**
+-   **Issue recurrence in previous fork**: Build & Deployment problems. The initial summary mentioned An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username failures and git sync issues. The current session is plagued by a similar theme where the user struggles with the An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username and An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username workflow, leading to build already submitted errors and an inability to get the latest code into TestFlight.
+-   **Recurrence count**: High (occurred with builds 10, 17, and now 18).
+-   **Status**: IN PROGRESS (The agent's workaround is to increment build numbers, but the root user-side workflow issue is not resolved).
+
+**Code Architecture**
+
+
+**Key Technical Concepts**
+-   **Frameworks**: Expo (SDK 54), React Native, .
+-   **State Management**: Zustand ().
+-   **Build & Deployment**: Expo Application Services (EAS) CLI (An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username, An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username).
+-   **Monetization**:  for handling Apple IAP.
+-   **Audio**:  for playing sound effects.
+-   **Content**: All app content is loaded from local JSON files in the  directory.
+
+**key DB schema**
+-   No database is used. All content is stored in local JSON files:  and .
+
+**changes in tech stack**
+-    was added to manage sound effects.
+-    functionality was fully restored and integrated.
+
+**All files of reference**
+-   : Recently and heavily modified to implement the sound and celebration/streak system.
+-   : The heart of the app's state. Modified to add streak counters and to temporarily unlock premium access. **Crucial for the next agent to review.**
+-   : The main Expo config file. It is constantly being modified to increment build numbers ( and ) to resolve submission conflicts.
+-   : New file that centralizes all audio playback logic.
+-   : New component that displays confetti and messages for streaks.
+-   : The screen for handling IAP. Was recently fixed to correct the price display format.
+-   , : Both were updated with 20 new items each.
+
+**Areas that need refactoring**
+-   The premium enforcement logic is currently implemented individually in each feature screen (, , , ). This could be refactored into a custom hook (e.g., ) or a Higher-Order Component (HOC) to centralize the logic and make it more maintainable.
+
+**key api endpoints**
+-   : The only API used is for the AI Writing Lab, which makes a call to the backend URL specified in .
+
+**Critical Info for New Agent**
+-   **The app is currently hardcoded to be in a premium unlocked state for testing purposes.** This is controlled in  (). This MUST be reverted before the final submission to the App Store.
+-   **The user is on Windows and has a history of struggling with the usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system. and EAS command line tool
 
 VERSION
-  eas-cli/16.26.0 linux-arm64 node-v20.19.5
+  eas-cli/16.28.0 linux-arm64 node-v20.19.6
 
 USAGE
   $ eas [COMMAND]
@@ -45,294 +234,48 @@ COMMANDS
   submit        submit app binary to App Store and/or Play Store
   update        publish an update group
   upload        upload a local build and generate a sharable link
-  whoami        show the username you are logged in as CLI commands, fixing  and  syntax, and resolving a critical React Native version incompatibility during the iOS build process.
+  whoami        show the username you are logged in as command-line workflow.** Provide very clear, step-by-step instructions, and be prepared to debug issues like merge conflicts or build already submitted errors.
+-   **Do not use Expo Go for testing.** The app relies on native modules (, ) that only function in a proper build. All testing must be done via **TestFlight**.
+-   The most critical task is to help the user successfully build and submit the latest version (Build #18 or #19) to TestFlight. The user is currently blocked and cannot test any of the recent features.
+
+**documents created in this job**
+-   
+-   
+
+**Last 10 User Messages and any pending user messages**
+-   User requests adding sound, a celebration/streak system in Drill Mode, and a fix for progress bars. (IN PROGRESS)
+-   User asks if premium is needed for testing. (Answered: Yes)
+-   User agrees to temporarily unlock premium for testing. (DONE)
+-   User asks to integrate the new features for TestFlight. (IN PROGRESS)
+-   User reports that only Build #16 is in TestFlight, blocking testing of new features. (PENDING - This is the main blocker)
+-   User asks if they need a password for review. (Answered: No)
+-   User reports wrong subscription text on paywall. (Fixed)
+-   User reports a double dollar sign on the paywall. (Fixed)
+-   User reports that An Expo user account is required to proceed.
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+Input is required, but stdin is not readable. Failed to display prompt: Email or username says a change can't be detected for build 17. (Agent incremented to build 18)
+-   User reports that a crash happened in Build #12 when hitting the paywall limit. (Fixed)
+
+**Project Health Check:**
+-   **Broken**: The developer-to-mobile feedback loop via Expo Go is non-functional due to the forked environment's networking limitations. This is a known constraint.
+-   **Mocked**: Premium access is currently mocked to be on for all users in . This is intentional for the current testing phase but must be reverted for production.
+
+**3rd Party Integrations**
+-   **Expo Application Services (EAS)**: Used for building and submitting the app.
+-   **Apple In-App Purchases**: Integrated via  to handle the one-time premium unlock.
+-   **Backend Service**: An Emergent-provided backend for the AI Writing Lab feature, accessed via .
+
+**Testing status**
+-   Testing agent used after significant changes: NO
+-   Troubleshoot agent used after agent stuck in loop: YES (early in the session for an expo start issue)
+-   Test files created: []
+-   Known regressions: None known, but major refactoring has occurred.
+
+**Credentials to test flow:**
+-   For IAP testing (once the paywall is re-enabled), the user will need to create and use a **Sandbox Tester Account** from App Store Connect.
+
+**What agent forgot to execute**
+-   The agent has not effectively resolved the user's recurring build pipeline issues. Instead of debugging the user's local workflow (e.g., checking git status, verifying  before build), the agent repeatedly uses the workaround of incrementing the build number. This has led to a cycle of failed submissions and user confusion. The next agent should prioritize a more robust debugging approach for this user-side problem.
+
 </analysis>
-
-<product_requirements>
-The MTTC English Tutor is an iOS app for MTTC English 002 exam preparation using Expo/React Native. Its core purpose is to provide comprehensive study tools. Features include:
-- A 20-question diagnostic assessment with timer, session history, and readiness score.
-- Study modes: Learn for flashcards, Drill for MCQs.
-- Practice screen for subarea performance.
-- Progress heatmap for tracking.
-- Firebase Auth (placeholders present) and Apple Sign-In (planned).
-- In-App Purchases (IAP) for premium features.
-Content, initially local JSON, is now migrated to a FastAPI backend with MongoDB for dynamic updates. The app prioritizes smart content for unseen/least-seen questions, features confetti for mastery/perfect scores, and includes a mastery tracking system with reinstate options. The home screen provides quick access to unmastered content. Recently, an AI-powered Writing Lab for rubric-style feedback on constructed responses was added. The app aims for a professional, calm UI/UX, seamless offline functionality via caching, and is currently being prepared for TestFlight deployment.
-</product_requirements>
-
-<key_technical_concepts>
-- **Expo/React Native**: Cross-platform mobile development framework with file-based routing ().
-- **FastAPI**: Python web framework for backend API.
-- **MongoDB**: NoSQL database for dynamic content.
-- **AsyncStorage**: Persistent local data storage for caching and mastery tracking.
-- ****: UI library for animations.
-- ****: UI component for dropdowns.
-- ****: Displays web content within the app.
-- ****: Custom library for LLM API calls with .
-- **EAS CLI**: Expo Application Services Command Line Interface for building and deploying apps.
-</key_technical_concepts>
-
-<code_architecture>
-The application is structured into  (Expo React Native) and  (FastAPI with MongoDB) directories.
-
-
-
--   : Expo configuration. Modified to update bundle ID to , remove invalid , and correct JSON syntax ( section to ).
--   : EAS Build configuration. Modified to include , ,  for TestFlight submission. It was initially missing and then created.
--   : Home screen. Modified repeatedly to adjust font sizes on Learn and Drill buttons (text, counts). A new Writing Lab button and an Info button (linking to IntroScreen) were added.
--   : Tab navigator layout. Modified to reduce subarea titles font size on the Practice screen.
--    (New): Intro/Onboarding screen. Provides app overview, features, and calls to action. It was created, had its subtitle and tagline removed, font sizes reduced, and padded to adjust vertical position.
--    (New): Screen to display legal documents. Created to use  to render .
--    (New): AI-powered writing feedback screen. Created from user-provided React component, adapted to React Native, and configured to fetch feedback from the backend. Fixed to correctly use .
--    (New): HTML file containing Terms of Service and Privacy Policy. Created to be displayed via WebView.
--   : Local content for flashcards. New flashcards on Cognates (F711-F713), Archaic Words (F714-F716), and Cultural Concepts (F717-F720) were added.
--   : Local content for multiple-choice questions. Numerous new MCQs (Q689-Q727) across Literature, Genre & Craft, Skills & Processes, Meaning & Communication were added.
--   : Unified content source, generated by . Regenerated after every addition to  or . Now contains 593 total questions.
--    (New): Stores constructed response writing prompts for the Writing Lab.
--   : Script to combine  and  into . Executed repeatedly to update content.
--   : Environment variables for the backend.  was added to enable AI functionality.
--   : FastAPI server. Modified to include a new  endpoint that uses  for AI scoring.
--   : Backend dependencies. usage: openai [-h] [-v] [-b API_BASE] [-k API_KEY] [-p PROXY [PROXY ...]]
-              [-o ORGANIZATION] [-t {openai,azure}]
-              [--api-version API_VERSION] [--azure-endpoint AZURE_ENDPOINT]
-              [--azure-ad-token AZURE_AD_TOKEN] [-V]
-              {api,tools,migrate,grit} ...
-
-positional arguments:
-  {api,tools,migrate,grit}
-    api                 Direct API calls
-    tools               Client side tools for convenience
-
-options:
-  -h, --help            show this help message and exit
-  -v, --verbose         Set verbosity.
-  -b API_BASE, --api-base API_BASE
-                        What API base url to use.
-  -k API_KEY, --api-key API_KEY
-                        What API key to use.
-  -p PROXY [PROXY ...], --proxy PROXY [PROXY ...]
-                        What proxy to use.
-  -o ORGANIZATION, --organization ORGANIZATION
-                        Which organization to run as (will use your default
-                        organization if not specified)
-  -t {openai,azure}, --api-type {openai,azure}
-                        The backend API to call, must be `openai` or `azure`
-  --api-version API_VERSION
-                        The Azure API version, e.g.
-                        'https://learn.microsoft.com/en-us/azure/ai-
-                        services/openai/reference#rest-api-versioning'
-  --azure-endpoint AZURE_ENDPOINT
-                        The Azure endpoint, e.g.
-                        'https://endpoint.openai.azure.com'
-  --azure-ad-token AZURE_AD_TOKEN
-                        A token from Azure Active Directory,
-                        https://www.microsoft.com/en-
-                        us/security/business/identity-access/microsoft-entra-
-                        id
-  -V, --version         show program's version number and exit and  were installed.
-</code_architecture>
-
-<pending_tasks>
--   Fully integrate Pick Up Where You Left Off logic into Learn/Drill UI.
--   Replace placeholder Firebase credentials.
--   Add Apple Sign-In functionality.
--   Implement push notifications (deferred to v1.1 update).
--   Apply the ombre dark blue/teal gradient background to all remaining screens (Assessment, Progress, Exam/Practice).
--   Successfully build and deploy the app to TestFlight.
-</pending_tasks>
-
-<current_work>
-Immediately before this summary request, the AI engineer was engaged in troubleshooting the TestFlight deployment process. The user, operating from their local HP laptop, was attempting to follow the EAS command line tool
-
-VERSION
-  eas-cli/16.26.0 linux-arm64 node-v20.19.5
-
-USAGE
-  $ eas [COMMAND]
-
-TOPICS
-  account      manage account
-  branch       manage update branches
-  build        build app binaries
-  channel      manage update channels
-  credentials  manage credentials
-  deploy       deploy your Expo Router web build and API Routes
-  device       manage Apple devices for Internal Distribution
-  env          manage project and account environment variables
-  fingerprint  compare fingerprints of the current project, builds, and updates
-  metadata     manage store configuration
-  project      manage project
-  update       manage individual updates
-  webhook      manage webhooks
-  workflow     manage workflows
-
-COMMANDS
-  analytics     display or change analytics settings
-  autocomplete  display autocomplete installation instructions
-  build         start a build
-  config        display project configuration (app.json + eas.json)
-  credentials   manage credentials
-  deploy        deploy your Expo Router web build and API Routes
-  diagnostics   display environment info
-  help          Display help for eas.
-  init          create or link an EAS project
-  login         log in with your Expo account
-  logout        log out
-  new           Create a new project configured with Expo Application Services
-                (EAS)
-  onboarding    continue onboarding process started on the https://expo.new
-                website.
-  open          open the project page in a web browser
-  submit        submit app binary to App Store and/or Play Store
-  update        publish an update group
-  upload        upload a local build and generate a sharable link
-  whoami        show the username you are logged in as CLI commands provided by the AI.
-
-The main challenge was a persistent build failure during the iOS prebuild phase. Initial attempts to clone the GitHub repository () locally were met with path and repository not found errors, eventually resolved by correcting the repository name and using a Personal Access Token for private repository access.
-
-Subsequently, issues arose with EAS command line tool
-
-VERSION
-  eas-cli/16.26.0 linux-arm64 node-v20.19.5
-
-USAGE
-  $ eas [COMMAND]
-
-TOPICS
-  account      manage account
-  branch       manage update branches
-  build        build app binaries
-  channel      manage update channels
-  credentials  manage credentials
-  deploy       deploy your Expo Router web build and API Routes
-  device       manage Apple devices for Internal Distribution
-  env          manage project and account environment variables
-  fingerprint  compare fingerprints of the current project, builds, and updates
-  metadata     manage store configuration
-  project      manage project
-  update       manage individual updates
-  webhook      manage webhooks
-  workflow     manage workflows
-
-COMMANDS
-  analytics     display or change analytics settings
-  autocomplete  display autocomplete installation instructions
-  build         start a build
-  config        display project configuration (app.json + eas.json)
-  credentials   manage credentials
-  deploy        deploy your Expo Router web build and API Routes
-  diagnostics   display environment info
-  help          Display help for eas.
-  init          create or link an EAS project
-  login         log in with your Expo account
-  logout        log out
-  new           Create a new project configured with Expo Application Services
-                (EAS)
-  onboarding    continue onboarding process started on the https://expo.new
-                website.
-  open          open the project page in a web browser
-  submit        submit app binary to App Store and/or Play Store
-  update        publish an update group
-  upload        upload a local build and generate a sharable link
-  whoami        show the username you are logged in as CLI commands:
-1.  **An Expo user account is required to proceed.
-
-Log in to EAS with email or username (exit and run eas login --help to see other login options)
-Input is required, but stdin is not readable. Failed to display prompt: Email or username Failure**: Due to an invalid  in . This was fixed by manually editing  via Notepad to remove the problematic  section and correcting missing closing braces ().
-2.  **An Expo user account is required to proceed.
-
-Log in to EAS with email or username (exit and run eas login --help to see other login options)
-Input is required, but stdin is not readable. Failed to display prompt: Email or username Failure**: Initially due to a missing  file. This was resolved by creating the  file with the correct structure and required Apple Developer credentials (, , ). A subsequent error related to JSON formatting in  was fixed by overwriting the file with a correctly formatted JSON block. The process then progressed to Apple login and 2FA.
-3.  **An Expo user account is required to proceed.
-
-Log in to EAS with email or username (exit and run eas login --help to see other login options)
-Input is required, but stdin is not readable. Failed to display prompt: Email or username Failure**: The build failed multiple times.
-    *   Initially, an  error was encountered, traced to a missing splash screen image. The user decided to remove the splash screen plugin from . This involved identifying and deleting the  plugin block and correcting trailing commas in the  array.
-    *   The most recent build failure () generated a detailed log indicating:  and  in . This points to a React Native version incompatibility issue, where the project uses  but Expo expects .
-</current_work>
-
-<optional_next_step>
-Run env: load .env
-env: export EXPO_TUNNEL_SUBDOMAIN EXPO_PACKAGER_HOSTNAME EXPO_PUBLIC_BACKEND_URL EXPO_USE_FAST_RESOLVER METRO_CACHE_ROOT EXPO_PUBLIC_FIREBASE_API_KEY EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN EXPO_PUBLIC_FIREBASE_PROJECT_ID EXPO_PUBLIC_FIREBASE_APP_ID
-› Installing 27 SDK 54.0.0 compatible native modules using yarn
-> yarn add @expo/vector-icons@^15.0.3 @react-native-picker/picker@2.11.1 expo-blur@~15.0.7 expo-constants@~18.0.10 expo-font@~14.0.9 expo-image@~3.0.10 expo-linking@~8.0.8 expo-router@~6.0.14 expo-splash-screen@~31.0.10 expo-status-bar@~3.0.8 expo-symbols@~1.0.7 expo-system-ui@~6.0.8 expo-web-browser@~15.0.9 react@19.1.0 react-dom@19.1.0 react-native@0.81.5 react-native-gesture-handler@~2.28.0 react-native-get-random-values@~1.11.0 react-native-reanimated@~4.1.1 react-native-safe-area-context@~5.6.0 react-native-screens@~4.16.0 react-native-svg@15.12.1 react-native-web@^0.21.0 react-native-webview@13.15.0
-yarn add v1.22.22
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-[3/4] Linking dependencies...
-[4/4] Building fresh packages...
-success Saved lockfile.
-success Saved 49 new dependencies.
-info Direct dependencies
-├─ @react-native-picker/picker@2.11.1
-├─ expo-blur@15.0.7
-├─ expo-image@3.0.10
-├─ expo-linking@8.0.8
-├─ expo-router@6.0.14
-├─ expo-splash-screen@31.0.10
-├─ expo-status-bar@3.0.8
-├─ expo-symbols@1.0.7
-├─ expo-system-ui@6.0.8
-├─ expo-web-browser@15.0.9
-├─ react-dom@19.1.0
-├─ react-native-gesture-handler@2.28.0
-├─ react-native-get-random-values@1.11.0
-├─ react-native-reanimated@4.1.3
-├─ react-native-safe-area-context@5.6.2
-├─ react-native-screens@4.16.0
-├─ react-native-svg@15.12.1
-├─ react-native-web@0.21.2
-├─ react-native-webview@13.15.0
-├─ react-native@0.81.5
-└─ react@19.1.0
-info All dependencies
-├─ @expo/metro-runtime@6.1.2
-├─ @radix-ui/react-collection@1.1.7
-├─ @radix-ui/react-dialog@1.1.15
-├─ @radix-ui/react-dismissable-layer@1.1.11
-├─ @radix-ui/react-focus-guards@1.1.3
-├─ @radix-ui/react-focus-scope@1.1.7
-├─ @radix-ui/react-portal@1.1.9
-├─ @radix-ui/react-roving-focus@1.1.11
-├─ @radix-ui/react-tabs@1.1.13
-├─ @radix-ui/react-use-effect-event@0.0.2
-├─ @radix-ui/react-use-escape-keydown@1.1.1
-├─ @react-native-picker/picker@2.11.1
-├─ @react-native/assets-registry@0.81.5
-├─ @react-native/community-cli-plugin@0.81.5
-├─ @react-native/gradle-plugin@0.81.5
-├─ @react-native/js-polyfills@0.81.5
-├─ @react-native/virtualized-lists@0.81.5
-├─ @react-navigation/native-stack@7.6.2
-├─ aria-hidden@1.2.6
-├─ detect-node-es@1.1.0
-├─ expo-blur@15.0.7
-├─ expo-image@3.0.10
-├─ expo-linking@8.0.8
-├─ expo-router@6.0.14
-├─ expo-splash-screen@31.0.10
-├─ expo-status-bar@3.0.8
-├─ expo-symbols@1.0.7
-├─ expo-system-ui@6.0.8
-├─ expo-web-browser@15.0.9
-├─ get-nonce@1.0.1
-├─ react-devtools-core@6.1.5
-├─ react-dom@19.1.0
-├─ react-native-gesture-handler@2.28.0
-├─ react-native-get-random-values@1.11.0
-├─ react-native-reanimated@4.1.3
-├─ react-native-safe-area-context@5.6.2
-├─ react-native-screens@4.16.0
-├─ react-native-svg@15.12.1
-├─ react-native-web@0.21.2
-├─ react-native-webview@13.15.0
-├─ react-native@0.81.5
-├─ react-remove-scroll-bar@2.3.8
-├─ react-remove-scroll@2.7.1
-├─ react-style-singleton@2.2.3
-├─ react@19.1.0
-├─ scheduler@0.26.0
-├─ use-callback-ref@1.3.3
-├─ use-sidecar@1.1.3
-└─ vaul@1.1.2
-Done in 17.97s. to resolve React Native version incompatibility and other dependency issues.
-</optional_next_step>
