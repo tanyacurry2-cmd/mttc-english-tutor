@@ -50,6 +50,9 @@ export default function DrillScreen() {
   const [showResumePrompt, setShowResumePrompt] = useState(false);
   const [masteredIds, setMasteredIds] = useState<string[]>([]);
   const [showPaywall, setShowPaywall] = useState(false);
+  const [correctStreak, setCorrectStreak] = useState(0);
+  const [showCelebration, setShowCelebration] = useState(false);
+  const [celebrationStreak, setCelebrationStreak] = useState(0);
   const slideAnim = useRef(new Animated.Value(0)).current;
 
   // Load mastered IDs on mount
