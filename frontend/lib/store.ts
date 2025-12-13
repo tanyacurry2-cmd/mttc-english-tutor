@@ -48,9 +48,9 @@ interface AppState {
 }
 
 export const useAppStore = create<AppState>((set, get) => ({
-  // Start as free user
-  isPaid: false,
-  purchaseType: null,
+  // TEMPORARILY UNLOCKED FOR TESTING - Will restore paywall in Build #19
+  isPaid: true,
+  purchaseType: 'lifetime',
   assessmentsCompleted: 0,
   
   cardReviews: {},
