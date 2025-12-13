@@ -171,12 +171,29 @@ export default function DrillScreen() {
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (selectedOption === null) return;
     setShowResult(true);
     const currentQuestion = questions[currentQuestionIndex];
     const isCorrect = selectedOption === currentQuestion.correctIndex;
     updateMCQHistory(currentQuestion.id, isCorrect);
+    
+    // Play sound based on correctness
+    if (isCorrect) {
+      await soundManager.play('correct');
+      const newStreak = correctStreak + 1;
+      setCorrectStreak(newStreak);
+      
+      // Check for celebration milestones
+      if (newStreak === 5 || newStreak === 10 || newStreak === 20) {
+        setCelebrationStreak(newStreak);
+        setShowCelebration(true);
+        await soundManager.play(newStreak === 20 ? 'epic' : 'celebration');
+      }
+    } else {
+      await soundManager.play('incorrect');
+      setCorrectStreak(0); // Reset streak on wrong answer
+    }
   };
 
   const handleMastery = async () => {
