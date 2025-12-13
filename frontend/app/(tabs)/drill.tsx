@@ -57,11 +57,12 @@ export default function DrillScreen() {
   const [celebrationStreak, setCelebrationStreak] = useState(0);
   const slideAnim = useRef(new Animated.Value(0)).current;
 
-  // Load mastered IDs on mount
+  // Load mastered IDs on mount and initialize sound
   useEffect(() => {
     (async () => {
       const mastered = await getMasteredQuestionIds();
       setMasteredIds(mastered);
+      await soundManager.initialize();
     })();
   }, []);
 
