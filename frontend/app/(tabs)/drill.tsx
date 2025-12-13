@@ -383,6 +383,12 @@ export default function DrillScreen() {
             />
           )}
         </View>
+        
+        <CelebrationModal
+          visible={showCelebration}
+          streak={celebrationStreak}
+          onClose={() => setShowCelebration(false)}
+        />
       </SafeAreaView>
     </StarryBackground>
   );
