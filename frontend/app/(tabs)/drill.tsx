@@ -19,6 +19,8 @@ import { Button } from '../../components/Button';
 import { loadStats, bumpSeen } from '../../storage/stats';
 import { prioritizedPool } from '../../utils/selection';
 import { getMasteredQuestionIds, updateMasteredQuestion } from '../../storage/mastery';
+import { soundManager } from '../../lib/sound-manager';
+import { CelebrationModal } from '../../components/CelebrationModal';
 
 // Map subarea names to IDs
 const subareaNameToId: { [key: string]: string } = {
