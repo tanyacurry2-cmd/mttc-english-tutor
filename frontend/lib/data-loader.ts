@@ -1,19 +1,76 @@
-import { supabase, MCQRow, FlashcardRow } from './supabase';
-import localMCQs from '../data/mcq.json';
-import localFlashcards from '../data/flashcards.json';
-import { MCQ, Flashcard } from '../types/content';
+// Centralized data loader with Supabase integration and local fallback
+// Uses require() for local JSON files (React Native production builds)
+// Fetches from Supabase when online, falls back to local data offline
 
-// Cache for fetched data
+import { supabase, MCQRow, FlashcardRow } from './supabase';
+
+export interface Question {
+  id: string;
+  subarea: string;
+  subareaId: string;
+  objective: string;
+  mode: string;
+  type: string;
+  difficulty: number;
+  stem?: string;
+  question?: string;
+  options?: string[];
+  correctIndex?: number;
+  answer?: string;
+  rationales?: string[];
+  explanation?: string;
+  tags?: string[];
+}
+
+export interface Flashcard {
+  id: string;
+  subarea: string;
+  subareaId?: string;
+  objective: string;
+  question: string;
+  answer: string;
+  explanation?: string;
+  difficulty?: number;
+  tags?: string[];
+}
+
+export interface MCQ {
+  id: string;
+  subarea: string;
+  subareaId?: string;
+  objective: string;
+  stem: string;
+  options: string[];
+  correctIndex: number;
+  rationales: string[];
+  difficulty?: number;
+  assessment?: boolean;
+}
+
+// Use require() to load local JSON files - works in React Native production
+const localFlashcards: Flashcard[] = require('../data/flashcards.json');
+const localMCQs: MCQ[] = require('../data/mcq.json');
+
+// Cache for Supabase data
 let cachedMCQs: MCQ[] | null = null;
 let cachedFlashcards: Flashcard[] | null = null;
 let lastFetchTime = 0;
 const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
 
+// Map subarea names to IDs
+const subareaToId: { [key: string]: string } = {
+  'Meaning & Communication': 'SA-1',
+  'Literature & Understanding': 'SA-2',
+  'Genre & Craft': 'SA-3',
+  'Skills & Processes': 'SA-4',
+};
+
 // Transform Supabase row to app format
 function transformMCQRow(row: MCQRow): MCQ {
   return {
     id: row.id,
-    subarea: row.subarea as MCQ['subarea'],
+    subarea: row.subarea,
+    subareaId: subareaToId[row.subarea] || '',
     objective: row.objective,
     stem: row.stem,
     options: row.options,
@@ -27,7 +84,8 @@ function transformMCQRow(row: MCQRow): MCQ {
 function transformFlashcardRow(row: FlashcardRow): Flashcard {
   return {
     id: row.id,
-    subarea: row.subarea as Flashcard['subarea'],
+    subarea: row.subarea,
+    subareaId: subareaToId[row.subarea] || '',
     objective: row.objective,
     question: row.question,
     answer: row.answer,
@@ -37,8 +95,23 @@ function transformFlashcardRow(row: FlashcardRow): Flashcard {
   };
 }
 
-// Fetch MCQs from Supabase with local fallback
-export async function loadMCQs(): Promise<MCQ[]> {
+// Add subareaId to local data
+function enrichLocalMCQs(): MCQ[] {
+  return localMCQs.map(mcq => ({
+    ...mcq,
+    subareaId: subareaToId[mcq.subarea] || '',
+  }));
+}
+
+function enrichLocalFlashcards(): Flashcard[] {
+  return localFlashcards.map(card => ({
+    ...card,
+    subareaId: subareaToId[card.subarea] || '',
+  }));
+}
+
+// Async fetch from Supabase with local fallback
+async function fetchMCQsFromSupabase(): Promise<MCQ[]> {
   const now = Date.now();
   
   // Return cache if valid
@@ -54,7 +127,7 @@ export async function loadMCQs(): Promise<MCQ[]> {
     
     if (error) {
       console.log('Supabase MCQ fetch error, using local data:', error.message);
-      return localMCQs as MCQ[];
+      return enrichLocalMCQs();
     }
     
     if (data && data.length > 0) {
@@ -65,16 +138,15 @@ export async function loadMCQs(): Promise<MCQ[]> {
     } else {
       // No data in Supabase yet, use local
       console.log('No MCQs in Supabase, using local data');
-      return localMCQs as MCQ[];
+      return enrichLocalMCQs();
     }
   } catch (err) {
-    console.log('Network error, using local MCQ data:', err);
-    return localMCQs as MCQ[];
+    console.log('Network error, using local MCQ data');
+    return enrichLocalMCQs();
   }
 }
 
-// Fetch Flashcards from Supabase with local fallback
-export async function loadFlashcards(): Promise<Flashcard[]> {
+async function fetchFlashcardsFromSupabase(): Promise<Flashcard[]> {
   const now = Date.now();
   
   // Return cache if valid
@@ -90,7 +162,7 @@ export async function loadFlashcards(): Promise<Flashcard[]> {
     
     if (error) {
       console.log('Supabase flashcard fetch error, using local data:', error.message);
-      return localFlashcards as Flashcard[];
+      return enrichLocalFlashcards();
     }
     
     if (data && data.length > 0) {
@@ -101,11 +173,11 @@ export async function loadFlashcards(): Promise<Flashcard[]> {
     } else {
       // No data in Supabase yet, use local
       console.log('No flashcards in Supabase, using local data');
-      return localFlashcards as Flashcard[];
+      return enrichLocalFlashcards();
     }
   } catch (err) {
-    console.log('Network error, using local flashcard data:', err);
-    return localFlashcards as Flashcard[];
+    console.log('Network error, using local flashcard data');
+    return enrichLocalFlashcards();
   }
 }
 
@@ -116,20 +188,48 @@ export function clearDataCache() {
   lastFetchTime = 0;
 }
 
-// Get specific MCQs by subarea
-export async function loadMCQsBySubarea(subarea: string): Promise<MCQ[]> {
-  const allMCQs = await loadMCQs();
-  return allMCQs.filter(mcq => mcq.subarea === subarea);
-}
+// SYNC DataLoader object for backward compatibility
+// These return local data immediately (for screens that don't use async)
+export const DataLoader = {
+  getAllQuestions: () => enrichLocalMCQs(), // For backward compatibility
+  getAllFlashcards: () => enrichLocalFlashcards(),
+  getAllMCQs: () => enrichLocalMCQs(),
+  
+  getQuestionById: (id: string) => enrichLocalMCQs().find(q => q.id === id),
+  getFlashcardById: (id: string) => enrichLocalFlashcards().find(f => f.id === id),
+  getMCQById: (id: string) => enrichLocalMCQs().find(m => m.id === id),
+  
+  getQuestionsBySubarea: (subareaId: string) => 
+    enrichLocalMCQs().filter(q => q.subareaId === subareaId),
+  getFlashcardsBySubarea: (subareaId: string) => 
+    enrichLocalFlashcards().filter(f => f.subareaId === subareaId),
+  getMCQsBySubarea: (subareaId: string) => 
+    enrichLocalMCQs().filter(m => m.subareaId === subareaId),
+};
 
-// Get specific flashcards by subarea
-export async function loadFlashcardsBySubarea(subarea: string): Promise<Flashcard[]> {
-  const allFlashcards = await loadFlashcards();
-  return allFlashcards.filter(card => card.subarea === subarea);
-}
-
-// Get assessment questions only
-export async function loadAssessmentMCQs(): Promise<MCQ[]> {
-  const allMCQs = await loadMCQs();
-  return allMCQs.filter(mcq => mcq.assessment === true);
-}
+// ASYNC methods that fetch from Supabase (use these for new features)
+export const AsyncDataLoader = {
+  getAllMCQs: fetchMCQsFromSupabase,
+  getAllFlashcards: fetchFlashcardsFromSupabase,
+  
+  getMCQsBySubarea: async (subareaId: string) => {
+    const allMCQs = await fetchMCQsFromSupabase();
+    return allMCQs.filter(m => m.subareaId === subareaId);
+  },
+  
+  getFlashcardsBySubarea: async (subareaId: string) => {
+    const allFlashcards = await fetchFlashcardsFromSupabase();
+    return allFlashcards.filter(f => f.subareaId === subareaId);
+  },
+  
+  getAssessmentMCQs: async () => {
+    const allMCQs = await fetchMCQsFromSupabase();
+    return allMCQs.filter(m => m.assessment === true);
+  },
+  
+  refreshData: async () => {
+    clearDataCache();
+    await fetchMCQsFromSupabase();
+    await fetchFlashcardsFromSupabase();
+  }
+};
