@@ -239,6 +239,9 @@ const styles = StyleSheet.create({
   infoButton: {
     padding: theme.spacing.sm,
   },
+  soundButton: {
+    padding: theme.spacing.sm,
+  },
   statsCard: {
     backgroundColor: theme.colors.surface,
     margin: theme.spacing.lg,
