@@ -44,7 +44,7 @@ type Question = {
 export default function DrillScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
-  const { mcqHistory, updateMCQHistory, isPaid, canAccessDrillQuestion, lastQuestionID, lastMode, setLastStudied } = useAppStore();
+  const { mcqHistory, updateMCQHistory, isPaid, canAccessDrillQuestion, lastQuestionID, lastMode, setLastStudied, soundEnabled } = useAppStore();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
