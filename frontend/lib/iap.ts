@@ -1,7 +1,14 @@
 import { Platform } from 'react-native';
 
-// Apple IAP Product ID
-export const IAP_PRODUCT_ID = 'com.tanyacode.mttcenglish.premium';
+// Apple IAP Product IDs for subscriptions
+export const IAP_PRODUCTS = {
+  WEEKLY: 'com.curryapps.mttcenglishtutor.weekly',
+  MONTHLY: 'com.curryapps.mttcenglishtutor.monthly',
+  QUARTERLY: 'com.curryapps.mttcenglishtutor.quarterly',
+};
+
+// Legacy product ID (for backward compatibility)
+export const IAP_PRODUCT_ID = IAP_PRODUCTS.MONTHLY;
 
 // Check if IAP module is available (not in Expo Go)
 let InAppPurchases: any = null;
@@ -43,13 +50,27 @@ class IAPManager {
    */
   async getProducts(): Promise<any[]> {
     if (!this.isAvailable) {
-      console.log('IAP not available - returning mock product');
-      return [{
-        productId: IAP_PRODUCT_ID,
-        price: '29.99',
-        title: 'Premium Access',
-        description: 'Unlock all features'
-      }];
+      console.log('IAP not available - returning mock products');
+      return [
+        {
+          productId: IAP_PRODUCTS.WEEKLY,
+          price: '4.99',
+          title: 'Weekly Premium',
+          description: 'Premium access for 1 week'
+        },
+        {
+          productId: IAP_PRODUCTS.MONTHLY,
+          price: '15.99',
+          title: 'Monthly Premium',
+          description: 'Premium access for 1 month'
+        },
+        {
+          productId: IAP_PRODUCTS.QUARTERLY,
+          price: '39.99',
+          title: '3-Month Premium',
+          description: 'Premium access for 3 months'
+        }
+      ];
     }
 
     if (!this.connected) {
@@ -57,7 +78,8 @@ class IAPManager {
     }
 
     try {
-      const { results, responseCode } = await InAppPurchases.getProductsAsync([IAP_PRODUCT_ID]);
+      const productIds = Object.values(IAP_PRODUCTS);
+      const { results, responseCode } = await InAppPurchases.getProductsAsync(productIds);
       
       if (responseCode === InAppPurchases.IAPResponseCode.OK) {
         this.products = results || [];
@@ -125,9 +147,10 @@ class IAPManager {
       if (responseCode === InAppPurchases.IAPResponseCode.OK && results) {
         console.log('Restored purchases:', results);
         
-        // Filter for our specific product
+        // Filter for our specific products
+        const productIds = Object.values(IAP_PRODUCTS);
         const relevantPurchases = results.filter(
-          (purchase: any) => purchase.productId === IAP_PRODUCT_ID
+          (purchase: any) => productIds.includes(purchase.productId)
         );
         
         return relevantPurchases;

@@ -12,7 +12,10 @@ interface MCQHistory {
 interface AppState {
   // Premium State (no auth needed)
   isPaid: boolean;
-  purchaseType: 'lifetime' | null;
+  purchaseType: 'weekly' | 'monthly' | 'quarterly' | null;
+  
+  // Sound settings
+  soundEnabled: boolean;
   
   // Free tier tracking
   assessmentsCompleted: number;
@@ -30,7 +33,9 @@ interface AppState {
   lastSubarea: Subarea | null;
   
   // Actions
-  setPurchase: (purchaseType: 'lifetime') => void;
+  setPurchase: (purchaseType: 'weekly' | 'monthly' | 'quarterly') => void;
+  toggleSound: () => void;
+  setSoundEnabled: (enabled: boolean) => void;
   incrementAssessments: () => void;
   canAccessPremium: () => boolean;
   canAccessFlashcard: (index: number) => boolean;
@@ -51,6 +56,10 @@ export const useAppStore = create<AppState>((set, get) => ({
   // Premium state - loaded from AsyncStorage after purchase
   isPaid: false,
   purchaseType: null,
+  
+  // Sound enabled by default
+  soundEnabled: true,
+  
   assessmentsCompleted: 0,
   
   cardReviews: {},
@@ -74,6 +83,16 @@ export const useAppStore = create<AppState>((set, get) => ({
       isPaid: true,
       purchaseType,
     });
+    get().saveToStorage();
+  },
+
+  toggleSound: () => {
+    set((state) => ({ soundEnabled: !state.soundEnabled }));
+    get().saveToStorage();
+  },
+
+  setSoundEnabled: (enabled) => {
+    set({ soundEnabled: enabled });
     get().saveToStorage();
   },
 
@@ -210,6 +229,7 @@ export const useAppStore = create<AppState>((set, get) => ({
     set({
       isPaid: false,
       purchaseType: null,
+      soundEnabled: true,
       assessmentsCompleted: 0,
       cardReviews: {},
       mcqHistory: {},

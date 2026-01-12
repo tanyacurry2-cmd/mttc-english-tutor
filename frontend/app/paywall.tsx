@@ -11,40 +11,87 @@ import {
 import { useRouter } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useAppStore } from '../lib/store';
-import { Button } from '../components/Button';
 import { theme } from '../lib/theme';
-import { iapManager, IAP_PRODUCT_ID } from '../lib/iap';
+import { iapManager, IAP_PRODUCTS } from '../lib/iap';
+
+type PlanType = 'weekly' | 'monthly' | 'quarterly';
+
+interface PricingPlan {
+  id: PlanType;
+  productId: string;
+  title: string;
+  price: string;
+  period: string;
+  savings?: string;
+  popular?: boolean;
+}
+
+const pricingPlans: PricingPlan[] = [
+  {
+    id: 'weekly',
+    productId: IAP_PRODUCTS.WEEKLY,
+    title: 'Weekly',
+    price: '$4.99',
+    period: '/week',
+  },
+  {
+    id: 'monthly',
+    productId: IAP_PRODUCTS.MONTHLY,
+    title: 'Monthly',
+    price: '$15.99',
+    period: '/month',
+    savings: 'Save 20%',
+    popular: true,
+  },
+  {
+    id: 'quarterly',
+    productId: IAP_PRODUCTS.QUARTERLY,
+    title: '3 Months',
+    price: '$39.99',
+    period: '/3 months',
+    savings: 'Save 33%',
+  },
+];
 
 export default function PaywallScreen() {
   const router = useRouter();
   const setPurchase = useAppStore((state) => state.setPurchase);
   const [loading, setLoading] = useState(false);
-  const [product, setProduct] = useState<any>(null);
+  const [selectedPlan, setSelectedPlan] = useState<PlanType>('monthly');
+  const [products, setProducts] = useState<any[]>([]);
 
   useEffect(() => {
-    loadProduct();
+    loadProducts();
   }, []);
 
-  const loadProduct = async () => {
+  const loadProducts = async () => {
     const initialized = await iapManager.initialize();
     if (initialized) {
-      const products = await iapManager.getProducts();
-      if (products.length > 0) {
-        setProduct(products[0]);
+      const loadedProducts = await iapManager.getProducts();
+      if (loadedProducts.length > 0) {
+        setProducts(loadedProducts);
       }
     }
   };
 
+  const getProductPrice = (productId: string): string => {
+    const product = products.find(p => p.productId === productId);
+    return product?.price ? `$${product.price}` : pricingPlans.find(p => p.productId === productId)?.price || '';
+  };
+
   const handlePurchase = async () => {
+    const plan = pricingPlans.find(p => p.id === selectedPlan);
+    if (!plan) return;
+
     setLoading(true);
     try {
-      const purchase = await iapManager.purchaseProduct(IAP_PRODUCT_ID);
+      const purchase = await iapManager.purchaseProduct(plan.productId);
       if (purchase) {
         // Finish the transaction (required for iOS)
         await iapManager.finishTransaction(purchase);
         
         // Update store - user is now premium
-        setPurchase('lifetime');
+        setPurchase(selectedPlan);
         
         Alert.alert('Success', 'Welcome to Premium! 🎉', [
           { text: 'OK', onPress: () => router.replace('/(tabs)/home') },
@@ -62,8 +109,13 @@ export default function PaywallScreen() {
     try {
       const purchases = await iapManager.restorePurchases();
       if (purchases.length > 0) {
-        // User has purchased - restore premium access
-        setPurchase('lifetime');
+        // Determine which plan was purchased
+        const purchase = purchases[0];
+        let planType: PlanType = 'monthly';
+        if (purchase.productId === IAP_PRODUCTS.WEEKLY) planType = 'weekly';
+        else if (purchase.productId === IAP_PRODUCTS.QUARTERLY) planType = 'quarterly';
+        
+        setPurchase(planType);
         Alert.alert('Success', 'Premium access restored! 🎉', [
           { text: 'OK', onPress: () => router.replace('/(tabs)/home') },
         ]);
@@ -80,9 +132,9 @@ export default function PaywallScreen() {
   const features = [
     { icon: 'infinity', text: 'Unlimited flashcards' },
     { icon: 'clipboard-text', text: 'All practice questions' },
-    { icon: 'timer', text: 'Exam mode with 25-min timer' },
+    { icon: 'timer', text: 'Exam mode with timer' },
     { icon: 'chart-line', text: 'Detailed progress analytics' },
-    { icon: 'target', text: 'Personalized study recommendations' },
+    { icon: 'target', text: 'Personalized recommendations' },
     { icon: 'trophy', text: 'Track your readiness score' },
   ];
 
@@ -101,11 +153,11 @@ export default function PaywallScreen() {
             <MaterialCommunityIcons
               name="star-circle"
               size={64}
-              color={theme.colors.accent}
+              color="#4CAF50"
             />
-            <Text style={styles.title}>Unlock Full Access</Text>
+            <Text style={styles.title}>Go Premium</Text>
             <Text style={styles.subtitle}>
-              Get everything you need to ace the MTTC English exam
+              Unlock everything to ace the MTTC English exam
             </Text>
           </View>
 
@@ -115,49 +167,82 @@ export default function PaywallScreen() {
                 <MaterialCommunityIcons
                   name={feature.icon as any}
                   size={24}
-                  color={theme.colors.success}
+                  color="#4CAF50"
                 />
                 <Text style={styles.featureText}>{feature.text}</Text>
               </View>
             ))}
           </View>
 
-          <View style={styles.pricingContainer}>
-            <TouchableOpacity
-              style={styles.pricingCard}
-              onPress={handlePurchase}
-              disabled={loading}
-              activeOpacity={0.7}
-            >
-              <View style={styles.bestValueBadge}>
-                <Text style={styles.bestValueText}>ONE-TIME PURCHASE</Text>
-              </View>
-              <Text style={styles.pricingTitle}>Lifetime Premium Access</Text>
-              <Text style={styles.pricingPrice}>{product?.price ? `$${product.price}` : '$29.99'}</Text>
-              <Text style={styles.pricingDescription}>One-time payment, yours forever</Text>
-              <View style={styles.pricingFeatures}>
-                <Text style={styles.pricingFeature}>✓ All 291 flashcards</Text>
-                <Text style={styles.pricingFeature}>✓ All 302 practice questions</Text>
-                <Text style={styles.pricingFeature}>✓ Unlimited assessments</Text>
-                <Text style={styles.pricingFeature}>✓ AI Writing Lab</Text>
-                <Text style={styles.pricingFeature}>✓ No recurring charges</Text>
-                <Text style={styles.pricingFeature}>✓ Future updates included</Text>
-              </View>
-            </TouchableOpacity>
+          {/* Pricing Plans */}
+          <View style={styles.plansContainer}>
+            {pricingPlans.map((plan) => (
+              <TouchableOpacity
+                key={plan.id}
+                style={[
+                  styles.planCard,
+                  selectedPlan === plan.id && styles.planCardSelected,
+                  plan.popular && styles.planCardPopular,
+                ]}
+                onPress={() => setSelectedPlan(plan.id)}
+                activeOpacity={0.7}
+              >
+                {plan.popular && (
+                  <View style={styles.popularBadge}>
+                    <Text style={styles.popularText}>MOST POPULAR</Text>
+                  </View>
+                )}
+                {plan.savings && (
+                  <View style={styles.savingsBadge}>
+                    <Text style={styles.savingsText}>{plan.savings}</Text>
+                  </View>
+                )}
+                <Text style={styles.planTitle}>{plan.title}</Text>
+                <View style={styles.priceRow}>
+                  <Text style={styles.planPrice}>
+                    {getProductPrice(plan.productId) || plan.price}
+                  </Text>
+                  <Text style={styles.planPeriod}>{plan.period}</Text>
+                </View>
+                {selectedPlan === plan.id && (
+                  <MaterialCommunityIcons
+                    name="check-circle"
+                    size={24}
+                    color="#4CAF50"
+                    style={styles.checkIcon}
+                  />
+                )}
+              </TouchableOpacity>
+            ))}
           </View>
 
-          <Button
-            title="Restore Purchases"
-            onPress={handleRestore}
-            variant="outline"
-            loading={loading}
+          {/* Premium Button */}
+          <TouchableOpacity
+            style={[styles.premiumButton, loading && styles.premiumButtonDisabled]}
+            onPress={handlePurchase}
+            disabled={loading}
+            activeOpacity={0.8}
+          >
+            <MaterialCommunityIcons name="crown" size={24} color="#FFFFFF" />
+            <Text style={styles.premiumButtonText}>
+              {loading ? 'Processing...' : 'Get Premium'}
+            </Text>
+          </TouchableOpacity>
+
+          {/* Restore Purchases */}
+          <TouchableOpacity
             style={styles.restoreButton}
-          />
+            onPress={handleRestore}
+            disabled={loading}
+          >
+            <Text style={styles.restoreButtonText}>Restore Purchases</Text>
+          </TouchableOpacity>
 
           <View style={styles.legalContainer}>
             <Text style={styles.legalText}>
-              One-time purchase. Payment will be charged to your Apple ID account. 
-              No subscription or recurring charges. Purchase once, own forever.
+              Payment will be charged to your Apple ID account at confirmation of purchase.
+              Subscription automatically renews unless auto-renew is turned off at least
+              24 hours before the end of the current period.
             </Text>
             <View style={styles.legalLinks}>
               <TouchableOpacity>
@@ -199,12 +284,12 @@ const styles = StyleSheet.create({
   },
   header: {
     alignItems: 'center',
-    marginTop: theme.spacing.lg,
+    marginTop: theme.spacing.md,
     marginBottom: theme.spacing.xl,
   },
   title: {
-    fontSize: theme.fontSize.xxl,
-    fontWeight: theme.fontWeight.bold,
+    fontSize: 32,
+    fontWeight: 'bold',
     color: theme.colors.text,
     marginTop: theme.spacing.md,
     textAlign: 'center',
@@ -228,68 +313,111 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     marginLeft: theme.spacing.md,
   },
-  pricingContainer: {
+  plansContainer: {
     marginBottom: theme.spacing.lg,
   },
-  pricingCard: {
+  planCard: {
     backgroundColor: theme.colors.surface,
-    borderRadius: theme.borderRadius.xl,
-    padding: theme.spacing.xl,
+    borderRadius: theme.borderRadius.lg,
+    padding: theme.spacing.lg,
     marginBottom: theme.spacing.md,
+    borderWidth: 2,
+    borderColor: theme.colors.border,
+    position: 'relative',
+  },
+  planCardSelected: {
+    borderColor: '#4CAF50',
     borderWidth: 3,
-    borderColor: theme.colors.accent,
-    shadowColor: '#000',
+  },
+  planCardPopular: {
+    borderColor: '#4CAF50',
+  },
+  popularBadge: {
+    position: 'absolute',
+    top: -12,
+    left: theme.spacing.lg,
+    backgroundColor: '#4CAF50',
+    paddingHorizontal: theme.spacing.md,
+    paddingVertical: 4,
+    borderRadius: theme.borderRadius.sm,
+  },
+  popularText: {
+    color: '#FFFFFF',
+    fontSize: 10,
+    fontWeight: 'bold',
+  },
+  savingsBadge: {
+    position: 'absolute',
+    top: theme.spacing.md,
+    right: theme.spacing.md,
+    backgroundColor: '#FF9800',
+    paddingHorizontal: theme.spacing.sm,
+    paddingVertical: 2,
+    borderRadius: theme.borderRadius.sm,
+  },
+  savingsText: {
+    color: '#FFFFFF',
+    fontSize: 10,
+    fontWeight: 'bold',
+  },
+  planTitle: {
+    fontSize: theme.fontSize.lg,
+    fontWeight: 'bold',
+    color: theme.colors.text,
+    marginBottom: theme.spacing.xs,
+  },
+  priceRow: {
+    flexDirection: 'row',
+    alignItems: 'baseline',
+  },
+  planPrice: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#4CAF50',
+  },
+  planPeriod: {
+    fontSize: theme.fontSize.md,
+    color: theme.colors.textSecondary,
+    marginLeft: 4,
+  },
+  checkIcon: {
+    position: 'absolute',
+    right: theme.spacing.md,
+    bottom: theme.spacing.lg,
+  },
+  premiumButton: {
+    backgroundColor: '#4CAF50',
+    borderRadius: theme.borderRadius.xl,
+    paddingVertical: theme.spacing.lg,
+    paddingHorizontal: theme.spacing.xl,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: theme.spacing.md,
+    shadowColor: '#4CAF50',
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.15,
+    shadowOpacity: 0.3,
     shadowRadius: 8,
     elevation: 5,
   },
-  secondaryPricingCard: {
-    borderColor: theme.colors.border,
-    borderWidth: 2,
+  premiumButtonDisabled: {
+    opacity: 0.7,
   },
-  bestValueBadge: {
-    backgroundColor: theme.colors.accent,
-    alignSelf: 'flex-start',
-    paddingHorizontal: theme.spacing.md,
-    paddingVertical: theme.spacing.xs,
-    borderRadius: theme.borderRadius.md,
-    marginBottom: theme.spacing.md,
-  },
-  bestValueText: {
+  premiumButtonText: {
     color: '#FFFFFF',
-    fontSize: theme.fontSize.xs,
-    fontWeight: theme.fontWeight.bold,
-  },
-  pricingTitle: {
-    fontSize: theme.fontSize.xl,
-    fontWeight: theme.fontWeight.bold,
-    color: theme.colors.text,
-    marginBottom: theme.spacing.xs,
-  },
-  pricingPrice: {
-    fontSize: 32,
-    fontWeight: theme.fontWeight.bold,
-    color: theme.colors.accent,
-    marginBottom: theme.spacing.xs,
-  },
-  pricingDescription: {
-    fontSize: theme.fontSize.sm,
-    color: theme.colors.textSecondary,
-    marginBottom: theme.spacing.md,
-  },
-  pricingFeatures: {
-    borderTopWidth: 1,
-    borderTopColor: theme.colors.border,
-    paddingTop: theme.spacing.md,
-  },
-  pricingFeature: {
-    fontSize: theme.fontSize.sm,
-    color: theme.colors.text,
-    marginBottom: theme.spacing.xs,
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginLeft: theme.spacing.sm,
   },
   restoreButton: {
+    padding: theme.spacing.md,
+    alignItems: 'center',
     marginBottom: theme.spacing.lg,
+  },
+  restoreButtonText: {
+    color: theme.colors.accent,
+    fontSize: theme.fontSize.md,
+    textDecorationLine: 'underline',
   },
   legalContainer: {
     marginBottom: theme.spacing.lg,
