@@ -179,9 +179,9 @@ export default function DrillScreen() {
     const isCorrect = selectedOption === currentQuestion.correctIndex;
     updateMCQHistory(currentQuestion.id, isCorrect);
     
-    // Play sound based on correctness
+    // Play sound based on correctness (only if sound is enabled)
     if (isCorrect) {
-      await soundManager.play('correct');
+      if (soundEnabled) await soundManager.play('correct');
       const newStreak = correctStreak + 1;
       setCorrectStreak(newStreak);
       
@@ -189,10 +189,10 @@ export default function DrillScreen() {
       if (newStreak === 5 || newStreak === 10 || newStreak === 20) {
         setCelebrationStreak(newStreak);
         setShowCelebration(true);
-        await soundManager.play(newStreak === 20 ? 'epic' : 'celebration');
+        if (soundEnabled) await soundManager.play(newStreak === 20 ? 'epic' : 'celebration');
       }
     } else {
-      await soundManager.play('incorrect');
+      if (soundEnabled) await soundManager.play('incorrect');
       setCorrectStreak(0); // Reset streak on wrong answer
     }
   };
