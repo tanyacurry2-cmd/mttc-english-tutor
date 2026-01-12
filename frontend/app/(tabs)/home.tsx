@@ -66,7 +66,7 @@ const features: FeatureTile[] = [
 
 export default function HomeScreen() {
   const router = useRouter();
-  const { isPaid, readinessBySubarea, cardReviews, mcqHistory } = useAppStore();
+  const { isPaid, readinessBySubarea, cardReviews, mcqHistory, soundEnabled, toggleSound } = useAppStore();
   
   const [unmasteredFlashcards, setUnmasteredFlashcards] = useState(0);
   const [unmasteredQuestions, setUnmasteredQuestions] = useState(0);
