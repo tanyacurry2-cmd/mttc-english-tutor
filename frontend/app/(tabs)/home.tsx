@@ -108,6 +108,13 @@ export default function HomeScreen() {
             <Text style={styles.subtitle}>Ready to ace the MTTC?</Text>
           </View>
           <View style={styles.headerButtons}>
+            <TouchableOpacity onPress={toggleSound} style={styles.soundButton}>
+              <MaterialCommunityIcons 
+                name={soundEnabled ? "volume-high" : "volume-off"} 
+                size={24} 
+                color={soundEnabled ? theme.colors.accent : theme.colors.textSecondary} 
+              />
+            </TouchableOpacity>
             <TouchableOpacity onPress={() => router.push('/intro')} style={styles.infoButton}>
               <MaterialCommunityIcons name="information-outline" size={24} color={theme.colors.text} />
             </TouchableOpacity>
