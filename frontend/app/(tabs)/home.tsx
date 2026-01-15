@@ -15,7 +15,7 @@ import { StarryBackground } from '../../components/StarryBackground';
 import { theme } from '../../lib/theme';
 import { signOut } from 'firebase/auth';
 import { auth } from '../../lib/firebase';
-import { DataLoader } from '../../lib/data-loader';
+import { DataLoader, AsyncDataLoader } from '../../lib/data-loader';
 import { Subarea } from '../../types/content';
 import { getMasteredFlashcardIds, getMasteredQuestionIds } from '../../storage/mastery';
 
