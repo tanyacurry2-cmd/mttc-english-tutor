@@ -13,7 +13,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.curryapps.mttcenglishtutor",
-      "buildNumber": "24",
+      "buildNumber": "25",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -25,7 +25,7 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.curryapps.mttcenglishtutor",
-      "versionCode": 24
+      "versionCode": 25
     },
     "web": {
       "bundler": "metro",
