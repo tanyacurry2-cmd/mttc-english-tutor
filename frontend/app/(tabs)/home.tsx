@@ -70,18 +70,23 @@ export default function HomeScreen() {
   
   const [unmasteredFlashcards, setUnmasteredFlashcards] = useState(0);
   const [unmasteredQuestions, setUnmasteredQuestions] = useState(0);
+  const [totalFlashcards, setTotalFlashcards] = useState(0);
+  const [totalQuestions, setTotalQuestions] = useState(0);
   
-  // Load unmastered counts
+  // Load counts from Supabase (with local fallback)
   useEffect(() => {
     (async () => {
       const masteredFlashcardIds = await getMasteredFlashcardIds();
       const masteredQuestionIds = await getMasteredQuestionIds();
       
-      const totalFlashcards = DataLoader.getAllFlashcards().length;
-      const totalQuestions = DataLoader.getAllMCQs().length;
+      // Fetch from Supabase (falls back to local if unavailable)
+      const allFlashcards = await AsyncDataLoader.getAllFlashcards();
+      const allMCQs = await AsyncDataLoader.getAllMCQs();
       
-      setUnmasteredFlashcards(totalFlashcards - masteredFlashcardIds.length);
-      setUnmasteredQuestions(totalQuestions - masteredQuestionIds.length);
+      setTotalFlashcards(allFlashcards.length);
+      setTotalQuestions(allMCQs.length);
+      setUnmasteredFlashcards(allFlashcards.length - masteredFlashcardIds.length);
+      setUnmasteredQuestions(allMCQs.length - masteredQuestionIds.length);
     })();
   }, []);
 
