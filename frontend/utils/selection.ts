@@ -24,7 +24,8 @@ export type Question = {
 export const balancedPickBySubarea = (items: Question[], counts: Record<string, number>) => {
   const result: Question[] = [];
   Object.entries(counts).forEach(([sa, n]) => {
-    const pool = items.filter(q => q.subareaId === sa && q.type === "mcq");
+    // Filter by subareaId only - type check removed as MCQ data doesn't have type field
+    const pool = items.filter(q => q.subareaId === sa);
     const picked = shuffle(pool).slice(0, Math.min(n, pool.length));
     result.push(...picked);
   });
