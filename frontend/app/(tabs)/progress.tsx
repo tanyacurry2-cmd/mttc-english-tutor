@@ -343,8 +343,8 @@ export default function ProgressScreen() {
                 size={32}
                 color={theme.colors.success}
               />
-              <Text style={styles.statValue}>{totalCards}</Text>
-              <Text style={styles.statLabel}>Cards Reviewed</Text>
+              <Text style={styles.statValue}>{cardsReviewed}/{totalFlashcards}</Text>
+              <Text style={styles.statLabel}>Flashcards</Text>
             </View>
 
             <View style={styles.statBox}>
@@ -353,8 +353,8 @@ export default function ProgressScreen() {
                 size={32}
                 color={theme.colors.accent}
               />
-              <Text style={styles.statValue}>{totalQuestions}</Text>
-              <Text style={styles.statLabel}>Questions Answered</Text>
+              <Text style={styles.statValue}>{questionsAnswered}/{totalQuestions}</Text>
+              <Text style={styles.statLabel}>Questions</Text>
             </View>
           </View>
 
