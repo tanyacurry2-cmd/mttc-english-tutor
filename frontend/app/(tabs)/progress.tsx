@@ -26,7 +26,7 @@ import {
   MasteredFlashcard,
   isFlashcardMastered
 } from '../../storage/mastery';
-import { DataLoader } from '../../lib/data-loader';
+import { DataLoader, AsyncDataLoader } from '../../lib/data-loader';
 import { Question } from '../../utils/selection';
 import { Card } from '../../types/content';
 
