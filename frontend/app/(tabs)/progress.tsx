@@ -38,6 +38,8 @@ export default function ProgressScreen() {
   const [masteredFlashcards, setMasteredFlashcards] = useState<Record<string, MasteredFlashcard>>({});
   const [showMastered, setShowMastered] = useState(false);
   const [showMasteredFlashcards, setShowMasteredFlashcards] = useState(false);
+  const [totalFlashcards, setTotalFlashcards] = useState(0);
+  const [totalQuestions, setTotalQuestions] = useState(0);
 
   useEffect(() => {
     (async () => {
@@ -49,6 +51,12 @@ export default function ProgressScreen() {
       setMasteredQuestions(mastered);
       const masteredCards = await getMasteredFlashcards();
       setMasteredFlashcards(masteredCards);
+      
+      // Load total counts from Supabase (with local fallback)
+      const allFlashcards = await AsyncDataLoader.getAllFlashcards();
+      const allMCQs = await AsyncDataLoader.getAllMCQs();
+      setTotalFlashcards(allFlashcards.length);
+      setTotalQuestions(allMCQs.length);
     })();
   }, []);
   
