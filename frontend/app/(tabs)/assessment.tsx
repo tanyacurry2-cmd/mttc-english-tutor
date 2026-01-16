@@ -42,13 +42,27 @@ export default function DiagnosticScreen() {
   // Build a fresh pool on mount, excluding mastered questions
   const pool: Question[] = useMemo(() => {
     try {
-      const mcqs = (DataLoader.getAllQuestions() as Question[]).filter(
-        q => q.type === "mcq" && 
-        q.mode === "Drill" && 
-        !masteredIds.includes(q.id) // Filter out mastered questions
-      );
-      const picked = balancedPickBySubarea(mcqs, PER_SUBAREA);
-      // Fallback if any subarea was short
+      const allMCQs = DataLoader.getAllMCQs();
+      // Filter for assessment questions and exclude mastered ones
+      const mcqs = allMCQs.filter(
+        (q: any) => q.assessment === true && !masteredIds.includes(q.id)
+      ).map((q: any) => ({
+        ...q,
+        subareaId: q.subareaId || (
+          q.subarea === 'Meaning & Communication' ? 'SA-1' :
+          q.subarea === 'Literature & Understanding' ? 'SA-2' :
+          q.subarea === 'Genre & Craft' ? 'SA-3' :
+          q.subarea === 'Skills & Processes' ? 'SA-4' : ''
+        ),
+        answer: q.options?.[q.correctIndex] || '',
+      }));
+      
+      if (mcqs.length === 0) {
+        console.log('No assessment questions found');
+        return [];
+      }
+      
+      const picked = balancedPickBySubarea(mcqs as Question[], PER_SUBAREA);
       return picked.slice(0, TOTAL);
     } catch (error) {
       console.error("Error creating question pool:", error);
