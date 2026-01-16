@@ -85,6 +85,11 @@ export default function PaywallScreen() {
 
     setLoading(true);
     try {
+      // Ensure products are loaded before purchase
+      if (products.length === 0) {
+        await loadProducts();
+      }
+      
       const purchase = await iapManager.purchaseProduct(plan.productId);
       if (purchase) {
         // Finish the transaction (required for iOS)
