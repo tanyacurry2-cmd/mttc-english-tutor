@@ -146,8 +146,8 @@ export default function ProgressScreen() {
 
   const overallReadiness = calculateOverallReadiness();
   const subareaStats = calculateAccuracyBySubarea();
-  const totalQuestions = Object.keys(mcqHistory).length;
-  const totalCards = Object.keys(cardReviews).length;
+  const questionsAnswered = Object.keys(mcqHistory).length;
+  const cardsReviewed = Object.keys(cardReviews).length;
 
   const getReadinessColor = (readiness: number) => {
     if (readiness >= 80) return theme.colors.success;
