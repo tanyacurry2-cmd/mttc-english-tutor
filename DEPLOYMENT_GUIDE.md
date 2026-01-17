@@ -323,7 +323,7 @@ Current content (MVP):
 ## 🧪 Testing in Development
 
 **Current environment:**
-- Web preview: https://mttc-app-sounds.preview.emergentagent.com
+- Web preview: https://teacher-prep-app.preview.emergentagent.com
 - Expo Go QR code available at the same URL
 
 **To test:**
