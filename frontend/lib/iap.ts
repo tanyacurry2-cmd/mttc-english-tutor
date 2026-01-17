@@ -170,7 +170,7 @@ class IAPManager {
       }
     } catch (error) {
       console.error('Restore error:', error);
-      return [];
+      throw error;
     }
   }
 
