@@ -2,9 +2,8 @@ import { Platform } from 'react-native';
 
 // Apple IAP Product IDs for subscriptions
 export const IAP_PRODUCTS = {
-  WEEKLY: 'com.curryapps.mttcenglishtutor.weekly',
-  MONTHLY: 'com.curryapps.mttcenglishtutor.monthly',
-  QUARTERLY: 'com.curryapps.mttcenglishtutor.quarterly',
+  MONTHLY: 'com.tanya.mttc_ela.premium_monthly',
+  QUARTERLY: 'com.tanya.mttc_ela.premium_quarterly',
 };
 
 // Legacy product ID (for backward compatibility)
