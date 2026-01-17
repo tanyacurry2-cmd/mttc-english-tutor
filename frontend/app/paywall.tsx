@@ -28,28 +28,19 @@ interface PricingPlan {
 
 const pricingPlans: PricingPlan[] = [
   {
-    id: 'weekly',
-    productId: IAP_PRODUCTS.WEEKLY,
-    title: 'Weekly',
-    price: '$4.99',
-    period: '/week',
-  },
-  {
     id: 'monthly',
     productId: IAP_PRODUCTS.MONTHLY,
     title: 'Monthly',
-    price: '$15.99',
+    price: '$14.99',
     period: '/month',
-    savings: 'Save 20%',
     popular: true,
   },
   {
     id: 'quarterly',
     productId: IAP_PRODUCTS.QUARTERLY,
     title: '3 Months',
-    price: '$39.99',
+    price: '$34.99',
     period: '/3 months',
-    savings: 'Save 33%',
   },
 ];
 
@@ -88,6 +79,13 @@ export default function PaywallScreen() {
       // Ensure products are loaded before purchase
       if (products.length === 0) {
         await loadProducts();
+      }
+
+      // Verify that the selected plan exists in the loaded products
+      const hasProduct = products.some(p => p.productId === plan.productId);
+      if (!hasProduct) {
+        Alert.alert('Subscriptions Unavailable', 'Subscriptions temporarily unavailable. Please try again later.');
+        return;
       }
       
       const purchase = await iapManager.purchaseProduct(plan.productId);
