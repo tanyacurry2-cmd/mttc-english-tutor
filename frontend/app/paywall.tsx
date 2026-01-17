@@ -14,7 +14,7 @@ import { useAppStore } from '../lib/store';
 import { theme } from '../lib/theme';
 import { iapManager, IAP_PRODUCTS } from '../lib/iap';
 
-type PlanType = 'weekly' | 'monthly' | 'quarterly';
+type PlanType = 'monthly' | 'quarterly';
 
 interface PricingPlan {
   id: PlanType;
