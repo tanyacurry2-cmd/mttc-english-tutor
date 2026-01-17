@@ -115,8 +115,7 @@ export default function PaywallScreen() {
         // Determine which plan was purchased
         const purchase = purchases[0];
         let planType: PlanType = 'monthly';
-        if (purchase.productId === IAP_PRODUCTS.WEEKLY) planType = 'weekly';
-        else if (purchase.productId === IAP_PRODUCTS.QUARTERLY) planType = 'quarterly';
+        if (purchase.productId === IAP_PRODUCTS.QUARTERLY) planType = 'quarterly';
         
         setPurchase(planType);
         Alert.alert('Success', 'Premium access restored! 🎉', [

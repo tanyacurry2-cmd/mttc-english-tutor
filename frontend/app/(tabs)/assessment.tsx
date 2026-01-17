@@ -54,6 +54,7 @@ export default function DiagnosticScreen() {
           q.subarea === 'Genre & Craft' ? 'SA-3' :
           q.subarea === 'Skills & Processes' ? 'SA-4' : ''
         ),
+        question: q.stem || q.question || '',
         answer: q.options?.[q.correctIndex] || '',
       }));
       
