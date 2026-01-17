@@ -107,6 +107,16 @@ class IAPManager {
       await this.initialize();
     }
 
+    // Ensure products are loaded and contain the requested product
+    if (this.products.length === 0) {
+      await this.getProducts();
+    }
+
+    const hasProduct = this.products.some((p) => p.productId === productId);
+    if (!hasProduct) {
+      throw new Error('Subscriptions temporarily unavailable. Please try again later.');
+    }
+
     try {
       // Set purchase listener
       InAppPurchases.setPurchaseListener(({ responseCode, results, errorCode }: any) => {
