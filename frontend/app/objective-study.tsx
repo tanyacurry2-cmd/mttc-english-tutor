@@ -150,9 +150,9 @@ export default function ObjectiveStudyScreen() {
 
           <TouchableOpacity
             style={styles.fullAccessButton}
-            onPress={() => router.push('/signup')}
+            onPress={() => router.push('/paywall')}
           >
-            <Text style={styles.fullAccessText}>Sign Up for Full Access</Text>
+            <Text style={styles.fullAccessText}>Upgrade to Premium</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
